@@ -1,4 +1,4 @@
-import * as Location from "expo-location";
+import * as Location from "../natif/position";
 import type { Position } from "../salles/osm";
 
 // Position du téléphone au démarrage d'une séance (lieu proposé selon le GPS, retour du 29/10) : rien n'est

@@ -1,7 +1,7 @@
 // La dernière position connue du téléphone, sans rien demander (la page d'un lieu ne réclame pas la localisation) : de quoi
 // écrire « 0,6 km » sous le nom. Rien ne part : la distance se calcule ici. Sans permission ou sans position récente : null.
 import { useEffect, useState } from "react";
-import * as Location from "expo-location";
+import * as Location from "../natif/position";
 import { distanceKm, distanceM, type Position } from "../salles/osm";
 
 const FRAICHE_MS = 30 * 60 * 1000;

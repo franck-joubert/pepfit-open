@@ -196,8 +196,7 @@
           "remindersPermission": "pepfit ne lit ni n'écrit tes rappels : seul ton agenda sert."
         }
       ],
-      "./plugins/ios-rappels.js",
-      "./plugins/camera-sans-scanner-documents.js"
+      "./plugins/ios-rappels.js"
     ],
     "experiments": {
       "typedRoutes": true

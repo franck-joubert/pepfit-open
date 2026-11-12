@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Linking, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
-import * as Location from "expo-location";
+import * as Location from "../natif/position";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { adopterSalleOSM, ecrireCacheAutour, lireCacheAutour, listerSalles, type SalleResume } from "../db";
 import { cleSports, depuisCache, distanceKm, ErreurLieux, rechercheValide, sansMesSalles, sportsOSM, type CauseLieux, type Position, type SalleOSM } from "../salles/osm";

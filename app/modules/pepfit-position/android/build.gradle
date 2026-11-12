@@ -1,0 +1,17 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'fit.pep'
+version = '1.0.0'
+
+android {
+  namespace "fit.pep.position"
+  defaultConfig {
+    versionCode 1
+    versionName "1.0.0"
+  }
+}
+
+// Aucune dépendance : LocationManager vient du système (pas de Play Services, édition F-Droid).

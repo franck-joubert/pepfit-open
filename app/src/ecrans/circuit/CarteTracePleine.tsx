@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { StyleSheet, View, type LayoutChangeEvent } from "react-native";
-import * as Location from "expo-location";
+import * as Location from "../../natif/position";
 import { StatusBar } from "expo-status-bar";
 import { Camera, GeoJSONSource, Layer, Map, type CameraRef, type MapProps } from "@maplibre/maplibre-react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AppState } from "react-native";
-import * as Location from "expo-location";
+import * as Location from "../natif/position";
 import { ecrireEcranAllume, ecrireFcAppareil, ecrireFcDirecte, lireEcranAllume, lireFcAppareil, lireFcDirecte } from "../db";
 import { suivi, type AppareilFc } from "../natif/suivi";
 import { signalerErreur } from "../ui/FeuilleMessage";

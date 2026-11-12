@@ -72,6 +72,9 @@
       "android": {
         "buildFromSource": [
           "expo-gl"
+        ],
+        "exclude": [
+          "expo-location"
         ]
       }
     }
