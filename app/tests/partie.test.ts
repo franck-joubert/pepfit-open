@@ -76,8 +76,9 @@ test("chaque écran du dossier app/ a une partie connue", () => {
   for (const e of ecrans) attendu[partieDe(e)]++;
   // Accueil : la porte d'entrée (index), les réglages et leurs pages (aide, connexions, identifiants API, agenda, zones…),
   // les retours des connexions (whoop, withings, polar), le premier lancement (welcome, qui impose lui-même la partie de chaque
-  // étape), la Précision pepfit (profil/precision) et l'ancien Accueil (tableau-de-bord) : 34.
-  assert.equal(attendu.accueil, 34, ecrans.filter((e) => partieDe(e) === "accueil").join(", "));
+  // étape), la Précision pepfit (profil/precision) et l'ancien Accueil (tableau-de-bord) : 33 (pas d'import Fitatu dans
+  // l'édition libre).
+  assert.equal(attendu.accueil, 33, ecrans.filter((e) => partieDe(e) === "accueil").join(", "));
   assert.equal(attendu.nutrition, 15); // l'onglet + ajouter, produit, scan, creer, aliments, objectifs, mensurations, mesure, repas, mois ; + fibres (la page de suivi des fibres, planche fibres-page : la teinte Nutrition)
   // l'onglet + blessures (liste, fiche, zone), traitements (liste, fiche, prises) et sante (composition, mesure, sommeil, métabolisme,
   // et les pages de mesure du 28/10 : pas, poids, gras, énergie, récupération, âge pepfit ; du 29/10 : agenda, VFC,
