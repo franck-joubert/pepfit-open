@@ -713,3 +713,36 @@ index 5facd2d..11d1bfb 100644
      }
    }
  }
+diff --git a/node_modules/expo-notifications/plugin/build/withNotificationsAndroid.js b/node_modules/expo-notifications/plugin/build/withNotificationsAndroid.js
+index c3f2251..f543ab2 100644
+--- a/node_modules/expo-notifications/plugin/build/withNotificationsAndroid.js
++++ b/node_modules/expo-notifications/plugin/build/withNotificationsAndroid.js
+@@ -232,7 +232,8 @@ async function setDrawableIconAsync(projectRoot, icon, resourceName, baselinePix
+ function setNotificationConfig(props, manifest) {
+     const mainApplication = getMainApplicationOrThrow(manifest);
+     if (props.icon) {
+-        addMetaDataItemToMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_ICON, NOTIFICATION_ICON_RESOURCE, 'resource');
++        // pepfit open : pas de Firebase (F-Droid), réglage FCM inutile
++        removeMetaDataItemFromMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_ICON);
+         addMetaDataItemToMainApplication(mainApplication, META_DATA_LOCAL_NOTIFICATION_ICON, NOTIFICATION_ICON_RESOURCE, 'resource');
+     } else {
+         removeMetaDataItemFromMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_ICON);
+@@ -244,14 +245,16 @@ function setNotificationConfig(props, manifest) {
+         removeMetaDataItemFromMainApplication(mainApplication, META_DATA_LOCAL_NOTIFICATION_LARGE_ICON);
+     }
+     if (props.color) {
+-        addMetaDataItemToMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_ICON_COLOR, NOTIFICATION_ICON_COLOR_RESOURCE, 'resource');
++        // pepfit open : pas de Firebase (F-Droid), réglage FCM inutile
++        removeMetaDataItemFromMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_ICON_COLOR);
+         addMetaDataItemToMainApplication(mainApplication, META_DATA_LOCAL_NOTIFICATION_ICON_COLOR, NOTIFICATION_ICON_COLOR_RESOURCE, 'resource');
+     } else {
+         removeMetaDataItemFromMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_ICON_COLOR);
+         removeMetaDataItemFromMainApplication(mainApplication, META_DATA_LOCAL_NOTIFICATION_ICON_COLOR);
+     }
+     if (props.defaultChannel) {
+-        addMetaDataItemToMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_DEFAULT_CHANNEL_ID, props.defaultChannel, 'value');
++        // pepfit open : pas de Firebase (F-Droid), réglage FCM inutile
++        removeMetaDataItemFromMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_DEFAULT_CHANNEL_ID);
+     } else {
+         removeMetaDataItemFromMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_DEFAULT_CHANNEL_ID);
+     }

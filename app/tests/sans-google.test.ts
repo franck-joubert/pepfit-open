@@ -22,6 +22,12 @@ test("expo-notifications : firebase-messaging retiré, rien de Google ajouté", 
   assert.ok(retraits("expo-notifications").some((l) => l.includes("com.google.firebase:firebase-messaging")));
   assert.ok(retraits("expo-notifications").some((l) => l.includes("ExpoFirebaseMessagingService")));
   assert.ok(!ajouts("expo-notifications").some((l) => NON_LIBRE.test(l)));
+  // le plugin n'écrit plus les réglages FCM (com.google.firebase.messaging.default_notification_*) dans le manifeste
+  for (const cle of ["ICON", "ICON_COLOR", "DEFAULT_CHANNEL_ID"]) {
+    const ajout = `addMetaDataItemToMainApplication(mainApplication, META_DATA_FCM_NOTIFICATION_${cle},`;
+    assert.ok(retraits("expo-notifications").some((l) => l.includes(ajout)), cle);
+    assert.ok(!ajouts("expo-notifications").some((l) => l.includes(ajout)), cle);
+  }
 });
 
 test("expo-camera : ML Kit et Play Services retirés, ZXing à la place", () => {
