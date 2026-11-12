@@ -20,7 +20,7 @@ export const fr = {
   "menu.ongletsIntro": "Choisis les onglets de la barre. Aucun n'est obligatoire, mais au moins un reste affiché. pepfit s'ouvre sur le premier onglet affiché.",
   "menu.ongletsDernier": "Au moins un onglet reste affiché",
   "menu.appareils": "Appareils et connexions",
-  "menu.importerSous": "Hevy, Fitatu",
+  "menu.importerSous": "Hevy",
   "menu.partage": "Partage",
   "menu.profilPublic": "Profil public",
   "menu.publie": "Publié",

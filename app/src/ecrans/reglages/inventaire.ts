@@ -92,7 +92,6 @@ export const REGLAGES_INVENTAIRE: EntreeReglage[] = [
   { id: "whoop", libelle: "reglages.whoop", ou: APPAREILS, route: "/settings/connexions" },
   { id: "importer", libelle: "reglages.importer", ou: APPAREILS, route: "/settings/connexions" },
   { id: "hevy", libelle: "reglages.hevy", ou: [...APPAREILS, "reglages.importer"], route: "/settings/connexions" },
-  { id: "fitatu", libelle: "reglages.fitatu", ou: [...APPAREILS, "reglages.importer"], route: "/settings/fitatu" },
   // Réglages › Données et confidentialité ; « Améliorer la précision de pepfit » y reste (calibration, sans-whoop)
   { id: "sauvegarde", libelle: "reglages.sauvegarde", ou: DONNEES, route: "/settings/data" },
   { id: "sauvegarder", libelle: "reglages.sauvegarderMaintenant", ou: SAUVEGARDE, route: "/settings/data" },
@@ -137,7 +136,7 @@ export const VOLET: { id: string; route: string }[] = [
 export const ROUTES_ANCIEN_MENU = [
   "/profil/precision", "/history", "/sante/poids?section=tours", "/nutrition/aliments", "/nutrition/plats", "/gyms",
   "/settings/preferences", "/settings/connexions", "/settings/data", "/settings/guidage", "/settings/zones", "/settings/reconnaissance",
-  "/settings/fitatu", "/settings/region", "/settings/workout", "/nutrition/objectifs", "/nutrition/repas",
+  "/settings/region", "/settings/workout", "/nutrition/objectifs", "/nutrition/repas",
   "/sante/metabolisme", "/welcome?rejouer=1",
 ];
 

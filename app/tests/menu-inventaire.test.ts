@@ -61,7 +61,6 @@ const ANCIEN_MENU: Record<string, string> = {
   "Connexions › Santé › Whoop": "whoop",
   "Connexions › Séances › Batterie": "batterie",
   "Connexions › Importer › Hevy": "hevy",
-  "Connexions › Importer › Fitatu": "fitatu",
   "Données › Sauvegarde › Sauvegarder maintenant": "sauvegarder",
   "Données › Sauvegarde › Emplacement": "emplacement",
   "Données › Sauvegarde › Automatique": "automatique",

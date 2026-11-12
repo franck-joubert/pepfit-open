@@ -10,8 +10,9 @@ import { enregistrerProduit, produitParId } from "./nutrition";
 import { ecrireFichiersAEffacer, fichierDistant, fichiersAEffacer } from "./photos";
 
 // Plats personnalisés (planche plats, validée le 30/10) : Mes plats, création et modification, ajout au journal (une ligne,
-// D2), « Enregistrer comme plat » depuis un repas (P9), recettes Fitatu devenues des plats (P12). Les écritures passent par la
-// façade (transaction de exclusif.ts) ; plats et ingrédients sont synchronisés et chiffrés (sync/schema.ts).
+// D2), « Enregistrer comme plat » depuis un repas (P9), plats sans ingrédients (recettes Fitatu d'une sauvegarde de
+// l'édition complète, P12 ; l'import Fitatu n'existe pas ici). Les écritures passent par la façade (transaction de
+// exclusif.ts) ; plats et ingrédients sont synchronisés et chiffrés (sync/schema.ts).
 
 export interface Plat extends PlatCalcul {
   id: string;
@@ -353,40 +354,6 @@ export async function brouillonDepuisRepas(db: Executeur, date: string, repasId:
     ingredients.push({ produit_id: p.id, produit: figer(p), quantite_g: x.quantite_g, unite: x.unite, nb_unites: x.nb_unites });
   }
   return { nom: "", portions: 1, poids_cuit_g: null, ingredients, photo: null };
-}
-
-// ---- Recettes Fitatu (P12) --------------------------------------------------------------------------------------------
-
-/**
- * Les recettes Fitatu déjà importées (produits « fitatu:recette:* ») deviennent des plats sans ingrédients (valeurs pour
- * 100 g, une portion de leur poids connu, sinon de 100 g) ; leurs consommations suivent (plat_id). Le produit reste, en
- * catégorie « plat » (hors des listes d'aliments) : il porte toujours les valeurs des lignes du journal. Idempotent ;
- * renvoie le nombre de plats créés.
- */
-export async function recettesFitatuEnPlats(db: Executeur, maintenant: number = Date.now()): Promise<number> {
-  const l = await db.getAllAsync<{ id: string; nom: string; nutriments: string; portions: string; import_cle: string }>(
-    "SELECT id, nom, nutriments, portions, import_cle FROM produits WHERE import_cle LIKE 'fitatu:recette:%'",
-    [],
-  );
-  let n = 0;
-  for (const p of l) {
-    const deja = await db.getFirstAsync<{ id: string }>("SELECT id FROM plats WHERE import_cle = ?", [p.import_cle]);
-    const portion = lireJson<Portion[]>(p.portions, []).find((x) => x.grammes > 0);
-    await transaction(db, async (db) => {
-      let platId = deja?.id;
-      if (!platId) {
-        platId = nouvelId();
-        await db.runAsync(
-          "INSERT INTO plats (id, nom, portions, poids_cuit_g, source, import_cle, sans_ingredients, nutriments_100g, poids_total_g, cree_le, modifie_le) VALUES (?,?,1,NULL,'fitatu',?,1,?,?,?,?)",
-          [platId, p.nom, p.import_cle, p.nutriments, portion?.grammes ?? 100, maintenant, maintenant],
-        );
-        n++;
-      }
-      await db.runAsync("UPDATE produits SET categorie = 'plat' WHERE id = ?", [p.id]);
-      await db.runAsync("UPDATE consommations SET plat_id = ? WHERE produit_id = ? AND plat_id IS NULL", [platId, p.id]);
-    });
-  }
-  return n;
 }
 
 /** kcal d'une portion (sous-lignes des listes). */

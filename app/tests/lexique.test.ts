@@ -29,7 +29,7 @@ const INTERDITS: Record<Langue, { motif: RegExp; pourquoi: string }[]> = {
     },
     { motif: /se connecter sur (un|cet) ordinateur|appareils? liés?/i, pourquoi: "« Ouvrir sur un ordinateur » (ajout du 30/10, D1)" },
     { motif: /score de profil|complétude/i, pourquoi: "« Précision pepfit » (planche precision, 30/10)" },
-    // Plats (planche plats, 30/10) : « Recette » reste le mot de Fitatu, à l'import seulement.
+    // Plats (planche plats, 30/10) : jamais « Recette ».
     { motif: /mes recettes|créer une recette|nouvelle recette|\bpoids final\b|\brendement\b|\bcomposants?\b/i, pourquoi: "« Mes plats », « Nouveau plat », « Poids cuit », « Ingrédient » (planche plats, 30/10)" },
     { motif: /\b(une|la|demi-)part\b|pour \d+ personnes/i, pourquoi: "« Portion » (planche plats, 30/10)" },
     { motif: /boutique/i, pourquoi: "« Explorer les programmes », « Explorer les routines » : on ne parle pas de boutique (30/10)" },
@@ -125,9 +125,9 @@ test("lexique : les mots des plats (planche plats, 30/10) : Plat, Mes plats, Por
   for (const [k, f, e] of mots) assert.deepEqual([(fr as Record<string, unknown>)[k], (en as Record<string, unknown>)[k]], [f, e], k);
   assert.match(fr["plats.pourCetteFois"], /^Pour cette fois/);
   assert.match(en["plats.pourCetteFois"], /^Just this once/);
-  // « Recette » n'apparaît qu'à l'import Fitatu.
+  // « Recette » n'apparaît nulle part (c'était le mot de Fitatu, à l'import seulement : l'import n'existe pas ici).
   const recette = Object.entries(fr).filter(([, v]) => textes(v).some((x) => /recette/i.test(x))).map(([k]) => k);
-  assert.deepEqual(recette, ["profil.fitatuPlats"]);
+  assert.deepEqual(recette, []);
 });
 
 test("lexique : les exceptions servent encore (une exception morte se retire)", () => {

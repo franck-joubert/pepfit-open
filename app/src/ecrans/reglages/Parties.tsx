@@ -8,7 +8,6 @@ import { router } from "expo-router";
 import { ecrireReglage, lireObjectif, lireReglage, lireReglagesPlanif, lireZonesFc, listerRepas } from "../../db";
 import { lireReglagesAgenda } from "../../agenda/depot";
 import { heureDe } from "../../agenda/synchro";
-import { etatFitatu } from "../../fitatu";
 import { t, tp } from "../../i18n/index";
 import { useLangue } from "../../i18n/useLangue";
 import * as natif from "../../natif/agenda";
@@ -76,17 +75,16 @@ function Ailleurs({ texte }: { texte: string }) {
 function ReglagesNutrition({ aller, fond, dansFeuille }: Props) {
   const { db } = useApp();
   const [n, relire] = useCharge(async (d) => {
-    const [objectif, repas, rappel, delai, fitatu] = await Promise.all([
-      lireObjectif(d, "entrainement"), listerRepas(d), lireReglage(d, "nutri_rappel"), lireReglage(d, "nutri_rappel_delai"), etatFitatu(d).catch(() => null),
+    const [objectif, repas, rappel, delai] = await Promise.all([
+      lireObjectif(d, "entrainement"), listerRepas(d), lireReglage(d, "nutri_rappel"), lireReglage(d, "nutri_rappel_delai"),
     ]);
-    return { kcal: kcalObjectif(objectif), repas: repas.length, rappel: rappel === "1", delai: Number(delai) || 30, fitatu };
+    return { kcal: kcalObjectif(objectif), repas: repas.length, rappel: rappel === "1", delai: Number(delai) || 30 };
   }, []);
   const rappeler = (v: boolean) =>
     ecrireReglage(db, "nutri_rappel", v ? "1" : "0")
       .then(relire)
       .then(() => rafraichirRappelsRepas(db, { demander: true }))
       .catch(console.error);
-  const f = n?.fitatu;
   return (
     <>
       <GroupeReglages fond={fond} style={styleGroupe(dansFeuille)}>
@@ -98,16 +96,6 @@ function ReglagesNutrition({ aller, fond, dansFeuille }: Props) {
           interrupteur={{ valeur: !!n?.rappel, onChange: rappeler }}
           onPress={() => rappeler(!n?.rappel)}
         />
-      </GroupeReglages>
-      <GroupeReglages fond={fond} style={[styleGroupe(dansFeuille), { marginTop: espace.m }]}>
-        <LigneReglage
-          libelle={t("reglages.fitatu")}
-          sous={f?.connecte ? <SousEtat actif={!f.erreur} texte={t(f.erreur ? "fitatu.erreur.serveur" : "fitatu.connecteEnCours")} /> : t("reglages.fitatuSous")}
-          fin="chevron"
-          onPress={() => aller("/settings/fitatu")}
-        >
-          <Ailleurs texte={t("menu.connexions")} />
-        </LigneReglage>
       </GroupeReglages>
     </>
   );

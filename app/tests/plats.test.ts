@@ -10,7 +10,7 @@ import {
   nbProduitsConsommes, recentsDuRepas, remettreAliment, repeterRepas, restaurerConsommation, statsProduit, supprimerConsommation, type Produit,
 } from "../src/db/depots/nutrition.ts";
 import {
-  ajouterPlatAuJournal, brouillonDepuisRepas, consommationDePlat, enregistrerPlat, lirePlat, listerPlats, nomCopie, recentsPlatsDuRepas, recettesFitatuEnPlats,
+  ajouterPlatAuJournal, brouillonDepuisRepas, consommationDePlat, enregistrerPlat, lirePlat, listerPlats, nomCopie, recentsPlatsDuRepas,
   statsPlat, supprimerPlat, type BrouillonPlat,
 } from "../src/db/depots/plats.ts";
 import type { Executeur } from "../src/db/executeur.ts";
@@ -240,28 +240,6 @@ test("repas → plat : les aliments et leurs quantités, une ligne de plat donne
   assert.equal((await lirePlat(db, neuf))!.ingredients.length, 3);
 });
 
-test("recettes Fitatu importées : deviennent des plats sans ingrédients, leurs lignes suivent ; idempotent", async () => {
-  const { db, raw } = await baseDeTest();
-  const r = await enregistrerProduit(db, { nom: "Lasagnes maison", nutriments: { energie_kcal: 175, proteines: 9.7 }, portions: [{ type: "portion", libelle: "", grammes: 350 }], source: "perso" });
-  raw.prepare("UPDATE produits SET import_cle = 'fitatu:recette:42' WHERE id = ?").run(r.id);
-  await ajouterConsommation(db, { date: "2026-10-20", repasId: "repas:diner", produitId: r.id, quantiteG: 350, unite: "portion", nbUnites: 1 });
-  assert.equal(await recettesFitatuEnPlats(db), 1);
-  assert.equal(await recettesFitatuEnPlats(db), 0);
-  const [plat] = await listerPlats(db);
-  assert.equal(plat!.nom, "Lasagnes maison");
-  assert.equal(plat!.source, "fitatu");
-  assert.equal(plat!.sans_ingredients, true);
-  assert.equal(poidsPortion(plat!), 350);
-  proche(valeursPlat(plat!).portion.kcal, 612.5);
-  const [l] = await consommationsDuJour(db, "2026-10-20");
-  assert.equal(l!.plat_id, plat!.id);
-  assert.deepEqual((await chercherLocal(db, "lasagnes")).map((x) => x.nom), []);
-  // On peut lui ajouter ses ingrédients plus tard : il quitte « sans ingrédients ».
-  const [p0] = await produits(db);
-  await enregistrerPlat(db, { nom: plat!.nom, portions: 6, poids_cuit_g: 2100, photo: null, ingredients: [{ produit_id: p0!.id, produit: p0!, quantite_g: 500, unite: "g", nb_unites: 500 }] }, plat!.id);
-  assert.equal((await lirePlat(db, plat!.id))!.sans_ingredients, false);
-});
-
 test("photo du plat : connue du ménage (pas effacée comme orpheline), remplacée = fichiers distants à effacer", async () => {
   const { db, raw } = await baseDeTest();
   const p = await produits(db);
@@ -375,7 +353,10 @@ test("Mes aliments : un plat sans ingrédients (recette Fitatu) compte comme un 
   const r = await enregistrerProduit(db, { nom: "Lasagnes maison", nutriments: { energie_kcal: 175, proteines: 9.7 }, portions: [{ type: "portion", libelle: "", grammes: 350 }], source: "perso" });
   raw.prepare("UPDATE produits SET import_cle = 'fitatu:recette:42' WHERE id = ?").run(r.id);
   await ajouterConsommation(db, { date: "2026-10-20", repasId: "repas:diner", produitId: r.id, quantiteG: 350, unite: "portion", nbUnites: 1 });
-  await recettesFitatuEnPlats(db);
+  // Plat sans ingrédients tel qu'une sauvegarde de l'édition complète l'apporte (recette Fitatu) : l'import n'existe pas ici.
+  raw.prepare("INSERT INTO plats (id, nom, portions, poids_cuit_g, source, import_cle, sans_ingredients, nutriments_100g, poids_total_g, cree_le, modifie_le) SELECT 'plat-f', nom, 1, NULL, 'fitatu', import_cle, 1, nutriments, 350, 1, 1 FROM produits WHERE id = ?").run(r.id);
+  raw.prepare("UPDATE produits SET categorie = 'plat' WHERE id = ?").run(r.id);
+  raw.prepare("UPDATE consommations SET plat_id = 'plat-f' WHERE produit_id = ?").run(r.id);
   const [plat] = await listerPlats(db);
   // Remangé depuis pepfit : un autre produit figé, le même aliment.
   await ajouterPlatAuJournal(db, { plat: plat!, date: "2026-10-30", repasId: "repas:dejeuner", unite: "portion", nb: 0.5 });

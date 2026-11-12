@@ -20,7 +20,7 @@ export const es = {
   "menu.ongletsIntro": "Elige las pestañas de la barra. Ninguna es obligatoria, pero al menos una sigue visible. pepfit se abre en la primera pestaña visible.",
   "menu.ongletsDernier": "Al menos una pestaña sigue visible",
   "menu.appareils": "Dispositivos y conexiones",
-  "menu.importerSous": "Hevy, Fitatu",
+  "menu.importerSous": "Hevy",
   "menu.partage": "Compartir",
   "menu.profilPublic": "Perfil público",
   "menu.publie": "Publicado",

@@ -20,7 +20,7 @@ export const de = {
   "menu.ongletsIntro": "Wähle die Tabs der Leiste. Keiner ist Pflicht, aber mindestens einer bleibt sichtbar. pepfit öffnet sich auf dem ersten sichtbaren Tab.",
   "menu.ongletsDernier": "Mindestens ein Tab bleibt sichtbar",
   "menu.appareils": "Geräte und Verbindungen",
-  "menu.importerSous": "Hevy, Fitatu",
+  "menu.importerSous": "Hevy",
   "menu.partage": "Freigabe",
   "menu.profilPublic": "Öffentliches Profil",
   "menu.publie": "Veröffentlicht",

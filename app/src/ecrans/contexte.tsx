@@ -14,7 +14,6 @@ import { sauvegarderSiDue } from "../sauvegarde";
 import { synchroRecue, useVersionDonnees } from "../sync/rafraichir";
 import { synchroniserSiBesoin as synchroniserWhoopSiBesoin } from "../whoop";
 import { synchroniserSiBesoin as synchroniserWithingsSiBesoin } from "../withings";
-import { reprendreFitatu } from "../fitatu";
 import { abonner, definirActif, lireActif, definirDetecte, lireDetecte, resoudre } from "../i18n/index";
 import { detecterAppareil } from "../i18n/appareil";
 import { enFond } from "./fond";
@@ -63,8 +62,6 @@ export function FournisseurApp({ children }: { children: ReactNode }) {
       // Tout ce qui suit attend le premier écran, puis passe un par un, hors des gestes (fond.ts).
       enFond("appareils", () => synchroniserAppareils(db));
       enFond("poids-sante", () => synchroniserPoidsSante(db, sante).catch(() => false));
-      // Import de l'historique Fitatu pas fini (appli fermée, figée en arrière-plan, réseau, 429) : il reprend où il en était.
-      enFond("fitatu", () => reprendreFitatu(db).catch(() => {}));
       // Sauvegarde périodique dans le dossier choisi, si elle est due : quelques secondes après le lancement, pour ne pas
       // ralentir le premier écran ; un échec reste affiché dans Données et confidentialité.
       setTimeout(() => enFond("sauvegarde", () => sauvegarderSiDue(db).catch(() => {})), 5000);
@@ -75,7 +72,6 @@ export function FournisseurApp({ children }: { children: ReactNode }) {
         if (a !== "active") return;
         fuseau();
         enFond("appareils", () => synchroniserAppareils(db));
-        enFond("fitatu", () => reprendreFitatu(db).catch(() => {}));
         enFond("sauvegarde", () => sauvegarderSiDue(db).catch(() => {}));
       });
     })().catch((e) => console.error(e));

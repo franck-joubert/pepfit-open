@@ -8,6 +8,6 @@ export interface NatifCookies {
 
 export const fabriquerCookies = (natif: NatifCookies | null) => ({
   lire: async (url: string): Promise<string> => (natif ? natif.lire(url) : ""),
-  /** Cookies et stockage web de la WebView (session des pas Whoop, Fitatu). */
+  /** Cookies et stockage web de la WebView (session Whoop). */
   effacer: async (): Promise<void> => natif?.effacer?.(),
 });

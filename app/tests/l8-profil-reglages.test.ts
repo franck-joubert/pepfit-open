@@ -9,7 +9,7 @@ const SRC = new URL("../src/", import.meta.url).pathname;
 const lire = (f: string) => readFileSync(join(SRC, f), "utf8");
 
 test("n° 49 : plus de boîte d'alerte ni de rond d'attente natifs dans les réglages", () => {
-  for (const f of ["app/settings/connexions.tsx", "app/settings/data.tsx", "app/settings/fitatu.tsx", "app/whoop.tsx"]) {
+  for (const f of ["app/settings/connexions.tsx", "app/settings/data.tsx", "app/whoop.tsx"]) {
     const s = lire(f);
     assert.doesNotMatch(s, /Alert\.alert|ActivityIndicator/, f);
   }

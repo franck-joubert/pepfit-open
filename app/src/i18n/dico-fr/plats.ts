@@ -1,5 +1,5 @@
 // Plats personnalisés (planche plats, validée le 30/10 ; mots du lexique : Plat, Mes plats, Ingrédient, Portion, Poids cuit,
-// Pour cette fois, Sans ingrédients ; « Recette » reste le mot de Fitatu, à l'import seulement).
+// Pour cette fois, Sans ingrédients ; jamais « Recette »).
 export const fr = {
   "plats.mesPlats": "Mes plats",
   "plats.nouveau": "Nouveau plat",

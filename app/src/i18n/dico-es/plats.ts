@@ -1,5 +1,5 @@
 // Custom dishes (plats board, approved 30/10; lexicon: Dish, My dishes, Ingredient, Serving, Cooked weight, Just this once,
-// No ingredients; “Recipe” stays Fitatu's word, at import only).
+// No ingredients; never “Recipe”).
 export const es = {
   "plats.mesPlats": "Mis platos",
   "plats.nouveau": "Nuevo plato",

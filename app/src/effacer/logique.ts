@@ -2,15 +2,14 @@
 // l'appli garde sur le téléphone, et l'ordre de l'effacement. Testé par tests/effacer.test.ts, qui relit aussi le code : un
 // stockage nouveau qui n'est pas inscrit ici fait échouer le test.
 import { DOSSIER_PHOTOS } from "../photos/reglage";
-import { COFFRE_FITATU } from "../fitatu/constantes";
 import { COFFRE } from "../whoop/constantes";
 import { COFFRE as COFFRE_WITHINGS } from "../withings/constantes";
 import { COFFRE as COFFRE_POLAR } from "../polar/constantes";
 import { COFFRE_IDENTIFIANTS } from "../identifiants/modele";
 
-/** Coffre du téléphone (expo-secure-store) : phrase de secours, jetons et session Whoop, jetons Withings et Polar, session
- *  Fitatu, identifiants développeur des API. Effacées sous leur nom exact, jamais renommées (identifiants de protocole figés). */
-export const CLES_COFFRE: readonly string[] = ["fonte.phrase", ...Object.values(COFFRE), ...Object.values(COFFRE_WITHINGS), ...Object.values(COFFRE_POLAR), COFFRE_FITATU, ...COFFRE_IDENTIFIANTS];
+/** Coffre du téléphone (expo-secure-store) : phrase de secours, jetons et session Whoop, jetons Withings et Polar,
+ *  identifiants développeur des API. Effacées sous leur nom exact, jamais renommées (identifiants de protocole figés). */
+export const CLES_COFFRE: readonly string[] = ["fonte.phrase", ...Object.values(COFFRE), ...Object.values(COFFRE_WITHINGS), ...Object.values(COFFRE_POLAR), ...COFFRE_IDENTIFIANTS];
 
 /** La base (dossier SQLite d'expo-sqlite) et ses fichiers de journal. */
 export const NOM_BASE = "fonte.db";
@@ -35,9 +34,6 @@ export const STOCKAGES: Readonly<Record<string, string>> = {
   "src/withings/index.ts": "coffre fonte.withings.* (jetons, attente)",
   "src/polar/index.ts": "coffre fonte.polar.* (jetons, attente)",
   "src/identifiants/index.ts": "coffre pepfit.identifiants.* (identifiants développeur Whoop, Withings, Polar)",
-  "src/fitatu/index.ts": "coffre fonte.fitatu.session (session Fitatu) ; avancement de l'import dans la base",
-  "src/fitatu/session.ts": "lit seulement le stockage local de la page Fitatu (WebView) : cookies et stockage web, cookies.effacer",
-  "src/app/settings/fitatu.tsx": "WebView de Fitatu : cookies et stockage web, cookies.effacer",
   "src/natif/cookies/index.android.ts": "cookies et stockage web de la WebView : cookies.effacer",
   "modules/pepfit-cookies/android/src/main/java/fit/pep/cookies/PepfitCookiesModule.kt": "cookies et stockage web : effacer",
   "modules/pepfit-stockage/android/src/main/java/fit/pep/stockage/PepfitStockageModule.kt": "accès gardés aux dossiers choisis (SAF) : rendreAcces ; diagnostic-*.json du dossier externe de l'appli : supprimés par rendreAcces",

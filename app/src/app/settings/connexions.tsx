@@ -12,7 +12,6 @@ import { etatHistorique, lireReprise, type EtatHistorique } from "../../ecrans/s
 import { BatterieAuMoment } from "../../ecrans/FeuilleBatterie";
 import { resumePermissions } from "../../ecrans/profil-vue";
 import { BoutonLigne, GroupeReglages, LigneReglage, SectionReglages, SousEtat } from "../../ecrans/Reglage";
-import { abonnerFitatu, etatFitatu, part, progressionFitatu, type EtatFitatu } from "../../fitatu";
 import { choisirEtImporterHevy, ErreurImport, type RapportHevy } from "../../import";
 import { sante, santeConnect } from "../../natif/sante";
 import { PERMISSIONS_DEMANDE_SANTE } from "../../natif/sante/logique";
@@ -35,15 +34,15 @@ import { cleErreur as cleErreurWithings, messageConnexion as messageWithings } f
 import * as polar from "../../polar";
 import { cleErreur as cleErreurPolar, messageConnexion as messagePolar } from "../../polar/messages";
 
-type Source = "hevy" | "fitatu";
+type Source = "hevy";
 /** `historique` : null quand Santé Connect ne sait pas donner l'historique (version trop ancienne) ; la ligne n'existe pas. */
 type EtatSante = { disponible: boolean; accordees: string[]; historique: EtatHistorique | null };
 
 /** Clé du dernier import réussi, par source (« Séances et routines · 12 oct. »). */
-const CLE_IMPORT: Record<Source, string> = { hevy: "import_dernier_hevy", fitatu: "import_dernier_fitatu" };
+const CLE_IMPORT: Record<Source, string> = { hevy: "import_dernier_hevy" };
 
 /** Appareils et connexions (planche profil, direction A ; planche menu : seuls les flux entrants) : Santé Connect, Whoop,
- *  Withings et Polar, imports Hevy et Fitatu. La batterie des séances est passée dans Sport (D5), Connexion IA dans Réglages › Partage. */
+ *  Withings et Polar, import Hevy. La batterie des séances est passée dans Sport (D5), Connexion IA dans Réglages › Partage. */
 export default function Connexions() {
   useLangue();
   const { db } = useApp();
@@ -75,9 +74,7 @@ export default function Connexions() {
   // seulement, rien n'est écrit ; « synchro » montre la ligne connectée pendant une synchro, « connecte » la feuille.
   const capture = useLocalSearchParams<{ capture?: string }>().capture;
   const synchro = synchroReelle || capture === "synchro";
-  const [fitatu, setFitatu] = useState<EtatFitatu | null>(null);
-  const progressionF = useSyncExternalStore(abonnerFitatu, progressionFitatu);
-  const [derniers, setDerniers] = useState<Record<Source, number | null>>({ hevy: null, fitatu: null });
+  const [derniers, setDerniers] = useState<Record<Source, number | null>>({ hevy: null });
   const [import_, setImport] = useState<{ etat: "encours"; source: Source } | { etat: "fait"; r: RapportHevy } | { etat: "erreur"; message: string } | null>(null);
 
   const relire = useCallback(async () => {
@@ -93,9 +90,8 @@ export default function Connexions() {
     const wi = await withings.etatWithings(db).catch(() => null);
     setWithingsEtat(capture && wi ? { ...wi, connecte: true, erreur: null, derniereSynchro: Date.now() - 3_600_000 } : wi);
     setPolarEtat(await polar.etatPolar(db).catch(() => null));
-    const [h, f] = await Promise.all([lireReglage(db, CLE_IMPORT.hevy), lireReglage(db, CLE_IMPORT.fitatu)]);
-    setDerniers({ hevy: h ? Number(h) : null, fitatu: f ? Number(f) : null });
-    setFitatu(await etatFitatu(db).catch(() => null));
+    const h = await lireReglage(db, CLE_IMPORT.hevy);
+    setDerniers({ hevy: h ? Number(h) : null });
     setFcDirecte(await lireFcDirecte(db).catch(() => false));
   }, [db, capture]);
   useEffect(() => {
@@ -263,19 +259,13 @@ export default function Connexions() {
     return <SousEtat actif texte={whoop.derniereSynchro ? t("reglages.whoopConnecte", { quand: quand(whoop.derniereSynchro) }) : t("reglages.whoopJamais")} />;
   };
 
-  // fin d'un import Fitatu : la ligne se relit
-  useEffect(() => {
-    if (!progressionF) relire().catch(console.error);
-  }, [progressionF, relire]);
-
-  // Un seul sélecteur de fichiers : il reconnaît l'export Hevy (CSV, routines JSON) ou Fitatu (JSON) ; Fitatu passe
-  // d'abord par sa connexion (settings/fitatu, où le fichier JSON reste en second choix).
+  // Un seul sélecteur de fichiers : il reconnaît l'export Hevy (CSV, routines JSON).
   const importer = async (source: Source) => {
     setImport({ etat: "encours", source });
     try {
       const r = await choisirEtImporterHevy(db);
       if (!r) return setImport(null);
-      await ecrireReglage(db, CLE_IMPORT[r.genre === "fitatu" ? "fitatu" : "hevy"], String(Date.now()));
+      await ecrireReglage(db, CLE_IMPORT.hevy, String(Date.now()));
       setImport({ etat: "fait", r });
       await relire();
     } catch (e) {
@@ -284,12 +274,7 @@ export default function Connexions() {
   };
 
   const sousImport = (source: Source) => {
-    if (source === "fitatu" && progressionF) return <SousEtat actif texte={t("reglages.fitatuImport", { pct: Math.floor(part(progressionF) * 100) })} />;
-    if (source === "fitatu" && fitatu?.connecte) {
-      if (fitatu.erreur) return <SousEtat actif={false} texte={t(fitatu.erreur === "session" || fitatu.erreur === "limite" || fitatu.erreur === "reseau" ? `fitatu.erreur.${fitatu.erreur}` : "fitatu.erreur.serveur")} />;
-      return <SousEtat actif texte={fitatu.dernier ? t("reglages.fitatuConnecte", { quand: quand(fitatu.dernier) }) : t("fitatu.connecteEnCours")} />;
-    }
-    const quoi = t(source === "hevy" ? "reglages.hevySous" : "reglages.fitatuSous");
+    const quoi = t("reglages.hevySous");
     const d = derniers[source];
     return d ? `${quoi}, ${jourMois(d)}` : quoi;
   };
@@ -398,23 +383,20 @@ export default function Connexions() {
 
         <SectionReglages titre={t("reglages.importer")} />
         <GroupeReglages>
-          {(["hevy", "fitatu"] as const).map((s) => (
+          {(["hevy"] as const).map((s) => (
             <LigneReglage
               key={s}
               icone="download"
-              libelle={t(s === "hevy" ? "reglages.hevy" : "reglages.fitatu")}
+              libelle={t("reglages.hevy")}
               sous={sousImport(s)}
               // Chevron comme les autres lignes qu'on touche (audit, constat 39) ; pendant un import, ni chevron ni toucher.
               fin={import_?.etat === "encours" ? "aucune" : "chevron"}
-              onPress={import_?.etat === "encours" ? undefined : s === "fitatu" ? () => router.push("/settings/fitatu") : () => importer(s).catch(console.error)}
+              onPress={import_?.etat === "encours" ? undefined : () => importer(s).catch(console.error)}
             >
               {enCours(s) ? <Attente /> : null}
             </LigneReglage>
           ))}
         </GroupeReglages>
-        <Texte variante="meta" couleur="t3" style={styles.note}>
-          {t("reglages.fitatuNote")}
-        </Texte>
         {import_?.etat === "fait" ? <Rapport r={import_.r} /> : null}
         {import_?.etat === "erreur" ? (
           <View style={[styles.rapport, { backgroundColor: couleurs.s1 }]}>
@@ -466,19 +448,16 @@ function Rapport({ r }: { r: RapportHevy }) {
   const { couleurs } = useTheme();
   // Exercices créés en perso qui ressemblent à un exercice du catalogue : à relier (jamais en silence), depuis la page Pictos manquants.
   const [aRelier] = useCharge(async (db) => {
-    if (r.genre === "fitatu" || !r.exercicesNonReconnus.length) return 0;
+    if (!r.exercicesNonReconnus.length) return 0;
     const noms = new Set(r.exercicesNonReconnus);
     return (await suggestionsAConfirmer(db, { departager })).filter((p) => noms.has(p.exercice.nom)).length;
   }, [r]);
-  const lignes: string[] =
-    r.genre === "fitatu"
-      ? [`${tp("profil.fitatuJours", r.joursImportes)}, ${tp("profil.fitatuAliments", r.alimentsImportes)}`, `${t("profil.fitatuDeja", { n: r.alimentsDejaPresents })}, ${tp("profil.fitatuProduits", r.produitsCrees)}`, ...(r.platsCrees ? [tp("profil.fitatuPlats", r.platsCrees)] : [])]
-      : [
+  const lignes: string[] = [
           r.genre === "routines" ? tp("profil.routinesImportees", r.routinesImportees) : tp("profil.seancesImportees", r.seancesImportees),
           `${tp("communs.serie", r.seriesImportees)}, ${t("profil.dejaPresentes", { n: r.genre === "routines" ? r.routinesDejaPresentes : r.seancesDejaPresentes })}, ${tp("profil.exercicesReconnus", r.exercicesReconnus)}`,
           ...(r.exercicesNonReconnus.length ? [t("profil.exercicesCrees", { liste: r.exercicesNonReconnus.join(", ") })] : []),
           ...(r.exercicesAVerifier.length ? [t("profil.natureAVerifier", { liste: r.exercicesAVerifier.join(", ") })] : []),
-        ];
+  ];
   return (
     <View style={[styles.rapport, { backgroundColor: couleurs.s1 }]}>
       {lignes.map((l, i) => (
@@ -503,7 +482,6 @@ function Rapport({ r }: { r: RapportHevy }) {
 }
 
 const styles = StyleSheet.create({
-  note: { marginHorizontal: espace.l, marginTop: espace.s },
   texteFeuille: { fontSize: 14, marginBottom: espace.m },
   rapport: { borderRadius: rayon.l, padding: espace.l, gap: 4, marginHorizontal: espace.l, marginTop: espace.s },
 });
