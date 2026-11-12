@@ -10,7 +10,7 @@ no pepfit server and no social layer. The app never phones home.
 - Log workouts (sets, reps, loads, rest timer, supersets), programs and routines, with an exercise catalogue,
   pictograms and a 3D body model.
 - Track outdoor sessions with GPS (distance, pace, elevation), save private routes ("circuits"), import GPX files.
-- Nutrition log with barcode scanning (Open Food Facts), import from Fitatu and Hevy.
+- Nutrition log with barcode scanning (Open Food Facts); workouts import from Hevy.
 - Health dashboards: readiness gauges, sleep, heart rate, body composition, cycle.
 - Optional connections, each with **your own developer credentials** (see [SELF-HOSTING.md](SELF-HOSTING.md)):
   Whoop, Withings and Polar (official APIs), plus Health Connect and Bluetooth heart-rate straps.
@@ -52,18 +52,30 @@ release APK, signed with your key if `PEPFIT_KEYSTORE`, `PEPFIT_KEY_ALIAS`, `PEP
 Whoop, Withings and Polar credentials are entered in the app (Settings › Connections › My API credentials). For a
 personal build you may prefill them with environment variables; see [SELF-HOSTING.md](SELF-HOSTING.md).
 
-## Non-free dependencies
+## No Google library (F-Droid)
 
-Some Expo modules pull Google libraries. They block an F-Droid build as is:
+The Android build contains no Google Play Services, Firebase nor ML Kit code, so it can be built by F-Droid
+(`metadata/fit.pep.open.yml`, store texts in `fastlane/metadata/android/`). Three Expo modules pulled them; they are
+replaced or patched (`app/patches/`, applied by `patch-package` at `npm ci`):
 
-| Dependency | Pulled by | Use in this edition | Way out |
-|---|---|---|---|
-| `com.google.firebase:firebase-messaging` | `expo-notifications` | none (reminders are local) | local notifications only (own module or a fork without FCM) |
-| `com.google.mlkit:barcode-scanning`, `play-services-code-scanner`, `camera-mlkit-vision` | `expo-camera` | food barcodes | `expo.camera.barcode-scanner-enabled=false` and a free reader (ZXing / zxing-cpp) |
-| `com.google.android.gms:play-services-location` | `expo-location` | GPS of outdoor sessions | own module on `LocationManager` (background tracking is already native, `modules/pepfit-suivi`) |
+| Was | Pulled by | Now |
+|---|---|---|
+| `com.google.firebase:firebase-messaging` | `expo-notifications` | removed: reminders are local notifications, there is no push |
+| `com.google.mlkit:barcode-scanning`, `play-services-code-scanner`, ML Kit document scanner | `expo-camera` | food barcodes read by [ZXing](https://github.com/zxing/zxing) (`com.google.zxing:core`, Apache-2.0) on the CameraX frames |
+| `com.google.android.gms:play-services-location` | `expo-location` | not linked on Android: `modules/pepfit-position` on the platform `LocationManager` (background tracking is already native, `modules/pepfit-suivi`) |
 
-The ML Kit document scanner is already left out (`plugins/camera-sans-scanner-documents.js`). The Fitatu import reads
-the session of Fitatu's web app (a non-public service): F-Droid would flag it "NonFreeNet".
+`app/tests/sans-google.test.ts` keeps it that way. Health Connect (`androidx.health.connect`) is an AndroidX library
+under Apache-2.0 and stays.
+
+The recipe builds an unsigned release (`PEPFIT_UNSIGNED=1`) for F-Droid to sign, compiles every Expo module from
+source (`expo.autolinking.android.buildFromSource` in `app/package.json`) and declares one anti-feature,
+`NonFreeAssets`: the pepfit logo and icon are reserved (see [TRADEMARKS.md](TRADEMARKS.md), which allows redistributing
+the unmodified app) and the app shows the logos of the services it connects to. Its Codeberg addresses are a proposal
+until the repository exists.
+
+The app only talks to official, documented APIs (Whoop, Withings, Polar, with your own credentials) and to open data
+services (Open Food Facts, OpenStreetMap through Overpass and Photon, OpenFreeMap tiles). The Fitatu import of the Play
+Store edition, which read a private web API, is not part of this edition.
 
 ## License
 

@@ -4,7 +4,7 @@ The libre edition ships **no API credentials** and talks to **no pepfit server**
 you create your own (free) developer application with each provider and give its credentials to the app. Everything
 then happens on your phone: the OAuth login, the token exchange, the token refresh and the data sync.
 
-Health Connect, Bluetooth heart-rate straps, GPX, Hevy CSV and Fitatu imports need no key.
+Health Connect, Bluetooth heart-rate straps, GPX and Hevy CSV imports need no key.
 
 ## Where to enter the credentials
 

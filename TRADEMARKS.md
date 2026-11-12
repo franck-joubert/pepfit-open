@@ -19,6 +19,7 @@ The name **pepfit**, the pepfit logo and the app icon (`app/assets/logo/`, `app/
 You may:
 
 - build and use the unmodified source for yourself, under its original name;
+- redistribute builds of the unmodified source under its original name, logo and icon, for example through F-Droid;
 - say that your project is "based on pepfit" or "a fork of pepfit".
 
 You may not, without written permission:
@@ -33,6 +34,6 @@ link scheme (`pepfitopen://`) and the icon.
 
 - Inter font, SIL Open Font License 1.1: `app/assets/fonts/OFL.txt`.
 - Map tiles and places: OpenStreetMap contributors (ODbL), tiles by OpenFreeMap. Food data: Open Food Facts (ODbL).
-- Whoop, Withings, Polar, Fitatu, Hevy and Health Connect are trademarks of their respective owners; their logos shown
+- Whoop, Withings, Polar, Hevy and Health Connect are trademarks of their respective owners; their logos shown
   in the app are not covered by this project's licenses. This project is not affiliated with them.
 - JavaScript and native dependencies keep their own licenses (see `app/package.json` and `app/node_modules/*/LICENSE`).
