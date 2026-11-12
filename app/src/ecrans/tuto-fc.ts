@@ -4,16 +4,9 @@
 import type { CleSimple } from "../i18n/index";
 
 export const PAQUET_WHOOP = "com.whoop.android";
-/** Repli de « Ouvrir Whoop » quand l'appli n'est pas installée : le Play Store, sinon sa page web. */
-export const STORE_WHOOP = [`market://details?id=${PAQUET_WHOOP}`, `https://play.google.com/store/apps/details?id=${PAQUET_WHOOP}`] as const;
-/** iPhone : page App Store de « WHOOP » (Whoop Incorporated, id 933944389, vérifiée le 04/11/2026 par l'API iTunes
- *  lookup, docs/CODE-IOS-SUIVI.md) ; le lien ouvre l'App Store. */
-export const APPSTORE_WHOOP = ["https://apps.apple.com/fr/app/whoop/id933944389"] as const;
-
-/** Les liens à essayer dans l'ordre, selon la plateforme (Platform.OS). */
-export function magasinsWhoop(os: string): readonly string[] {
-  return os === "ios" ? APPSTORE_WHOOP : STORE_WHOOP;
-}
+/** Repli de « Ouvrir Whoop » quand l'appli n'est pas installée : le site de Whoop, pas un magasin d'applis (édition
+ *  libre, F-Droid : ni Play Store ni App Store). */
+export const SITE_WHOOP = "https://www.whoop.com/";
 
 /** Whoop et ceinture : le même tuto, un segmenté pour passer de l'un à l'autre ; « Appareils à proximité » : le sien. */
 export type CasTuto = "whoop" | "ceinture" | "appareils";

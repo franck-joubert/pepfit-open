@@ -1,8 +1,8 @@
-import { Linking, Platform } from "react-native";
+import { Linking } from "react-native";
 import * as Location from "../natif/position";
 import { suivi } from "../natif/suivi";
 import { expliquer } from "../natif/notifications";
-import { PAQUET_WHOOP, magasinsWhoop } from "./tuto-fc";
+import { PAQUET_WHOOP, SITE_WHOOP } from "./tuto-fc";
 
 // Autorisations du départ : la position (suivi GPS) et « Appareils à proximité » (Bluetooth de la FC), expliquées par une feuille de
 // l'appli avant la demande d'Android. Partagées par l'écran de départ (course, muscu) et la bande de la séance de muscu.
@@ -37,15 +37,8 @@ export async function autoriserAppareils(manuel: boolean): Promise<"accorde" | "
   return r;
 }
 
-/** « Ouvrir Whoop » (aussi depuis la bande de la séance de muscu) : l'appli si elle est installée, sinon sa page du Play
- *  Store (ou du web) ; sur iPhone, sa page de l'App Store. */
+/** « Ouvrir Whoop » (aussi depuis la bande de la séance de muscu) : l'appli si elle est installée, sinon le site de Whoop. */
 export async function ouvrirWhoop() {
   if (await suivi.ouvrirAppli(PAQUET_WHOOP).catch(() => false)) return;
-  for (const url of magasinsWhoop(Platform.OS)) {
-    try {
-      return await Linking.openURL(url);
-    } catch {
-      // pas de Play Store : la page web
-    }
-  }
+  await Linking.openURL(SITE_WHOOP).catch(console.error);
 }

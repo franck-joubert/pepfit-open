@@ -5,7 +5,7 @@ import { en } from "../src/i18n/dico-en/gps.ts";
 import { fr } from "../src/i18n/dico-fr/gps.ts";
 import { etatTuto, reessayerAuRetour, type EtatFc } from "../src/ecrans/suivi-direct-vue.ts";
 import { readFileSync } from "node:fs";
-import { APPSTORE_WHOOP, DESSIN_SOUS, ETAPES_TUTO, magasinsWhoop, PAQUET_WHOOP, STORE_WHOOP } from "../src/ecrans/tuto-fc.ts";
+import { DESSIN_SOUS, ETAPES_TUTO, PAQUET_WHOOP, SITE_WHOOP } from "../src/ecrans/tuto-fc.ts";
 
 const dico = (d: Record<string, string>, cles: readonly string[]) => cles.map((c) => d[c]);
 
@@ -22,19 +22,14 @@ test("tuto Whoop : le chemin vérifié, dans l'ordre, en français et en anglais
   assert.match(en["gps.fc.tuto.unSeul"], /one device at a time/);
 });
 
-test("« Ouvrir Whoop » : le paquet de l'appli, repli Play Store puis web", () => {
+test("« Ouvrir Whoop » : le paquet de l'appli, sinon le site de Whoop, jamais un magasin d'applis", () => {
   assert.equal(PAQUET_WHOOP, "com.whoop.android");
-  assert.deepEqual(STORE_WHOOP, ["market://details?id=com.whoop.android", "https://play.google.com/store/apps/details?id=com.whoop.android"]);
-});
-
-test("« Ouvrir Whoop » sur iPhone : la page App Store de WHOOP (id vérifié par l'API d'Apple), Play Store ailleurs", () => {
-  assert.deepEqual(APPSTORE_WHOOP, ["https://apps.apple.com/fr/app/whoop/id933944389"]);
-  assert.deepEqual(magasinsWhoop("ios"), APPSTORE_WHOOP);
-  assert.deepEqual(magasinsWhoop("android"), STORE_WHOOP);
-  assert.deepEqual(magasinsWhoop("web"), STORE_WHOOP);
-  // l'écran choisit par Platform.OS
+  assert.equal(SITE_WHOOP, "https://www.whoop.com/");
   const ecran = readFileSync(new URL("../src/ecrans/appareils-proximite.ts", import.meta.url), "utf8");
-  assert.match(ecran, /magasinsWhoop\(Platform\.OS\)/);
+  assert.match(ecran, /Linking\.openURL\(SITE_WHOOP\)/);
+  for (const f of ["src/ecrans/tuto-fc.ts", "src/ecrans/appareils-proximite.ts"]) {
+    assert.doesNotMatch(readFileSync(new URL(`../${f}`, import.meta.url), "utf8"), /market:|play\.google\.com|apps\.apple\.com/, f);
+  }
 });
 
 test("toutes les étapes ont leur texte en français et en anglais ; un dessin par cas, sous une étape qui existe", () => {
