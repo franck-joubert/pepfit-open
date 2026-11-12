@@ -32,7 +32,7 @@ export const fr = {
   "ui.ajouter": "Ajouter",
   "ui.termine": "Terminé",
   "ui.rechercher": "Rechercher",
-  "ui.ouvrirMaps": "Ouvrir dans Google Maps",
+  "ui.ouvrirMaps": "Ouvrir dans une appli de cartes",
   "ui.effacer": "Effacer",
   "ui.chargement": "Chargement…",
   "ui.moinsDe": "Moins {libelle}",

@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from "react";
-import { Linking, StyleSheet, View } from "react-native";
+import { Linking, Platform, StyleSheet, View } from "react-native";
 import { t } from "../i18n/index";
 import { useTheme } from "../theme";
 import { espace } from "../theme/typo";
@@ -9,12 +9,12 @@ import { Texte } from "../ui/Texte";
 import { CarteTracePleine } from "./circuit/CarteTracePleine";
 import { chronoTexte } from "./suivi-direct-vue";
 import { distanceSeance } from "./format";
-import { lienGoogleMaps } from "./lien-maps";
+import { lienCarte } from "./lien-maps";
 import { couleursTrace, tracePosee, traceGeoJsonSeance, vueDeLaTrace } from "./trace-pleine";
 
 // La carte d'une séance terminée en plein écran (08/11) : le tracé de la page, que le bloc d'effort vient de poser (trace-pleine.ts),
 // dans la même carte que celle d'un circuit (CarteTracePleine : mêmes gestes, mêmes boutons, même crédit du fond). La carte du bas rappelle la
-// séance et garde l'ancien geste de la carte (30/10) : « Ouvrir dans Google Maps » sur le départ.
+// séance et garde l'ancien geste de la carte (30/10) : « Ouvrir dans une appli de cartes » sur le départ (lien-maps).
 
 export function CartePleineSeance() {
   const { couleurs } = useTheme();
@@ -29,7 +29,7 @@ export function CartePleineSeance() {
     [posee, couleurs],
   );
   if (!posee || !forme || !geojson) return <View style={[styles.page, { backgroundColor: couleurs.bg }]} />;
-  const lien = lienGoogleMaps(posee.trace[0]);
+  const lien = lienCarte(posee.trace[0], Platform.OS);
   return (
     <CarteTracePleine
       trace={geojson}

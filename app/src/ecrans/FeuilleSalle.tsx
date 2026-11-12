@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Linking, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
+import { Linking, Platform, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
 import * as Location from "../natif/position";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { adopterSalleOSM, ecrireCacheAutour, lireCacheAutour, listerSalles, type SalleResume } from "../db";
@@ -15,7 +15,7 @@ import { Texte } from "../ui/Texte";
 import { useCouleurPartie } from "../ui/ContextePartie";
 import { signalerErreur } from "../ui/FeuilleMessage";
 import { useApp } from "./contexte";
-import { lienGoogleMaps } from "./lien-maps";
+import { lienCarte } from "./lien-maps";
 import { FeuilleNouveauLieu, pictoLieu } from "./Lieux";
 import { LigneDeLieu } from "./LigneDeLieu";
 import { sousLieu } from "../salles/sous-titre-lieu";
@@ -289,7 +289,7 @@ const SOUS_ERREUR = { reseau: "salles.autourReseau", serveurs: "salles.autourSer
 /** Fiche d'une salle d'OSM (D5) : nom, distance, adresse. Les machines partagées viendront avec le serveur. */
 function FicheSalle({ salle, bas, onRetour, onChoisir }: { salle: SalleOSM; bas: number; onRetour: () => void; onChoisir: () => void }) {
   const { couleurs } = useTheme();
-  const plan = lienGoogleMaps({ lat: salle.lat, lon: salle.lon, nom: salle.nom, adresse: salle.adresseComplete });
+  const plan = lienCarte({ lat: salle.lat, lon: salle.lon, nom: salle.nom, adresse: salle.adresseComplete }, Platform.OS);
   return (
     <View style={{ flex: 1 }}>
       <BarreHaut titre={t("salles.salle")} onRetour={onRetour} />
@@ -297,7 +297,7 @@ function FicheSalle({ salle, bas, onRetour, onChoisir }: { salle: SalleOSM; bas:
         <Texte variante="titreFort" accessibilityRole="header">
           {salle.nom}
         </Texte>
-        {/* Pas encore de vignette de carte : distance et adresse ouvrent la salle dans Google Maps (30/10). */}
+        {/* Pas encore de vignette de carte : distance et adresse ouvrent la salle dans une appli de cartes (30/10, lien-maps). */}
         <Pressable
           disabled={!plan}
           onPress={plan ? () => Linking.openURL(plan).catch(console.error) : undefined}

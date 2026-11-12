@@ -79,7 +79,7 @@ test("structure : la carte pleine est UN composant, pour le circuit comme pour l
 
 test("structure : toucher la carte de la page ouvre la carte pleine, Google Maps est un bouton de celle-ci", () => {
   const bloc = source("ecrans/BlocEffort.tsx");
-  assert.doesNotMatch(bloc, /Linking|lienGoogleMaps/);
+  assert.doesNotMatch(bloc, /Linking|lienCarte/);
   assert.match(bloc, /router\.push\("\/suivi\/carte"\)/);
   assert.match(bloc, /disabled=\{!agrandir\}/);
   const pleine = source("ecrans/CartePleineSeance.tsx");
