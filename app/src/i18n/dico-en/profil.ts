@@ -61,8 +61,6 @@ export const en = {
   "profil.importRoutinesIncomplet": "This file is not a Hevy routines export (routines and exercises expected).",
   "profil.importDateIllisible": "Line {ligne}: unreadable date “{date}” (workout “{titre}” skipped)",
   "profil.importRoutineSansId": "Routine {n} has no id (skipped)",
-  "profil.statsCommunes": "Improve pepfit's accuracy",
-  "profil.statsCommunesSous": "By anonymously sharing calculation gaps, never your data.",
   "profil.whoopIa": "Let AI read your Whoop measurements",
   "profil.whoopIaSous": "Heart rate, HRV, sleep, temperature: Whoop's measurements, not its scores. Only for the AI you've connected; you can withdraw your consent any time.",
   "profil.sauvegardeSeances": { one: "{n} workout", other: "{n} workouts" },

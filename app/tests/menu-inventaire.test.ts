@@ -69,7 +69,6 @@ const ANCIEN_MENU: Record<string, string> = {
   "Données › Sauvegarde › Phrase de secours": "phrase",
   "Données › Sauvegarde › Restaurer": "restaurer",
   "Données › Mes données › Exporter": "exporter",
-  "Données › Confidentialité › Améliorer la précision de pepfit": "precision-commune",
   "Données › Confidentialité › Politique de confidentialité": "politique",
   "Données › Confidentialité › Effacer les données de ce téléphone": "effacer",
   "Accueil › appui long › Modifier l'accueil": "cartes-accueil",
@@ -185,7 +184,7 @@ test("recherche « rep » : les réglages de Activité › Repos et de Nutrition
   assert.equal(chemin(r.find((e) => e.id === "repas")!, tr), "Nutrition");
   // sans accents ni majuscules ; rien pour une chaîne vide
   assert.ok(chercher("ECRAN", tr).some((e) => e.id === "ecran-allume"));
-  assert.ok(chercher("precision", tr).some((e) => e.id === "precision-commune"));
+  assert.ok(chercher("confidentialite", tr).some((e) => e.id === "politique"));
   assert.deepEqual(chercher("  ", tr), []);
   // le chemin compte aussi : « sauvegarde » trouve Emplacement, qui vit dans Sauvegarde
   assert.ok(chercher("sauvegarde", tr).some((e) => e.id === "emplacement"));

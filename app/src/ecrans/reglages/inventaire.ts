@@ -102,7 +102,6 @@ export const REGLAGES_INVENTAIRE: EntreeReglage[] = [
   { id: "restaurer", libelle: "reglages.restaurer", ou: SAUVEGARDE, route: "/settings/data" },
   { id: "phrase", libelle: "compte.phrase", ou: SAUVEGARDE, route: "/settings/phrase" },
   { id: "exporter", libelle: "compte.exporter", ou: DONNEES, route: "/settings#exporter" },
-  { id: "precision-commune", libelle: "profil.statsCommunes", ou: DONNEES, route: "/settings#precision" },
   { id: "politique", libelle: "reglages.politique", ou: DONNEES, route: "/settings#politique" },
   // Réglages › Préférences
   { id: "apparence", libelle: "profil.apparence", ou: PREFERENCES, route: "/settings#apparence" },
