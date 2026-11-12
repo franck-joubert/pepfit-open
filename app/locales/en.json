@@ -1,0 +1,21 @@
+{
+  "android": { "app_name": "pepfit open" },
+  "ios": {
+    "CFBundleDisplayName": "pepfit open",
+    "NSCameraUsageDescription": "pepfit uses the camera to scan food barcodes and QR codes, and for your workout photo.",
+    "NSPhotoLibraryUsageDescription": "pepfit opens your gallery so you can pick your workout photo.",
+    "NSMicrophoneUsageDescription": "pepfit never records sound: the camera is only used for barcodes, QR codes and photos.",
+    "NSLocationWhenInUseUsageDescription": "pepfit uses your location to track your outdoor workouts (distance, pace, map), even with the screen locked, and to find gyms around you.",
+    "NSLocationAlwaysAndWhenInUseUsageDescription": "pepfit uses your location during your outdoor workouts to measure distance and pace, even with the screen locked. Nothing is tracked outside a workout.",
+    "NSLocationAlwaysUsageDescription": "pepfit uses your location during your outdoor workouts to measure distance and pace, even with the screen locked. Nothing is tracked outside a workout.",
+    "NSMotionUsageDescription": "pepfit uses your iPhone's barometer to measure the elevation gain of your outdoor workouts.",
+    "NSBluetoothAlwaysUsageDescription": "pepfit connects to your heart rate strap or Whoop to show your heart rate during your workout, even with the screen locked.",
+    "NSHealthShareUsageDescription": "pepfit reads your weight, body composition, steps, sleep, heart rate, workouts and cycle from Health to compute your gauges. Nothing is used for advertising.",
+    "NSHealthUpdateUsageDescription": "pepfit saves your workouts to Health (duration, calories, distance) so your other apps can see them.",
+    "NSCalendarsUsageDescription": "pepfit reads your calendar to fit your workouts around your appointments, and adds the workouts you choose.",
+    "NSCalendarsFullAccessUsageDescription": "pepfit reads your calendar to fit your workouts around your appointments, and adds the workouts you choose.",
+    "NSRemindersUsageDescription": "pepfit neither reads nor writes your reminders: only your calendar is used.",
+    "NSRemindersFullAccessUsageDescription": "pepfit neither reads nor writes your reminders: only your calendar is used.",
+    "NSFaceIDUsageDescription": "pepfit uses Face ID to lock the app and protect your data."
+  }
+}

@@ -1,0 +1,123 @@
+{
+ "id": "r-push-a",
+ "version": 1,
+ "nom": {
+  "fr": "Push A",
+  "en": "Push A"
+ },
+ "resume": {
+  "fr": "Pectoraux, épaules, triceps : cinq exercices, un superset.",
+  "en": "Chest, shoulders, triceps: five exercises, one superset."
+ },
+ "description": {
+  "fr": "Une séance de poussée complète : développé couché lourd, incliné aux haltères, développé militaire, puis élévations latérales et triceps en superset.",
+  "en": "A complete push session: heavy bench press, incline dumbbell press, overhead press, then lateral raises and triceps as a superset."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "muscle"
+ ],
+ "lieux": [
+  "salle"
+ ],
+ "niveau": 2,
+ "picto": "couche",
+ "gros": {
+  "valeur": "Push",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Salle, barre et haltères",
+  "en": "Gym, barbell and dumbbells"
+ },
+ "materiel": {
+  "fr": "Salle",
+  "en": "Gym"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Push A",
+   "en": "Push A"
+  },
+  "type": "muscu",
+  "role": "dure",
+  "note": null,
+  "format": null,
+  "formatValeur": null,
+  "blocs": [
+   {
+    "exo": "couche",
+    "series": 4,
+    "reps": 6,
+    "repsMax": 8,
+    "repsParSerie": null,
+    "reposS": 150,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "incline-dumbbell-press",
+    "series": 3,
+    "reps": 8,
+    "repsMax": 12,
+    "repsParSerie": null,
+    "reposS": 120,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "standing-military-press",
+    "series": 3,
+    "reps": 8,
+    "repsMax": 10,
+    "repsParSerie": null,
+    "reposS": 120,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "side-lateral-raise",
+    "series": 3,
+    "reps": 12,
+    "repsMax": 15,
+    "repsParSerie": null,
+    "reposS": 0,
+    "tempo": null,
+    "superset": 1,
+    "transitionS": 15,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "triceps-pushdown",
+    "series": 3,
+    "reps": 10,
+    "repsMax": 15,
+    "repsParSerie": null,
+    "reposS": 90,
+    "tempo": null,
+    "superset": 1,
+    "transitionS": 15,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

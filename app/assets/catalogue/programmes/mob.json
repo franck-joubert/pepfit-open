@@ -1,0 +1,772 @@
+{
+ "id": "mob",
+ "version": 1,
+ "nom": {
+  "fr": "Mobilité 15 min par jour",
+  "en": "Mobility, 15 min a day"
+ },
+ "resume": {
+  "fr": "Hanches, dos, épaules : un peu chaque jour.",
+  "en": "Hips, back, shoulders: a little every day."
+ },
+ "description": {
+  "fr": "Quinze minutes, cinq jours par semaine, une zone par jour : hanches, colonne, épaules, chevilles, puis tout le corps. Des tests d'amplitude au début et à la fin pour voir le progrès.",
+  "en": "Fifteen minutes, five days a week, one area a day: hips, spine, shoulders, ankles, then the whole body. Range tests at the start and end to see your progress."
+ },
+ "famille": "sante",
+ "type": "mobilite",
+ "objectifs": [
+  "mobilite"
+ ],
+ "lieux": [
+  "maison"
+ ],
+ "niveau": 1,
+ "semaines": 4,
+ "seancesParSemaine": 5,
+ "picto": "yoga",
+ "gros": {
+  "valeur": "15",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Mobilité, maison",
+  "en": "Mobility, home"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "La mobilité progresse avec la régularité plus qu'avec la durée : un peu chaque jour. L'amplitude active (aller chercher la position) tient mieux que l'étirement passif seul.",
+  "en": "Mobility improves with consistency more than duration: a little every day. Active range (reaching for the position) lasts better than passive stretching alone."
+ },
+ "sources": [
+  6
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Tests et base",
+    "en": "Tests and base"
+   },
+   "de": 1,
+   "a": 1
+  },
+  {
+   "nom": {
+    "fr": "Progression",
+    "en": "Progression"
+   },
+   "de": 2,
+   "a": 3
+  },
+  {
+   "nom": {
+    "fr": "Bilan",
+    "en": "Review"
+   },
+   "de": 4,
+   "a": 4
+  }
+ ],
+ "seances": {
+  "mob-hanches-45-test": {
+   "nom": {
+    "fr": "Hanches",
+    "en": "Hips"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Test d'amplitude : note jusqu'où tu vas à la première posture, pour comparer en semaine 4.",
+    "en": "Range test: note how far you get on the first pose, to compare in week 4."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "worlds-greatest-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "kneeling-hip-flexor",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "90-90-hamstring",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "lying-glute",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "hip-circles-prone",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-dos-45": {
+   "nom": {
+    "fr": "Dos et colonne thoracique",
+    "en": "Back and thoracic spine"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "cat-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "perso:rotation-thoracique",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "childs-pose",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "spinal-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "superman",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-epaules-45": {
+   "nom": {
+    "fr": "Épaules",
+    "en": "Shoulders"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "round-the-world-shoulder-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "chest-and-front-of-shoulder-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "shoulder-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "perso:glissements-mur",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "childs-pose",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-chevilles-45": {
+   "nom": {
+    "fr": "Chevilles",
+    "en": "Ankles"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "ankle-circles",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "calf-stretch-hands-against-wall",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "perso:genou-mur",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-squat",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "all-fours-quad-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-complet-45": {
+   "nom": {
+    "fr": "Tout le corps",
+    "en": "Whole body"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "worlds-greatest-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "cat-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "kneeling-hip-flexor",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "round-the-world-shoulder-stretch",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "ankle-circles",
+     "series": 2,
+     "dureeS": 45,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-hanches-60": {
+   "nom": {
+    "fr": "Hanches",
+    "en": "Hips"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "worlds-greatest-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "kneeling-hip-flexor",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "90-90-hamstring",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "lying-glute",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "hip-circles-prone",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-dos-60": {
+   "nom": {
+    "fr": "Dos et colonne thoracique",
+    "en": "Back and thoracic spine"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "cat-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "perso:rotation-thoracique",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "childs-pose",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "spinal-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "superman",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-epaules-60": {
+   "nom": {
+    "fr": "Épaules",
+    "en": "Shoulders"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "round-the-world-shoulder-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "chest-and-front-of-shoulder-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "shoulder-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "perso:glissements-mur",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "childs-pose",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-chevilles-60": {
+   "nom": {
+    "fr": "Chevilles",
+    "en": "Ankles"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "ankle-circles",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "calf-stretch-hands-against-wall",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "perso:genou-mur",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-squat",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "all-fours-quad-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "mob-complet-60": {
+   "nom": {
+    "fr": "Tout le corps",
+    "en": "Whole body"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Amplitude active : va chercher la position, ne te laisse pas seulement tomber dedans.",
+    "en": "Active range: reach for the position, don't just sink into it."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "worlds-greatest-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "cat-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "kneeling-hip-flexor",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "round-the-world-shoulder-stretch",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "ankle-circles",
+     "series": 2,
+     "dureeS": 60,
+     "reposS": 15,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "tests d'amplitude",
+    "en": "range tests"
+   },
+   "seances": [
+    "mob-hanches-45-test",
+    "mob-dos-45",
+    "mob-epaules-45",
+    "mob-chevilles-45",
+    "mob-complet-45"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "mob-hanches-60",
+    "mob-dos-60",
+    "mob-epaules-60",
+    "mob-chevilles-60",
+    "mob-complet-60"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "mob-hanches-60",
+    "mob-dos-60",
+    "mob-epaules-60",
+    "mob-chevilles-60",
+    "mob-complet-60"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "tests d'amplitude",
+    "en": "range tests"
+   },
+   "seances": [
+    "mob-hanches-45-test",
+    "mob-dos-45",
+    "mob-epaules-45",
+    "mob-chevilles-45",
+    "mob-complet-45"
+   ]
+  }
+ ],
+ "seanceType": "mob-hanches-45-test",
+ "exercicesPerso": {
+  "rotation-thoracique": {
+   "nom": {
+    "fr": "Rotations thoraciques à quatre pattes",
+    "en": "Quadruped thoracic rotations"
+   },
+   "nature": "duree"
+  },
+  "glissements-mur": {
+   "nom": {
+    "fr": "Glissements de bras au mur",
+    "en": "Wall slides"
+   },
+   "nature": "duree"
+  },
+  "genou-mur": {
+   "nom": {
+    "fr": "Genou au mur (cheville)",
+    "en": "Knee to wall (ankle)"
+   },
+   "nature": "duree"
+  }
+ }
+}

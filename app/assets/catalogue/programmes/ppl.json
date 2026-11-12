@@ -1,0 +1,1277 @@
+{
+ "id": "ppl",
+ "version": 1,
+ "nom": {
+  "fr": "Push Pull Legs",
+  "en": "Push Pull Legs"
+ },
+ "resume": {
+  "fr": "Pousser, tirer, jambes, deux fois par semaine.",
+  "en": "Push, pull, legs, twice a week."
+ },
+ "description": {
+  "fr": "Le grand classique pour prendre du muscle : pousser, tirer, jambes, deux fois par semaine. Le volume monte par paliers, avec des supersets pour gagner du temps.",
+  "en": "The classic for building muscle: push, pull, legs, twice a week. Volume rises in steps, with supersets to save time."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "muscle"
+ ],
+ "lieux": [
+  "salle"
+ ],
+ "niveau": 2,
+ "semaines": 10,
+ "seancesParSemaine": 6,
+ "picto": "couche",
+ "gros": {
+  "valeur": "PPL",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Salle, machines et barre",
+  "en": "Gym, machines and barbell"
+ },
+ "materiel": {
+  "fr": "Salle",
+  "en": "Gym"
+ },
+ "avertissement": null,
+ "progression": {
+  "fr": "Double progression : le haut de la plage à toutes les séries, puis + 2,5 kg.",
+  "en": "Double progression: top of the range on every set, then +2.5 kg."
+ },
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Assez de séries par muscle et par semaine (10 à 20), chaque muscle deux fois par semaine, et la double progression : d'abord les répétitions, puis le poids. Une semaine allégée laisse récupérer.",
+  "en": "Enough sets per muscle per week (10 to 20), each muscle twice a week, and double progression: reps first, then weight. A deload week lets you recover."
+ },
+ "sources": [
+  3
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "10 à 12 séries",
+    "en": "10 to 12 sets"
+   },
+   "de": 1,
+   "a": 3
+  },
+  {
+   "nom": {
+    "fr": "14 à 16 séries",
+    "en": "14 to 16 sets"
+   },
+   "de": 4,
+   "a": 6
+  },
+  {
+   "nom": {
+    "fr": "16 à 20 séries",
+    "en": "16 to 20 sets"
+   },
+   "de": 7,
+   "a": 9
+  },
+  {
+   "nom": {
+    "fr": "Semaine allégée",
+    "en": "Deload week"
+   },
+   "de": 10,
+   "a": 10
+  }
+ ],
+ "seances": {
+  "ppl-push-3": {
+   "nom": {
+    "fr": "Pousser",
+    "en": "Push"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "couche",
+     "series": 3,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "double progression : le haut de la plage à toutes les séries, puis + 2,5 kg",
+      "en": "double progression: top of the range on every set, then +2.5 kg"
+     }
+    },
+    {
+     "exo": "incline-dumbbell-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "triceps-pushdown",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-pull-3": {
+   "nom": {
+    "fr": "Tirer",
+    "en": "Pull"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "pullups",
+     "series": 3,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "avec un élastique si besoin",
+      "en": "use a band if needed"
+     }
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "seated-cable-rows",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "face-pull",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "hammer-curls",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-legs-3": {
+   "nom": {
+    "fr": "Jambes",
+    "en": "Legs"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 3,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "double progression : le haut de la plage à toutes les séries, puis + 2,5 kg",
+      "en": "double progression: top of the range on every set, then +2.5 kg"
+     }
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "leg-press",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "lying-leg-curls",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-push-4": {
+   "nom": {
+    "fr": "Pousser",
+    "en": "Push"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "couche",
+     "series": 4,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "double progression : le haut de la plage à toutes les séries, puis + 2,5 kg",
+      "en": "double progression: top of the range on every set, then +2.5 kg"
+     }
+    },
+    {
+     "exo": "incline-dumbbell-press",
+     "series": 4,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 4,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 4,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "triceps-pushdown",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-pull-4": {
+   "nom": {
+    "fr": "Tirer",
+    "en": "Pull"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "pullups",
+     "series": 4,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "avec un élastique si besoin",
+      "en": "use a band if needed"
+     }
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 4,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "seated-cable-rows",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "face-pull",
+     "series": 4,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "hammer-curls",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-legs-4": {
+   "nom": {
+    "fr": "Jambes",
+    "en": "Legs"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 4,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "double progression : le haut de la plage à toutes les séries, puis + 2,5 kg",
+      "en": "double progression: top of the range on every set, then +2.5 kg"
+     }
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 4,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "leg-press",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "lying-leg-curls",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 4,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-push-5": {
+   "nom": {
+    "fr": "Pousser",
+    "en": "Push"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "couche",
+     "series": 5,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "double progression : le haut de la plage à toutes les séries, puis + 2,5 kg",
+      "en": "double progression: top of the range on every set, then +2.5 kg"
+     }
+    },
+    {
+     "exo": "incline-dumbbell-press",
+     "series": 5,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 5,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 5,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "triceps-pushdown",
+     "series": 5,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-pull-5": {
+   "nom": {
+    "fr": "Tirer",
+    "en": "Pull"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "pullups",
+     "series": 5,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "avec un élastique si besoin",
+      "en": "use a band if needed"
+     }
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 5,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "seated-cable-rows",
+     "series": 5,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "face-pull",
+     "series": 5,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "hammer-curls",
+     "series": 5,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-legs-5": {
+   "nom": {
+    "fr": "Jambes",
+    "en": "Legs"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 5,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "double progression : le haut de la plage à toutes les séries, puis + 2,5 kg",
+      "en": "double progression: top of the range on every set, then +2.5 kg"
+     }
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 5,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "leg-press",
+     "series": 5,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "lying-leg-curls",
+     "series": 5,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 5,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "ppl-push-2": {
+   "nom": {
+    "fr": "Pousser",
+    "en": "Push"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "couche",
+     "series": 2,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "double progression : le haut de la plage à toutes les séries, puis + 2,5 kg",
+      "en": "double progression: top of the range on every set, then +2.5 kg"
+     }
+    },
+    {
+     "exo": "incline-dumbbell-press",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 2,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "triceps-pushdown",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  },
+  "ppl-pull-2": {
+   "nom": {
+    "fr": "Tirer",
+    "en": "Pull"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "pullups",
+     "series": 2,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "avec un élastique si besoin",
+      "en": "use a band if needed"
+     }
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "seated-cable-rows",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "face-pull",
+     "series": 2,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "hammer-curls",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  },
+  "ppl-legs-2": {
+   "nom": {
+    "fr": "Jambes",
+    "en": "Legs"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 2,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "double progression : le haut de la plage à toutes les séries, puis + 2,5 kg",
+      "en": "double progression: top of the range on every set, then +2.5 kg"
+     }
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "leg-press",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "lying-leg-curls",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 2,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 15,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "3 séries par exercice",
+    "en": "3 sets per exercise"
+   },
+   "seances": [
+    "ppl-push-3",
+    "ppl-pull-3",
+    "ppl-legs-3",
+    "ppl-push-3",
+    "ppl-pull-3",
+    "ppl-legs-3"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "ppl-push-3",
+    "ppl-pull-3",
+    "ppl-legs-3",
+    "ppl-push-3",
+    "ppl-pull-3",
+    "ppl-legs-3"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "ppl-push-3",
+    "ppl-pull-3",
+    "ppl-legs-3",
+    "ppl-push-3",
+    "ppl-pull-3",
+    "ppl-legs-3"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "4 séries par exercice",
+    "en": "4 sets per exercise"
+   },
+   "seances": [
+    "ppl-push-4",
+    "ppl-pull-4",
+    "ppl-legs-4",
+    "ppl-push-4",
+    "ppl-pull-4",
+    "ppl-legs-4"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "ppl-push-4",
+    "ppl-pull-4",
+    "ppl-legs-4",
+    "ppl-push-4",
+    "ppl-pull-4",
+    "ppl-legs-4"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "ppl-push-4",
+    "ppl-pull-4",
+    "ppl-legs-4",
+    "ppl-push-4",
+    "ppl-pull-4",
+    "ppl-legs-4"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "5 séries par exercice",
+    "en": "5 sets per exercise"
+   },
+   "seances": [
+    "ppl-push-5",
+    "ppl-pull-5",
+    "ppl-legs-5",
+    "ppl-push-5",
+    "ppl-pull-5",
+    "ppl-legs-5"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 2,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "ppl-push-5",
+    "ppl-pull-5",
+    "ppl-legs-5",
+    "ppl-push-5",
+    "ppl-pull-5",
+    "ppl-legs-5"
+   ]
+  },
+  {
+   "n": 9,
+   "phase": 2,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "ppl-push-5",
+    "ppl-pull-5",
+    "ppl-legs-5",
+    "ppl-push-5",
+    "ppl-pull-5",
+    "ppl-legs-5"
+   ]
+  },
+  {
+   "n": 10,
+   "phase": 3,
+   "allegee": true,
+   "accent": {
+    "fr": "semaine allégée",
+    "en": "deload week"
+   },
+   "seances": [
+    "ppl-push-2",
+    "ppl-pull-2",
+    "ppl-legs-2",
+    "ppl-push-2",
+    "ppl-pull-2",
+    "ppl-legs-2"
+   ]
+  }
+ ],
+ "seanceType": "ppl-push-3",
+ "exercicesPerso": {}
+}

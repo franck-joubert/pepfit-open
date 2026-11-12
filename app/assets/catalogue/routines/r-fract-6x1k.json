@@ -1,0 +1,81 @@
+{
+ "id": "r-fract-6x1k",
+ "version": 1,
+ "nom": {
+  "fr": "Fractionné 6 × 1 km",
+  "en": "Intervals 6 × 1 km"
+ },
+ "resume": {
+  "fr": "Six kilomètres à allure 10 km, deux minutes de trot entre deux.",
+  "en": "Six kilometres at 10 km pace, two minutes' jog between."
+ },
+ "description": {
+  "fr": "La séance de qualité la plus classique : un échauffement, six fois un kilomètre à ton allure 10 km, et un retour au calme. Une heure en tout.",
+  "en": "The classic quality session: a warm-up, six times one kilometre at your 10 km pace, and a cool-down. One hour in all."
+ },
+ "famille": "endu",
+ "type": "course",
+ "objectifs": [
+  "distance"
+ ],
+ "lieux": [
+  "dehors"
+ ],
+ "niveau": 2,
+ "picto": "course",
+ "gros": {
+  "valeur": "6×1",
+  "unite": "km"
+ },
+ "lieuCourt": {
+  "fr": "Course, dehors",
+  "en": "Running, outdoors"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Fractionné 6 × 1 km",
+   "en": "Intervals 6 × 1 km"
+  },
+  "type": "course",
+  "role": "dure",
+  "blocs": [
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 900,
+    "zone": 2,
+    "note": {
+     "fr": "échauffement",
+     "en": "warm-up"
+    }
+   },
+   {
+    "exo": "course",
+    "series": 6,
+    "distanceM": 1000,
+    "zone": 4,
+    "reposS": 120,
+    "note": {
+     "fr": "récupération en trottinant",
+     "en": "jog recovery"
+    }
+   },
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 600,
+    "zone": 2,
+    "note": {
+     "fr": "retour au calme",
+     "en": "cool-down"
+    }
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

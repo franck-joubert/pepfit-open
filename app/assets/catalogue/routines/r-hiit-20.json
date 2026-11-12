@@ -1,0 +1,141 @@
+{
+ "id": "r-hiit-20",
+ "version": 1,
+ "nom": {
+  "fr": "HIIT 20 min",
+  "en": "HIIT 20 min"
+ },
+ "resume": {
+  "fr": "Un circuit de cinq exercices, 40 s d'effort, 20 s de repos.",
+  "en": "A five-exercise circuit, 40 s on, 20 s off."
+ },
+ "description": {
+  "fr": "Vingt minutes sans matériel : un échauffement, deux tours d'un circuit au poids du corps, et un retour au calme.",
+  "en": "Twenty minutes, no equipment: a warm-up, two rounds of a bodyweight circuit, and a cool-down."
+ },
+ "famille": "forme",
+ "type": "cross",
+ "objectifs": [
+  "maison",
+  "poids"
+ ],
+ "lieux": [
+  "maison"
+ ],
+ "niveau": 2,
+ "picto": "hiit",
+ "gros": {
+  "valeur": "20",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Maison, sans matériel",
+  "en": "Home, no equipment"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "HIIT 20 min",
+   "en": "HIIT 20 min"
+  },
+  "type": "cross",
+  "role": "dure",
+  "note": {
+   "fr": "Effort au maximum de ce que tu peux tenir, repos complet.",
+   "en": "Go as hard as you can sustain, rest fully."
+  },
+  "format": null,
+  "formatValeur": null,
+  "blocs": [
+   {
+    "exo": "fast-skipping",
+    "series": 1,
+    "dureeS": 240,
+    "reposS": 60,
+    "superset": null,
+    "transitionS": null,
+    "note": {
+     "fr": "échauffement : montées de genoux tranquilles",
+     "en": "warm-up: easy high knees"
+    }
+   },
+   {
+    "exo": "freehand-jump-squat",
+    "series": 2,
+    "dureeS": 40,
+    "reposS": 0,
+    "superset": 1,
+    "transitionS": 20,
+    "note": null
+   },
+   {
+    "exo": "mountain-climbers",
+    "series": 2,
+    "dureeS": 40,
+    "reposS": 0,
+    "superset": 1,
+    "transitionS": 20,
+    "note": null
+   },
+   {
+    "exo": "pushups",
+    "series": 2,
+    "dureeS": 40,
+    "reposS": 0,
+    "superset": 1,
+    "transitionS": 20,
+    "note": null
+   },
+   {
+    "exo": "perso:jumping-jack",
+    "series": 2,
+    "dureeS": 40,
+    "reposS": 0,
+    "superset": 1,
+    "transitionS": 20,
+    "note": null
+   },
+   {
+    "exo": "perso:burpee",
+    "series": 2,
+    "dureeS": 40,
+    "reposS": 60,
+    "superset": 1,
+    "transitionS": 20,
+    "note": null
+   },
+   {
+    "exo": "childs-pose",
+    "series": 1,
+    "dureeS": 120,
+    "reposS": 0,
+    "superset": null,
+    "transitionS": null,
+    "note": {
+     "fr": "retour au calme",
+     "en": "cool-down"
+    }
+   }
+  ]
+ },
+ "exercicesPerso": {
+  "jumping-jack": {
+   "nom": {
+    "fr": "Jumping jacks",
+    "en": "Jumping jacks"
+   },
+   "nature": "duree"
+  },
+  "burpee": {
+   "nom": {
+    "fr": "Burpees",
+    "en": "Burpees"
+   },
+   "nature": "duree"
+  }
+ }
+}

@@ -1,0 +1,648 @@
+{
+ "id": "nage",
+ "version": 1,
+ "nom": {
+  "fr": "Nager 1 500 m",
+  "en": "Swim 1,500 m"
+ },
+ "resume": {
+  "fr": "Technique de crawl et séries, jusqu'à 1 500 m d'affilée.",
+  "en": "Front crawl technique and sets, up to 1,500 m non-stop."
+ },
+ "description": {
+  "fr": "Des éducatifs pour un crawl plus facile, puis des séries de plus en plus longues : en 8 semaines, tu nages 1 500 m d'affilée.",
+  "en": "Drills for an easier front crawl, then longer and longer sets: in 8 weeks you swim 1,500 m non-stop."
+ },
+ "famille": "endu",
+ "type": "natation",
+ "objectifs": [
+  "nager"
+ ],
+ "lieux": [
+  "piscine"
+ ],
+ "niveau": 1,
+ "semaines": 8,
+ "seancesParSemaine": 3,
+ "picto": "natation",
+ "gros": {
+  "valeur": "1 500",
+  "unite": "m"
+ },
+ "lieuCourt": {
+  "fr": "Natation, piscine",
+  "en": "Swimming, pool"
+ },
+ "materiel": {
+  "fr": "Planche",
+  "en": "Kickboard"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "La technique d'abord (respiration, battements), puis des séries courtes avec récupération, qui s'allongent chaque semaine jusqu'à la distance continue.",
+  "en": "Technique first (breathing, kick), then short sets with rest that get longer each week until the continuous distance."
+ },
+ "sources": [
+  0,
+  6
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Technique",
+    "en": "Technique"
+   },
+   "de": 1,
+   "a": 2
+  },
+  {
+   "nom": {
+    "fr": "Séries",
+    "en": "Sets"
+   },
+   "de": 3,
+   "a": 6
+  },
+  {
+   "nom": {
+    "fr": "Distance",
+    "en": "Distance"
+   },
+   "de": 7,
+   "a": 8
+  }
+ ],
+ "seances": {
+  "nage-tech-10": {
+   "nom": {
+    "fr": "Technique de crawl, 10 × 25 m",
+    "en": "Front crawl technique, 10 × 25 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 4,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "battements avec planche, bras tendus",
+      "en": "kick with a board, arms straight"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 4,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "respiration sur 3 temps : souffle sous l'eau",
+      "en": "breathe every 3 strokes: exhale underwater"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 10,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "crawl complet, sans forcer",
+      "en": "full crawl, easy"
+     }
+    }
+   ]
+  },
+  "nage-continu-100": {
+   "nom": {
+    "fr": "Nage continue 100 m",
+    "en": "Continuous swim 100 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 100,
+     "zone": 2,
+     "note": {
+      "fr": "d'affilée, à ton allure",
+      "en": "non-stop, at your pace"
+     }
+    }
+   ]
+  },
+  "nage-tech-12": {
+   "nom": {
+    "fr": "Technique de crawl, 12 × 25 m",
+    "en": "Front crawl technique, 12 × 25 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 4,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "battements avec planche, bras tendus",
+      "en": "kick with a board, arms straight"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 4,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "respiration sur 3 temps : souffle sous l'eau",
+      "en": "breathe every 3 strokes: exhale underwater"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 12,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "crawl complet, sans forcer",
+      "en": "full crawl, easy"
+     }
+    }
+   ]
+  },
+  "nage-continu-150": {
+   "nom": {
+    "fr": "Nage continue 150 m",
+    "en": "Continuous swim 150 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 150,
+     "zone": 2,
+     "note": {
+      "fr": "d'affilée, à ton allure",
+      "en": "non-stop, at your pace"
+     }
+    }
+   ]
+  },
+  "nage-tech-8": {
+   "nom": {
+    "fr": "Technique de crawl, 8 × 25 m",
+    "en": "Front crawl technique, 8 × 25 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 4,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "battements avec planche, bras tendus",
+      "en": "kick with a board, arms straight"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 4,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "respiration sur 3 temps : souffle sous l'eau",
+      "en": "breathe every 3 strokes: exhale underwater"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 8,
+     "distanceM": 25,
+     "zone": 2,
+     "reposS": 30,
+     "note": {
+      "fr": "crawl complet, sans forcer",
+      "en": "full crawl, easy"
+     }
+    }
+   ]
+  },
+  "nage-8x50": {
+   "nom": {
+    "fr": "Séries 8 × 50 m",
+    "en": "Sets 8 × 50 m"
+   },
+   "type": "natation",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 200,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement, nages au choix",
+      "en": "warm-up, any stroke"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 8,
+     "distanceM": 50,
+     "zone": 3,
+     "reposS": 30,
+     "note": {
+      "fr": "crawl, allure régulière",
+      "en": "crawl, even pace"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 100,
+     "zone": 1,
+     "note": {
+      "fr": "récupération souple",
+      "en": "easy cool-down"
+     }
+    }
+   ]
+  },
+  "nage-continu-200": {
+   "nom": {
+    "fr": "Nage continue 200 m",
+    "en": "Continuous swim 200 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 200,
+     "zone": 2,
+     "note": {
+      "fr": "d'affilée, à ton allure",
+      "en": "non-stop, at your pace"
+     }
+    }
+   ]
+  },
+  "nage-continu-300": {
+   "nom": {
+    "fr": "Nage continue 300 m",
+    "en": "Continuous swim 300 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 300,
+     "zone": 2,
+     "note": {
+      "fr": "d'affilée, à ton allure",
+      "en": "non-stop, at your pace"
+     }
+    }
+   ]
+  },
+  "nage-6x100": {
+   "nom": {
+    "fr": "Séries 6 × 100 m",
+    "en": "Sets 6 × 100 m"
+   },
+   "type": "natation",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 200,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement, nages au choix",
+      "en": "warm-up, any stroke"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 6,
+     "distanceM": 100,
+     "zone": 3,
+     "reposS": 30,
+     "note": {
+      "fr": "crawl, allure régulière",
+      "en": "crawl, even pace"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 100,
+     "zone": 1,
+     "note": {
+      "fr": "récupération souple",
+      "en": "easy cool-down"
+     }
+    }
+   ]
+  },
+  "nage-continu-400": {
+   "nom": {
+    "fr": "Nage continue 400 m",
+    "en": "Continuous swim 400 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 400,
+     "zone": 2,
+     "note": {
+      "fr": "d'affilée, à ton allure",
+      "en": "non-stop, at your pace"
+     }
+    }
+   ]
+  },
+  "nage-4x200": {
+   "nom": {
+    "fr": "Séries 4 × 200 m",
+    "en": "Sets 4 × 200 m"
+   },
+   "type": "natation",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 200,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement, nages au choix",
+      "en": "warm-up, any stroke"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 4,
+     "distanceM": 200,
+     "zone": 3,
+     "reposS": 45,
+     "note": {
+      "fr": "crawl, allure régulière",
+      "en": "crawl, even pace"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 100,
+     "zone": 1,
+     "note": {
+      "fr": "récupération souple",
+      "en": "easy cool-down"
+     }
+    }
+   ]
+  },
+  "nage-continu-600": {
+   "nom": {
+    "fr": "Nage continue 600 m",
+    "en": "Continuous swim 600 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 600,
+     "zone": 2,
+     "note": {
+      "fr": "d'affilée, à ton allure",
+      "en": "non-stop, at your pace"
+     }
+    }
+   ]
+  },
+  "nage-3x400": {
+   "nom": {
+    "fr": "Séries 3 × 400 m",
+    "en": "Sets 3 × 400 m"
+   },
+   "type": "natation",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 200,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement, nages au choix",
+      "en": "warm-up, any stroke"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 3,
+     "distanceM": 400,
+     "zone": 3,
+     "reposS": 60,
+     "note": {
+      "fr": "crawl, allure régulière",
+      "en": "crawl, even pace"
+     }
+    },
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 100,
+     "zone": 1,
+     "note": {
+      "fr": "récupération souple",
+      "en": "easy cool-down"
+     }
+    }
+   ]
+  },
+  "nage-continu-800": {
+   "nom": {
+    "fr": "Nage continue 800 m",
+    "en": "Continuous swim 800 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 800,
+     "zone": 2,
+     "note": {
+      "fr": "d'affilée, à ton allure",
+      "en": "non-stop, at your pace"
+     }
+    }
+   ]
+  },
+  "nage-continu-1500": {
+   "nom": {
+    "fr": "Nage continue 1500 m",
+    "en": "Continuous swim 1500 m"
+   },
+   "type": "natation",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "natation",
+     "series": 1,
+     "distanceM": 1500,
+     "zone": 2,
+     "note": {
+      "fr": "d'affilée, à ton allure",
+      "en": "non-stop, at your pace"
+     }
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "éducatifs, 10 × 25 m",
+    "en": "drills, 10 × 25 m"
+   },
+   "seances": [
+    "nage-tech-10",
+    "nage-tech-10",
+    "nage-continu-100"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "éducatifs, 12 × 25 m",
+    "en": "drills, 12 × 25 m"
+   },
+   "seances": [
+    "nage-tech-12",
+    "nage-tech-12",
+    "nage-continu-150"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "8 × 50 m",
+    "en": "8 × 50 m"
+   },
+   "seances": [
+    "nage-tech-8",
+    "nage-8x50",
+    "nage-continu-200"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "8 × 50 m, 300 m continus",
+    "en": "8 × 50 m, 300 m continuous"
+   },
+   "seances": [
+    "nage-tech-8",
+    "nage-8x50",
+    "nage-continu-300"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "6 × 100 m",
+    "en": "6 × 100 m"
+   },
+   "seances": [
+    "nage-tech-8",
+    "nage-6x100",
+    "nage-continu-400"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "4 × 200 m",
+    "en": "4 × 200 m"
+   },
+   "seances": [
+    "nage-6x100",
+    "nage-4x200",
+    "nage-continu-600"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "3 × 400 m",
+    "en": "3 × 400 m"
+   },
+   "seances": [
+    "nage-4x200",
+    "nage-3x400",
+    "nage-continu-800"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "1 500 m d'affilée",
+    "en": "1,500 m non-stop"
+   },
+   "seances": [
+    "nage-4x200",
+    "nage-continu-800",
+    "nage-continu-1500"
+   ]
+  }
+ ],
+ "seanceType": "nage-6x100",
+ "exercicesPerso": {}
+}

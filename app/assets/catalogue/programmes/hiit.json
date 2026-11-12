@@ -1,0 +1,524 @@
+{
+ "id": "hiit",
+ "version": 1,
+ "nom": {
+  "fr": "HIIT à la maison",
+  "en": "HIIT at home"
+ },
+ "resume": {
+  "fr": "Intervalles courts au poids du corps, 20 min chrono.",
+  "en": "Short bodyweight intervals, 20 minutes flat."
+ },
+ "description": {
+  "fr": "Vingt minutes, sans matériel : des intervalles courts qui deviennent plus denses chaque deux semaines, jusqu'au Tabata.",
+  "en": "Twenty minutes, no equipment: short intervals that get denser every two weeks, up to Tabata."
+ },
+ "famille": "forme",
+ "type": "cross",
+ "objectifs": [
+  "maison",
+  "poids"
+ ],
+ "lieux": [
+  "maison"
+ ],
+ "niveau": 2,
+ "semaines": 6,
+ "seancesParSemaine": 3,
+ "picto": "hiit",
+ "gros": {
+  "valeur": "20",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Maison, sans matériel",
+  "en": "Home, no equipment"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Des efforts courts et intenses améliorent l'endurance et la santé métabolique en peu de temps. Le rapport effort / repos se resserre par paliers ; jamais deux jours de suite.",
+  "en": "Short, intense efforts improve endurance and metabolic health in little time. The work/rest ratio tightens in steps; never two days in a row."
+ },
+ "sources": [
+  4
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "30 s / 30 s",
+    "en": "30 s / 30 s"
+   },
+   "de": 1,
+   "a": 2
+  },
+  {
+   "nom": {
+    "fr": "40 s / 20 s",
+    "en": "40 s / 20 s"
+   },
+   "de": 3,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Tabata",
+    "en": "Tabata"
+   },
+   "de": 5,
+   "a": 5
+  },
+  {
+   "nom": {
+    "fr": "Semaine allégée",
+    "en": "Deload week"
+   },
+   "de": 6,
+   "a": 6
+  }
+ ],
+ "seances": {
+  "hiit-30-30-2": {
+   "nom": {
+    "fr": "HIIT 30 s / 30 s",
+    "en": "HIIT 30 s / 30 s"
+   },
+   "type": "cross",
+   "role": "dure",
+   "note": {
+    "fr": "Effort au maximum de ce que tu peux tenir, repos complet. Jamais deux jours de suite.",
+    "en": "Go as hard as you can sustain, rest fully. Never two days in a row."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "fast-skipping",
+     "series": 1,
+     "dureeS": 240,
+     "reposS": 60,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "échauffement : montées de genoux tranquilles",
+      "en": "warm-up: easy high knees"
+     }
+    },
+    {
+     "exo": "freehand-jump-squat",
+     "series": 2,
+     "dureeS": 30,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "mountain-climbers",
+     "series": 2,
+     "dureeS": 30,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "pushups",
+     "series": 2,
+     "dureeS": 30,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "perso:jumping-jack",
+     "series": 2,
+     "dureeS": 30,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "perso:burpee",
+     "series": 2,
+     "dureeS": 30,
+     "reposS": 30,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "childs-pose",
+     "series": 1,
+     "dureeS": 120,
+     "reposS": 0,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "hiit-40-20-2-6": {
+   "nom": {
+    "fr": "HIIT 40 s / 20 s",
+    "en": "HIIT 40 s / 20 s"
+   },
+   "type": "cross",
+   "role": "dure",
+   "note": {
+    "fr": "Effort au maximum de ce que tu peux tenir, repos complet. Jamais deux jours de suite.",
+    "en": "Go as hard as you can sustain, rest fully. Never two days in a row."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "fast-skipping",
+     "series": 1,
+     "dureeS": 240,
+     "reposS": 60,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "échauffement : montées de genoux tranquilles",
+      "en": "warm-up: easy high knees"
+     }
+    },
+    {
+     "exo": "freehand-jump-squat",
+     "series": 2,
+     "dureeS": 40,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    },
+    {
+     "exo": "mountain-climbers",
+     "series": 2,
+     "dureeS": 40,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    },
+    {
+     "exo": "pushups",
+     "series": 2,
+     "dureeS": 40,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    },
+    {
+     "exo": "perso:jumping-jack",
+     "series": 2,
+     "dureeS": 40,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    },
+    {
+     "exo": "perso:burpee",
+     "series": 2,
+     "dureeS": 40,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 2,
+     "dureeS": 40,
+     "reposS": 20,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    },
+    {
+     "exo": "childs-pose",
+     "series": 1,
+     "dureeS": 120,
+     "reposS": 0,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "hiit-tabata": {
+   "nom": {
+    "fr": "Tabata 8 × 20 s / 10 s",
+    "en": "Tabata 8 × 20 s / 10 s"
+   },
+   "type": "cross",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "fast-skipping",
+     "series": 1,
+     "dureeS": 240,
+     "reposS": 60,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "freehand-jump-squat",
+     "series": 8,
+     "dureeS": 20,
+     "reposS": 10,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "4 min : 8 × 20 s à fond, 10 s de repos",
+      "en": "4 min: 8 × 20 s all out, 10 s rest"
+     }
+    },
+    {
+     "exo": "mountain-climbers",
+     "series": 8,
+     "dureeS": 20,
+     "reposS": 10,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "souffle 2 min avant cet exercice",
+      "en": "rest 2 min before this exercise"
+     }
+    },
+    {
+     "exo": "perso:burpee",
+     "series": 8,
+     "dureeS": 20,
+     "reposS": 10,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "souffle 2 min avant cet exercice",
+      "en": "rest 2 min before this exercise"
+     }
+    },
+    {
+     "exo": "childs-pose",
+     "series": 1,
+     "dureeS": 120,
+     "reposS": 0,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "hiit-30-30-1": {
+   "nom": {
+    "fr": "HIIT 30 s / 30 s",
+    "en": "HIIT 30 s / 30 s"
+   },
+   "type": "cross",
+   "role": "dure",
+   "note": {
+    "fr": "Effort au maximum de ce que tu peux tenir, repos complet. Jamais deux jours de suite.",
+    "en": "Go as hard as you can sustain, rest fully. Never two days in a row."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "fast-skipping",
+     "series": 1,
+     "dureeS": 240,
+     "reposS": 60,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "échauffement : montées de genoux tranquilles",
+      "en": "warm-up: easy high knees"
+     }
+    },
+    {
+     "exo": "freehand-jump-squat",
+     "series": 1,
+     "dureeS": 30,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "mountain-climbers",
+     "series": 1,
+     "dureeS": 30,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "pushups",
+     "series": 1,
+     "dureeS": 30,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "perso:jumping-jack",
+     "series": 1,
+     "dureeS": 30,
+     "reposS": 0,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "perso:burpee",
+     "series": 1,
+     "dureeS": 30,
+     "reposS": 30,
+     "superset": 1,
+     "transitionS": 30,
+     "note": null
+    },
+    {
+     "exo": "childs-pose",
+     "series": 1,
+     "dureeS": 120,
+     "reposS": 0,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "30 s effort / 30 s repos",
+    "en": "30 s work / 30 s rest"
+   },
+   "seances": [
+    "hiit-30-30-2",
+    "hiit-30-30-2",
+    "hiit-30-30-2"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "30 s effort / 30 s repos",
+    "en": "30 s work / 30 s rest"
+   },
+   "seances": [
+    "hiit-30-30-2",
+    "hiit-30-30-2",
+    "hiit-30-30-2"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "40 s / 20 s",
+    "en": "40 s / 20 s"
+   },
+   "seances": [
+    "hiit-40-20-2-6",
+    "hiit-40-20-2-6",
+    "hiit-40-20-2-6"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "40 s / 20 s",
+    "en": "40 s / 20 s"
+   },
+   "seances": [
+    "hiit-40-20-2-6",
+    "hiit-40-20-2-6",
+    "hiit-40-20-2-6"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "Tabata 20 s / 10 s",
+    "en": "Tabata 20 s / 10 s"
+   },
+   "seances": [
+    "hiit-tabata",
+    "hiit-40-20-2-6",
+    "hiit-tabata"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 3,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "hiit-30-30-1",
+    "hiit-30-30-2",
+    "hiit-30-30-1"
+   ]
+  }
+ ],
+ "seanceType": "hiit-40-20-2-6",
+ "exercicesPerso": {
+  "jumping-jack": {
+   "nom": {
+    "fr": "Jumping jacks",
+    "en": "Jumping jacks"
+   },
+   "nature": "duree"
+  },
+  "burpee": {
+   "nom": {
+    "fr": "Burpees",
+    "en": "Burpees"
+   },
+   "nature": "duree"
+  }
+ }
+}

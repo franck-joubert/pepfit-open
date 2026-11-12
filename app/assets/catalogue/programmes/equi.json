@@ -1,0 +1,563 @@
+{
+ "id": "equi",
+ "version": 1,
+ "nom": {
+  "fr": "Force et équilibre après 60 ans",
+  "en": "Strength and balance after 60"
+ },
+ "resume": {
+  "fr": "Jambes, équilibre et prévention des chutes.",
+  "en": "Legs, balance and fall prevention."
+ },
+ "description": {
+  "fr": "Deux séances par semaine pour des jambes plus fortes et un meilleur équilibre : se lever d'une chaise, monter une marche, tenir sur un pied. Ce qui protège le mieux des chutes.",
+  "en": "Two sessions a week for stronger legs and better balance: getting up from a chair, stepping up, standing on one foot. What best protects against falls."
+ },
+ "famille": "sante",
+ "type": "mobilite",
+ "objectifs": [
+  "mobilite"
+ ],
+ "lieux": [
+  "maison"
+ ],
+ "niveau": 1,
+ "semaines": 8,
+ "seancesParSemaine": 2,
+ "picto": "montee-banc",
+ "gros": {
+  "valeur": "Équilibre",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Santé, maison",
+  "en": "Health, home"
+ },
+ "materiel": {
+  "fr": "Chaise, élastique",
+  "en": "Chair, band"
+ },
+ "avertissement": {
+  "fr": "Demande l'avis de ton médecin avant de commencer si tu as un problème de cœur, de tension, des vertiges ou une chute récente. Fais les exercices d'équilibre près d'un appui.",
+  "en": "Ask your doctor before starting if you have heart or blood-pressure problems, dizziness or a recent fall. Do the balance exercises near something to hold."
+ },
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "L'exercice d'équilibre et de force des jambes, deux fois par semaine ou plus, réduit les chutes d'environ un quart. Avec la marche, 3 heures d'activité par semaine sont visées.",
+  "en": "Balance and leg-strength exercise, twice a week or more, cuts falls by about a quarter. With walking, the aim is 3 hours of activity a week."
+ },
+ "sources": [
+  9,
+  5
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Mise en route",
+    "en": "Getting started"
+   },
+   "de": 1,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Progression",
+    "en": "Progression"
+   },
+   "de": 5,
+   "a": 8
+  }
+ ],
+ "seances": {
+  "equi-8-20": {
+   "nom": {
+    "fr": "Jambes, équilibre et haut du corps",
+    "en": "Legs, balance and upper body"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Avec la marche, vise 3 heures d'activité par semaine.",
+    "en": "With walking, aim for 3 hours of activity a week."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "chair-squat",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "se lever d'une chaise sans les mains",
+      "en": "stand up from a chair without your hands"
+     }
+    },
+    {
+     "exo": "dumbbell-step-ups",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "une marche d'escalier, la main sur la rampe ; chaque jambe",
+      "en": "one stair step, hand on the rail; each leg"
+     }
+    },
+    {
+     "exo": "perso:equilibre-unipodal",
+     "series": 3,
+     "dureeS": 20,
+     "reposS": 30,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "près d'un appui ; chaque pied",
+      "en": "near something to hold; each foot"
+     }
+    },
+    {
+     "exo": "perso:marche-talon-pointe",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "10 pas, talon contre la pointe, le long d'un mur",
+      "en": "10 steps, heel to toe, along a wall"
+     }
+    },
+    {
+     "exo": "band-pull-apart",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "bench-press-with-bands",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "debout, élastique dans le dos",
+      "en": "standing, band behind your back"
+     }
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  },
+  "equi-10-20": {
+   "nom": {
+    "fr": "Jambes, équilibre et haut du corps",
+    "en": "Legs, balance and upper body"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Avec la marche, vise 3 heures d'activité par semaine.",
+    "en": "With walking, aim for 3 hours of activity a week."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "chair-squat",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "se lever d'une chaise sans les mains",
+      "en": "stand up from a chair without your hands"
+     }
+    },
+    {
+     "exo": "dumbbell-step-ups",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "une marche d'escalier, la main sur la rampe ; chaque jambe",
+      "en": "one stair step, hand on the rail; each leg"
+     }
+    },
+    {
+     "exo": "perso:equilibre-unipodal",
+     "series": 3,
+     "dureeS": 20,
+     "reposS": 30,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "près d'un appui ; chaque pied",
+      "en": "near something to hold; each foot"
+     }
+    },
+    {
+     "exo": "perso:marche-talon-pointe",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "10 pas, talon contre la pointe, le long d'un mur",
+      "en": "10 steps, heel to toe, along a wall"
+     }
+    },
+    {
+     "exo": "band-pull-apart",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "bench-press-with-bands",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "debout, élastique dans le dos",
+      "en": "standing, band behind your back"
+     }
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  },
+  "equi-12-30": {
+   "nom": {
+    "fr": "Jambes, équilibre et haut du corps",
+    "en": "Legs, balance and upper body"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Avec la marche, vise 3 heures d'activité par semaine.",
+    "en": "With walking, aim for 3 hours of activity a week."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "chair-squat",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "se lever d'une chaise sans les mains",
+      "en": "stand up from a chair without your hands"
+     }
+    },
+    {
+     "exo": "dumbbell-step-ups",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "une marche d'escalier, la main sur la rampe ; chaque jambe",
+      "en": "one stair step, hand on the rail; each leg"
+     }
+    },
+    {
+     "exo": "perso:equilibre-unipodal",
+     "series": 3,
+     "dureeS": 30,
+     "reposS": 30,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "près d'un appui ; chaque pied",
+      "en": "near something to hold; each foot"
+     }
+    },
+    {
+     "exo": "perso:marche-talon-pointe",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "10 pas, talon contre la pointe, le long d'un mur",
+      "en": "10 steps, heel to toe, along a wall"
+     }
+    },
+    {
+     "exo": "band-pull-apart",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "bench-press-with-bands",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "debout, élastique dans le dos",
+      "en": "standing, band behind your back"
+     }
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "8 répétitions, 20 s sur un pied",
+    "en": "8 reps, 20 s on one foot"
+   },
+   "seances": [
+    "equi-8-20",
+    "equi-8-20"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "8 répétitions, 20 s sur un pied",
+    "en": "8 reps, 20 s on one foot"
+   },
+   "seances": [
+    "equi-8-20",
+    "equi-8-20"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "equi-10-20",
+    "equi-10-20"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "equi-10-20",
+    "equi-10-20"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "12 répétitions, 30 s sur un pied",
+    "en": "12 reps, 30 s on one foot"
+   },
+   "seances": [
+    "equi-12-30",
+    "equi-12-30"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "12 répétitions, 30 s sur un pied",
+    "en": "12 reps, 30 s on one foot"
+   },
+   "seances": [
+    "equi-12-30",
+    "equi-12-30"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "12 répétitions, 30 s sur un pied",
+    "en": "12 reps, 30 s on one foot"
+   },
+   "seances": [
+    "equi-12-30",
+    "equi-12-30"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "12 répétitions, 30 s sur un pied",
+    "en": "12 reps, 30 s on one foot"
+   },
+   "seances": [
+    "equi-12-30",
+    "equi-12-30"
+   ]
+  }
+ ],
+ "seanceType": "equi-12-30",
+ "exercicesPerso": {
+  "equilibre-unipodal": {
+   "nom": {
+    "fr": "Équilibre sur un pied",
+    "en": "Single-leg balance"
+   },
+   "nature": "duree"
+  },
+  "marche-talon-pointe": {
+   "nom": {
+    "fr": "Marche talon-pointe",
+    "en": "Heel-to-toe walk"
+   },
+   "nature": "reps"
+  }
+ }
+}

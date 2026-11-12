@@ -1,0 +1,9 @@
+{
+  "platforms": ["android", "apple"],
+  "android": {
+    "modules": ["fit.pep.alarme.PepfitAlarmeModule"]
+  },
+  "apple": {
+    "modules": ["PepfitAlarmeModule"]
+  }
+}

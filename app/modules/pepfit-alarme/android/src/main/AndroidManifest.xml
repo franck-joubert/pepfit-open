@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Alarme de fin de sieste (comme une appli Horloge) : AlarmManager.setAlarmClock (SCHEDULE_EXACT_ALARM est dans app.json), un
+       service de premier plan court qui joue le son sur le flux ALARME et fait vibrer en USAGE_ALARM (Ne pas déranger en
+       « priorité » et « alarmes seulement » laisse passer), une notification plein écran sur l'écran verrouillé, et le rappel
+       de l'alarme après un redémarrage du téléphone. Déclaration Play Console du service « mediaPlayback » : docs/PUBLICATION.md. -->
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+  <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+  <application>
+    <service
+      android:name="fit.pep.alarme.AlarmeService"
+      android:exported="false"
+      android:foregroundServiceType="mediaPlayback" />
+    <receiver android:name="fit.pep.alarme.AlarmeRecepteur" android:exported="false" />
+    <receiver android:name="fit.pep.alarme.AlarmeDemarrage" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+        <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

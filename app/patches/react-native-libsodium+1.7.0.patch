@@ -1,0 +1,46 @@
+diff --git a/node_modules/react-native-libsodium/ios/Libsodium.mm b/node_modules/react-native-libsodium/ios/Libsodium.mm
+index fbc745d..c0b8503 100644
+--- a/node_modules/react-native-libsodium/ios/Libsodium.mm
++++ b/node_modules/react-native-libsodium/ios/Libsodium.mm
+@@ -1,7 +1,8 @@
+ #import "Libsodium.h"
+-#import <React/RCTBridge+Private.h>
++#import <React/RCTBridge.h>
+ #import <React/RCTUtils.h>
+ #import <React/RCTLog.h>
++#import <objc/message.h>
+ #import "react-native-libsodium.h"
+ 
+ @implementation Libsodium
+@@ -10,17 +11,26 @@
+ 
+ RCT_EXPORT_MODULE()
+ 
++// Pont classique (RCTCxxBridge) comme mode sans pont (RCTBridgeProxy, nouvelle architecture,
++// react-native >= 0.74) exposent tous deux `- (void *)runtime`. RCTCxxBridge n'a plus de
++// en-tête public : on appelle donc le sélecteur dynamiquement.
+ RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(install) {
+ 
+   RCTLogInfo(@"installing libsodium");
+-  RCTCxxBridge *cxxBridge = (RCTCxxBridge *)self.bridge;
+-  if (!cxxBridge.runtime) {
+-    RCTLogInfo(@"libsodium install failure: no cxx bridge runtime");
++  SEL runtimeSelector = NSSelectorFromString(@"runtime");
++  id bridge = self.bridge;
++  if (bridge == nil || ![bridge respondsToSelector:runtimeSelector]) {
++    RCTLogInfo(@"libsodium install failure: bridge without runtime");
++    return nil;
++  }
++  void *runtime = ((void *(*)(id, SEL))objc_msgSend)(bridge, runtimeSelector);
++  if (runtime == NULL) {
++    RCTLogInfo(@"libsodium install failure: no runtime");
+     return nil;
+   }
+ 
+-  RCTLogInfo(@"calling installLibsodium with cxx bridge runtime");
+-  ReactNativeLibsodium::installLibsodium(*(facebook::jsi::Runtime *)cxxBridge.runtime);
++  RCTLogInfo(@"calling installLibsodium with bridge runtime");
++  ReactNativeLibsodium::installLibsodium(*(facebook::jsi::Runtime *)runtime);
+   return nil;
+ }
+ 

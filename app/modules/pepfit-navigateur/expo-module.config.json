@@ -1,0 +1,9 @@
+{
+  "platforms": ["android", "apple"],
+  "android": {
+    "modules": ["fit.pep.navigateur.PepfitNavigateurModule"]
+  },
+  "apple": {
+    "modules": ["PepfitNavigateurModule"]
+  }
+}

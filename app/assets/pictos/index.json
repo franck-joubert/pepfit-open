@@ -1,0 +1,4461 @@
+{
+ "tirage-vertical": {
+  "nom": "Tirage vertical à la poulie",
+  "hevy": "Lat Pulldown (Cable)",
+  "picto": "tirage-vertical",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-vertical-512.webp",
+   "cadre-128": "tirage-vertical-cadre-128.webp"
+  }
+ },
+ "triceps-corde": {
+  "nom": "Extension triceps à la corde",
+  "hevy": "Triceps Rope Pushdown",
+  "picto": "triceps-corde",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-corde-512.webp",
+   "cadre-128": "triceps-corde-cadre-128.webp"
+  }
+ },
+ "couche-smith": {
+  "nom": "Développé couché à la Smith",
+  "hevy": "Bench Press (Smith Machine)",
+  "picto": "couche-smith",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules",
+   "triceps"
+  ],
+  "fichiers": {
+   "512": "couche-smith-512.webp",
+   "cadre-128": "couche-smith-cadre-128.webp"
+  }
+ },
+ "tirage-horizontal": {
+  "nom": "Tirage horizontal assis, barre",
+  "hevy": "Seated Cable Row - Bar Grip",
+  "picto": "tirage-horizontal",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-horizontal-512.webp",
+   "cadre-128": "tirage-horizontal-cadre-128.webp"
+  }
+ },
+ "incline-halteres": {
+  "nom": "Développé incliné aux haltères",
+  "hevy": "Incline Bench Press (Dumbbell)",
+  "picto": "incline-halteres",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "incline-halteres-512.webp",
+   "cadre-128": "incline-halteres-cadre-128.webp"
+  }
+ },
+ "curl-corde": {
+  "nom": "Curl à la corde, poulie basse",
+  "hevy": "Rope Cable Curl",
+  "picto": "curl-corde",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-corde-512.webp",
+   "cadre-128": "curl-corde-cadre-128.webp"
+  }
+ },
+ "triceps-barre": {
+  "nom": "Extension triceps à la barre, poulie haute",
+  "hevy": "Triceps Pushdown",
+  "picto": "triceps-barre",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-barre-512.webp",
+   "cadre-128": "triceps-barre-cadre-128.webp"
+  }
+ },
+ "tractions": {
+  "nom": "Tractions pronation",
+  "hevy": "Pull Up",
+  "picto": "tractions",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tractions-512.webp",
+   "cadre-128": "tractions-cadre-128.webp"
+  }
+ },
+ "triceps-haltere-unilateral": {
+  "nom": "Extension triceps unilatérale à l'haltère",
+  "hevy": "Single Arm Tricep Extension (Dumbbell)",
+  "picto": "triceps-haltere-unilateral",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-haltere-unilateral-512.webp",
+   "cadre-128": "triceps-haltere-unilateral-cadre-128.webp"
+  }
+ },
+ "tractions-supination": {
+  "nom": "Tractions supination",
+  "hevy": "Chin Up",
+  "picto": "tractions-supination",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tractions-supination-512.webp",
+   "cadre-128": "tractions-supination-cadre-128.webp"
+  }
+ },
+ "pec-deck": {
+  "nom": "Pec deck (butterfly)",
+  "hevy": "Butterfly (Pec Deck)",
+  "picto": "pec-deck",
+  "principal": "Pectoraux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "pec-deck-512.webp",
+   "cadre-128": "pec-deck-cadre-128.webp"
+  }
+ },
+ "curl-barre": {
+  "nom": "Curl à la barre",
+  "hevy": "Bicep Curl (Barbell)",
+  "picto": "curl-barre",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-barre-512.webp",
+   "cadre-128": "curl-barre-cadre-128.webp"
+  }
+ },
+ "padel": {
+  "nom": "Padel",
+  "hevy": "Padel",
+  "picto": "padel",
+  "principal": "Épaule du bras de frappe",
+  "secondaires": [
+   "Avant-bras",
+   "obliques"
+  ],
+  "fichiers": {
+   "512": "padel-512.webp",
+   "cadre-128": "padel-cadre-128.webp"
+  }
+ },
+ "curl-halteres": {
+  "nom": "Curl aux haltères",
+  "hevy": "Bicep Curl (Dumbbell)",
+  "picto": "curl-halteres",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-halteres-512.webp",
+   "cadre-128": "curl-halteres-cadre-128.webp"
+  }
+ },
+ "leg-extension": {
+  "nom": "Leg extension",
+  "hevy": "Leg Extension (Machine)",
+  "picto": "leg-extension",
+  "principal": "Quadriceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "leg-extension-512.webp",
+   "cadre-128": "leg-extension-cadre-128.webp"
+  }
+ },
+ "presse-horizontale": {
+  "nom": "Presse à cuisses horizontale",
+  "hevy": "Leg Press Horizontal (Machine)",
+  "picto": "presse-horizontale",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers",
+   "ischios"
+  ],
+  "fichiers": {
+   "512": "presse-horizontale-512.webp",
+   "cadre-128": "presse-horizontale-cadre-128.webp"
+  }
+ },
+ "decline-machine": {
+  "nom": "Développé décliné à la machine",
+  "hevy": "Decline Bench Press (Machine)",
+  "picto": "decline-machine",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules",
+   "triceps"
+  ],
+  "fichiers": {
+   "512": "decline-machine-512.webp",
+   "cadre-128": "decline-machine-cadre-128.webp"
+  }
+ },
+ "leg-curl-assis": {
+  "nom": "Leg curl assis",
+  "hevy": "Seated Leg Curl (Machine)",
+  "picto": "leg-curl-assis",
+  "principal": "Ischios",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "leg-curl-assis-512.webp",
+   "cadre-128": "leg-curl-assis-cadre-128.webp"
+  }
+ },
+ "pompes-halteres": {
+  "nom": "Pompes sur haltères",
+  "hevy": "Pompes sur haltères",
+  "picto": "pompes-halteres",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pompes-halteres-512.webp",
+   "cadre-128": "pompes-halteres-cadre-128.webp"
+  }
+ },
+ "pompes-serrees": {
+  "nom": "Pompes prise serrée",
+  "hevy": "Push Up - Close Grip",
+  "picto": "pompes-serrees",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "pompes-serrees-512.webp",
+   "cadre-128": "pompes-serrees-cadre-128.webp"
+  }
+ },
+ "abduction-machine": {
+  "nom": "Abduction à la machine",
+  "hevy": "Hip Abduction (Machine)",
+  "picto": "abduction-machine",
+  "principal": "Abducteurs",
+  "secondaires": [],
+  "fichiers": {
+   "512": "abduction-machine-512.webp",
+   "cadre-128": "abduction-machine-cadre-128.webp"
+  }
+ },
+ "pullover-poulie": {
+  "nom": "Pull-over à la poulie, bras tendus",
+  "hevy": "Straight Arm Lat Pulldown (Cable)",
+  "picto": "pullover-poulie",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pullover-poulie-512.webp",
+   "cadre-128": "pullover-poulie-cadre-128.webp"
+  }
+ },
+ "ecarte-poulie": {
+  "nom": "Écarté à la poulie vis-à-vis",
+  "hevy": "Cable Fly Crossovers",
+  "picto": "ecarte-poulie",
+  "principal": "Pectoraux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "ecarte-poulie-512.webp",
+   "cadre-128": "ecarte-poulie-cadre-128.webp"
+  }
+ },
+ "elevations-laterales": {
+  "nom": "Élévations latérales aux haltères",
+  "hevy": "Lateral Raise (Dumbbell)",
+  "picto": "elevations-laterales",
+  "principal": "Épaules (faisceau latéral)",
+  "secondaires": [],
+  "fichiers": {
+   "512": "elevations-laterales-512.webp",
+   "cadre-128": "elevations-laterales-cadre-128.webp"
+  }
+ },
+ "developpe-epaules-halteres": {
+  "nom": "Développé épaules aux haltères",
+  "hevy": "Shoulder Press (Dumbbell)",
+  "picto": "developpe-epaules-halteres",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-epaules-halteres-512.webp",
+   "cadre-128": "developpe-epaules-halteres-cadre-128.webp"
+  }
+ },
+ "elevations-frontales": {
+  "nom": "Élévations frontales aux haltères",
+  "hevy": "Front Raise (Dumbbell)",
+  "picto": "elevations-frontales",
+  "principal": "Épaules (faisceau avant)",
+  "secondaires": [],
+  "fichiers": {
+   "512": "elevations-frontales-512.webp",
+   "cadre-128": "elevations-frontales-cadre-128.webp"
+  }
+ },
+ "triceps-poulie": {
+  "nom": "Extension triceps à la poulie",
+  "hevy": "Triceps Extension (Cable)",
+  "picto": "triceps-poulie",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-poulie-512.webp",
+   "cadre-128": "triceps-poulie-cadre-128.webp"
+  }
+ },
+ "ecarte-poulie-basse": {
+  "nom": "Écarté à la poulie basse",
+  "hevy": "Low Cable Fly Crossovers",
+  "picto": "ecarte-poulie-basse",
+  "principal": "Pectoraux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "ecarte-poulie-basse-512.webp",
+   "cadre-128": "ecarte-poulie-basse-cadre-128.webp"
+  }
+ },
+ "elevation-laterale-poulie-unilaterale": {
+  "nom": "Élévation latérale unilatérale à la poulie",
+  "hevy": "Single Arm Lateral Raise (Cable)",
+  "picto": "elevation-laterale-poulie-unilaterale",
+  "principal": "Épaules (faisceau latéral)",
+  "secondaires": [],
+  "fichiers": {
+   "512": "elevation-laterale-poulie-unilaterale-512.webp",
+   "cadre-128": "elevation-laterale-poulie-unilaterale-cadre-128.webp"
+  }
+ },
+ "rowing-iso-lateral": {
+  "nom": "Rowing iso-latéral à la machine",
+  "hevy": "Iso-Lateral Row (Machine)",
+  "picto": "rowing-iso-lateral",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-iso-lateral-512.webp",
+   "cadre-128": "rowing-iso-lateral-cadre-128.webp"
+  }
+ },
+ "face-pull": {
+  "nom": "Face pull",
+  "hevy": "Face Pull",
+  "picto": "face-pull",
+  "principal": "Arrière d'épaule",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "face-pull-512.webp",
+   "cadre-128": "face-pull-cadre-128.webp"
+  }
+ },
+ "crunch-machine": {
+  "nom": "Crunch à la machine",
+  "hevy": "Crunch (Machine)",
+  "picto": "crunch-machine",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-machine-512.webp",
+   "cadre-128": "crunch-machine-cadre-128.webp"
+  }
+ },
+ "hip-thrust-machine": {
+  "nom": "Hip thrust à la machine",
+  "hevy": "Hip Thrust (Machine)",
+  "picto": "hip-thrust-machine",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios",
+   "quadriceps"
+  ],
+  "fichiers": {
+   "512": "hip-thrust-machine-512.webp",
+   "cadre-128": "hip-thrust-machine-cadre-128.webp"
+  }
+ },
+ "cardio": {
+  "nom": "Cardio",
+  "hevy": "Cardio",
+  "picto": "cardio",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "cardio-512.webp",
+   "cadre-128": "cardio-cadre-128.webp"
+  }
+ },
+ "curl-pupitre-haltere": {
+  "nom": "Curl au pupitre à l'haltère",
+  "hevy": "Preacher Curl (Dumbbell)",
+  "picto": "curl-pupitre-haltere",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-pupitre-haltere-512.webp",
+   "cadre-128": "curl-pupitre-haltere-cadre-128.webp"
+  }
+ },
+ "developpe-epaules-machine": {
+  "nom": "Développé épaules à la machine",
+  "hevy": "Seated Shoulder Press (Machine)",
+  "picto": "developpe-epaules-machine",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-epaules-machine-512.webp",
+   "cadre-128": "developpe-epaules-machine-cadre-128.webp"
+  }
+ },
+ "developpe-assis-halteres": {
+  "nom": "Développé assis aux haltères",
+  "hevy": "Seated Overhead Press (Dumbbell)",
+  "picto": "developpe-assis-halteres",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-assis-halteres-512.webp",
+   "cadre-128": "developpe-assis-halteres-cadre-128.webp"
+  }
+ },
+ "triceps-nuque-poulie": {
+  "nom": "Extension triceps au-dessus de la tête, poulie",
+  "hevy": "Overhead Triceps Extension (Cable)",
+  "picto": "triceps-nuque-poulie",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-nuque-poulie-512.webp",
+   "cadre-128": "triceps-nuque-poulie-cadre-128.webp"
+  }
+ },
+ "releve-jambes-suspendu": {
+  "nom": "Relevé de jambes suspendu",
+  "hevy": "Hanging Leg Raise",
+  "picto": "releve-jambes-suspendu",
+  "principal": "Abdominaux",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "releve-jambes-suspendu-512.webp",
+   "cadre-128": "releve-jambes-suspendu-cadre-128.webp"
+  }
+ },
+ "dips-triceps": {
+  "nom": "Dips triceps",
+  "hevy": "Triceps Dip",
+  "picto": "dips-triceps",
+  "principal": "Triceps",
+  "secondaires": [
+   "Pectoraux",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "dips-triceps-512.webp",
+   "cadre-128": "dips-triceps-cadre-128.webp"
+  }
+ },
+ "arriere-epaule": {
+  "nom": "Arrière d'épaule",
+  "hevy": "Back Shoulder",
+  "picto": "arriere-epaule",
+  "principal": "Arrière d'épaule",
+  "secondaires": [],
+  "fichiers": {
+   "512": "arriere-epaule-512.webp",
+   "cadre-128": "arriere-epaule-cadre-128.webp"
+  }
+ },
+ "souleve-roumain-halteres": {
+  "nom": "Soulevé de terre roumain aux haltères",
+  "hevy": "Romanian Deadlift (Dumbbell)",
+  "picto": "souleve-roumain-halteres",
+  "principal": "Ischios",
+  "secondaires": [],
+  "fichiers": {
+   "512": "souleve-roumain-halteres-512.webp",
+   "cadre-128": "souleve-roumain-halteres-cadre-128.webp"
+  }
+ },
+ "mollets-debout": {
+  "nom": "Mollets debout à la machine",
+  "hevy": "Standing Calf Raise (Machine)",
+  "picto": "mollets-debout",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-debout-512.webp",
+   "cadre-128": "mollets-debout-cadre-128.webp"
+  }
+ },
+ "roue-abdos": {
+  "nom": "Roue abdominale",
+  "hevy": "Ab Wheel",
+  "picto": "roue-abdos",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "roue-abdos-512.webp",
+   "cadre-128": "roue-abdos-cadre-128.webp"
+  }
+ },
+ "boxe": {
+  "nom": "Boxe",
+  "hevy": "Boxing",
+  "picto": "boxe",
+  "principal": "Épaule et triceps du bras qui frappe",
+  "secondaires": [
+   "Obliques"
+  ],
+  "fichiers": {
+   "512": "boxe-512.webp",
+   "cadre-128": "boxe-cadre-128.webp"
+  }
+ },
+ "presse-pectoraux": {
+  "nom": "Presse à pectoraux",
+  "hevy": "Chest Press (Machine)",
+  "picto": "developpe-poitrine-machine",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-poitrine-machine-512.webp",
+   "cadre-128": "developpe-poitrine-machine-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "pompes": {
+  "nom": "Pompes",
+  "hevy": "Push Up",
+  "picto": "pompes",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "pompes-512.webp",
+   "cadre-128": "pompes-cadre-128.webp"
+  }
+ },
+ "couche": {
+  "nom": "Développé couché à la barre",
+  "hevy": "Bench Press (Barbell)",
+  "picto": "couche",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "couche-512.webp",
+   "cadre-128": "couche-cadre-128.webp"
+  }
+ },
+ "crunch-velo": {
+  "nom": "Crunch vélo",
+  "hevy": "Bicycle",
+  "picto": "air-bike",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "air-bike-512.webp",
+   "cadre-128": "air-bike-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "crunch": {
+  "nom": "Crunch",
+  "hevy": "Crunch",
+  "picto": "crunch",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-512.webp",
+   "cadre-128": "crunch-cadre-128.webp"
+  }
+ },
+ "gainage-genou": {
+  "nom": "Gainage, genou à la poitrine",
+  "hevy": "Full Plank Knee",
+  "picto": "mountain-climbers",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Pectoraux",
+   "ischios",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "mountain-climbers-512.webp",
+   "cadre-128": "mountain-climbers-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "gainage": {
+  "nom": "Gainage",
+  "hevy": "Gainage",
+  "picto": "gainage",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "gainage-512.webp",
+   "cadre-128": "gainage-cadre-128.webp"
+  }
+ },
+ "releve-bassin": {
+  "nom": "Relevé de bassin",
+  "hevy": "Hip Raise",
+  "picto": "releve-bassin",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "releve-bassin-512.webp",
+   "cadre-128": "releve-bassin-cadre-128.webp"
+  }
+ },
+ "releve-genoux": {
+  "nom": "Relevé de genoux",
+  "hevy": "Knee Raise",
+  "picto": "releve-genoux",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "releve-genoux-512.webp",
+   "cadre-128": "releve-genoux-cadre-128.webp"
+  }
+ },
+ "tirage-vertical-serre": {
+  "nom": "Tirage vertical prise serrée",
+  "hevy": "Lat Pulldown - Close Grip (Cable)",
+  "picto": "tirage-prise-neutre",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-prise-neutre-512.webp",
+   "cadre-128": "tirage-prise-neutre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "elevation-laterale-poulie": {
+  "nom": "Élévation latérale à la poulie",
+  "hevy": "Lateral Raise (Cable)",
+  "picto": "elevation-laterale-poulie-unilaterale",
+  "principal": "Épaules (faisceau latéral)",
+  "secondaires": [],
+  "fichiers": {
+   "512": "elevation-laterale-poulie-unilaterale-512.webp",
+   "cadre-128": "elevation-laterale-poulie-unilaterale-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "releve-jambes-negatif": {
+  "nom": "Relevé de jambes en négatif",
+  "hevy": "Leg Raise Negative",
+  "picto": "releve-jambes-sol",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "releve-jambes-sol-512.webp",
+   "cadre-128": "releve-jambes-sol-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "pendule": {
+  "nom": "Pendule",
+  "hevy": "Pendulum",
+  "picto": "releve-jambes-sol",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "releve-jambes-sol-512.webp",
+   "cadre-128": "releve-jambes-sol-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "gainage-sauts": {
+  "nom": "Gainage sauté",
+  "hevy": "Plank Jumps",
+  "picto": "gainage",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "gainage-512.webp",
+   "cadre-128": "gainage-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "gainage-genou-lateral": {
+  "nom": "Gainage, genou sur le côté",
+  "hevy": "Plank Side Knee",
+  "picto": "spider-crawl",
+  "principal": "Abdominaux",
+  "secondaires": [
+   "Pectoraux",
+   "épaules",
+   "triceps"
+  ],
+  "fichiers": {
+   "512": "spider-crawl-512.webp",
+   "cadre-128": "spider-crawl-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "pullover-corde": {
+  "nom": "Pull-over à la corde",
+  "hevy": "Rope Straight Arm Pulldown",
+  "picto": "pullover-poulie",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pullover-poulie-512.webp",
+   "cadre-128": "pullover-poulie-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "ciseaux": {
+  "nom": "Ciseaux",
+  "hevy": "Scissors",
+  "picto": "scissor-kick",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "scissor-kick-512.webp",
+   "cadre-128": "scissor-kick-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "couche-halteres": {
+  "nom": "Développé couché aux haltères",
+  "hevy": "Bench Press (Dumbbell)",
+  "picto": "couche-halteres",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules",
+   "triceps"
+  ],
+  "fichiers": {
+   "512": "couche-halteres-512.webp",
+   "cadre-128": "couche-halteres-cadre-128.webp"
+  }
+ },
+ "cardio-2": {
+  "nom": "Cardio",
+  "hevy": "Cardio",
+  "picto": "cardio",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "cardio-512.webp",
+   "cadre-128": "cardio-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "cours-hiit": {
+  "nom": "Cours HIIT",
+  "hevy": "Cours HIIT",
+  "picto": "hiit",
+  "principal": "Épaules",
+  "secondaires": [
+   "Quadriceps",
+   "avant-bras"
+  ],
+  "fichiers": {
+   "512": "hiit-512.webp",
+   "cadre-128": "hiit-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "decline-barre": {
+  "nom": "Développé décliné à la barre",
+  "hevy": "Decline Bench Press (Barbell)",
+  "picto": "decline-barre",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules",
+   "triceps"
+  ],
+  "fichiers": {
+   "512": "decline-barre-512.webp",
+   "cadre-128": "decline-barre-cadre-128.webp"
+  }
+ },
+ "incline-barre": {
+  "nom": "Développé incliné à la barre",
+  "hevy": "Incline Bench Press (Barbell)",
+  "picto": "incline-barre",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules",
+   "triceps"
+  ],
+  "fichiers": {
+   "512": "incline-barre-512.webp",
+   "cadre-128": "incline-barre-cadre-128.webp"
+  }
+ },
+ "cardio-3": {
+  "nom": "Cardio",
+  "hevy": "Cardio",
+  "picto": "cardio",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "cardio-512.webp",
+   "cadre-128": "cardio-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "crunch-2": {
+  "nom": "Crunch",
+  "hevy": "Crunch",
+  "picto": "crunch",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-512.webp",
+   "cadre-128": "crunch-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "elevation-frontale-poulie": {
+  "nom": "Élévation frontale à la poulie",
+  "hevy": "Front Raise (Cable)",
+  "picto": "elevation-frontale-poulie",
+  "principal": "Épaules (faisceau avant)",
+  "secondaires": [],
+  "fichiers": {
+   "512": "elevation-frontale-poulie-512.webp",
+   "cadre-128": "elevation-frontale-poulie-cadre-128.webp"
+  }
+ },
+ "hiit": {
+  "nom": "HIIT",
+  "hevy": "HIIT",
+  "picto": "hiit",
+  "principal": "Épaules",
+  "secondaires": [
+   "Quadriceps",
+   "avant-bras"
+  ],
+  "fichiers": {
+   "512": "hiit-512.webp",
+   "cadre-128": "hiit-cadre-128.webp"
+  }
+ },
+ "hollow-rock": {
+  "nom": "Hollow rock",
+  "hevy": "Hollow Rock",
+  "picto": "hollow-rock",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "hollow-rock-512.webp",
+   "cadre-128": "hollow-rock-cadre-128.webp"
+  }
+ },
+ "tirage-vertical-machine": {
+  "nom": "Tirage vertical à la machine",
+  "hevy": "Lat Pulldown (Machine)",
+  "picto": "tirage-vertical",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-vertical-512.webp",
+   "cadre-128": "tirage-vertical-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "rowing-sangles": {
+  "nom": "Rowing aux sangles",
+  "hevy": "Low Row (Suspension)",
+  "picto": "rowing-sangles",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-sangles-512.webp",
+   "cadre-128": "rowing-sangles-cadre-128.webp"
+  }
+ },
+ "curl-poulie-haute": {
+  "nom": "Curl à la poulie haute",
+  "hevy": "Overhead Curl (Cable)",
+  "picto": "curl-poulie-haute",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-poulie-haute-512.webp",
+   "cadre-128": "curl-poulie-haute-cadre-128.webp"
+  }
+ },
+ "oiseau-machine": {
+  "nom": "Oiseau à la machine",
+  "hevy": "Rear Delt Reverse Fly (Machine)",
+  "picto": "oiseau-machine",
+  "principal": "Arrière d'épaule",
+  "secondaires": [
+   "Haut du dos"
+  ],
+  "fichiers": {
+   "512": "oiseau-machine-512.webp",
+   "cadre-128": "oiseau-machine-cadre-128.webp"
+  }
+ },
+ "dips-machine": {
+  "nom": "Dips assis à la machine",
+  "hevy": "Seated Dip Machine",
+  "picto": "dips-machine",
+  "principal": "Triceps",
+  "secondaires": [
+   "Pectoraux"
+  ],
+  "fichiers": {
+   "512": "dips-machine-512.webp",
+   "cadre-128": "dips-machine-cadre-128.webp"
+  }
+ },
+ "rowing-assis-machine": {
+  "nom": "Rowing assis à la machine",
+  "hevy": "Seated Row (Machine)",
+  "picto": "rowing-iso-lateral",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-iso-lateral-512.webp",
+   "cadre-128": "rowing-iso-lateral-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "barre-front-halteres": {
+  "nom": "Barre au front aux haltères",
+  "hevy": "Skullcrusher (Dumbbell)",
+  "picto": "barre-front-halteres",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "barre-front-halteres-512.webp",
+   "cadre-128": "barre-front-halteres-cadre-128.webp"
+  }
+ },
+ "squat-poids-du-corps": {
+  "nom": "Squat au poids du corps",
+  "hevy": "Squat (Bodyweight)",
+  "picto": "squat-poids-du-corps",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers",
+   "ischios"
+  ],
+  "fichiers": {
+   "512": "squat-poids-du-corps-512.webp",
+   "cadre-128": "squat-poids-du-corps-cadre-128.webp"
+  }
+ },
+ "elevation-genoux": {
+  "nom": "Élévation de genoux",
+  "hevy": "Élévation Genoux",
+  "picto": "releve-genoux",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "releve-genoux-512.webp",
+   "cadre-128": "releve-genoux-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "squat": {
+  "nom": "Squat barre",
+  "hevy": "",
+  "picto": "squat",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "squat-512.webp",
+   "cadre-128": "squat-cadre-128.webp"
+  }
+ },
+ "sdt": {
+  "nom": "Soulevé de terre",
+  "hevy": "",
+  "picto": "sdt",
+  "principal": "Ischios, fessiers",
+  "secondaires": [
+   "Lombaires"
+  ],
+  "fichiers": {
+   "512": "sdt-512.webp",
+   "cadre-128": "sdt-cadre-128.webp"
+  }
+ },
+ "bent-over-barbell-row": {
+  "nom": "Rowing barre penché",
+  "hevy": "",
+  "picto": "rowing-barre",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-barre-512.webp",
+   "cadre-128": "rowing-barre-cadre-128.webp"
+  }
+ },
+ "reverse-grip-bent-over-rows": {
+  "nom": "Rowing inversé prise penché au-dessus (Barre)",
+  "hevy": "",
+  "picto": "rowing-barre",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-barre-512.webp",
+   "cadre-128": "rowing-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "one-arm-dumbbell-row": {
+  "nom": "Rowing un bras (Haltère)",
+  "hevy": "",
+  "picto": "rowing-haltere",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-haltere-512.webp",
+   "cadre-128": "rowing-haltere-cadre-128.webp"
+  }
+ },
+ "bent-over-two-dumbbell-row": {
+  "nom": "Rowing penché au-dessus deux (Haltère)",
+  "hevy": "",
+  "picto": "rowing-deux-halteres",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-deux-halteres-512.webp",
+   "cadre-128": "rowing-deux-halteres-cadre-128.webp"
+  }
+ },
+ "bent-over-two-dumbbell-row-with-palms-in": {
+  "nom": "Rowing penché au-dessus deux paumes dans (Haltère)",
+  "hevy": "",
+  "picto": "rowing-deux-halteres",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-deux-halteres-512.webp",
+   "cadre-128": "rowing-deux-halteres-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "t-bar-row-with-handle": {
+  "nom": "Rowing T Handle (Barre)",
+  "hevy": "",
+  "picto": "rowing-t-bar",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-t-bar-512.webp",
+   "cadre-128": "rowing-t-bar-cadre-128.webp"
+  }
+ },
+ "standing-military-press": {
+  "nom": "Développé militaire (Barre)",
+  "hevy": "",
+  "picto": "developpe-militaire",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-militaire-512.webp",
+   "cadre-128": "developpe-militaire-cadre-128.webp"
+  }
+ },
+ "barbell-shoulder-press": {
+  "nom": "Développé épaules (Barre)",
+  "hevy": "",
+  "picto": "developpe-militaire",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-militaire-512.webp",
+   "cadre-128": "developpe-militaire-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "seated-barbell-military-press": {
+  "nom": "Développé militaire assis (Barre)",
+  "hevy": "",
+  "picto": "developpe-militaire",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-militaire-512.webp",
+   "cadre-128": "developpe-militaire-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "arnold-dumbbell-press": {
+  "nom": "Développé Arnold (Haltère)",
+  "hevy": "",
+  "picto": "arnold-press",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "arnold-press-512.webp",
+   "cadre-128": "arnold-press-cadre-128.webp"
+  }
+ },
+ "smith-machine-overhead-shoulder-press": {
+  "nom": "Développé épaules Smith au-dessus de la tête (Machine)",
+  "hevy": "",
+  "picto": "developpe-epaules-smith",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-epaules-smith-512.webp",
+   "cadre-128": "developpe-epaules-smith-cadre-128.webp"
+  }
+ },
+ "front-squat-clean-grip": {
+  "nom": "Épaulé avant Squat prise (Barre)",
+  "hevy": "",
+  "picto": "squat-avant",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "squat-avant-512.webp",
+   "cadre-128": "squat-avant-cadre-128.webp"
+  }
+ },
+ "goblet-squat": {
+  "nom": "Squat goblet (Kettlebell)",
+  "hevy": "",
+  "picto": "squat-gobelet",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "squat-gobelet-512.webp",
+   "cadre-128": "squat-gobelet-cadre-128.webp"
+  }
+ },
+ "split-squat-with-dumbbells": {
+  "nom": "Squat bulgare Dumbbells (Haltère)",
+  "hevy": "",
+  "picto": "squat-bulgare",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "squat-bulgare-512.webp",
+   "cadre-128": "squat-bulgare-cadre-128.webp"
+  }
+ },
+ "hack-squat": {
+  "nom": "Squat Hack (Machine)",
+  "hevy": "",
+  "picto": "hack-squat",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "hack-squat-512.webp",
+   "cadre-128": "hack-squat-cadre-128.webp"
+  }
+ },
+ "narrow-stance-hack-squats": {
+  "nom": "Squat serré écartement Hack (Machine)",
+  "hevy": "",
+  "picto": "hack-squat",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "hack-squat-512.webp",
+   "cadre-128": "hack-squat-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "smith-machine-squat": {
+  "nom": "Squat Smith (Machine)",
+  "hevy": "",
+  "picto": "squat-smith",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "squat-smith-512.webp",
+   "cadre-128": "squat-smith-cadre-128.webp"
+  }
+ },
+ "narrow-stance-leg-press": {
+  "nom": "Presse à cuisses serré écartement (Machine)",
+  "hevy": "",
+  "picto": "presse-inclinee",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "presse-inclinee-512.webp",
+   "cadre-128": "presse-inclinee-cadre-128.webp"
+  }
+ },
+ "dumbbell-lunges": {
+  "nom": "Fentes (Haltère)",
+  "hevy": "",
+  "picto": "fentes-halteres",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "fentes-halteres-512.webp",
+   "cadre-128": "fentes-halteres-cadre-128.webp"
+  }
+ },
+ "barbell-walking-lunge": {
+  "nom": "Fente Walking (Barre)",
+  "hevy": "",
+  "picto": "fentes-marchees",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "fentes-marchees-512.webp",
+   "cadre-128": "fentes-marchees-cadre-128.webp"
+  }
+ },
+ "barbell-lunge": {
+  "nom": "Fente (Barre)",
+  "hevy": "",
+  "picto": "fentes-marchees",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "fentes-marchees-512.webp",
+   "cadre-128": "fentes-marchees-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "dumbbell-rear-lunge": {
+  "nom": "Fente arrière (Haltère)",
+  "hevy": "",
+  "picto": "fente-arriere",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "fente-arriere-512.webp",
+   "cadre-128": "fente-arriere-cadre-128.webp"
+  }
+ },
+ "dumbbell-step-ups": {
+  "nom": "Montée sur banc (Haltère)",
+  "hevy": "",
+  "picto": "montee-banc",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "montee-banc-512.webp",
+   "cadre-128": "montee-banc-cadre-128.webp"
+  }
+ },
+ "romanian-deadlift": {
+  "nom": "Soulevé de terre roumain (Barre)",
+  "hevy": "",
+  "picto": "sdt-roumain-barre",
+  "principal": "Ischios",
+  "secondaires": [
+   "Fessiers",
+   "lombaires"
+  ],
+  "fichiers": {
+   "512": "sdt-roumain-barre-512.webp",
+   "cadre-128": "sdt-roumain-barre-cadre-128.webp"
+  }
+ },
+ "stiff-legged-barbell-deadlift": {
+  "nom": "Soulevé de terre jambes tendues jambes (Barre)",
+  "hevy": "",
+  "picto": "sdt-roumain-barre",
+  "principal": "Ischios",
+  "secondaires": [
+   "Fessiers",
+   "lombaires"
+  ],
+  "fichiers": {
+   "512": "sdt-roumain-barre-512.webp",
+   "cadre-128": "sdt-roumain-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "stiff-legged-dumbbell-deadlift": {
+  "nom": "Soulevé de terre jambes tendues jambes (Haltère)",
+  "hevy": "",
+  "picto": "sdt-roumain-barre",
+  "principal": "Ischios",
+  "secondaires": [
+   "Fessiers",
+   "lombaires"
+  ],
+  "fichiers": {
+   "512": "sdt-roumain-barre-512.webp",
+   "cadre-128": "sdt-roumain-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "trap-bar-deadlift": {
+  "nom": "Soulevé de terre Trap",
+  "hevy": "",
+  "picto": "sdt-trap-bar",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "sdt-trap-bar-512.webp",
+   "cadre-128": "sdt-trap-bar-cadre-128.webp"
+  }
+ },
+ "stiff-leg-barbell-good-morning": {
+  "nom": "Good morning jambes tendues jambe (Barre)",
+  "hevy": "",
+  "picto": "good-morning",
+  "principal": "Ischios, lombaires",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "good-morning-512.webp",
+   "cadre-128": "good-morning-cadre-128.webp"
+  }
+ },
+ "dumbbell-shrug": {
+  "nom": "Shrug (Haltère)",
+  "hevy": "",
+  "picto": "shrug-halteres",
+  "principal": "Trapèzes",
+  "secondaires": [],
+  "fichiers": {
+   "512": "shrug-halteres-512.webp",
+   "cadre-128": "shrug-halteres-cadre-128.webp"
+  }
+ },
+ "leverage-shrug": {
+  "nom": "Shrug Leverage (Machine)",
+  "hevy": "",
+  "picto": "shrug-halteres",
+  "principal": "Trapèzes",
+  "secondaires": [],
+  "fichiers": {
+   "512": "shrug-halteres-512.webp",
+   "cadre-128": "shrug-halteres-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "barbell-shrug": {
+  "nom": "Shrug (Barre)",
+  "hevy": "",
+  "picto": "shrug-barre",
+  "principal": "Trapèzes",
+  "secondaires": [],
+  "fichiers": {
+   "512": "shrug-barre-512.webp",
+   "cadre-128": "shrug-barre-cadre-128.webp"
+  }
+ },
+ "hammer-curls": {
+  "nom": "Curl marteau (Haltère)",
+  "hevy": "",
+  "picto": "curl-marteau",
+  "principal": "Biceps, brachial",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-marteau-512.webp",
+   "cadre-128": "curl-marteau-cadre-128.webp"
+  }
+ },
+ "alternate-hammer-curl": {
+  "nom": "Curl alterné marteau (Haltère)",
+  "hevy": "",
+  "picto": "curl-marteau",
+  "principal": "Biceps, brachial",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-marteau-512.webp",
+   "cadre-128": "curl-marteau-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "cross-body-hammer-curl": {
+  "nom": "Curl croisé corps marteau (Haltère)",
+  "hevy": "",
+  "picto": "curl-marteau",
+  "principal": "Biceps, brachial",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-marteau-512.webp",
+   "cadre-128": "curl-marteau-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "incline-dumbbell-curl": {
+  "nom": "Curl incliné (Haltère)",
+  "hevy": "",
+  "picto": "curl-incline",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-incline-512.webp",
+   "cadre-128": "curl-incline-cadre-128.webp"
+  }
+ },
+ "alternate-incline-dumbbell-curl": {
+  "nom": "Curl alterné incliné (Haltère)",
+  "hevy": "",
+  "picto": "curl-incline",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-incline-512.webp",
+   "cadre-128": "curl-incline-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "concentration-curls": {
+  "nom": "Curl concentration (Haltère)",
+  "hevy": "",
+  "picto": "curl-concentre",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-concentre-512.webp",
+   "cadre-128": "curl-concentre-cadre-128.webp"
+  }
+ },
+ "standing-concentration-curl": {
+  "nom": "Curl debout concentration (Haltère)",
+  "hevy": "",
+  "picto": "curl-concentre",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-concentre-512.webp",
+   "cadre-128": "curl-concentre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "ez-bar-curl": {
+  "nom": "Curl (Barre EZ)",
+  "hevy": "",
+  "picto": "curl-barre-ez",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-barre-ez-512.webp",
+   "cadre-128": "curl-barre-ez-cadre-128.webp"
+  }
+ },
+ "close-grip-ez-bar-curl": {
+  "nom": "Curl serré prise (Barre)",
+  "hevy": "",
+  "picto": "curl-barre-ez",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-barre-ez-512.webp",
+   "cadre-128": "curl-barre-ez-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "preacher-curl": {
+  "nom": "Curl pupitre (Barre)",
+  "hevy": "",
+  "picto": "curl-pupitre-barre",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-pupitre-barre-512.webp",
+   "cadre-128": "curl-pupitre-barre-cadre-128.webp"
+  }
+ },
+ "machine-preacher-curls": {
+  "nom": "Curl pupitre (Machine)",
+  "hevy": "",
+  "picto": "curl-machine",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-machine-512.webp",
+   "cadre-128": "curl-machine-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "reverse-barbell-preacher-curls": {
+  "nom": "Curl inversé pupitre (Barre EZ)",
+  "hevy": "",
+  "picto": "curl-pupitre-barre",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-pupitre-barre-512.webp",
+   "cadre-128": "curl-pupitre-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "palms-up-barbell-wrist-curl-over-a-bench": {
+  "nom": "Curl paumes haut poignet au-dessus banc (Barre)",
+  "hevy": "",
+  "picto": "curl-poignets",
+  "principal": "Avant-bras",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-poignets-512.webp",
+   "cadre-128": "curl-poignets-cadre-128.webp"
+  }
+ },
+ "seated-palm-up-barbell-wrist-curl": {
+  "nom": "Curl assis paume haut poignet (Barre)",
+  "hevy": "",
+  "picto": "curl-poignets",
+  "principal": "Avant-bras",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-poignets-512.webp",
+   "cadre-128": "curl-poignets-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "seated-dumbbell-palms-up-wrist-curl": {
+  "nom": "Curl assis paumes haut poignet (Haltère)",
+  "hevy": "",
+  "picto": "curl-poignets",
+  "principal": "Avant-bras",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-poignets-512.webp",
+   "cadre-128": "curl-poignets-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "reverse-barbell-curl": {
+  "nom": "Curl inversé (Barre)",
+  "hevy": "",
+  "picto": "curl-inverse",
+  "principal": "Avant-bras",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "curl-inverse-512.webp",
+   "cadre-128": "curl-inverse-cadre-128.webp"
+  }
+ },
+ "standing-dumbbell-reverse-curl": {
+  "nom": "Curl debout inversé (Haltère)",
+  "hevy": "",
+  "picto": "curl-inverse",
+  "principal": "Avant-bras",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "curl-inverse-512.webp",
+   "cadre-128": "curl-inverse-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "ez-bar-skullcrusher": {
+  "nom": "Skullcrusher (Barre EZ)",
+  "hevy": "",
+  "picto": "barre-front-ez",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "barre-front-ez-512.webp",
+   "cadre-128": "barre-front-ez-cadre-128.webp"
+  }
+ },
+ "lying-triceps-press": {
+  "nom": "Barre au front (Barre EZ)",
+  "hevy": "",
+  "picto": "barre-front-ez",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "barre-front-ez-512.webp",
+   "cadre-128": "barre-front-ez-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "decline-ez-bar-triceps-extension": {
+  "nom": "Extension décliné triceps (Barre)",
+  "hevy": "",
+  "picto": "barre-front-ez",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "barre-front-ez-512.webp",
+   "cadre-128": "barre-front-ez-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "standing-dumbbell-triceps-extension": {
+  "nom": "Extension debout triceps (Haltère)",
+  "hevy": "",
+  "picto": "triceps-nuque-halteres",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-nuque-halteres-512.webp",
+   "cadre-128": "triceps-nuque-halteres-cadre-128.webp"
+  }
+ },
+ "kettlebell-overhead-triceps-extension": {
+  "nom": "Extension au-dessus de la tête triceps (Kettlebell)",
+  "hevy": "",
+  "picto": "triceps-nuque-halteres",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-nuque-halteres-512.webp",
+   "cadre-128": "triceps-nuque-halteres-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "standing-overhead-barbell-triceps-extension": {
+  "nom": "Extension debout au-dessus de la tête triceps (Barre)",
+  "hevy": "",
+  "picto": "triceps-nuque-halteres",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-nuque-halteres-512.webp",
+   "cadre-128": "triceps-nuque-halteres-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "tricep-dumbbell-kickback": {
+  "nom": "Kickback triceps (Haltère)",
+  "hevy": "",
+  "picto": "triceps-kickback",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-kickback-512.webp",
+   "cadre-128": "triceps-kickback-cadre-128.webp"
+  }
+ },
+ "bench-dips": {
+  "nom": "Dips banc",
+  "hevy": "",
+  "picto": "dips-banc",
+  "principal": "Triceps",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "dips-banc-512.webp",
+   "cadre-128": "dips-banc-cadre-128.webp"
+  }
+ },
+ "weighted-bench-dip": {
+  "nom": "Dips lesté banc",
+  "hevy": "",
+  "picto": "dips-banc",
+  "principal": "Triceps",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "dips-banc-512.webp",
+   "cadre-128": "dips-banc-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "close-grip-barbell-bench-press": {
+  "nom": "Développé couché serré prise (Barre)",
+  "hevy": "",
+  "picto": "couche-serre",
+  "principal": "Triceps",
+  "secondaires": [
+   "Pectoraux"
+  ],
+  "fichiers": {
+   "512": "couche-serre-512.webp",
+   "cadre-128": "couche-serre-cadre-128.webp"
+  }
+ },
+ "smith-machine-close-grip-bench-press": {
+  "nom": "Développé couché Smith serré prise (Machine)",
+  "hevy": "",
+  "picto": "couche-serre",
+  "principal": "Triceps",
+  "secondaires": [
+   "Pectoraux"
+  ],
+  "fichiers": {
+   "512": "couche-serre-512.webp",
+   "cadre-128": "couche-serre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "close-grip-dumbbell-press": {
+  "nom": "Développé serré prise (Haltère)",
+  "hevy": "",
+  "picto": "couche-serre",
+  "principal": "Triceps",
+  "secondaires": [
+   "Pectoraux"
+  ],
+  "fichiers": {
+   "512": "couche-serre-512.webp",
+   "cadre-128": "couche-serre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "dumbbell-flyes": {
+  "nom": "Écarté couché (Haltère)",
+  "hevy": "",
+  "picto": "ecarte-halteres",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "ecarte-halteres-512.webp",
+   "cadre-128": "ecarte-halteres-cadre-128.webp"
+  }
+ },
+ "one-arm-flat-bench-dumbbell-flye": {
+  "nom": "Un bras à plat banc Flye (Haltère)",
+  "hevy": "",
+  "picto": "ecarte-halteres",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "ecarte-halteres-512.webp",
+   "cadre-128": "ecarte-halteres-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "decline-dumbbell-flyes": {
+  "nom": "Écarté décliné (Haltère)",
+  "hevy": "",
+  "picto": "ecarte-halteres",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "ecarte-halteres-512.webp",
+   "cadre-128": "ecarte-halteres-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "incline-dumbbell-flyes": {
+  "nom": "Écarté incliné (Haltère)",
+  "hevy": "",
+  "picto": "ecarte-incline-halteres",
+  "principal": "Pectoraux (haut)",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "ecarte-incline-halteres-512.webp",
+   "cadre-128": "ecarte-incline-halteres-cadre-128.webp"
+  }
+ },
+ "incline-cable-flye": {
+  "nom": "Incliné Flye (Poulie)",
+  "hevy": "",
+  "picto": "ecarte-incline-halteres",
+  "principal": "Pectoraux (haut)",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "ecarte-incline-halteres-512.webp",
+   "cadre-128": "ecarte-incline-halteres-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "straight-arm-dumbbell-pullover": {
+  "nom": "Pull-over droit bras (Haltère)",
+  "hevy": "",
+  "picto": "pullover-haltere",
+  "principal": "Pectoraux, grand dorsal",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pullover-haltere-512.webp",
+   "cadre-128": "pullover-haltere-cadre-128.webp"
+  }
+ },
+ "bent-arm-dumbbell-pullover": {
+  "nom": "Pull-over penché bras (Haltère)",
+  "hevy": "",
+  "picto": "pullover-haltere",
+  "principal": "Pectoraux, grand dorsal",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pullover-haltere-512.webp",
+   "cadre-128": "pullover-haltere-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "bent-arm-barbell-pullover": {
+  "nom": "Pull-over penché bras (Barre)",
+  "hevy": "",
+  "picto": "pullover-haltere",
+  "principal": "Pectoraux, grand dorsal",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pullover-haltere-512.webp",
+   "cadre-128": "pullover-haltere-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "standing-dumbbell-upright-row": {
+  "nom": "Rowing debout menton (Haltère)",
+  "hevy": "",
+  "picto": "tirage-menton",
+  "principal": "Épaules, trapèzes",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-menton-512.webp",
+   "cadre-128": "tirage-menton-cadre-128.webp"
+  }
+ },
+ "smith-machine-upright-row": {
+  "nom": "Rowing Smith menton (Machine)",
+  "hevy": "",
+  "picto": "tirage-menton",
+  "principal": "Épaules, trapèzes",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-menton-512.webp",
+   "cadre-128": "tirage-menton-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "upright-cable-row": {
+  "nom": "Rowing menton (Poulie)",
+  "hevy": "",
+  "picto": "tirage-menton",
+  "principal": "Épaules, trapèzes",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-menton-512.webp",
+   "cadre-128": "tirage-menton-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "dumbbell-one-arm-upright-row": {
+  "nom": "Rowing un bras menton (Haltère)",
+  "hevy": "",
+  "picto": "tirage-menton",
+  "principal": "Épaules, trapèzes",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-menton-512.webp",
+   "cadre-128": "tirage-menton-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "smith-machine-incline-bench-press": {
+  "nom": "Développé couché Smith incliné (Machine)",
+  "hevy": "",
+  "picto": "developpe-incline-smith",
+  "principal": "Pectoraux (haut)",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-incline-smith-512.webp",
+   "cadre-128": "developpe-incline-smith-cadre-128.webp"
+  }
+ },
+ "seated-calf-raise": {
+  "nom": "Mollets assis (Machine)",
+  "hevy": "",
+  "picto": "mollets-assis",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-assis-512.webp",
+   "cadre-128": "mollets-assis-cadre-128.webp"
+  }
+ },
+ "barbell-seated-calf-raise": {
+  "nom": "Élévation mollets assis (Barre)",
+  "hevy": "",
+  "picto": "mollets-barre",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-barre-512.webp",
+   "cadre-128": "mollets-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "calf-press": {
+  "nom": "Développé mollets (Machine)",
+  "hevy": "",
+  "picto": "mollets-presse",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-presse-512.webp",
+   "cadre-128": "mollets-presse-cadre-128.webp"
+  }
+ },
+ "calf-press-on-the-leg-press-machine": {
+  "nom": "Presse à cuisses mollets Press sur (Machine)",
+  "hevy": "",
+  "picto": "mollets-presse",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-presse-512.webp",
+   "cadre-128": "mollets-presse-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "lying-leg-curls": {
+  "nom": "Curl allongé jambe (Machine)",
+  "hevy": "",
+  "picto": "leg-curl-allonge",
+  "principal": "Ischios",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "leg-curl-allonge-512.webp",
+   "cadre-128": "leg-curl-allonge-cadre-128.webp"
+  }
+ },
+ "standing-leg-curl": {
+  "nom": "Curl debout jambe (Machine)",
+  "hevy": "",
+  "picto": "leg-curl-debout",
+  "principal": "Ischios",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "leg-curl-debout-512.webp",
+   "cadre-128": "leg-curl-debout-cadre-128.webp"
+  }
+ },
+ "hyperextensions-back-extensions": {
+  "nom": "Extension Hyperextensions dos",
+  "hevy": "",
+  "picto": "lombaires-banc",
+  "principal": "Lombaires, fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "lombaires-banc-512.webp",
+   "cadre-128": "lombaires-banc-cadre-128.webp"
+  }
+ },
+ "hyperextensions-with-no-hyperextension-bench": {
+  "nom": "Hyperextensions No Hyperextension banc",
+  "hevy": "",
+  "picto": "lombaires-banc",
+  "principal": "Lombaires, fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "lombaires-banc-512.webp",
+   "cadre-128": "lombaires-banc-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "reverse-hyperextension": {
+  "nom": "Inversé Hyperextension (Machine)",
+  "hevy": "",
+  "picto": "hyperextension-inversee",
+  "principal": "Fessiers, lombaires",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "hyperextension-inversee-512.webp",
+   "cadre-128": "hyperextension-inversee-cadre-128.webp"
+  }
+ },
+ "thigh-adductor": {
+  "nom": "Thigh Adductor (Machine)",
+  "hevy": "",
+  "picto": "adduction-machine",
+  "principal": "Adducteurs",
+  "secondaires": [],
+  "fichiers": {
+   "512": "adduction-machine-512.webp",
+   "cadre-128": "adduction-machine-cadre-128.webp"
+  }
+ },
+ "cable-hip-adduction": {
+  "nom": "Hanche Adduction (Poulie)",
+  "hevy": "",
+  "picto": "adduction-machine",
+  "principal": "Adducteurs",
+  "secondaires": [],
+  "fichiers": {
+   "512": "adduction-machine-512.webp",
+   "cadre-128": "adduction-machine-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "cable-crunch": {
+  "nom": "Crunch (Poulie)",
+  "hevy": "",
+  "picto": "crunch-poulie",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-poulie-512.webp",
+   "cadre-128": "crunch-poulie-cadre-128.webp"
+  }
+ },
+ "kneeling-cable-crunch-with-alternating-oblique-twists": {
+  "nom": "Crunch à genoux alterné Oblique Twists (Poulie)",
+  "hevy": "",
+  "picto": "crunch-poulie",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-poulie-512.webp",
+   "cadre-128": "crunch-poulie-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "russian-twist": {
+  "nom": "Rotation russe",
+  "hevy": "",
+  "picto": "russian-twist",
+  "principal": "Obliques",
+  "secondaires": [],
+  "fichiers": {
+   "512": "russian-twist-512.webp",
+   "cadre-128": "russian-twist-cadre-128.webp"
+  }
+ },
+ "cable-russian-twists": {
+  "nom": "Russe Twists (Poulie)",
+  "hevy": "",
+  "picto": "russian-twist",
+  "principal": "Obliques",
+  "secondaires": [],
+  "fichiers": {
+   "512": "russian-twist-512.webp",
+   "cadre-128": "russian-twist-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "one-arm-kettlebell-swings": {
+  "nom": "Un bras Swings (Kettlebell)",
+  "hevy": "",
+  "picto": "kettlebell-swing",
+  "principal": "Fessiers, ischios",
+  "secondaires": [
+   "Lombaires",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "kettlebell-swing-512.webp",
+   "cadre-128": "kettlebell-swing-cadre-128.webp"
+  }
+ },
+ "one-arm-lat-pulldown": {
+  "nom": "Tirage vertical un bras dorsaux (Poulie)",
+  "hevy": "",
+  "picto": "tirage-vertical-unilateral",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-vertical-unilateral-512.webp",
+   "cadre-128": "tirage-vertical-unilateral-cadre-128.webp"
+  }
+ },
+ "leverage-incline-chest-press": {
+  "nom": "Développé Leverage incliné pectoraux (Machine)",
+  "hevy": "",
+  "picto": "developpe-incline-machine",
+  "principal": "Pectoraux (haut)",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-incline-machine-512.webp",
+   "cadre-128": "developpe-incline-machine-cadre-128.webp"
+  }
+ },
+ "incline-cable-chest-press": {
+  "nom": "Développé incliné pectoraux (Poulie)",
+  "hevy": "",
+  "picto": "developpe-incline-machine",
+  "principal": "Pectoraux (haut)",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-incline-machine-512.webp",
+   "cadre-128": "developpe-incline-machine-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "standing-cable-chest-press": {
+  "nom": "Développé debout pectoraux (Poulie)",
+  "hevy": "",
+  "picto": "developpe-poulie-debout",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-poulie-debout-512.webp",
+   "cadre-128": "developpe-poulie-debout-cadre-128.webp"
+  }
+ },
+ "cable-chest-press": {
+  "nom": "Développé pectoraux (Poulie)",
+  "hevy": "",
+  "picto": "developpe-poulie-debout",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-poulie-debout-512.webp",
+   "cadre-128": "developpe-poulie-debout-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "decline-dumbbell-bench-press": {
+  "nom": "Développé couché décliné (Haltère)",
+  "hevy": "",
+  "picto": "developpe-decline-halteres",
+  "principal": "Pectoraux (bas)",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-decline-halteres-512.webp",
+   "cadre-128": "developpe-decline-halteres-cadre-128.webp"
+  }
+ },
+ "push-ups-with-feet-elevated": {
+  "nom": "Pompes pieds Elevated",
+  "hevy": "",
+  "picto": "pompes-pieds-sureleves",
+  "principal": "Pectoraux (haut), épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pompes-pieds-sureleves-512.webp",
+   "cadre-128": "pompes-pieds-sureleves-cadre-128.webp"
+  }
+ },
+ "incline-push-up": {
+  "nom": "Pompes incliné",
+  "hevy": "",
+  "picto": "pompes-inclinees",
+  "principal": "Pectoraux (bas)",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pompes-inclinees-512.webp",
+   "cadre-128": "pompes-inclinees-cadre-128.webp"
+  }
+ },
+ "incline-push-up-medium": {
+  "nom": "Pompes incliné moyenne",
+  "hevy": "",
+  "picto": "pompes-inclinees",
+  "principal": "Pectoraux (bas)",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pompes-inclinees-512.webp",
+   "cadre-128": "pompes-inclinees-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "incline-push-up-wide": {
+  "nom": "Pompes incliné large",
+  "hevy": "",
+  "picto": "pompes-inclinees",
+  "principal": "Pectoraux (bas)",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pompes-inclinees-512.webp",
+   "cadre-128": "pompes-inclinees-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "incline-push-up-close-grip": {
+  "nom": "Pompes incliné serré prise",
+  "hevy": "",
+  "picto": "pompes-inclinees",
+  "principal": "Pectoraux (bas)",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pompes-inclinees-512.webp",
+   "cadre-128": "pompes-inclinees-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "decline-push-up": {
+  "nom": "Pompes décliné",
+  "hevy": "",
+  "picto": "pompes-declinees",
+  "principal": "Pectoraux (haut)",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "pompes-declinees-512.webp",
+   "cadre-128": "pompes-declinees-cadre-128.webp"
+  }
+ },
+ "floor-press": {
+  "nom": "Développé sol (Barre)",
+  "hevy": "",
+  "picto": "developpe-sol-barre",
+  "principal": "Triceps, pectoraux",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-sol-barre-512.webp",
+   "cadre-128": "developpe-sol-barre-cadre-128.webp"
+  }
+ },
+ "one-arm-floor-press": {
+  "nom": "Développé un bras sol (Barre)",
+  "hevy": "",
+  "picto": "developpe-sol-barre",
+  "principal": "Triceps, pectoraux",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-sol-barre-512.webp",
+   "cadre-128": "developpe-sol-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "dumbbell-floor-press": {
+  "nom": "Développé sol (Haltère)",
+  "hevy": "",
+  "picto": "developpe-sol-barre",
+  "principal": "Triceps, pectoraux",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-sol-barre-512.webp",
+   "cadre-128": "developpe-sol-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "machine-bench-press": {
+  "nom": "Développé couché (Machine)",
+  "hevy": "",
+  "picto": "developpe-poitrine-machine",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-poitrine-machine-512.webp",
+   "cadre-128": "developpe-poitrine-machine-cadre-128.webp"
+  }
+ },
+ "leverage-chest-press": {
+  "nom": "Développé Leverage pectoraux (Machine)",
+  "hevy": "",
+  "picto": "developpe-poitrine-machine",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "developpe-poitrine-machine-512.webp",
+   "cadre-128": "developpe-poitrine-machine-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "push-press": {
+  "nom": "Développé Push (Barre)",
+  "hevy": "",
+  "picto": "push-press",
+  "principal": "Épaules, triceps",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "push-press-512.webp",
+   "cadre-128": "push-press-cadre-128.webp"
+  }
+ },
+ "clean-and-press": {
+  "nom": "Développé épaulé et (Barre)",
+  "hevy": "",
+  "picto": "push-press",
+  "principal": "Épaules, triceps",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "push-press-512.webp",
+   "cadre-128": "push-press-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "standing-barbell-press-behind-neck": {
+  "nom": "Développé debout derrière cou (Barre)",
+  "hevy": "",
+  "picto": "developpe-nuque",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-nuque-512.webp",
+   "cadre-128": "developpe-nuque-cadre-128.webp"
+  }
+ },
+ "dumbbell-one-arm-shoulder-press": {
+  "nom": "Développé épaules un bras (Haltère)",
+  "hevy": "",
+  "picto": "developpe-epaules-un-bras",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-epaules-un-bras-512.webp",
+   "cadre-128": "developpe-epaules-un-bras-cadre-128.webp"
+  }
+ },
+ "standing-palm-in-one-arm-dumbbell-press": {
+  "nom": "Développé debout paume dans un bras (Haltère)",
+  "hevy": "",
+  "picto": "developpe-epaules-un-bras",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-epaules-un-bras-512.webp",
+   "cadre-128": "developpe-epaules-un-bras-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "cable-shoulder-press": {
+  "nom": "Développé épaules (Poulie)",
+  "hevy": "",
+  "picto": "developpe-epaules-poulie",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-epaules-poulie-512.webp",
+   "cadre-128": "developpe-epaules-poulie-cadre-128.webp"
+  }
+ },
+ "seated-cable-shoulder-press": {
+  "nom": "Développé épaules assis (Poulie)",
+  "hevy": "",
+  "picto": "developpe-epaules-poulie",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-epaules-poulie-512.webp",
+   "cadre-128": "developpe-epaules-poulie-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "alternating-cable-shoulder-press": {
+  "nom": "Développé épaules alterné (Poulie)",
+  "hevy": "",
+  "picto": "developpe-epaules-poulie",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "developpe-epaules-poulie-512.webp",
+   "cadre-128": "developpe-epaules-poulie-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "front-plate-raise": {
+  "nom": "Élévation avant disque",
+  "hevy": "",
+  "picto": "elevation-frontale-disque",
+  "principal": "Épaules (avant)",
+  "secondaires": [
+   "Pectoraux (haut)"
+  ],
+  "fichiers": {
+   "512": "elevation-frontale-disque-512.webp",
+   "cadre-128": "elevation-frontale-disque-cadre-128.webp"
+  }
+ },
+ "dumbbell-lying-rear-lateral-raise": {
+  "nom": "Élévation allongé arrière latéral (Haltère)",
+  "hevy": "",
+  "picto": "oiseau-allonge-haltere",
+  "principal": "Arrière d'épaule",
+  "secondaires": [
+   "Haut du dos"
+  ],
+  "fichiers": {
+   "512": "oiseau-allonge-haltere-512.webp",
+   "cadre-128": "oiseau-allonge-haltere-cadre-128.webp"
+  }
+ },
+ "lying-rear-delt-raise": {
+  "nom": "Élévation allongé arrière Delt (Haltère)",
+  "hevy": "",
+  "picto": "oiseau-allonge-haltere",
+  "principal": "Arrière d'épaule",
+  "secondaires": [
+   "Haut du dos"
+  ],
+  "fichiers": {
+   "512": "oiseau-allonge-haltere-512.webp",
+   "cadre-128": "oiseau-allonge-haltere-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "bent-over-dumbbell-rear-delt-raise-with-head-on-bench": {
+  "nom": "Élévation penché au-dessus arrière Delt tête sur banc (Haltère)",
+  "hevy": "",
+  "picto": "oiseau-allonge-haltere",
+  "principal": "Arrière d'épaule",
+  "secondaires": [
+   "Haut du dos"
+  ],
+  "fichiers": {
+   "512": "oiseau-allonge-haltere-512.webp",
+   "cadre-128": "oiseau-allonge-haltere-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "cable-rear-delt-fly": {
+  "nom": "Écarté arrière Delt (Poulie)",
+  "hevy": "",
+  "picto": "oiseau-poulie",
+  "principal": "Arrière d'épaule",
+  "secondaires": [
+   "Haut du dos"
+  ],
+  "fichiers": {
+   "512": "oiseau-poulie-512.webp",
+   "cadre-128": "oiseau-poulie-cadre-128.webp"
+  }
+ },
+ "external-rotation-with-cable": {
+  "nom": "Rotation External (Poulie)",
+  "hevy": "",
+  "picto": "rotation-externe-poulie",
+  "principal": "Coiffe des rotateurs",
+  "secondaires": [],
+  "fichiers": {
+   "512": "rotation-externe-poulie-512.webp",
+   "cadre-128": "rotation-externe-poulie-cadre-128.webp"
+  }
+ },
+ "external-rotation": {
+  "nom": "Rotation External (Haltère)",
+  "hevy": "",
+  "picto": "rotation-externe-poulie",
+  "principal": "Coiffe des rotateurs",
+  "secondaires": [],
+  "fichiers": {
+   "512": "rotation-externe-poulie-512.webp",
+   "cadre-128": "rotation-externe-poulie-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "cable-internal-rotation": {
+  "nom": "Rotation Internal (Poulie)",
+  "hevy": "",
+  "picto": "rotation-interne",
+  "principal": "Coiffe des rotateurs",
+  "secondaires": [],
+  "fichiers": {
+   "512": "rotation-interne-512.webp",
+   "cadre-128": "rotation-interne-cadre-128.webp"
+  }
+ },
+ "v-bar-pulldown": {
+  "nom": "Tirage vertical V (Poulie)",
+  "hevy": "",
+  "picto": "tirage-prise-neutre",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-prise-neutre-512.webp",
+   "cadre-128": "tirage-prise-neutre-cadre-128.webp"
+  }
+ },
+ "close-grip-front-lat-pulldown": {
+  "nom": "Tirage poitrine prise serrée (Poulie)",
+  "hevy": "",
+  "picto": "tirage-prise-neutre",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-prise-neutre-512.webp",
+   "cadre-128": "tirage-prise-neutre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "full-range-of-motion-lat-pulldown": {
+  "nom": "Tirage vertical complet Range de Motion dorsaux (Poulie)",
+  "hevy": "",
+  "picto": "tirage-prise-neutre",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-prise-neutre-512.webp",
+   "cadre-128": "tirage-prise-neutre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "wide-grip-pulldown-behind-the-neck": {
+  "nom": "Tirage vertical large prise derrière cou (Poulie)",
+  "hevy": "",
+  "picto": "tirage-nuque",
+  "principal": "Grand dorsal, haut du dos",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tirage-nuque-512.webp",
+   "cadre-128": "tirage-nuque-cadre-128.webp"
+  }
+ },
+ "underhand-cable-pulldowns": {
+  "nom": "Supination Pulldowns (Poulie)",
+  "hevy": "",
+  "picto": "tirage-supination",
+  "principal": "Grand dorsal, biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "tirage-supination-512.webp",
+   "cadre-128": "tirage-supination-cadre-128.webp"
+  }
+ },
+ "seated-one-arm-cable-pulley-rows": {
+  "nom": "Rowing assis un bras poulie (Poulie)",
+  "hevy": "",
+  "picto": "rowing-poulie-unilateral",
+  "principal": "Grand dorsal, haut du dos",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-poulie-unilateral-512.webp",
+   "cadre-128": "rowing-poulie-unilateral-cadre-128.webp"
+  }
+ },
+ "kneeling-single-arm-high-pulley-row": {
+  "nom": "Rowing à genoux un bras bras haut poulie (Poulie)",
+  "hevy": "",
+  "picto": "rowing-poulie-unilateral",
+  "principal": "Grand dorsal, haut du dos",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-poulie-unilateral-512.webp",
+   "cadre-128": "rowing-poulie-unilateral-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "kneeling-high-pulley-row": {
+  "nom": "Rowing à genoux haut poulie (Poulie)",
+  "hevy": "",
+  "picto": "rowing-poulie-unilateral",
+  "principal": "Grand dorsal, haut du dos",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-poulie-unilateral-512.webp",
+   "cadre-128": "rowing-poulie-unilateral-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "dumbbell-incline-row": {
+  "nom": "Rowing incliné (Haltère)",
+  "hevy": "",
+  "picto": "rowing-incline-halteres",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-incline-halteres-512.webp",
+   "cadre-128": "rowing-incline-halteres-cadre-128.webp"
+  }
+ },
+ "incline-bench-pull": {
+  "nom": "Incliné banc Pull (Barre)",
+  "hevy": "",
+  "picto": "rowing-incline-halteres",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-incline-halteres-512.webp",
+   "cadre-128": "rowing-incline-halteres-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "inverted-row": {
+  "nom": "Rowing Inverted",
+  "hevy": "",
+  "picto": "rowing-inverse",
+  "principal": "Haut du dos, grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-inverse-512.webp",
+   "cadre-128": "rowing-inverse-cadre-128.webp"
+  }
+ },
+ "bodyweight-mid-row": {
+  "nom": "Rowing poids du corps Mid",
+  "hevy": "",
+  "picto": "rowing-inverse",
+  "principal": "Haut du dos, grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-inverse-512.webp",
+   "cadre-128": "rowing-inverse-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "leverage-high-row": {
+  "nom": "Rowing Leverage haut (Machine)",
+  "hevy": "",
+  "picto": "rowing-haut-machine",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-haut-machine-512.webp",
+   "cadre-128": "rowing-haut-machine-cadre-128.webp"
+  }
+ },
+ "lying-t-bar-row": {
+  "nom": "Rowing allongé T (Machine)",
+  "hevy": "",
+  "picto": "rowing-t-bar-poitrine",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-t-bar-poitrine-512.webp",
+   "cadre-128": "rowing-t-bar-poitrine-cadre-128.webp"
+  }
+ },
+ "sled-row": {
+  "nom": "Rowing traîneau",
+  "hevy": "",
+  "picto": "rowing-haut-machine",
+  "principal": "Haut du dos",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rowing-haut-machine-512.webp",
+   "cadre-128": "rowing-haut-machine-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "rack-pulls": {
+  "nom": "Rack Pulls (Barre)",
+  "hevy": "",
+  "picto": "rack-pull",
+  "principal": "Haut du dos, lombaires",
+  "secondaires": [
+   "Fessiers",
+   "ischios"
+  ],
+  "fichiers": {
+   "512": "rack-pull-512.webp",
+   "cadre-128": "rack-pull-cadre-128.webp"
+  }
+ },
+ "rack-pull-with-bands": {
+  "nom": "Rack Pull (Barre)",
+  "hevy": "",
+  "picto": "rack-pull",
+  "principal": "Haut du dos, lombaires",
+  "secondaires": [
+   "Fessiers",
+   "ischios"
+  ],
+  "fichiers": {
+   "512": "rack-pull-512.webp",
+   "cadre-128": "rack-pull-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "sumo-deadlift": {
+  "nom": "Soulevé de terre sumo (Barre)",
+  "hevy": "",
+  "picto": "sdt-sumo",
+  "principal": "Fessiers, adducteurs",
+  "secondaires": [
+   "Quadriceps",
+   "lombaires"
+  ],
+  "fichiers": {
+   "512": "sdt-sumo-512.webp",
+   "cadre-128": "sdt-sumo-cadre-128.webp"
+  }
+ },
+ "sumo-deadlift-with-bands": {
+  "nom": "Soulevé de terre sumo (Barre)",
+  "hevy": "",
+  "picto": "sdt-sumo",
+  "principal": "Fessiers, adducteurs",
+  "secondaires": [
+   "Quadriceps",
+   "lombaires"
+  ],
+  "fichiers": {
+   "512": "sdt-sumo-512.webp",
+   "cadre-128": "sdt-sumo-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "sumo-deadlift-with-chains": {
+  "nom": "Soulevé de terre sumo Chains (Barre)",
+  "hevy": "",
+  "picto": "sdt-sumo",
+  "principal": "Fessiers, adducteurs",
+  "secondaires": [
+   "Quadriceps",
+   "lombaires"
+  ],
+  "fichiers": {
+   "512": "sdt-sumo-512.webp",
+   "cadre-128": "sdt-sumo-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "muscle-up": {
+  "nom": "Muscle haut",
+  "hevy": "",
+  "picto": "muscle-up",
+  "principal": "Grand dorsal, triceps",
+  "secondaires": [
+   "Pectoraux"
+  ],
+  "fichiers": {
+   "512": "muscle-up-512.webp",
+   "cadre-128": "muscle-up-cadre-128.webp"
+  }
+ },
+ "kipping-muscle-up": {
+  "nom": "Kipping muscle haut",
+  "hevy": "",
+  "picto": "muscle-up",
+  "principal": "Grand dorsal, triceps",
+  "secondaires": [
+   "Pectoraux"
+  ],
+  "fichiers": {
+   "512": "muscle-up-512.webp",
+   "cadre-128": "muscle-up-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "v-bar-pullup": {
+  "nom": "Traction V",
+  "hevy": "",
+  "picto": "tractions-neutres",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "tractions-neutres-512.webp",
+   "cadre-128": "tractions-neutres-cadre-128.webp"
+  }
+ },
+ "zercher-squats": {
+  "nom": "Squat Zercher (Barre)",
+  "hevy": "",
+  "picto": "squat-zercher",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Haut du dos"
+  ],
+  "fichiers": {
+   "512": "squat-zercher-512.webp",
+   "cadre-128": "squat-zercher-cadre-128.webp"
+  }
+ },
+ "box-squat": {
+  "nom": "Squat box (Barre)",
+  "hevy": "",
+  "picto": "squat-boite",
+  "principal": "Fessiers, ischios",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "squat-boite-512.webp",
+   "cadre-128": "squat-boite-cadre-128.webp"
+  }
+ },
+ "speed-box-squat": {
+  "nom": "Squat Speed box (Barre)",
+  "hevy": "",
+  "picto": "squat-boite",
+  "principal": "Fessiers, ischios",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "squat-boite-512.webp",
+   "cadre-128": "squat-boite-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "barbell-squat-to-a-bench": {
+  "nom": "Squat à banc (Barre)",
+  "hevy": "",
+  "picto": "squat-boite",
+  "principal": "Fessiers, ischios",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "squat-boite-512.webp",
+   "cadre-128": "squat-boite-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "overhead-squat": {
+  "nom": "Squat au-dessus de la tête (Barre)",
+  "hevy": "",
+  "picto": "squat-overhead",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Épaules",
+   "haut du dos"
+  ],
+  "fichiers": {
+   "512": "squat-overhead-512.webp",
+   "cadre-128": "squat-overhead-cadre-128.webp"
+  }
+ },
+ "dumbbell-squat": {
+  "nom": "Squat (Haltère)",
+  "hevy": "",
+  "picto": "squat-haltere",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "squat-haltere-512.webp",
+   "cadre-128": "squat-haltere-cadre-128.webp"
+  }
+ },
+ "dumbbell-squat-to-a-bench": {
+  "nom": "Squat à banc (Haltère)",
+  "hevy": "",
+  "picto": "squat-haltere",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "squat-haltere-512.webp",
+   "cadre-128": "squat-haltere-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "wide-stance-barbell-squat": {
+  "nom": "Squat large écartement (Barre)",
+  "hevy": "",
+  "picto": "squat-haltere",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "squat-haltere-512.webp",
+   "cadre-128": "squat-haltere-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "weighted-sissy-squat": {
+  "nom": "Squat lesté Sissy (Barre)",
+  "hevy": "",
+  "picto": "squat-sissy",
+  "principal": "Quadriceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "squat-sissy-512.webp",
+   "cadre-128": "squat-sissy-cadre-128.webp"
+  }
+ },
+ "freehand-jump-squat": {
+  "nom": "Squat Freehand saut",
+  "hevy": "",
+  "picto": "squat-saute",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "squat-saute-512.webp",
+   "cadre-128": "squat-saute-cadre-128.webp"
+  }
+ },
+ "weighted-jump-squat": {
+  "nom": "Squat lesté saut (Barre)",
+  "hevy": "",
+  "picto": "squat-saute",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "squat-saute-512.webp",
+   "cadre-128": "squat-saute-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "kneeling-jump-squat": {
+  "nom": "Squat à genoux saut (Barre)",
+  "hevy": "",
+  "picto": "squat-saute",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "squat-saute-512.webp",
+   "cadre-128": "squat-saute-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "barbell-side-split-squat": {
+  "nom": "Squat latéral bulgare (Barre)",
+  "hevy": "",
+  "picto": "fente-laterale",
+  "principal": "Fessiers, adducteurs",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "fente-laterale-512.webp",
+   "cadre-128": "fente-laterale-cadre-128.webp"
+  }
+ },
+ "lateral-bound": {
+  "nom": "Latéral Bound",
+  "hevy": "",
+  "picto": "fente-laterale",
+  "principal": "Fessiers, adducteurs",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "fente-laterale-512.webp",
+   "cadre-128": "fente-laterale-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "front-box-jump": {
+  "nom": "Saut avant box",
+  "hevy": "",
+  "picto": "saut-boite",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "saut-boite-512.webp",
+   "cadre-128": "saut-boite-cadre-128.webp"
+  }
+ },
+ "bench-jump": {
+  "nom": "Saut banc",
+  "hevy": "",
+  "picto": "saut-boite",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "saut-boite-512.webp",
+   "cadre-128": "saut-boite-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "box-jump-multiple-response": {
+  "nom": "Saut box Multiple Response",
+  "hevy": "",
+  "picto": "saut-boite",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "saut-boite-512.webp",
+   "cadre-128": "saut-boite-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "lateral-box-jump": {
+  "nom": "Saut latéral box",
+  "hevy": "",
+  "picto": "saut-boite",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "saut-boite-512.webp",
+   "cadre-128": "saut-boite-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "single-leg-leg-extension": {
+  "nom": "Extension un bras jambe jambe (Machine)",
+  "hevy": "",
+  "picto": "leg-extension-unilateral",
+  "principal": "Quadriceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "leg-extension-unilateral-512.webp",
+   "cadre-128": "leg-extension-unilateral-cadre-128.webp"
+  }
+ },
+ "lying-machine-squat": {
+  "nom": "Squat allongé (Machine)",
+  "hevy": "",
+  "picto": "presse-allongee",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [],
+  "fichiers": {
+   "512": "presse-allongee-512.webp",
+   "cadre-128": "presse-allongee-cadre-128.webp"
+  }
+ },
+ "smith-machine-leg-press": {
+  "nom": "Presse à cuisses Smith (Machine)",
+  "hevy": "",
+  "picto": "presse-allongee",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [],
+  "fichiers": {
+   "512": "presse-allongee-512.webp",
+   "cadre-128": "presse-allongee-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "barbell-hip-thrust": {
+  "nom": "Hip thrust (Barre)",
+  "hevy": "",
+  "picto": "hip-thrust-barre",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "hip-thrust-barre-512.webp",
+   "cadre-128": "hip-thrust-barre-cadre-128.webp"
+  }
+ },
+ "barbell-glute-bridge": {
+  "nom": "Pont fessiers (Barre)",
+  "hevy": "",
+  "picto": "hip-thrust-barre",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "hip-thrust-barre-512.webp",
+   "cadre-128": "hip-thrust-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "butt-lift-bridge": {
+  "nom": "Pont Butt Lift",
+  "hevy": "",
+  "picto": "pont-fessier",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "pont-fessier-512.webp",
+   "cadre-128": "pont-fessier-cadre-128.webp"
+  }
+ },
+ "single-leg-glute-bridge": {
+  "nom": "Pont un bras jambe fessiers",
+  "hevy": "",
+  "picto": "pont-fessier-unijambiste",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "pont-fessier-unijambiste-512.webp",
+   "cadre-128": "pont-fessier-unijambiste-cadre-128.webp"
+  }
+ },
+ "physioball-hip-bridge": {
+  "nom": "Pont Physioball hanche",
+  "hevy": "",
+  "picto": "pont-fessier-unijambiste",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "pont-fessier-unijambiste-512.webp",
+   "cadre-128": "pont-fessier-unijambiste-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "bent-knee-hip-raise": {
+  "nom": "Élévation penché genou hanche",
+  "hevy": "",
+  "picto": "pont-fessier-unijambiste",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "pont-fessier-unijambiste-512.webp",
+   "cadre-128": "pont-fessier-unijambiste-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "glute-kickback": {
+  "nom": "Kickback fessiers",
+  "hevy": "",
+  "picto": "kickback-fessier",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "kickback-fessier-512.webp",
+   "cadre-128": "kickback-fessier-cadre-128.webp"
+  }
+ },
+ "donkey-kicks": {
+  "nom": "Kickback fessier à quatre pattes",
+  "hevy": "",
+  "picto": "kickback-fessier",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "kickback-fessier-512.webp",
+   "cadre-128": "kickback-fessier-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "one-legged-cable-kickback": {
+  "nom": "Kickback un jambes (Poulie)",
+  "hevy": "",
+  "picto": "kickback-poulie-fessier",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios"
+  ],
+  "fichiers": {
+   "512": "kickback-poulie-fessier-512.webp",
+   "cadre-128": "kickback-poulie-fessier-cadre-128.webp"
+  }
+ },
+ "pull-through": {
+  "nom": "Pull-through (Poulie)",
+  "hevy": "",
+  "picto": "pull-through",
+  "principal": "Fessiers, ischios",
+  "secondaires": [
+   "Lombaires"
+  ],
+  "fichiers": {
+   "512": "pull-through-512.webp",
+   "cadre-128": "pull-through-cadre-128.webp"
+  }
+ },
+ "natural-glute-ham-raise": {
+  "nom": "Élévation Natural fessiers Ham",
+  "hevy": "",
+  "picto": "nordic-curl",
+  "principal": "Ischios",
+  "secondaires": [
+   "Fessiers",
+   "mollets"
+  ],
+  "fichiers": {
+   "512": "nordic-curl-512.webp",
+   "cadre-128": "nordic-curl-cadre-128.webp"
+  }
+ },
+ "floor-glute-ham-raise": {
+  "nom": "Élévation sol fessiers Ham",
+  "hevy": "",
+  "picto": "nordic-curl",
+  "principal": "Ischios",
+  "secondaires": [
+   "Fessiers",
+   "mollets"
+  ],
+  "fichiers": {
+   "512": "nordic-curl-512.webp",
+   "cadre-128": "nordic-curl-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "ball-leg-curl": {
+  "nom": "Curl ball jambe",
+  "hevy": "",
+  "picto": "leg-curl-swiss",
+  "principal": "Ischios",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "leg-curl-swiss-512.webp",
+   "cadre-128": "leg-curl-swiss-cadre-128.webp"
+  }
+ },
+ "calf-raise-on-a-dumbbell": {
+  "nom": "Élévation mollets sur (Haltère)",
+  "hevy": "",
+  "picto": "mollets-unilateral-haltere",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-unilateral-haltere-512.webp",
+   "cadre-128": "mollets-unilateral-haltere-cadre-128.webp"
+  }
+ },
+ "standing-dumbbell-calf-raise": {
+  "nom": "Élévation mollets debout (Haltère)",
+  "hevy": "",
+  "picto": "mollets-unilateral-haltere",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-unilateral-haltere-512.webp",
+   "cadre-128": "mollets-unilateral-haltere-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "dumbbell-seated-one-leg-calf-raise": {
+  "nom": "Élévation mollets assis un jambe (Haltère)",
+  "hevy": "",
+  "picto": "mollets-unilateral-haltere",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-unilateral-haltere-512.webp",
+   "cadre-128": "mollets-unilateral-haltere-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "donkey-calf-raises": {
+  "nom": "Élévation Donkey mollets",
+  "hevy": "",
+  "picto": "mollets-ane",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-ane-512.webp",
+   "cadre-128": "mollets-ane-cadre-128.webp"
+  }
+ },
+ "standing-barbell-calf-raise": {
+  "nom": "Élévation mollets debout (Barre)",
+  "hevy": "",
+  "picto": "mollets-barre",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-barre-512.webp",
+   "cadre-128": "mollets-barre-cadre-128.webp"
+  }
+ },
+ "rocking-standing-calf-raise": {
+  "nom": "Élévation mollets Rocking debout (Barre)",
+  "hevy": "",
+  "picto": "mollets-barre",
+  "principal": "Mollets",
+  "secondaires": [],
+  "fichiers": {
+   "512": "mollets-barre-512.webp",
+   "cadre-128": "mollets-barre-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "zottman-curl": {
+  "nom": "Curl Zottman (Haltère)",
+  "hevy": "",
+  "picto": "curl-zottman",
+  "principal": "Biceps, avant-bras",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-zottman-512.webp",
+   "cadre-128": "curl-zottman-cadre-128.webp"
+  }
+ },
+ "zottman-preacher-curl": {
+  "nom": "Curl Zottman pupitre (Haltère)",
+  "hevy": "",
+  "picto": "curl-zottman",
+  "principal": "Biceps, avant-bras",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-zottman-512.webp",
+   "cadre-128": "curl-zottman-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "spider-curl": {
+  "nom": "Curl Spider (Barre EZ)",
+  "hevy": "",
+  "picto": "curl-araignee",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-araignee-512.webp",
+   "cadre-128": "curl-araignee-cadre-128.webp"
+  }
+ },
+ "dumbbell-prone-incline-curl": {
+  "nom": "Curl Prone incliné (Haltère)",
+  "hevy": "",
+  "picto": "curl-araignee",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-araignee-512.webp",
+   "cadre-128": "curl-araignee-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "lying-cable-curl": {
+  "nom": "Curl allongé (Poulie)",
+  "hevy": "",
+  "picto": "curl-allonge-poulie",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-allonge-poulie-512.webp",
+   "cadre-128": "curl-allonge-poulie-cadre-128.webp"
+  }
+ },
+ "lying-close-grip-bar-curl-on-high-pulley": {
+  "nom": "Curl allongé serré prise sur haut poulie (Poulie)",
+  "hevy": "",
+  "picto": "curl-allonge-poulie",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-allonge-poulie-512.webp",
+   "cadre-128": "curl-allonge-poulie-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "lying-supine-dumbbell-curl": {
+  "nom": "Curl allongé Supine (Haltère)",
+  "hevy": "",
+  "picto": "curl-allonge-poulie",
+  "principal": "Biceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-allonge-poulie-512.webp",
+   "cadre-128": "curl-allonge-poulie-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "machine-bicep-curl": {
+  "nom": "Curl biceps (Machine)",
+  "hevy": "",
+  "picto": "curl-machine",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-machine-512.webp",
+   "cadre-128": "curl-machine-cadre-128.webp"
+  }
+ },
+ "drag-curl": {
+  "nom": "Curl traîné (Barre)",
+  "hevy": "",
+  "picto": "curl-drag",
+  "principal": "Biceps",
+  "secondaires": [
+   "Arrière d'épaule"
+  ],
+  "fichiers": {
+   "512": "curl-drag-512.webp",
+   "cadre-128": "curl-drag-cadre-128.webp"
+  }
+ },
+ "palms-down-wrist-curl-over-a-bench": {
+  "nom": "Curl paumes bas poignet au-dessus banc (Barre)",
+  "hevy": "",
+  "picto": "curl-poignets-dos",
+  "principal": "Avant-bras",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-poignets-dos-512.webp",
+   "cadre-128": "curl-poignets-dos-cadre-128.webp"
+  }
+ },
+ "seated-palms-down-barbell-wrist-curl": {
+  "nom": "Curl assis paumes bas poignet (Barre)",
+  "hevy": "",
+  "picto": "curl-poignets-dos",
+  "principal": "Avant-bras",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-poignets-dos-512.webp",
+   "cadre-128": "curl-poignets-dos-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "palms-down-dumbbell-wrist-curl-over-a-bench": {
+  "nom": "Curl paumes bas poignet au-dessus banc (Haltère)",
+  "hevy": "",
+  "picto": "curl-poignets-dos",
+  "principal": "Avant-bras",
+  "secondaires": [],
+  "fichiers": {
+   "512": "curl-poignets-dos-512.webp",
+   "cadre-128": "curl-poignets-dos-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "pushups": {
+  "nom": "Pompes",
+  "hevy": "",
+  "picto": "pompes",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "pompes-512.webp",
+   "cadre-128": "pompes-cadre-128.webp"
+  }
+ },
+ "pushups-close-and-wide-hand-positions": {
+  "nom": "Pompes prise serrée et large",
+  "hevy": "",
+  "picto": "pompes",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "pompes-512.webp",
+   "cadre-128": "pompes-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "reverse-machine-flyes": {
+  "nom": "Écarté inversé (Machine)",
+  "hevy": "",
+  "picto": "oiseau-machine",
+  "principal": "Arrière d'épaule",
+  "secondaires": [
+   "Haut du dos"
+  ],
+  "fichiers": {
+   "512": "oiseau-machine-512.webp",
+   "cadre-128": "oiseau-machine-cadre-128.webp"
+  }
+ },
+ "dip-machine": {
+  "nom": "Dips (Machine)",
+  "hevy": "",
+  "picto": "dips-machine",
+  "principal": "Triceps",
+  "secondaires": [
+   "Pectoraux"
+  ],
+  "fichiers": {
+   "512": "dips-machine-512.webp",
+   "cadre-128": "dips-machine-cadre-128.webp"
+  }
+ },
+ "bicycling-stationary": {
+  "nom": "Vélo d'intérieur (spinning)",
+  "hevy": "",
+  "picto": "velo-appartement",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers",
+   "mollets"
+  ],
+  "fichiers": {
+   "512": "velo-appartement-512.webp",
+   "cadre-128": "velo-appartement-cadre-128.webp"
+  }
+ },
+ "rowing-stationary": {
+  "nom": "Rameur",
+  "hevy": "",
+  "picto": "rameur",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Grand dorsal",
+   "biceps"
+  ],
+  "fichiers": {
+   "512": "rameur-512.webp",
+   "cadre-128": "rameur-cadre-128.webp"
+  }
+ },
+ "elliptical-trainer": {
+  "nom": "Vélo elliptique",
+  "hevy": "",
+  "picto": "elliptique",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Ischios",
+   "mollets"
+  ],
+  "fichiers": {
+   "512": "elliptique-512.webp",
+   "cadre-128": "elliptique-cadre-128.webp"
+  }
+ },
+ "stairmaster": {
+  "nom": "Stairmaster (escalier)",
+  "hevy": "",
+  "picto": "stairmaster",
+  "principal": "Fessiers, quadriceps",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "stairmaster-512.webp",
+   "cadre-128": "stairmaster-cadre-128.webp"
+  }
+ },
+ "step-mill": {
+  "nom": "Step mill (escalier)",
+  "hevy": "",
+  "picto": "stairmaster",
+  "principal": "Fessiers, quadriceps",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "stairmaster-512.webp",
+   "cadre-128": "stairmaster-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "machine-triceps-extension": {
+  "nom": "Extension triceps (Machine)",
+  "hevy": "",
+  "picto": "triceps-machine",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-machine-512.webp",
+   "cadre-128": "triceps-machine-cadre-128.webp"
+  }
+ },
+ "dips-chest-version": {
+  "nom": "Dips pectoraux",
+  "hevy": "",
+  "picto": "dips-pectoraux",
+  "principal": "Pectoraux (bas)",
+  "secondaires": [
+   "Triceps",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "dips-pectoraux-512.webp",
+   "cadre-128": "dips-pectoraux-cadre-128.webp"
+  }
+ },
+ "exercise-ball-crunch": {
+  "nom": "Crunch sur ballon",
+  "hevy": "",
+  "picto": "crunch-swiss",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-swiss-512.webp",
+   "cadre-128": "crunch-swiss-cadre-128.webp"
+  }
+ },
+ "decline-crunch": {
+  "nom": "Crunch décliné",
+  "hevy": "",
+  "picto": "crunch-decline",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-decline-512.webp",
+   "cadre-128": "crunch-decline-cadre-128.webp"
+  }
+ },
+ "sled-push": {
+  "nom": "Poussée de traîneau",
+  "hevy": "",
+  "picto": "traineau-pousse",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "traineau-pousse-512.webp",
+   "cadre-128": "traineau-pousse-cadre-128.webp"
+  }
+ },
+ "prowler-sprint": {
+  "nom": "Sprint au prowler",
+  "hevy": "",
+  "picto": "traineau-pousse",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "traineau-pousse-512.webp",
+   "cadre-128": "traineau-pousse-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "handstand-push-ups": {
+  "nom": "Pompes en équilibre sur les mains",
+  "hevy": "",
+  "picto": "pompes-poirier",
+  "principal": "Épaules",
+  "secondaires": [
+   "Triceps"
+  ],
+  "fichiers": {
+   "512": "pompes-poirier-512.webp",
+   "cadre-128": "pompes-poirier-cadre-128.webp"
+  }
+ },
+ "rope-climb": {
+  "nom": "Montée à la corde",
+  "hevy": "",
+  "picto": "grimper-corde",
+  "principal": "Grand dorsal, biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "grimper-corde-512.webp",
+   "cadre-128": "grimper-corde-cadre-128.webp"
+  }
+ },
+ "glute-ham-raise": {
+  "nom": "Relevé ischio-fessiers (Machine)",
+  "hevy": "",
+  "picto": "glute-ham-raise",
+  "principal": "Ischios",
+  "secondaires": [
+   "Fessiers",
+   "mollets"
+  ],
+  "fichiers": {
+   "512": "glute-ham-raise-512.webp",
+   "cadre-128": "glute-ham-raise-cadre-128.webp"
+  }
+ },
+ "tate-press": {
+  "nom": "Développé Tate (Haltère)",
+  "hevy": "",
+  "picto": "tate-press",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "tate-press-512.webp",
+   "cadre-128": "tate-press-cadre-128.webp"
+  }
+ },
+ "dumbbell-tricep-extension-pronated-grip": {
+  "nom": "Extension triceps prise pronation (Haltère)",
+  "hevy": "",
+  "picto": "tate-press",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "tate-press-512.webp",
+   "cadre-128": "tate-press-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "cable-lying-triceps-extension": {
+  "nom": "Extension triceps allongé (Poulie)",
+  "hevy": "",
+  "picto": "triceps-allonge-poulie",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-allonge-poulie-512.webp",
+   "cadre-128": "triceps-allonge-poulie-cadre-128.webp"
+  }
+ },
+ "cable-incline-triceps-extension": {
+  "nom": "Extension triceps incliné (Poulie)",
+  "hevy": "",
+  "picto": "triceps-allonge-poulie",
+  "principal": "Triceps",
+  "secondaires": [],
+  "fichiers": {
+   "512": "triceps-allonge-poulie-512.webp",
+   "cadre-128": "triceps-allonge-poulie-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "landmine-180s": {
+  "nom": "Landmine 180 (Barre)",
+  "hevy": "",
+  "picto": "landmine-rotation",
+  "principal": "Obliques",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "landmine-rotation-512.webp",
+   "cadre-128": "landmine-rotation-cadre-128.webp"
+  }
+ },
+ "alternating-renegade-row": {
+  "nom": "Rowing alterné Renegade (Kettlebell)",
+  "hevy": "",
+  "picto": "renegade-row",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Abdominaux"
+  ],
+  "fichiers": {
+   "512": "renegade-row-512.webp",
+   "cadre-128": "renegade-row-cadre-128.webp"
+  }
+ },
+ "tire-flip": {
+  "nom": "Retournement de pneu",
+  "hevy": "",
+  "picto": "tire-flip",
+  "principal": "Quadriceps, fessiers, lombaires",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "tire-flip-512.webp",
+   "cadre-128": "tire-flip-cadre-128.webp"
+  }
+ },
+ "atlas-stones": {
+  "nom": "Pierres d'Atlas",
+  "hevy": "",
+  "picto": "atlas-stone",
+  "principal": "Lombaires, fessiers",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "atlas-stone-512.webp",
+   "cadre-128": "atlas-stone-cadre-128.webp"
+  }
+ },
+ "atlas-stone-trainer": {
+  "nom": "Entraînement pierre d'Atlas",
+  "hevy": "",
+  "picto": "atlas-stone",
+  "principal": "Lombaires, fessiers",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "atlas-stone-512.webp",
+   "cadre-128": "atlas-stone-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "sandbag-load": {
+  "nom": "Port de sac de sable",
+  "hevy": "",
+  "picto": "atlas-stone",
+  "principal": "Lombaires, fessiers",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "atlas-stone-512.webp",
+   "cadre-128": "atlas-stone-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "keg-load": {
+  "nom": "Port de fût",
+  "hevy": "",
+  "picto": "atlas-stone",
+  "principal": "Lombaires, fessiers",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "atlas-stone-512.webp",
+   "cadre-128": "atlas-stone-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "suspended-push-up": {
+  "nom": "Pompes suspendues",
+  "hevy": "",
+  "picto": "pompes-suspendues",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Triceps",
+   "abdominaux"
+  ],
+  "fichiers": {
+   "512": "pompes-suspendues-512.webp",
+   "cadre-128": "pompes-suspendues-cadre-128.webp"
+  }
+ },
+ "single-arm-push-up": {
+  "nom": "Pompes un bras",
+  "hevy": "",
+  "picto": "pompe-une-main",
+  "principal": "Pectoraux, triceps",
+  "secondaires": [
+   "Abdominaux",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "pompe-une-main-512.webp",
+   "cadre-128": "pompe-une-main-cadre-128.webp"
+  }
+ },
+ "recumbent-bike": {
+  "nom": "Vélo semi-allongé",
+  "hevy": "",
+  "picto": "velo-semi-allonge",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Ischios",
+   "mollets"
+  ],
+  "fichiers": {
+   "512": "velo-semi-allonge-512.webp",
+   "cadre-128": "velo-semi-allonge-cadre-128.webp"
+  }
+ },
+ "running-treadmill": {
+  "nom": "Course sur tapis",
+  "hevy": "",
+  "picto": "course-tapis",
+  "principal": "Quadriceps, ischios",
+  "secondaires": [
+   "Fessiers",
+   "mollets"
+  ],
+  "fichiers": {
+   "512": "course-tapis-512.webp",
+   "cadre-128": "course-tapis-cadre-128.webp"
+  }
+ },
+ "jogging-treadmill": {
+  "nom": "Jogging sur tapis",
+  "hevy": "",
+  "picto": "course-tapis",
+  "principal": "Quadriceps, ischios",
+  "secondaires": [
+   "Fessiers",
+   "mollets"
+  ],
+  "fichiers": {
+   "512": "course-tapis-512.webp",
+   "cadre-128": "course-tapis-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "walking-treadmill": {
+  "nom": "Marche sur tapis",
+  "hevy": "",
+  "picto": "marche-tapis",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "marche-tapis-512.webp",
+   "cadre-128": "marche-tapis-cadre-128.webp"
+  }
+ },
+ "assault-bike": {
+  "nom": "Vélo à air (Assault bike)",
+  "hevy": "",
+  "picto": "assault-bike",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Épaules",
+   "bras"
+  ],
+  "fichiers": {
+   "512": "assault-bike-512.webp",
+   "cadre-128": "assault-bike-cadre-128.webp"
+  }
+ },
+ "oblique-crunches": {
+  "nom": "Crunch oblique",
+  "hevy": "",
+  "picto": "crunch-oblique",
+  "principal": "Obliques",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-oblique-512.webp",
+   "cadre-128": "crunch-oblique-cadre-128.webp"
+  }
+ },
+ "oblique-crunches-on-the-floor": {
+  "nom": "Crunch oblique au sol",
+  "hevy": "",
+  "picto": "crunch-oblique",
+  "principal": "Obliques",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-oblique-512.webp",
+   "cadre-128": "crunch-oblique-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "one-arm-kettlebell-row": {
+  "nom": "Rowing un bras (Kettlebell)",
+  "hevy": "",
+  "picto": "kb-rowing",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "kb-rowing-512.webp",
+   "cadre-128": "kb-rowing-cadre-128.webp"
+  }
+ },
+ "alternating-kettlebell-row": {
+  "nom": "Rowing alterné (Kettlebell)",
+  "hevy": "",
+  "picto": "kb-rowing",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "kb-rowing-512.webp",
+   "cadre-128": "kb-rowing-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "two-arm-kettlebell-row": {
+  "nom": "Rowing deux bras (Kettlebell)",
+  "hevy": "",
+  "picto": "kb-rowing",
+  "principal": "Grand dorsal",
+  "secondaires": [
+   "Biceps"
+  ],
+  "fichiers": {
+   "512": "kb-rowing-512.webp",
+   "cadre-128": "kb-rowing-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "knee-hip-raise-on-parallel-bars": {
+  "nom": "Relevé de genoux aux barres parallèles",
+  "hevy": "",
+  "picto": "releve-genoux-chaise",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "releve-genoux-chaise-512.webp",
+   "cadre-128": "releve-genoux-chaise-cadre-128.webp"
+  }
+ },
+ "jackknife-sit-up": {
+  "nom": "Relevé de buste en canif",
+  "hevy": "",
+  "picto": "jackknife",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "jackknife-512.webp",
+   "cadre-128": "jackknife-cadre-128.webp"
+  }
+ },
+ "kettlebell-one-legged-deadlift": {
+  "nom": "Soulevé de terre une jambe (Kettlebell)",
+  "hevy": "",
+  "picto": "sdt-une-jambe",
+  "principal": "Ischios, fessiers",
+  "secondaires": [
+   "Lombaires"
+  ],
+  "fichiers": {
+   "512": "sdt-une-jambe-512.webp",
+   "cadre-128": "sdt-une-jambe-cadre-128.webp"
+  }
+ },
+ "standing-biceps-cable-curl": {
+  "nom": "Curl biceps debout (Poulie)",
+  "hevy": "",
+  "picto": "curl-poulie-barre",
+  "principal": "Biceps",
+  "secondaires": [
+   "Avant-bras"
+  ],
+  "fichiers": {
+   "512": "curl-poulie-barre-512.webp",
+   "cadre-128": "curl-poulie-barre-cadre-128.webp"
+  }
+ },
+ "split-jump": {
+  "nom": "Saut fendu",
+  "hevy": "",
+  "picto": "fente-sautee",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "fente-sautee-512.webp",
+   "cadre-128": "fente-sautee-cadre-128.webp"
+  }
+ },
+ "scissors-jump": {
+  "nom": "Saut en ciseaux",
+  "hevy": "",
+  "picto": "fente-sautee",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "fente-sautee-512.webp",
+   "cadre-128": "fente-sautee-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "double-leg-butt-kick": {
+  "nom": "Talons aux fesses jambes alternées",
+  "hevy": "",
+  "picto": "talons-fesses",
+  "principal": "Ischios",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "talons-fesses-512.webp",
+   "cadre-128": "talons-fesses-cadre-128.webp"
+  }
+ },
+ "single-leg-butt-kick": {
+  "nom": "Talon aux fesses une jambe",
+  "hevy": "",
+  "picto": "talons-fesses",
+  "principal": "Ischios",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "talons-fesses-512.webp",
+   "cadre-128": "talons-fesses-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "fast-skipping": {
+  "nom": "Skipping rapide",
+  "hevy": "",
+  "picto": "montees-genoux",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "montees-genoux-512.webp",
+   "cadre-128": "montees-genoux-cadre-128.webp"
+  }
+ },
+ "crossover-reverse-lunge": {
+  "nom": "Fente arrière croisée",
+  "hevy": "",
+  "picto": "fente-croisee",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Quadriceps"
+  ],
+  "fichiers": {
+   "512": "fente-croisee-512.webp",
+   "cadre-128": "fente-croisee-cadre-128.webp"
+  }
+ },
+ "wrist-roller": {
+  "nom": "Rouleau de poignet",
+  "hevy": "",
+  "picto": "wrist-roller",
+  "principal": "Avant-bras",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "wrist-roller-512.webp",
+   "cadre-128": "wrist-roller-cadre-128.webp"
+  }
+ },
+ "standing-rope-crunch": {
+  "nom": "Crunch à la corde debout (Poulie)",
+  "hevy": "",
+  "picto": "crunch-poulie-debout",
+  "principal": "Abdominaux",
+  "secondaires": [],
+  "fichiers": {
+   "512": "crunch-poulie-debout-512.webp",
+   "cadre-128": "crunch-poulie-debout-cadre-128.webp"
+  }
+ },
+ "barbell-hack-squat": {
+  "nom": "Hack squat (Barre)",
+  "hevy": "",
+  "picto": "hack-squat-barre",
+  "principal": "Quadriceps",
+  "secondaires": [
+   "Fessiers"
+  ],
+  "fichiers": {
+   "512": "hack-squat-barre-512.webp",
+   "cadre-128": "hack-squat-barre-cadre-128.webp"
+  }
+ },
+ "svend-press": {
+  "nom": "Développé Svend",
+  "hevy": "",
+  "picto": "svend-press",
+  "principal": "Pectoraux",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "svend-press-512.webp",
+   "cadre-128": "svend-press-cadre-128.webp"
+  }
+ },
+ "internal-rotation-with-band": {
+  "nom": "Rotation interne (Élastique)",
+  "hevy": "",
+  "picto": "rotation-interne",
+  "principal": "Coiffe des rotateurs",
+  "secondaires": [],
+  "fichiers": {
+   "512": "rotation-interne-512.webp",
+   "cadre-128": "rotation-interne-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "standing-long-jump": {
+  "nom": "Saut en longueur sans élan",
+  "hevy": "",
+  "picto": "saut-longueur",
+  "principal": "Quadriceps, fessiers",
+  "secondaires": [
+   "Mollets"
+  ],
+  "fichiers": {
+   "512": "saut-longueur-512.webp",
+   "cadre-128": "saut-longueur-cadre-128.webp"
+  }
+ },
+ "one-arm-kettlebell-floor-press": {
+  "nom": "Développé au sol un bras (Kettlebell)",
+  "hevy": "",
+  "picto": "kb-developpe-sol",
+  "principal": "Pectoraux, triceps",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "kb-developpe-sol-512.webp",
+   "cadre-128": "kb-developpe-sol-cadre-128.webp"
+  }
+ },
+ "alternating-floor-press": {
+  "nom": "Développé au sol alterné (Kettlebell)",
+  "hevy": "",
+  "picto": "kb-developpe-sol",
+  "principal": "Pectoraux, triceps",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "kb-developpe-sol-512.webp",
+   "cadre-128": "kb-developpe-sol-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "extended-range-one-arm-kettlebell-floor-press": {
+  "nom": "Développé au sol amplitude étendue un bras (Kettlebell)",
+  "hevy": "",
+  "picto": "kb-developpe-sol",
+  "principal": "Pectoraux, triceps",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "kb-developpe-sol-512.webp",
+   "cadre-128": "kb-developpe-sol-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "leg-over-floor-press": {
+  "nom": "Développé au sol jambe levée (Kettlebell)",
+  "hevy": "",
+  "picto": "kb-developpe-sol",
+  "principal": "Pectoraux, triceps",
+  "secondaires": [
+   "Épaules"
+  ],
+  "fichiers": {
+   "512": "kb-developpe-sol-512.webp",
+   "cadre-128": "kb-developpe-sol-cadre-128.webp"
+  },
+  "partage": true
+ },
+ "smith-machine-hip-thrust": {
+  "nom": "Hip thrust (Smith)",
+  "hevy": "",
+  "picto": "hip-thrust-smith",
+  "principal": "Fessiers",
+  "secondaires": [
+   "Ischios",
+   "quadriceps"
+  ],
+  "fichiers": {
+   "512": "hip-thrust-smith-512.webp",
+   "cadre-128": "hip-thrust-smith-cadre-128.webp"
+  }
+ },
+ "close-grip-push-up-off-of-a-dumbbell": {
+  "nom": "Pompes prise serrée sur haltère",
+  "hevy": "",
+  "picto": "pompes-serrees-haltere",
+  "principal": "Triceps",
+  "secondaires": [
+   "Pectoraux",
+   "épaules"
+  ],
+  "fichiers": {
+   "512": "pompes-serrees-haltere-512.webp",
+   "cadre-128": "pompes-serrees-haltere-cadre-128.webp"
+  }
+ }
+}

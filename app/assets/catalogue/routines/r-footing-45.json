@@ -1,0 +1,68 @@
+{
+ "id": "r-footing-45",
+ "version": 1,
+ "nom": {
+  "fr": "Footing 45 min et lignes droites",
+  "en": "Easy run 45 min and strides"
+ },
+ "resume": {
+  "fr": "Endurance facile, puis quatre accélérations courtes.",
+  "en": "Easy endurance, then four short strides."
+ },
+ "description": {
+  "fr": "Quarante-cinq minutes assez lentes pour parler, puis quatre lignes droites pour garder de la vitesse dans les jambes.",
+  "en": "Forty-five minutes slow enough to talk, then four strides to keep some speed in your legs."
+ },
+ "famille": "endu",
+ "type": "course",
+ "objectifs": [
+  "distance"
+ ],
+ "lieux": [
+  "dehors"
+ ],
+ "niveau": 1,
+ "picto": "course",
+ "gros": {
+  "valeur": "45",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Course, dehors",
+  "en": "Running, outdoors"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Footing 45 min et lignes droites",
+   "en": "Easy run 45 min and strides"
+  },
+  "type": "course",
+  "role": "facile",
+  "blocs": [
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 2700,
+    "zone": 2,
+    "note": null
+   },
+   {
+    "exo": "course",
+    "series": 4,
+    "dureeS": 20,
+    "zone": 5,
+    "reposS": 60,
+    "note": {
+     "fr": "lignes droites : accélère progressivement sur 80 m",
+     "en": "strides: build up over 80 m"
+    }
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

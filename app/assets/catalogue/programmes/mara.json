@@ -1,0 +1,1421 @@
+{
+ "id": "mara",
+ "version": 1,
+ "nom": {
+  "fr": "Marathon",
+  "en": "Marathon"
+ },
+ "resume": {
+  "fr": "Base, spécifique, puis trois semaines d'affûtage.",
+  "en": "Base, specific phase, then a three-week taper."
+ },
+ "description": {
+  "fr": "Seize semaines, cinq séances : une base solide en endurance, des portions à allure marathon dans la sortie longue jusqu'à 32 km, puis trois semaines d'affûtage pour arriver frais.",
+  "en": "Sixteen weeks, five sessions: a solid aerobic base, marathon-pace segments inside the long run up to 32 km, then a three-week taper to arrive fresh."
+ },
+ "famille": "endu",
+ "type": "course",
+ "objectifs": [
+  "distance"
+ ],
+ "lieux": [
+  "dehors"
+ ],
+ "niveau": 3,
+ "semaines": 16,
+ "seancesParSemaine": 5,
+ "picto": "course",
+ "gros": {
+  "valeur": "42",
+  "unite": "km"
+ },
+ "lieuCourt": {
+  "fr": "Course, dehors",
+  "en": "Running, outdoors"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "80 % du temps en Z2. La sortie longue porte le travail spécifique (portions à allure marathon) ; semaines 8 et 12 allégées ; affûtage sur trois semaines (− 20 %, − 40 %, − 60 %).",
+  "en": "80% of the time in Z2. The long run carries the specific work (marathon-pace segments); weeks 8 and 12 are deloads; three-week taper (−20%, −40%, −60%)."
+ },
+ "sources": [
+  0,
+  1,
+  2
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Base",
+    "en": "Base"
+   },
+   "de": 1,
+   "a": 5
+  },
+  {
+   "nom": {
+    "fr": "Spécifique",
+    "en": "Specific"
+   },
+   "de": 6,
+   "a": 13
+  },
+  {
+   "nom": {
+    "fr": "Affûtage",
+    "en": "Taper"
+   },
+   "de": 14,
+   "a": 16
+  }
+ ],
+ "seances": {
+  "footing-50": {
+   "nom": {
+    "fr": "Footing 50 min",
+    "en": "Easy run 50 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 3000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "fract-10x60-z5": {
+   "nom": {
+    "fr": "Fractionné 10 × 1 min",
+    "en": "Intervals 10 × 1 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 10,
+     "dureeS": 60,
+     "zone": 5,
+     "reposS": 60,
+     "note": {
+      "fr": "récupération en trottinant",
+      "en": "jog recovery"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 480,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "footing-45-ld": {
+   "nom": {
+    "fr": "Footing 45 min et lignes droites",
+    "en": "Easy run 45 min and strides"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 2700,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 4,
+     "dureeS": 20,
+     "zone": 5,
+     "reposS": 60,
+     "note": {
+      "fr": "lignes droites : accélère progressivement sur 80 m",
+      "en": "strides: build up over 80 m"
+     }
+    }
+   ]
+  },
+  "seuil-3x8": {
+   "nom": {
+    "fr": "Seuil 3 × 8 min",
+    "en": "Threshold 3 × 8 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 3,
+     "dureeS": 480,
+     "zone": 4,
+     "reposS": 120,
+     "note": {
+      "fr": "dur mais tenable : quelques mots seulement",
+      "en": "hard but sustainable: a few words only"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "longue-90": {
+   "nom": {
+    "fr": "Sortie longue 1 h 30",
+    "en": "Long run 1h30"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 5400,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "cotes-10x60": {
+   "nom": {
+    "fr": "Côtes 10 × 1 min",
+    "en": "Hills 10 × 1 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 10,
+     "dureeS": 60,
+     "zone": 5,
+     "reposS": 90,
+     "note": {
+      "fr": "en montée, pente moyenne ; redescends en trottinant",
+      "en": "uphill, moderate slope; jog back down"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "seuil-3x10": {
+   "nom": {
+    "fr": "Seuil 3 × 10 min",
+    "en": "Threshold 3 × 10 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 3,
+     "dureeS": 600,
+     "zone": 4,
+     "reposS": 180,
+     "note": {
+      "fr": "dur mais tenable : quelques mots seulement",
+      "en": "hard but sustainable: a few words only"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "longue-100": {
+   "nom": {
+    "fr": "Sortie longue 1 h 40",
+    "en": "Long run 1h40"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 6000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "footing-55": {
+   "nom": {
+    "fr": "Footing 55 min",
+    "en": "Easy run 55 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 3300,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "fractm-6x1000-z4": {
+   "nom": {
+    "fr": "Fractionné 6 × 1 km",
+    "en": "Intervals 6 × 1 km"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 6,
+     "distanceM": 1000,
+     "zone": 4,
+     "reposS": 90,
+     "note": {
+      "fr": "allure 10 km",
+      "en": "10K pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "longue-110": {
+   "nom": {
+    "fr": "Sortie longue 1 h 50",
+    "en": "Long run 1h50"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 6600,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "seuil-2x15": {
+   "nom": {
+    "fr": "Seuil 2 × 15 min",
+    "en": "Threshold 2 × 15 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 2,
+     "dureeS": 900,
+     "zone": 4,
+     "reposS": 180,
+     "note": {
+      "fr": "dur mais tenable : quelques mots seulement",
+      "en": "hard but sustainable: a few words only"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "fractm-8x1000-z4": {
+   "nom": {
+    "fr": "Fractionné 8 × 1 km",
+    "en": "Intervals 8 × 1 km"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 8,
+     "distanceM": 1000,
+     "zone": 4,
+     "reposS": 90,
+     "note": {
+      "fr": "allure 10 km",
+      "en": "10K pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "longue-120": {
+   "nom": {
+    "fr": "Sortie longue 2 h",
+    "en": "Long run 2h"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 7200,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "footing-60": {
+   "nom": {
+    "fr": "Footing 1 h",
+    "en": "Easy run 1h"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 3600,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "seuil-3x12": {
+   "nom": {
+    "fr": "Seuil 3 × 12 min",
+    "en": "Threshold 3 × 12 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 3,
+     "dureeS": 720,
+     "zone": 4,
+     "reposS": 180,
+     "note": {
+      "fr": "dur mais tenable : quelques mots seulement",
+      "en": "hard but sustainable: a few words only"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "longue-24k-2x4000": {
+   "nom": {
+    "fr": "Sortie longue 24 km dont 2 × 4 km à allure marathon",
+    "en": "Long run 24 km with 2 × 4 km at marathon pace"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 8000,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 2,
+     "distanceM": 4000,
+     "zone": 3,
+     "reposS": 180,
+     "note": {
+      "fr": "à allure marathon",
+      "en": "at marathon pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 8000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "seuil-2x20": {
+   "nom": {
+    "fr": "Seuil 2 × 20 min",
+    "en": "Threshold 2 × 20 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 2,
+     "dureeS": 1200,
+     "zone": 4,
+     "reposS": 180,
+     "note": {
+      "fr": "dur mais tenable : quelques mots seulement",
+      "en": "hard but sustainable: a few words only"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "longue-26k-2x5000": {
+   "nom": {
+    "fr": "Sortie longue 26 km dont 2 × 5 km à allure marathon",
+    "en": "Long run 26 km with 2 × 5 km at marathon pace"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 8000,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 2,
+     "distanceM": 5000,
+     "zone": 3,
+     "reposS": 180,
+     "note": {
+      "fr": "à allure marathon",
+      "en": "at marathon pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 8000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "seuil-2x12": {
+   "nom": {
+    "fr": "Seuil 2 × 12 min",
+    "en": "Threshold 2 × 12 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 2,
+     "dureeS": 720,
+     "zone": 4,
+     "reposS": 180,
+     "note": {
+      "fr": "dur mais tenable : quelques mots seulement",
+      "en": "hard but sustainable: a few words only"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "footing-40-ld": {
+   "nom": {
+    "fr": "Footing 40 min et lignes droites",
+    "en": "Easy run 40 min and strides"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 2400,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 4,
+     "dureeS": 20,
+     "zone": 5,
+     "reposS": 60,
+     "note": {
+      "fr": "lignes droites : accélère progressivement sur 80 m",
+      "en": "strides: build up over 80 m"
+     }
+    }
+   ]
+  },
+  "footing-40": {
+   "nom": {
+    "fr": "Footing 40 min",
+    "en": "Easy run 40 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 2400,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "longue-20k": {
+   "nom": {
+    "fr": "Sortie longue 20 km",
+    "en": "Long run 20 km"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 20000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "longue-28k-3x6000": {
+   "nom": {
+    "fr": "Sortie longue 28 km dont 3 × 6 km à allure marathon",
+    "en": "Long run 28 km with 3 × 6 km at marathon pace"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 5000,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 3,
+     "distanceM": 6000,
+     "zone": 3,
+     "reposS": 180,
+     "note": {
+      "fr": "à allure marathon",
+      "en": "at marathon pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 5000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "fractm-5x2000-z4": {
+   "nom": {
+    "fr": "Fractionné 5 × 2 km",
+    "en": "Intervals 5 × 2 km"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 5,
+     "distanceM": 2000,
+     "zone": 4,
+     "reposS": 120,
+     "note": {
+      "fr": "allure semi",
+      "en": "HM pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "longue-30k": {
+   "nom": {
+    "fr": "Sortie longue 30 km",
+    "en": "Long run 30 km"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 30000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "longue-30k-3x6000": {
+   "nom": {
+    "fr": "Sortie longue 30 km dont 3 × 6 km à allure marathon",
+    "en": "Long run 30 km with 3 × 6 km at marathon pace"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 6000,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 3,
+     "distanceM": 6000,
+     "zone": 3,
+     "reposS": 180,
+     "note": {
+      "fr": "à allure marathon",
+      "en": "at marathon pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 6000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "longue-22k": {
+   "nom": {
+    "fr": "Sortie longue 22 km",
+    "en": "Long run 22 km"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 22000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "longue-32k-2x6000": {
+   "nom": {
+    "fr": "Sortie longue 32 km dont 2 × 6 km à allure marathon",
+    "en": "Long run 32 km with 2 × 6 km at marathon pace"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 10000,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 2,
+     "distanceM": 6000,
+     "zone": 3,
+     "reposS": 180,
+     "note": {
+      "fr": "à allure marathon",
+      "en": "at marathon pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 10000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "footing-45": {
+   "nom": {
+    "fr": "Footing 45 min",
+    "en": "Easy run 45 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 2700,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "footing-35-ld": {
+   "nom": {
+    "fr": "Footing 35 min et lignes droites",
+    "en": "Easy run 35 min and strides"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 2100,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 4,
+     "dureeS": 20,
+     "zone": 5,
+     "reposS": 60,
+     "note": {
+      "fr": "lignes droites : accélère progressivement sur 80 m",
+      "en": "strides: build up over 80 m"
+     }
+    }
+   ]
+  },
+  "longue-18k-1x6000": {
+   "nom": {
+    "fr": "Sortie longue 18 km dont 6 km à allure marathon",
+    "en": "Long run 18 km with 6 km at marathon pace"
+   },
+   "type": "course",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 6000,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 6000,
+     "zone": 3,
+     "reposS": 0,
+     "note": {
+      "fr": "à allure marathon",
+      "en": "at marathon pace"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 6000,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "footing-35": {
+   "nom": {
+    "fr": "Footing 35 min",
+    "en": "Easy run 35 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 2100,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "fract-5x120-z4": {
+   "nom": {
+    "fr": "Fractionné 5 × 2 min",
+    "en": "Intervals 5 × 2 min"
+   },
+   "type": "course",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 5,
+     "dureeS": 120,
+     "zone": 4,
+     "reposS": 90,
+     "note": {
+      "fr": "récupération en trottinant",
+      "en": "jog recovery"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 480,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "footing-30-ld": {
+   "nom": {
+    "fr": "Footing 30 min et lignes droites",
+    "en": "Easy run 30 min and strides"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 1800,
+     "zone": 2,
+     "note": null
+    },
+    {
+     "exo": "course",
+     "series": 4,
+     "dureeS": 20,
+     "zone": 5,
+     "reposS": 60,
+     "note": {
+      "fr": "lignes droites : accélère progressivement sur 80 m",
+      "en": "strides: build up over 80 m"
+     }
+    }
+   ]
+  },
+  "footing-20": {
+   "nom": {
+    "fr": "Footing 20 min",
+    "en": "Easy run 20 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 1200,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "course-42195": {
+   "nom": {
+    "fr": "Course : 42,195 km",
+    "en": "Race: 42.195 km"
+   },
+   "type": "course",
+   "role": "dure",
+   "epreuve": true,
+   "note": {
+    "fr": "Le jour J : pars prudemment, accélère sur la fin.",
+    "en": "Race day: start easy, push at the end."
+   },
+   "blocs": [
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 1,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "distanceM": 42195,
+     "zone": 4,
+     "note": {
+      "fr": "ton allure de course",
+      "en": "your race pace"
+     }
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "sortie longue 1 h 30",
+    "en": "1h30 long run"
+   },
+   "seances": [
+    "footing-50",
+    "fract-10x60-z5",
+    "footing-45-ld",
+    "seuil-3x8",
+    "longue-90"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "côtes",
+    "en": "hills"
+   },
+   "seances": [
+    "footing-50",
+    "cotes-10x60",
+    "footing-45-ld",
+    "seuil-3x10",
+    "longue-100"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "sortie longue 1 h 50",
+    "en": "1h50 long run"
+   },
+   "seances": [
+    "footing-55",
+    "fractm-6x1000-z4",
+    "footing-45-ld",
+    "seuil-3x10",
+    "longue-110"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "sortie longue 1 h 40",
+    "en": "1h40 long run"
+   },
+   "seances": [
+    "footing-50",
+    "cotes-10x60",
+    "footing-45-ld",
+    "seuil-2x15",
+    "longue-100"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "sortie longue 2 h",
+    "en": "2 h long run"
+   },
+   "seances": [
+    "footing-55",
+    "fractm-8x1000-z4",
+    "footing-45-ld",
+    "seuil-2x15",
+    "longue-120"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "premières portions AM",
+    "en": "first MP segments"
+   },
+   "seances": [
+    "footing-60",
+    "seuil-3x12",
+    "footing-45-ld",
+    "footing-50",
+    "longue-24k-2x4000"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "26 km dont 2 × 5 km AM",
+    "en": "26 km with 2 × 5 km MP"
+   },
+   "seances": [
+    "footing-60",
+    "seuil-2x20",
+    "footing-45-ld",
+    "footing-50",
+    "longue-26k-2x5000"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 1,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "footing-50",
+    "seuil-2x12",
+    "footing-40-ld",
+    "footing-40",
+    "longue-20k"
+   ]
+  },
+  {
+   "n": 9,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "28 km dont 3 × 6 km AM",
+    "en": "28 km with 3 × 6 km MP"
+   },
+   "seances": [
+    "footing-60",
+    "seuil-2x20",
+    "footing-45-ld",
+    "footing-50",
+    "longue-28k-3x6000"
+   ]
+  },
+  {
+   "n": 10,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "30 km",
+    "en": "30 km"
+   },
+   "seances": [
+    "footing-60",
+    "fractm-5x2000-z4",
+    "footing-45-ld",
+    "footing-50",
+    "longue-30k"
+   ]
+  },
+  {
+   "n": 11,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "30 km dont 3 × 6 km AM",
+    "en": "30 km with 3 × 6 km MP"
+   },
+   "seances": [
+    "footing-60",
+    "seuil-2x20",
+    "footing-45-ld",
+    "footing-50",
+    "longue-30k-3x6000"
+   ]
+  },
+  {
+   "n": 12,
+   "phase": 1,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "footing-50",
+    "seuil-2x12",
+    "footing-40-ld",
+    "footing-40",
+    "longue-22k"
+   ]
+  },
+  {
+   "n": 13,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "dernière longue : 32 km",
+    "en": "last long run: 32 km"
+   },
+   "seances": [
+    "footing-60",
+    "seuil-2x20",
+    "footing-45-ld",
+    "footing-50",
+    "longue-32k-2x6000"
+   ]
+  },
+  {
+   "n": 14,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "affûtage − 20 %",
+    "en": "taper −20%"
+   },
+   "seances": [
+    "footing-50",
+    "fractm-5x2000-z4",
+    "footing-40-ld",
+    "footing-45",
+    "longue-26k-2x5000"
+   ]
+  },
+  {
+   "n": 15,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "affûtage − 40 %",
+    "en": "taper −40%"
+   },
+   "seances": [
+    "footing-45",
+    "seuil-2x12",
+    "footing-35-ld",
+    "footing-40",
+    "longue-18k-1x6000"
+   ]
+  },
+  {
+   "n": 16,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "affûtage − 60 %, course",
+    "en": "taper −60%, race"
+   },
+   "seances": [
+    "footing-35",
+    "fract-5x120-z4",
+    "footing-30-ld",
+    "footing-20",
+    "course-42195"
+   ]
+  }
+ ],
+ "seanceType": "longue-28k-3x6000",
+ "exercicesPerso": {}
+}

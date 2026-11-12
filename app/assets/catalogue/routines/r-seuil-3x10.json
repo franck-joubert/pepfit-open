@@ -1,0 +1,81 @@
+{
+ "id": "r-seuil-3x10",
+ "version": 1,
+ "nom": {
+  "fr": "Seuil 3 × 10 min",
+  "en": "Threshold 3 × 10 min"
+ },
+ "resume": {
+  "fr": "Trois fois dix minutes dur mais tenable.",
+  "en": "Three times ten minutes, hard but sustainable."
+ },
+ "description": {
+  "fr": "Trente minutes au seuil, en trois fois, avec deux minutes de trot entre deux : le travail qui fait tenir une allure plus longtemps.",
+  "en": "Thirty minutes at threshold, in three goes, with two minutes' jog between: the work that lets you hold a pace for longer."
+ },
+ "famille": "endu",
+ "type": "course",
+ "objectifs": [
+  "distance"
+ ],
+ "lieux": [
+  "dehors"
+ ],
+ "niveau": 3,
+ "picto": "course",
+ "gros": {
+  "valeur": "3×10",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Course, dehors",
+  "en": "Running, outdoors"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Seuil 3 × 10 min",
+   "en": "Threshold 3 × 10 min"
+  },
+  "type": "course",
+  "role": "dure",
+  "blocs": [
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 900,
+    "zone": 2,
+    "note": {
+     "fr": "échauffement",
+     "en": "warm-up"
+    }
+   },
+   {
+    "exo": "course",
+    "series": 3,
+    "dureeS": 600,
+    "zone": 4,
+    "reposS": 120,
+    "note": {
+     "fr": "dur mais tenable : quelques mots seulement",
+     "en": "hard but sustainable: a few words only"
+    }
+   },
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 600,
+    "zone": 2,
+    "note": {
+     "fr": "retour au calme",
+     "en": "cool-down"
+    }
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

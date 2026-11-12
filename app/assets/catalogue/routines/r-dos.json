@@ -1,0 +1,137 @@
+{
+ "id": "r-dos",
+ "version": 1,
+ "nom": {
+  "fr": "Dos solide, tronc",
+  "en": "Strong back, core"
+ },
+ "resume": {
+  "fr": "Les trois exercices de contrôle du tronc, tenus et sans douleur.",
+  "en": "The three core-control exercises, held and pain-free."
+ },
+ "description": {
+  "fr": "Curl-up, gainage latéral et bird dog, en pyramide 6, 4, 2 : chaque répétition tenue 8 à 10 s. Dix minutes pour apprendre au tronc à rester stable.",
+  "en": "Curl-up, side bridge and bird dog, in a 6, 4, 2 pyramid: each rep held 8 to 10 s. Ten minutes to teach your core to stay stable."
+ },
+ "famille": "sante",
+ "type": "mobilite",
+ "objectifs": [
+  "mobilite"
+ ],
+ "lieux": [
+  "maison"
+ ],
+ "niveau": 1,
+ "picto": "gainage",
+ "gros": {
+  "valeur": "Tronc",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Santé, maison",
+  "en": "Health, home"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": {
+  "fr": "Sans douleur. Une douleur qui descend dans la jambe, des fourmillements ou une faiblesse : arrête et demande l'avis d'un médecin.",
+  "en": "Pain-free. Pain running down the leg, tingling or weakness: stop and see a doctor."
+ },
+ "seance": {
+  "nom": {
+   "fr": "Dos solide, tronc",
+   "en": "Strong back, core"
+  },
+  "type": "mobilite",
+  "role": "facile",
+  "note": {
+   "fr": "Sans douleur. Ce n'est pas un étirement : on apprend au tronc à rester stable.",
+   "en": "Pain-free. This isn't stretching: you teach your core to stay stable."
+  },
+  "format": null,
+  "formatValeur": null,
+  "blocs": [
+   {
+    "exo": "perso:curl-up",
+    "series": 3,
+    "reps": null,
+    "repsMax": null,
+    "repsParSerie": [
+     6,
+     4,
+     2
+    ],
+    "reposS": 30,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": {
+     "fr": "tiens chaque répétition 8 à 10 s",
+     "en": "hold each rep 8 to 10 s"
+    }
+   },
+   {
+    "exo": "side-bridge",
+    "series": 3,
+    "reps": null,
+    "repsMax": null,
+    "repsParSerie": [
+     6,
+     4,
+     2
+    ],
+    "reposS": 30,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": {
+     "fr": "chaque côté, tenu 8 à 10 s",
+     "en": "each side, held 8 to 10 s"
+    }
+   },
+   {
+    "exo": "perso:bird-dog",
+    "series": 3,
+    "reps": null,
+    "repsMax": null,
+    "repsParSerie": [
+     6,
+     4,
+     2
+    ],
+    "reposS": 30,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": {
+     "fr": "chaque côté, tenu 8 à 10 s, le dos ne bouge pas",
+     "en": "each side, held 8 to 10 s, the back stays still"
+    }
+   }
+  ]
+ },
+ "exercicesPerso": {
+  "curl-up": {
+   "nom": {
+    "fr": "Curl-up",
+    "en": "Curl-up"
+   },
+   "nature": "reps"
+  },
+  "bird-dog": {
+   "nom": {
+    "fr": "Bird dog",
+    "en": "Bird dog"
+   },
+   "nature": "reps"
+  }
+ }
+}

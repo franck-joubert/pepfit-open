@@ -1,0 +1,443 @@
+{
+ "id": "dos",
+ "version": 1,
+ "nom": {
+  "fr": "Dos solide",
+  "en": "Strong back"
+ },
+ "resume": {
+  "fr": "Gainage et contrôle du tronc, sans douleur.",
+  "en": "Core bracing and control, pain-free."
+ },
+ "description": {
+  "fr": "Les trois exercices de contrôle du tronc les plus étudiés, en séries courtes et tenues, puis la charnière de hanche pour ramasser sans charger le dos.",
+  "en": "The three most studied core-control exercises, in short held sets, then the hip hinge to pick things up without loading your back."
+ },
+ "famille": "sante",
+ "type": "mobilite",
+ "objectifs": [
+  "mobilite"
+ ],
+ "lieux": [
+  "maison"
+ ],
+ "niveau": 1,
+ "semaines": 6,
+ "seancesParSemaine": 4,
+ "picto": "gainage",
+ "gros": {
+  "valeur": "Gainage",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Santé, maison",
+  "en": "Health, home"
+ },
+ "materiel": {
+  "fr": "Un bâton",
+  "en": "A stick"
+ },
+ "avertissement": {
+  "fr": "Sans douleur. Une douleur qui descend dans la jambe, des fourmillements ou une faiblesse : arrête et demande l'avis d'un médecin.",
+  "en": "Pain-free. Pain running down the leg, tingling or weakness: stop and see a doctor."
+ },
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Endurance du tronc plutôt que force : des contractions tenues 8 à 10 s, en pyramide descendante (par exemple 5, 3, 1), pour tenir sans fatigue.",
+  "en": "Core endurance rather than strength: holds of 8 to 10 s in a descending pyramid (e.g. 5, 3, 1), so you can hold without fatigue."
+ },
+ "sources": [
+  7
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Contrôle",
+    "en": "Control"
+   },
+   "de": 1,
+   "a": 3
+  },
+  {
+   "nom": {
+    "fr": "Charnière",
+    "en": "Hip hinge"
+   },
+   "de": 4,
+   "a": 6
+  }
+ ],
+ "seances": {
+  "dos-531": {
+   "nom": {
+    "fr": "Contrôle du tronc",
+    "en": "Core control"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Sans douleur. Ce n'est pas un étirement : on apprend au tronc à rester stable.",
+    "en": "Pain-free. This isn't stretching: you teach your core to stay stable."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "perso:curl-up",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      5,
+      3,
+      1
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "tiens chaque répétition 8 à 10 s",
+      "en": "hold each rep 8 to 10 s"
+     }
+    },
+    {
+     "exo": "side-bridge",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      5,
+      3,
+      1
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque côté, tenu 8 à 10 s",
+      "en": "each side, held 8 to 10 s"
+     }
+    },
+    {
+     "exo": "perso:bird-dog",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      5,
+      3,
+      1
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque côté, tenu 8 à 10 s, le dos ne bouge pas",
+      "en": "each side, held 8 to 10 s, the back stays still"
+     }
+    }
+   ]
+  },
+  "dos-642": {
+   "nom": {
+    "fr": "Contrôle du tronc",
+    "en": "Core control"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Sans douleur. Ce n'est pas un étirement : on apprend au tronc à rester stable.",
+    "en": "Pain-free. This isn't stretching: you teach your core to stay stable."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "perso:curl-up",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      6,
+      4,
+      2
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "tiens chaque répétition 8 à 10 s",
+      "en": "hold each rep 8 to 10 s"
+     }
+    },
+    {
+     "exo": "side-bridge",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      6,
+      4,
+      2
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque côté, tenu 8 à 10 s",
+      "en": "each side, held 8 to 10 s"
+     }
+    },
+    {
+     "exo": "perso:bird-dog",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      6,
+      4,
+      2
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque côté, tenu 8 à 10 s, le dos ne bouge pas",
+      "en": "each side, held 8 to 10 s, the back stays still"
+     }
+    }
+   ]
+  },
+  "dos-642-ch": {
+   "nom": {
+    "fr": "Tronc et charnière",
+    "en": "Core and hip hinge"
+   },
+   "type": "mobilite",
+   "role": "facile",
+   "note": {
+    "fr": "Sans douleur. Ce n'est pas un étirement : on apprend au tronc à rester stable.",
+    "en": "Pain-free. This isn't stretching: you teach your core to stay stable."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "perso:curl-up",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      6,
+      4,
+      2
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "tiens chaque répétition 8 à 10 s",
+      "en": "hold each rep 8 to 10 s"
+     }
+    },
+    {
+     "exo": "side-bridge",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      6,
+      4,
+      2
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque côté, tenu 8 à 10 s",
+      "en": "each side, held 8 to 10 s"
+     }
+    },
+    {
+     "exo": "perso:bird-dog",
+     "series": 3,
+     "reps": null,
+     "repsMax": null,
+     "repsParSerie": [
+      6,
+      4,
+      2
+     ],
+     "reposS": 30,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque côté, tenu 8 à 10 s, le dos ne bouge pas",
+      "en": "each side, held 8 to 10 s, the back stays still"
+     }
+    },
+    {
+     "exo": "perso:charniere",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "bâton le long du dos : tête, dos et bassin le touchent",
+      "en": "stick along your back: head, upper back and pelvis touch it"
+     }
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "pyramide 5, 3, 1",
+    "en": "pyramid 5, 3, 1"
+   },
+   "seances": [
+    "dos-531",
+    "dos-531",
+    "dos-531",
+    "dos-531"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "pyramide 5, 3, 1",
+    "en": "pyramid 5, 3, 1"
+   },
+   "seances": [
+    "dos-531",
+    "dos-531",
+    "dos-531",
+    "dos-531"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "pyramide 6, 4, 2",
+    "en": "pyramid 6, 4, 2"
+   },
+   "seances": [
+    "dos-642",
+    "dos-642",
+    "dos-642",
+    "dos-642"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "+ charnière de hanche",
+    "en": "+ hip hinge"
+   },
+   "seances": [
+    "dos-642-ch",
+    "dos-642-ch",
+    "dos-642-ch",
+    "dos-642-ch"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "+ charnière de hanche",
+    "en": "+ hip hinge"
+   },
+   "seances": [
+    "dos-642-ch",
+    "dos-642-ch",
+    "dos-642-ch",
+    "dos-642-ch"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "+ charnière de hanche",
+    "en": "+ hip hinge"
+   },
+   "seances": [
+    "dos-642-ch",
+    "dos-642-ch",
+    "dos-642-ch",
+    "dos-642-ch"
+   ]
+  }
+ ],
+ "seanceType": "dos-642-ch",
+ "exercicesPerso": {
+  "curl-up": {
+   "nom": {
+    "fr": "Curl-up",
+    "en": "Curl-up"
+   },
+   "nature": "reps"
+  },
+  "bird-dog": {
+   "nom": {
+    "fr": "Bird dog",
+    "en": "Bird dog"
+   },
+   "nature": "reps"
+  },
+  "charniere": {
+   "nom": {
+    "fr": "Charnière de hanche au bâton",
+    "en": "Hip hinge with a stick"
+   },
+   "nature": "reps"
+  }
+ }
+}

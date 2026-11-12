@@ -1,0 +1,101 @@
+{
+ "id": "r-test-vma",
+ "version": 1,
+ "nom": {
+  "fr": "Test VMA",
+  "en": "MAS test"
+ },
+ "resume": {
+  "fr": "Six minutes à fond pour connaître ta VMA et tes allures.",
+  "en": "Six minutes all out to find your MAS and your paces."
+ },
+ "description": {
+  "fr": "Le demi-Cooper : 15 minutes d'échauffement finies par deux accélérations, puis 6 minutes le plus loin possible, à allure régulière. Ta VMA (km/h) est la distance divisée par 100 ; pepfit en tire ta VO₂max et tes allures. Sur du plat ; une piste de 400 m est idéale.",
+  "en": "The half-Cooper: 15 minutes' warm-up ending with two strides, then 6 minutes as far as you can, at an even pace. Your MAS (km/h) is the distance divided by 100; pepfit works out your VO₂max and your paces from it. On flat ground; a 400 m track is ideal."
+ },
+ "famille": "endu",
+ "type": "course",
+ "objectifs": [
+  "distance"
+ ],
+ "lieux": [
+  "dehors"
+ ],
+ "niveau": 2,
+ "picto": "course",
+ "gros": {
+  "valeur": "6",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Course, dehors",
+  "en": "Running, outdoors"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Test VMA",
+   "en": "MAS test"
+  },
+  "type": "course",
+  "role": "dure",
+  "blocs": [
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 780,
+    "zone": 2,
+    "note": {
+     "fr": "échauffement : footing facile, tu peux parler",
+     "en": "warm-up: easy run, you can talk"
+    }
+   },
+   {
+    "exo": "course",
+    "series": 2,
+    "dureeS": 15,
+    "zone": 5,
+    "reposS": 45,
+    "note": {
+     "fr": "accélérations : 15 s vite, puis 45 s de trot",
+     "en": "strides: 15 s fast, then 45 s jog"
+    }
+   },
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 120,
+    "zone": 1,
+    "note": {
+     "fr": "récupération : trot ou marche, le test arrive",
+     "en": "recovery: jog or walk, the test is coming"
+    }
+   },
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 360,
+    "zone": 5,
+    "note": {
+     "fr": "test VMA : 6 min à fond, le plus loin possible, à allure régulière",
+     "en": "MAS test: 6 min all out, as far as you can, at an even pace"
+    }
+   },
+   {
+    "exo": "course",
+    "series": 1,
+    "dureeS": 600,
+    "zone": 1,
+    "note": {
+     "fr": "retour au calme : footing très lent, puis marche",
+     "en": "cool-down: very easy run, then walk"
+    }
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

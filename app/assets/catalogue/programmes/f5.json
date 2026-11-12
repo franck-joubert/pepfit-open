@@ -1,0 +1,334 @@
+{
+ "id": "f5",
+ "version": 1,
+ "nom": {
+  "fr": "Force 5×5",
+  "en": "Strength 5×5"
+ },
+ "resume": {
+  "fr": "Cinq mouvements de base à la barre, deux séances A et B.",
+  "en": "Five barbell basics, two sessions A and B."
+ },
+ "description": {
+  "fr": "Cinq mouvements de base, deux séances qui alternent. Tu ajoutes un peu de poids à chaque séance réussie.",
+  "en": "Five basic lifts, two alternating sessions. You add a little weight after every successful session."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "force"
+ ],
+ "lieux": [
+  "salle"
+ ],
+ "niveau": 2,
+ "semaines": 12,
+ "seancesParSemaine": 3,
+ "picto": "sdt",
+ "gros": {
+  "valeur": "5×5",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Salle, barre",
+  "en": "Gym, barbell"
+ },
+ "materiel": {
+  "fr": "Barre",
+  "en": "Barbell"
+ },
+ "avertissement": null,
+ "progression": {
+  "fr": "+ 2,5 kg à chaque séance réussie (+ 5 kg au soulevé de terre). Trois échecs de suite : le poids redescend de 10 %.",
+  "en": "+2.5 kg after each successful session (+5 kg on the deadlift). Three failures in a row: the weight drops by 10%."
+ },
+ "chargesDepart": true,
+ "principes": {
+  "fr": "Progression linéaire : peu de répétitions, des poids lourds, et un petit pas à chaque séance. Départ à 90 % de ta dernière série pour avoir de la marge ; si ça coince après la semaine 5, passe à 3 × 5.",
+  "en": "Linear progression: low reps, heavy weights and a small step every session. Start at 90% of your last set to leave some margin; if you stall after week 5, switch to 3 × 5."
+ },
+ "sources": [
+  3
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Mise en route",
+    "en": "Ramp-up"
+   },
+   "de": 1,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Progression",
+    "en": "Progression"
+   },
+   "de": 5,
+   "a": 12
+  }
+ ],
+ "seances": {
+  "f5-a": {
+   "nom": {
+    "fr": "5×5, Routine A",
+    "en": "5×5, Routine A"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": {
+    "fr": "Trois échecs de suite sur un mouvement : − 10 %, et on remonte.",
+    "en": "Three failed sessions in a row on a lift: −10%, then build back up."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 5,
+     "reps": 5,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": 2.5,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "couche",
+     "series": 5,
+     "reps": 5,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": 2.5,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 5,
+     "reps": 5,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": 2.5,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  },
+  "f5-b": {
+   "nom": {
+    "fr": "5×5, Routine B",
+    "en": "5×5, Routine B"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": {
+    "fr": "Trois échecs de suite sur un mouvement : − 10 %, et on remonte.",
+    "en": "Three failed sessions in a row on a lift: −10%, then build back up."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 5,
+     "reps": 5,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": 2.5,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 5,
+     "reps": 5,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": 2.5,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "sdt",
+     "series": 1,
+     "reps": 5,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": 5,
+     "rir": 2,
+     "note": {
+      "fr": "une seule série lourde",
+      "en": "a single heavy set"
+     }
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "départ à 90 % de ta dernière série",
+    "en": "start at 90% of your last set"
+   },
+   "seances": [
+    "f5-a",
+    "f5-b",
+    "f5-a"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-b",
+    "f5-a",
+    "f5-b"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-a",
+    "f5-b",
+    "f5-a"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-b",
+    "f5-a",
+    "f5-b"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "progression linéaire",
+    "en": "linear progression"
+   },
+   "seances": [
+    "f5-a",
+    "f5-b",
+    "f5-a"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-b",
+    "f5-a",
+    "f5-b"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-a",
+    "f5-b",
+    "f5-a"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-b",
+    "f5-a",
+    "f5-b"
+   ]
+  },
+  {
+   "n": 9,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-a",
+    "f5-b",
+    "f5-a"
+   ]
+  },
+  {
+   "n": 10,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-b",
+    "f5-a",
+    "f5-b"
+   ]
+  },
+  {
+   "n": 11,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-a",
+    "f5-b",
+    "f5-a"
+   ]
+  },
+  {
+   "n": 12,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "f5-b",
+    "f5-a",
+    "f5-b"
+   ]
+  }
+ ],
+ "seanceType": "f5-a",
+ "exercicesPerso": {}
+}

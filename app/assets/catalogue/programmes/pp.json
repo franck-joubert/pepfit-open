@@ -1,0 +1,580 @@
+{
+ "id": "pp",
+ "version": 1,
+ "nom": {
+  "fr": "Perdre du poids : marche et renfo",
+  "en": "Lose weight: walking and strength"
+ },
+ "resume": {
+  "fr": "Deux marches rapides, deux renfos, et ta nutrition en lien.",
+  "en": "Two brisk walks, two strength sessions, linked to your nutrition."
+ },
+ "description": {
+  "fr": "Deux marches rapides qui s'allongent, deux renfos pour garder ton muscle : de 150 à 250 minutes d'activité par semaine. Avec un léger déficit et assez de protéines, suivis dans Nutrition.",
+  "en": "Two brisk walks that get longer and two strength sessions to keep your muscle: from 150 to 250 minutes of activity a week. With a slight calorie deficit and enough protein, tracked in Nutrition."
+ },
+ "famille": "forme",
+ "type": "autre",
+ "objectifs": [
+  "poids",
+  "maison"
+ ],
+ "lieux": [
+  "maison",
+  "dehors"
+ ],
+ "niveau": 1,
+ "semaines": 12,
+ "seancesParSemaine": 4,
+ "picto": "montee-banc",
+ "gros": {
+  "valeur": "Pas + force",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Maison, dehors",
+  "en": "Home, outdoors"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "150 à 300 minutes d'activité modérée par semaine pour la santé et la perte de poids ; le renfo garde le muscle pendant le déficit. Le déficit se joue surtout dans l'assiette.",
+  "en": "150 to 300 minutes of moderate activity a week for health and weight loss; strength work keeps your muscle during the deficit. The deficit mostly happens on your plate."
+ },
+ "sources": [
+  5,
+  3
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Mise en route",
+    "en": "Getting started"
+   },
+   "de": 1,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Progression",
+    "en": "Progression"
+   },
+   "de": 5,
+   "a": 8
+  },
+  {
+   "nom": {
+    "fr": "Consolidation",
+    "en": "Consolidation"
+   },
+   "de": 9,
+   "a": 12
+  }
+ ],
+ "seances": {
+  "pp-marche-30": {
+   "nom": {
+    "fr": "Marche rapide 30 min",
+    "en": "Brisk walk 30 min"
+   },
+   "type": "autre",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 1800,
+     "zone": 2,
+     "note": {
+      "fr": "tu peux parler, pas chanter",
+      "en": "you can talk, not sing"
+     }
+    }
+   ]
+  },
+  "pp-renfo-2": {
+   "nom": {
+    "fr": "Renfo tout le corps",
+    "en": "Full-body strength"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": {
+    "fr": "Circuit : enchaîne les six exercices, puis souffle 1 min 30 avant le tour suivant.",
+    "en": "Circuit: go through all six exercises, then rest 1 min 30 before the next round."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "bodyweight-squat",
+     "series": 2,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "incline-push-up",
+     "series": 2,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "mains sur une table ou un canapé",
+      "en": "hands on a table or sofa"
+     }
+    },
+    {
+     "exo": "single-leg-glute-bridge",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "superman",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-walking-lunge",
+     "series": 2,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 2,
+     "dureeS": 30,
+     "reposS": 90,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    }
+   ]
+  },
+  "pp-marche-35": {
+   "nom": {
+    "fr": "Marche rapide 35 min",
+    "en": "Brisk walk 35 min"
+   },
+   "type": "autre",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 2100,
+     "zone": 2,
+     "note": {
+      "fr": "tu peux parler, pas chanter",
+      "en": "you can talk, not sing"
+     }
+    }
+   ]
+  },
+  "pp-marche-40": {
+   "nom": {
+    "fr": "Marche rapide 40 min",
+    "en": "Brisk walk 40 min"
+   },
+   "type": "autre",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 2400,
+     "zone": 2,
+     "note": {
+      "fr": "tu peux parler, pas chanter",
+      "en": "you can talk, not sing"
+     }
+    }
+   ]
+  },
+  "pp-renfo-3": {
+   "nom": {
+    "fr": "Renfo tout le corps",
+    "en": "Full-body strength"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": {
+    "fr": "Circuit : enchaîne les six exercices, puis souffle 1 min 30 avant le tour suivant.",
+    "en": "Circuit: go through all six exercises, then rest 1 min 30 before the next round."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "bodyweight-squat",
+     "series": 3,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "incline-push-up",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "mains sur une table ou un canapé",
+      "en": "hands on a table or sofa"
+     }
+    },
+    {
+     "exo": "single-leg-glute-bridge",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "superman",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-walking-lunge",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 3,
+     "dureeS": 30,
+     "reposS": 90,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    }
+   ]
+  },
+  "pp-marche-45": {
+   "nom": {
+    "fr": "Marche rapide 45 min",
+    "en": "Brisk walk 45 min"
+   },
+   "type": "autre",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 2700,
+     "zone": 2,
+     "note": {
+      "fr": "tu peux parler, pas chanter",
+      "en": "you can talk, not sing"
+     }
+    }
+   ]
+  },
+  "pp-marche-50": {
+   "nom": {
+    "fr": "Marche rapide 50 min",
+    "en": "Brisk walk 50 min"
+   },
+   "type": "autre",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 3000,
+     "zone": 2,
+     "note": {
+      "fr": "tu peux parler, pas chanter",
+      "en": "you can talk, not sing"
+     }
+    }
+   ]
+  },
+  "pp-marche-55": {
+   "nom": {
+    "fr": "Marche rapide 55 min",
+    "en": "Brisk walk 55 min"
+   },
+   "type": "autre",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 3300,
+     "zone": 2,
+     "note": {
+      "fr": "tu peux parler, pas chanter",
+      "en": "you can talk, not sing"
+     }
+    }
+   ]
+  },
+  "pp-marche-60": {
+   "nom": {
+    "fr": "Marche rapide 60 min",
+    "en": "Brisk walk 60 min"
+   },
+   "type": "autre",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 3600,
+     "zone": 2,
+     "note": {
+      "fr": "tu peux parler, pas chanter",
+      "en": "you can talk, not sing"
+     }
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "150 min par semaine",
+    "en": "150 min a week"
+   },
+   "seances": [
+    "pp-marche-30",
+    "pp-renfo-2",
+    "pp-marche-30",
+    "pp-renfo-2"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-30",
+    "pp-renfo-2",
+    "pp-marche-30",
+    "pp-renfo-2"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-35",
+    "pp-renfo-2",
+    "pp-marche-35",
+    "pp-renfo-2"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-35",
+    "pp-renfo-2",
+    "pp-marche-35",
+    "pp-renfo-2"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "3 tours de circuit",
+    "en": "3 circuit rounds"
+   },
+   "seances": [
+    "pp-marche-40",
+    "pp-renfo-3",
+    "pp-marche-40",
+    "pp-renfo-3"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-45",
+    "pp-renfo-3",
+    "pp-marche-45",
+    "pp-renfo-3"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-45",
+    "pp-renfo-3",
+    "pp-marche-45",
+    "pp-renfo-3"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 1,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-50",
+    "pp-renfo-3",
+    "pp-marche-50",
+    "pp-renfo-3"
+   ]
+  },
+  {
+   "n": 9,
+   "phase": 2,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-50",
+    "pp-renfo-3",
+    "pp-marche-50",
+    "pp-renfo-3"
+   ]
+  },
+  {
+   "n": 10,
+   "phase": 2,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-55",
+    "pp-renfo-3",
+    "pp-marche-55",
+    "pp-renfo-3"
+   ]
+  },
+  {
+   "n": 11,
+   "phase": 2,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "pp-marche-60",
+    "pp-renfo-3",
+    "pp-marche-60",
+    "pp-renfo-3"
+   ]
+  },
+  {
+   "n": 12,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "250 min par semaine",
+    "en": "250 min a week"
+   },
+   "seances": [
+    "pp-marche-60",
+    "pp-renfo-3",
+    "pp-marche-60",
+    "pp-renfo-3"
+   ]
+  }
+ ],
+ "seanceType": "pp-renfo-3",
+ "exercicesPerso": {}
+}

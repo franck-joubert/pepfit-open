@@ -1,0 +1,212 @@
+{
+  "expo": {
+    "name": "pepfit open",
+    "slug": "pepfit",
+    "version": "0.1.202",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "pepfitopen",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "fit.pep.open",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "config": {
+        "usesNonExemptEncryption": true
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "pepfit utilise la caméra pour lire les codes-barres des aliments et les codes QR, et pour la photo de ta séance.",
+        "NSPhotoLibraryUsageDescription": "pepfit ouvre ta galerie pour choisir la photo de ta séance.",
+        "NSMicrophoneUsageDescription": "pepfit n'enregistre jamais le son : la caméra sert aux codes-barres, aux codes QR et aux photos.",
+        "NSLocationWhenInUseUsageDescription": "pepfit utilise ta position pour tracer tes sorties (distance, allure, carte), même écran verrouillé, et pour trouver les salles autour de toi.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "pepfit utilise ta position pendant tes sorties pour en mesurer la distance et l'allure, même écran verrouillé. Rien n'est suivi en dehors d'une séance.",
+        "NSLocationAlwaysUsageDescription": "pepfit utilise ta position pendant tes sorties pour en mesurer la distance et l'allure, même écran verrouillé. Rien n'est suivi en dehors d'une séance.",
+        "NSMotionUsageDescription": "pepfit utilise le baromètre de ton iPhone pour mesurer le dénivelé de tes sorties.",
+        "NSBluetoothAlwaysUsageDescription": "pepfit se connecte à ta ceinture cardio ou à ta Whoop pour afficher ta fréquence cardiaque pendant la séance, même écran verrouillé.",
+        "NSHealthShareUsageDescription": "pepfit lit dans Santé ton poids, ta composition, tes pas, ton sommeil, ta fréquence cardiaque, tes séances et ton cycle pour calculer tes jauges. Rien n'est utilisé pour la publicité.",
+        "NSHealthUpdateUsageDescription": "pepfit enregistre tes séances dans Santé (durée, calories, distance) pour que tes autres applis les voient.",
+        "NSCalendarsUsageDescription": "pepfit lit ton agenda pour placer tes séances autour de tes rendez-vous, et y ajoute les séances que tu choisis.",
+        "NSCalendarsFullAccessUsageDescription": "pepfit lit ton agenda pour placer tes séances autour de tes rendez-vous, et y ajoute les séances que tu choisis.",
+        "NSRemindersUsageDescription": "pepfit ne lit ni n'écrit tes rappels : seul ton agenda sert.",
+        "NSRemindersFullAccessUsageDescription": "pepfit ne lit ni n'écrit tes rappels : seul ton agenda sert.",
+        "NSFaceIDUsageDescription": "pepfit utilise Face ID pour verrouiller l'appli et protéger tes données.",
+        "UIBackgroundModes": [
+          "location",
+          "bluetooth-central",
+          "audio",
+          "fetch",
+          "processing"
+        ],
+        "BGTaskSchedulerPermittedIdentifiers": [
+          "fit.pep.open.rafraichir",
+          "fit.pep.open.traitement"
+        ]
+      },
+      "entitlements": {
+        "com.apple.developer.healthkit": true,
+        "com.apple.developer.healthkit.access": []
+      },
+      "privacyManifests": {
+        "NSPrivacyTracking": false,
+        "NSPrivacyTrackingDomains": [],
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "C617.1",
+              "0A2A.1",
+              "3B52.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryDiskSpace",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "E174.1",
+              "85F4.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategorySystemBootTime",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "35F9.1"
+            ]
+          }
+        ],
+        "NSPrivacyCollectedDataTypes": []
+      }
+    },
+    "android": {
+      "package": "fit.pep.open",
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.VIBRATE",
+        "android.permission.WAKE_LOCK"
+      ],
+      "blockedPermissions": [
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-localization",
+        {
+          "supportedLocales": {
+            "android": [
+              "fr",
+              "en"
+            ],
+            "ios": [
+              "fr",
+              "en"
+            ]
+          }
+        }
+      ],
+      "expo-sqlite",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "pepfit utilise la caméra pour lire les codes-barres des aliments et les codes QR, et pour la photo de ta séance.",
+          "recordAudioAndroid": false,
+          "microphonePermission": "pepfit n'enregistre jamais le son : la caméra sert aux codes-barres, aux codes QR et aux photos."
+        }
+      ],
+      [
+        "expo-navigation-bar",
+        {
+          "enforceContrast": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#141312"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#000000",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 144
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Inter-Light.ttf",
+            "./assets/fonts/Inter-Regular.ttf",
+            "./assets/fonts/Inter-Medium.ttf",
+            "./assets/fonts/Inter-SemiBold.ttf",
+            "./assets/fonts/Inter-SemiBoldItalic.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "pepfit utilise la caméra pour lire les codes-barres des aliments et les codes QR, et pour la photo de ta séance.",
+          "photosPermission": "pepfit ouvre ta galerie pour choisir la photo de ta séance.",
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "pepfit utilise ta position pour tracer tes sorties (distance, allure, carte), même écran verrouillé, et pour trouver les salles autour de toi.",
+          "locationAlwaysAndWhenInUsePermission": "pepfit utilise ta position pendant tes sorties pour en mesurer la distance et l'allure, même écran verrouillé. Rien n'est suivi en dehors d'une séance.",
+          "locationAlwaysPermission": "pepfit utilise ta position pendant tes sorties pour en mesurer la distance et l'allure, même écran verrouillé. Rien n'est suivi en dehors d'une séance.",
+          "locationFullAccuracyPermission": "pepfit a besoin de ta position précise pour mesurer la distance et l'allure de ta séance dehors.",
+          "motionUsagePermission": "pepfit utilise le baromètre de ton iPhone pour mesurer le dénivelé de tes sorties."
+        }
+      ],
+      "expo-secure-store",
+      "expo-sharing",
+      "react-native-libsodium",
+      "./modules/pepfit-sante/plugin.js",
+      "./plugins/ios-sante.js",
+      "./plugins/retour-racine.js",
+      "./plugins/signature-release.js",
+      "./plugins/icone-sans-rond.js",
+      "./plugins/duree-pages.js",
+      "./plugins/ios-suivi.js",
+      "./plugins/ios-deverrouillage.js",
+      "./plugins/ios-agenda.js",
+      "@maplibre/maplibre-react-native",
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "pepfit lit ton agenda pour placer tes séances autour de tes rendez-vous, et y ajoute les séances que tu choisis.",
+          "remindersPermission": "pepfit ne lit ni n'écrit tes rappels : seul ton agenda sert."
+        }
+      ],
+      "./plugins/ios-rappels.js",
+      "./plugins/camera-sans-scanner-documents.js"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "locales": {
+      "fr": "./locales/fr.json",
+      "en": "./locales/en.json",
+      "de": "./locales/de.json",
+      "es": "./locales/es.json"
+    }
+  }
+}

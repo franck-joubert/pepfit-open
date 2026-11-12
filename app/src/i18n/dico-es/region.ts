@@ -1,0 +1,15 @@
+export const es = {
+  "region.titre": "Idioma y región",
+  "region.langue": "Idioma",
+  "region.fuseau": "Zona horaria",
+  "region.poids": "Peso",
+  "region.distance": "Distancia",
+  "region.kg": "kilogramos",
+  "region.lbs": "libras",
+  "region.km": "kilómetros",
+  "region.mi": "millas",
+  "region.auto": "Automático",
+  "region.detecte": "Detectado: {valeur}",
+  "region.recherche": "Buscar",
+  "region.aucunResultat": "Sin resultados",
+} as const;

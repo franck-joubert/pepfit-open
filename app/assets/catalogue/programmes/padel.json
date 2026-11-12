@@ -1,0 +1,542 @@
+{
+ "id": "padel",
+ "version": 1,
+ "nom": {
+  "fr": "Prépa physique padel",
+  "en": "Padel conditioning"
+ },
+ "resume": {
+  "fr": "Appuis, gainage en rotation et épaules, en plus des matchs.",
+  "en": "Footwork, rotational core and shoulders, on top of your matches."
+ },
+ "description": {
+  "fr": "Deux séances par semaine, en plus de tes matchs : des appuis plus vifs, un tronc solide en rotation, des épaules et des avant-bras qui tiennent la saison.",
+  "en": "Two sessions a week on top of your matches: quicker footwork, a strong rotating core, and shoulders and forearms that last the season."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "sport"
+ ],
+ "lieux": [
+  "salle",
+  "padel"
+ ],
+ "niveau": 2,
+ "semaines": 6,
+ "seancesParSemaine": 2,
+ "picto": "padel",
+ "gros": {
+  "valeur": "Padel",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Padel, salle",
+  "en": "Padel, gym"
+ },
+ "materiel": {
+  "fr": "Salle",
+  "en": "Gym"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "La technique d'abord, puis le poids et la vitesse ; la dernière semaine s'allège avant un tournoi. Coiffe des rotateurs et avant-bras protègent l'épaule et le coude.",
+  "en": "Technique first, then weight and speed; the last week eases off before a tournament. Rotator cuff and forearm work protect the shoulder and elbow."
+ },
+ "sources": [
+  3
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Technique",
+    "en": "Technique"
+   },
+   "de": 1,
+   "a": 2
+  },
+  {
+   "nom": {
+    "fr": "Poids et vitesse",
+    "en": "Weight and speed"
+   },
+   "de": 3,
+   "a": 5
+  },
+  {
+   "nom": {
+    "fr": "Semaine allégée",
+    "en": "Deload week"
+   },
+   "de": 6,
+   "a": 6
+  }
+ ],
+ "seances": {
+  "padel-a-2": {
+   "nom": {
+    "fr": "Appuis et jambes",
+    "en": "Footwork and legs"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "perso:appuis",
+     "series": 6,
+     "dureeS": 20,
+     "reposS": 40,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "pas chassés, changements de direction, replacement au centre",
+      "en": "side shuffles, direction changes, back to the centre"
+     }
+    },
+    {
+     "exo": "lateral-bound",
+     "series": 2,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque côté, réception stable",
+      "en": "each side, land softly"
+     }
+    },
+    {
+     "exo": "dumbbell-lunges",
+     "series": 2,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "pallof-press-with-rotation",
+     "series": 2,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque côté",
+      "en": "each side"
+     }
+    },
+    {
+     "exo": "external-rotation-with-cable",
+     "series": 2,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  },
+  "padel-b-2": {
+   "nom": {
+    "fr": "Gainage et épaules",
+    "en": "Core and shoulders"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "perso:appuis",
+     "series": 6,
+     "dureeS": 20,
+     "reposS": 40,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "barbell-side-split-squat",
+     "series": 2,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque côté",
+      "en": "each side"
+     }
+    },
+    {
+     "exo": "cable-russian-twists",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "face-pull",
+     "series": 2,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "palms-up-barbell-wrist-curl-over-a-bench",
+     "series": 2,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  },
+  "padel-a-3-v": {
+   "nom": {
+    "fr": "Appuis et jambes",
+    "en": "Footwork and legs"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "perso:appuis",
+     "series": 6,
+     "dureeS": 20,
+     "reposS": 40,
+     "superset": null,
+     "transitionS": null,
+     "note": {
+      "fr": "pas chassés, changements de direction, replacement au centre",
+      "en": "side shuffles, direction changes, back to the centre"
+     }
+    },
+    {
+     "exo": "lateral-bound",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque côté, réception stable",
+      "en": "each side, land softly"
+     }
+    },
+    {
+     "exo": "dumbbell-lunges",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "freehand-jump-squat",
+     "series": 3,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "explosif, réception souple",
+      "en": "explosive, soft landing"
+     }
+    },
+    {
+     "exo": "pallof-press-with-rotation",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque côté",
+      "en": "each side"
+     }
+    },
+    {
+     "exo": "external-rotation-with-cable",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  },
+  "padel-b-3-v": {
+   "nom": {
+    "fr": "Gainage et épaules",
+    "en": "Core and shoulders"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "perso:appuis",
+     "series": 6,
+     "dureeS": 20,
+     "reposS": 40,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    },
+    {
+     "exo": "barbell-side-split-squat",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque côté",
+      "en": "each side"
+     }
+    },
+    {
+     "exo": "front-box-jump",
+     "series": 3,
+     "reps": 5,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "cable-russian-twists",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "face-pull",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "palms-up-barbell-wrist-curl-over-a-bench",
+     "series": 3,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "technique",
+    "en": "technique"
+   },
+   "seances": [
+    "padel-a-2",
+    "padel-b-2"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "technique",
+    "en": "technique"
+   },
+   "seances": [
+    "padel-a-2",
+    "padel-b-2"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "poids et vitesse",
+    "en": "weight and speed"
+   },
+   "seances": [
+    "padel-a-3-v",
+    "padel-b-3-v"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "poids et vitesse",
+    "en": "weight and speed"
+   },
+   "seances": [
+    "padel-a-3-v",
+    "padel-b-3-v"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "poids et vitesse",
+    "en": "weight and speed"
+   },
+   "seances": [
+    "padel-a-3-v",
+    "padel-b-3-v"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 2,
+   "allegee": true,
+   "accent": {
+    "fr": "avant tournoi",
+    "en": "before a tournament"
+   },
+   "seances": [
+    "padel-a-2",
+    "padel-b-2"
+   ]
+  }
+ ],
+ "seanceType": "padel-a-3-v",
+ "exercicesPerso": {
+  "appuis": {
+   "nom": {
+    "fr": "Appuis et changements de direction",
+    "en": "Footwork and direction changes"
+   },
+   "nature": "duree"
+  }
+ }
+}

@@ -1,0 +1,483 @@
+{
+ "id": "fb",
+ "version": 1,
+ "nom": {
+  "fr": "Full body débutant",
+  "en": "Beginner full body"
+ },
+ "resume": {
+  "fr": "Trois séances complètes, le poids monte à chaque fois.",
+  "en": "Three full sessions, the weight goes up each time."
+ },
+ "description": {
+  "fr": "Une seule séance qui fait travailler tout le corps, trois fois par semaine. Deux semaines pour apprendre les gestes, puis le poids monte dès que toutes les séries passent.",
+  "en": "One session that works the whole body, three times a week. Two weeks to learn the movements, then the weight goes up as soon as every set is done."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "muscle",
+  "force"
+ ],
+ "lieux": [
+  "salle"
+ ],
+ "niveau": 1,
+ "semaines": 8,
+ "seancesParSemaine": 3,
+ "picto": "squat",
+ "gros": {
+  "valeur": "Full body",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Salle, barre",
+  "en": "Gym, barbell"
+ },
+ "materiel": {
+  "fr": "Barre",
+  "en": "Barbell"
+ },
+ "avertissement": null,
+ "progression": {
+  "fr": "+ 2,5 kg dès que toutes les séries atteignent 10 répétitions.",
+  "en": "+2.5 kg as soon as every set reaches 10 reps."
+ },
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Assez de séries par muscle et par semaine (10 à 20), chaque muscle deux fois par semaine, et la double progression : d'abord les répétitions, puis le poids. Une semaine allégée laisse récupérer.",
+  "en": "Enough sets per muscle per week (10 to 20), each muscle twice a week, and double progression: reps first, then weight. A deload week lets you recover."
+ },
+ "sources": [
+  3
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Apprentissage",
+    "en": "Learning"
+   },
+   "de": 1,
+   "a": 2
+  },
+  {
+   "nom": {
+    "fr": "Progression",
+    "en": "Progression"
+   },
+   "de": 3,
+   "a": 7
+  },
+  {
+   "nom": {
+    "fr": "Bilan",
+    "en": "Review"
+   },
+   "de": 8,
+   "a": 8
+  }
+ ],
+ "seances": {
+  "fb-appr": {
+   "nom": {
+    "fr": "Full body, apprentissage",
+    "en": "Full body, learning"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": {
+    "fr": "Poids légers : apprends les gestes, descente lente.",
+    "en": "Light weights: learn the movements, slow lowering."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": "3-1-1-0",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "couche",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": "3-1-1-0",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": "3-0-1-0",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 3,
+     "dureeS": 30,
+     "reposS": 45,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "fb-prog": {
+   "nom": {
+    "fr": "Full body",
+    "en": "Full body"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": {
+    "fr": "Toutes les séries à 10 répétitions ? + 2,5 kg la fois suivante.",
+    "en": "All sets at 10 reps? +2.5 kg next time."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "couche",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 3,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 3,
+     "dureeS": 30,
+     "reposS": 45,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "fb-bilan": {
+   "nom": {
+    "fr": "Full body, allégée",
+    "en": "Full body, deload"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "dernière séance : cherche ton poids pour 10 répétitions",
+      "en": "last session: find your 10-rep weight"
+     }
+    },
+    {
+     "exo": "couche",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 2,
+     "reps": 8,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 2,
+     "dureeS": 30,
+     "reposS": 45,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "apprendre les gestes",
+    "en": "learn the movements"
+   },
+   "seances": [
+    "fb-appr",
+    "fb-appr",
+    "fb-appr"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "apprendre les gestes",
+    "en": "learn the movements"
+   },
+   "seances": [
+    "fb-appr",
+    "fb-appr",
+    "fb-appr"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 2,5 kg quand tout passe",
+    "en": "+2.5 kg when everything is done"
+   },
+   "seances": [
+    "fb-prog",
+    "fb-prog",
+    "fb-prog"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 2,5 kg quand tout passe",
+    "en": "+2.5 kg when everything is done"
+   },
+   "seances": [
+    "fb-prog",
+    "fb-prog",
+    "fb-prog"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 2,5 kg quand tout passe",
+    "en": "+2.5 kg when everything is done"
+   },
+   "seances": [
+    "fb-prog",
+    "fb-prog",
+    "fb-prog"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 2,5 kg quand tout passe",
+    "en": "+2.5 kg when everything is done"
+   },
+   "seances": [
+    "fb-prog",
+    "fb-prog",
+    "fb-prog"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 2,5 kg quand tout passe",
+    "en": "+2.5 kg when everything is done"
+   },
+   "seances": [
+    "fb-prog",
+    "fb-prog",
+    "fb-prog"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 2,
+   "allegee": true,
+   "accent": {
+    "fr": "nouveau 10 RM",
+    "en": "new 10RM"
+   },
+   "seances": [
+    "fb-bilan",
+    "fb-bilan",
+    "fb-bilan"
+   ]
+  }
+ ],
+ "seanceType": "fb-prog",
+ "exercicesPerso": {}
+}

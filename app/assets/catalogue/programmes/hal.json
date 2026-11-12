@@ -1,0 +1,518 @@
+{
+ "id": "hal",
+ "version": 1,
+ "nom": {
+  "fr": "Muscu aux haltères",
+  "en": "Dumbbell training"
+ },
+ "resume": {
+  "fr": "Tout le corps avec deux haltères réglables.",
+  "en": "Full body with two adjustable dumbbells."
+ },
+ "description": {
+  "fr": "Une séance complète avec deux haltères, à la maison. On monte d'abord les répétitions, puis le poids ; un tempo lent prend le relais quand les haltères deviennent légers.",
+  "en": "A full session with two dumbbells at home. Reps go up first, then the weight; a slow tempo takes over when the dumbbells get light."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "muscle",
+  "maison"
+ ],
+ "lieux": [
+  "maison_halteres"
+ ],
+ "niveau": 1,
+ "semaines": 8,
+ "seancesParSemaine": 3,
+ "picto": "squat-gobelet",
+ "gros": {
+  "valeur": "Haltères",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Maison, haltères",
+  "en": "Home, dumbbells"
+ },
+ "materiel": {
+  "fr": "Haltères",
+  "en": "Dumbbells"
+ },
+ "avertissement": null,
+ "progression": {
+  "fr": "Double progression : 15 répétitions à toutes les séries, puis un cran de plus.",
+  "en": "Double progression: 15 reps on every set, then go one notch heavier."
+ },
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Assez de séries par muscle et par semaine (10 à 20), chaque muscle deux fois par semaine, et la double progression : d'abord les répétitions, puis le poids. Une semaine allégée laisse récupérer.",
+  "en": "Enough sets per muscle per week (10 to 20), each muscle twice a week, and double progression: reps first, then weight. A deload week lets you recover."
+ },
+ "sources": [
+  3
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Progression",
+    "en": "Progression"
+   },
+   "de": 1,
+   "a": 3
+  },
+  {
+   "nom": {
+    "fr": "Semaine allégée",
+    "en": "Deload week"
+   },
+   "de": 4,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Tempo lent",
+    "en": "Slow tempo"
+   },
+   "de": 5,
+   "a": 7
+  },
+  {
+   "nom": {
+    "fr": "Semaine allégée",
+    "en": "Deload week"
+   },
+   "de": 8,
+   "a": 8
+  }
+ ],
+ "seances": {
+  "hal-3": {
+   "nom": {
+    "fr": "Haltères, tout le corps",
+    "en": "Dumbbells, full body"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": {
+    "fr": "On monte les répétitions jusqu'au haut de la plage, puis le poids.",
+    "en": "Raise the reps to the top of the range, then the weight."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "goblet-squat",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "dumbbell-floor-press",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "one-arm-dumbbell-row",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque bras",
+      "en": "each arm"
+     }
+    },
+    {
+     "exo": "dumbbell-rear-lunge",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "stiff-legged-dumbbell-deadlift",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "hal-2": {
+   "nom": {
+    "fr": "Haltères, tout le corps",
+    "en": "Dumbbells, full body"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": {
+    "fr": "On monte les répétitions jusqu'au haut de la plage, puis le poids.",
+    "en": "Raise the reps to the top of the range, then the weight."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "goblet-squat",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "dumbbell-floor-press",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "one-arm-dumbbell-row",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "chaque bras",
+      "en": "each arm"
+     }
+    },
+    {
+     "exo": "dumbbell-rear-lunge",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "stiff-legged-dumbbell-deadlift",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 2,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  },
+  "hal-3-tempo": {
+   "nom": {
+    "fr": "Haltères, tempo lent",
+    "en": "Dumbbells, slow tempo"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": {
+    "fr": "On monte les répétitions jusqu'au haut de la plage, puis le poids.",
+    "en": "Raise the reps to the top of the range, then the weight."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "goblet-squat",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": "3-1-1-0",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "dumbbell-floor-press",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": "3-1-1-0",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "one-arm-dumbbell-row",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque bras",
+      "en": "each arm"
+     }
+    },
+    {
+     "exo": "dumbbell-rear-lunge",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "stiff-legged-dumbbell-deadlift",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "3 × 10-15",
+    "en": "3 × 10-15"
+   },
+   "seances": [
+    "hal-3",
+    "hal-3",
+    "hal-3"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "3 × 10-15",
+    "en": "3 × 10-15"
+   },
+   "seances": [
+    "hal-3",
+    "hal-3",
+    "hal-3"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "3 × 10-15",
+    "en": "3 × 10-15"
+   },
+   "seances": [
+    "hal-3",
+    "hal-3",
+    "hal-3"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 1,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "hal-2",
+    "hal-2",
+    "hal-2"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "tempo 3-1-1-0",
+    "en": "tempo 3-1-1-0"
+   },
+   "seances": [
+    "hal-3-tempo",
+    "hal-3",
+    "hal-3-tempo"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "tempo 3-1-1-0",
+    "en": "tempo 3-1-1-0"
+   },
+   "seances": [
+    "hal-3-tempo",
+    "hal-3",
+    "hal-3-tempo"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "tempo 3-1-1-0",
+    "en": "tempo 3-1-1-0"
+   },
+   "seances": [
+    "hal-3-tempo",
+    "hal-3",
+    "hal-3-tempo"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 3,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "hal-2",
+    "hal-2",
+    "hal-2"
+   ]
+  }
+ ],
+ "seanceType": "hal-3",
+ "exercicesPerso": {}
+}

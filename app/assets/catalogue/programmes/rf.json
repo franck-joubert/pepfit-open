@@ -1,0 +1,406 @@
+{
+ "id": "rf",
+ "version": 1,
+ "nom": {
+  "fr": "Remise en forme",
+  "en": "Get back in shape"
+ },
+ "resume": {
+  "fr": "Renfo et cardio doux pour reprendre une routine.",
+  "en": "Strength and easy cardio to get back into a routine."
+ },
+ "description": {
+  "fr": "Trente minutes, trois fois par semaine : dix minutes de cardio doux et un circuit au poids du corps. Deux tours pour commencer, trois ensuite.",
+  "en": "Thirty minutes, three times a week: ten minutes of easy cardio and a bodyweight circuit. Two rounds to start, three after."
+ },
+ "famille": "forme",
+ "type": "muscu",
+ "objectifs": [
+  "maison",
+  "poids"
+ ],
+ "lieux": [
+  "maison"
+ ],
+ "niveau": 1,
+ "semaines": 8,
+ "seancesParSemaine": 3,
+ "picto": "squat-poids-du-corps",
+ "gros": {
+  "valeur": "30",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Maison, élastique",
+  "en": "Home, band"
+ },
+ "materiel": {
+  "fr": "Élastique",
+  "en": "Band"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Les recommandations de santé : de l'activité modérée chaque semaine et du renforcement deux fois ou plus. On commence bas, on ajoute un tour quand les deux premiers deviennent faciles.",
+  "en": "Health guidelines: moderate activity every week and strength work twice or more. Start low, add a round once the first two feel easy."
+ },
+ "sources": [
+  6,
+  5
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Reprise",
+    "en": "Restart"
+   },
+   "de": 1,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Progression",
+    "en": "Progression"
+   },
+   "de": 5,
+   "a": 8
+  }
+ ],
+ "seances": {
+  "rf-2": {
+   "nom": {
+    "fr": "Remise en forme, 2 tours",
+    "en": "Get fit, 2 rounds"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": {
+    "fr": "30 minutes en tout. Circuit : les six exercices à la suite, puis 1 min 30 de pause.",
+    "en": "30 minutes in all. Circuit: the six exercises in a row, then a 1 min 30 break."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "cardio doux : marche rapide ou vélo",
+      "en": "easy cardio: brisk walk or bike"
+     }
+    },
+    {
+     "exo": "bodyweight-squat",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "incline-push-up",
+     "series": 2,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bent-knee-hip-raise",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "perso:rowing-elastique",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-walking-lunge",
+     "series": 2,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 2,
+     "dureeS": 20,
+     "reposS": 90,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    }
+   ]
+  },
+  "rf-3": {
+   "nom": {
+    "fr": "Remise en forme, 3 tours",
+    "en": "Get fit, 3 rounds"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": {
+    "fr": "30 minutes en tout. Circuit : les six exercices à la suite, puis 1 min 30 de pause.",
+    "en": "30 minutes in all. Circuit: the six exercises in a row, then a 1 min 30 break."
+   },
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "cardio doux : marche rapide ou vélo",
+      "en": "easy cardio: brisk walk or bike"
+     }
+    },
+    {
+     "exo": "bodyweight-squat",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "incline-push-up",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bent-knee-hip-raise",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "perso:rowing-elastique",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-walking-lunge",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 20,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 3,
+     "dureeS": 20,
+     "reposS": 90,
+     "superset": 1,
+     "transitionS": 20,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "2 tours",
+    "en": "2 rounds"
+   },
+   "seances": [
+    "rf-2",
+    "rf-2",
+    "rf-2"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "2 tours",
+    "en": "2 rounds"
+   },
+   "seances": [
+    "rf-2",
+    "rf-2",
+    "rf-2"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "2 tours",
+    "en": "2 rounds"
+   },
+   "seances": [
+    "rf-2",
+    "rf-2",
+    "rf-2"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "2 tours",
+    "en": "2 rounds"
+   },
+   "seances": [
+    "rf-2",
+    "rf-2",
+    "rf-2"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "3 tours",
+    "en": "3 rounds"
+   },
+   "seances": [
+    "rf-3",
+    "rf-3",
+    "rf-3"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "3 tours",
+    "en": "3 rounds"
+   },
+   "seances": [
+    "rf-3",
+    "rf-3",
+    "rf-3"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "3 tours",
+    "en": "3 rounds"
+   },
+   "seances": [
+    "rf-3",
+    "rf-3",
+    "rf-3"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "3 tours",
+    "en": "3 rounds"
+   },
+   "seances": [
+    "rf-3",
+    "rf-3",
+    "rf-3"
+   ]
+  }
+ ],
+ "seanceType": "rf-2",
+ "exercicesPerso": {
+  "rowing-elastique": {
+   "nom": {
+    "fr": "Rowing avec élastique",
+    "en": "Band row"
+   },
+   "nature": "reps"
+  }
+ }
+}

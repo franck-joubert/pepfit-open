@@ -1,0 +1,23 @@
+// Page du jour de l'onglet Activité (ex-Effort) : ligne Sommeil, récupérations, masquer le Sommeil (planche Effort v2.2, D4, D5, D8, D9, D10).
+export const fr = {
+  "effortJour.activites": "Activités",
+  "effortJour.sommeil": "Sommeil",
+  "effortJour.pasDeDonnee": "Pas de donnée",
+  "effortJour.synchro": "Synchro en cours",
+  "effortJour.sommeilLu": "Sommeil, {duree}",
+  "effortJour.sommeilPart": "{n} %",
+  "effortJour.ouvrirSommeil": "Ouvrir le sommeil",
+  "effortJour.masquer": "Masquer le Sommeil",
+  "effortJour.masquerAide": "À réafficher dans les réglages Activité",
+  "effortJour.masque": "Sommeil masqué. Pour le revoir : réglages Activité.",
+  "effortJour.pageDuJour": "Page du jour",
+  "effortJour.afficherSommeil": "Afficher le sommeil",
+  "effortJour.afficherSommeilSous": "La nuit passée, en tête de la liste du jour",
+  "effortJour.recupSupprimee": "Récupération supprimée",
+  "effortJour.ouvrirRecup": "Ouvrir {nom}, {heure}",
+  "effortJour.partager": "Partager",
+  "effortJour.partage.photo": "Ajouter une photo",
+  "effortJour.partage.changerPhoto": "Changer la photo",
+  "effortJour.partage.apercu": "{nom}, {duree}",
+  "effortJour.motsCles": "sommeil, nuit, masquer, afficher, page du jour, effort",
+} as const;

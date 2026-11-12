@@ -1,0 +1,15 @@
+export const en = {
+  "region.titre": "Language and region",
+  "region.langue": "Language",
+  "region.fuseau": "Time zone",
+  "region.poids": "Weight",
+  "region.distance": "Distance",
+  "region.kg": "kilograms",
+  "region.lbs": "pounds",
+  "region.km": "kilometers",
+  "region.mi": "miles",
+  "region.auto": "Auto",
+  "region.detecte": "Detected: {valeur}",
+  "region.recherche": "Search",
+  "region.aucunResultat": "No results",
+} as const;

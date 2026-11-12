@@ -1,0 +1,279 @@
+{
+ "status": 0,
+ "body": {
+  "updatetime": 1793085180,
+  "timezone": "Europe/Paris",
+  "measuregrps": [
+   {
+    "grpid": 5100000001,
+    "attrib": 0,
+    "date": 1793085120,
+    "created": 1793085160,
+    "modified": 1793085160,
+    "category": 1,
+    "deviceid": "d41d8cd98f00b204e9800998ecf8427e",
+    "hash_deviceid": "d41d8cd98f00b204e9800998ecf8427e",
+    "measures": [
+     {
+      "value": 79400,
+      "type": 1,
+      "unit": -3,
+      "algo": 3,
+      "fm": 3
+     },
+     {
+      "value": 1780,
+      "type": 6,
+      "unit": -2,
+      "position": 7
+     },
+     {
+      "value": 14133,
+      "type": 8,
+      "unit": -3,
+      "position": 7
+     },
+     {
+      "value": 65267,
+      "type": 5,
+      "unit": -3,
+      "position": 7
+     },
+     {
+      "value": 6105,
+      "type": 76,
+      "unit": -2,
+      "position": 7
+     },
+     {
+      "value": 4732,
+      "type": 77,
+      "unit": -2,
+      "position": 7
+     },
+     {
+      "value": 333,
+      "type": 88,
+      "unit": -2,
+      "position": 7
+     },
+     {
+      "value": 21,
+      "type": 170,
+      "unit": -1,
+      "position": 7
+     },
+     {
+      "value": 1931,
+      "type": 226,
+      "unit": 0,
+      "position": 7
+     },
+     {
+      "value": 36,
+      "type": 227,
+      "unit": 0,
+      "position": 7
+     },
+     {
+      "value": 1820,
+      "type": 168,
+      "unit": -2,
+      "position": 7
+     },
+     {
+      "value": 2912,
+      "type": 169,
+      "unit": -2,
+      "position": 7
+     },
+     {
+      "value": 58,
+      "type": 11,
+      "unit": 0
+     },
+     {
+      "value": 681,
+      "type": 91,
+      "unit": -2,
+      "position": 6
+     },
+     {
+      "value": 41,
+      "type": 155,
+      "unit": 0
+     },
+     {
+      "value": 82,
+      "type": 167,
+      "unit": 0,
+      "position": 6
+     },
+     {
+      "value": 7210,
+      "type": 174,
+      "unit": -3,
+      "position": 12
+     },
+     {
+      "value": 2630,
+      "type": 174,
+      "unit": -3,
+      "position": 10
+     },
+     {
+      "value": 1010,
+      "type": 174,
+      "unit": -3,
+      "position": 3
+     },
+     {
+      "value": 2670,
+      "type": 174,
+      "unit": -3,
+      "position": 11
+     },
+     {
+      "value": 1040,
+      "type": 174,
+      "unit": -3,
+      "position": 2
+     },
+     {
+      "value": 2745,
+      "type": 175,
+      "unit": -2,
+      "position": 12
+     },
+     {
+      "value": 1125,
+      "type": 175,
+      "unit": -2,
+      "position": 10
+     },
+     {
+      "value": 341,
+      "type": 175,
+      "unit": -2,
+      "position": 3
+     },
+     {
+      "value": 1138,
+      "type": 175,
+      "unit": -2,
+      "position": 11
+     },
+     {
+      "value": 352,
+      "type": 175,
+      "unit": -2,
+      "position": 2
+     },
+     {
+      "value": 3280,
+      "type": 173,
+      "unit": -2,
+      "position": 12
+     },
+     {
+      "value": 1510,
+      "type": 173,
+      "unit": -2,
+      "position": 10
+     },
+     {
+      "value": 430,
+      "type": 173,
+      "unit": -2,
+      "position": 3
+     },
+     {
+      "value": 1530,
+      "type": 173,
+      "unit": -2,
+      "position": 11
+     },
+     {
+      "value": 440,
+      "type": 173,
+      "unit": -2,
+      "position": 2
+     }
+    ],
+    "modelid": 24,
+    "model": "Body Scan",
+    "comment": null
+   },
+   {
+    "grpid": 5100000002,
+    "attrib": 0,
+    "date": 1792998720,
+    "created": 1792998760,
+    "modified": 1792998760,
+    "category": 1,
+    "deviceid": "d41d8cd98f00b204e9800998ecf8427e",
+    "hash_deviceid": "d41d8cd98f00b204e9800998ecf8427e",
+    "measures": [
+     {
+      "value": 79750,
+      "type": 1,
+      "unit": -3,
+      "algo": 3,
+      "fm": 3
+     },
+     {
+      "value": 1795,
+      "type": 6,
+      "unit": -2,
+      "position": 7
+     }
+    ],
+    "modelid": 24,
+    "model": "Body Scan",
+    "comment": null
+   },
+   {
+    "grpid": 5100000003,
+    "attrib": 1,
+    "date": 1793081520,
+    "created": 1793081560,
+    "modified": 1793081560,
+    "category": 1,
+    "deviceid": "d41d8cd98f00b204e9800998ecf8427e",
+    "hash_deviceid": "d41d8cd98f00b204e9800998ecf8427e",
+    "measures": [
+     {
+      "value": 52300,
+      "type": 1,
+      "unit": -3
+     }
+    ],
+    "modelid": 24,
+    "model": "Body Scan",
+    "comment": null
+   },
+   {
+    "grpid": 5100000004,
+    "attrib": 0,
+    "date": 1792912320,
+    "created": 1792912360,
+    "modified": 1792912360,
+    "category": 2,
+    "deviceid": "d41d8cd98f00b204e9800998ecf8427e",
+    "hash_deviceid": "d41d8cd98f00b204e9800998ecf8427e",
+    "measures": [
+     {
+      "value": 78000,
+      "type": 1,
+      "unit": -3
+     }
+    ],
+    "modelid": 24,
+    "model": "Body Scan",
+    "comment": null
+   }
+  ],
+  "more": 0,
+  "offset": 0
+ }
+}

@@ -1,0 +1,648 @@
+# Noms d'exercices corrigés (avant → après)
+
+644 noms, relecture complète du catalogue.
+
+- Adductor → Adducteurs (Rouleau)
+- Adductor/Groin → Adducteurs et aine
+- Advanced Windmill (Kettlebell) → Windmill avancé (Kettlebell)
+- Air Bike → Vélo Air Bike
+- Étirement All Fours quadriceps → Étirement quadriceps à quatre pattes
+- Alterné Heel Touchers → Talons touchés alternés
+- Alterné jambe Diagonal Bound → Bond diagonal alterné
+- Élévation alterné Deltoid (Haltère) → Élévation deltoïdes alternée (Haltère)
+- Développé alterné sol (Kettlebell) → Développé au sol alterné (Kettlebell)
+- Ankle Circles → Cercles de cheville
+- Ankle sur genou → Cheville sur le genou
+- Anterior Tibialis SMR → Rouleau tibial antérieur
+- Développé Anti Gravity (Barre) → Développé anti-gravité (Barre)
+- Bras Circles → Cercles de bras
+- Around Worlds (Haltère) → Around the world (Haltère)
+- Atlas Stone Trainer → Entraînement pierre d'Atlas
+- Atlas Stones → Pierres d'Atlas
+- Soulevé de terre Axle → Soulevé de terre barre épaisse (Axle)
+- Backward traîné → Traction de traîneau à reculons
+- Backward médecine ball Throw → Lancer de médecine ball vers l'arrière
+- Équilibre Board → Planche d'équilibre
+- Curl ball jambe → Leg curl sur ballon
+- Traction assisté → Traction assistée (Élastique)
+- Pull-through Good Morning (Élastique) → Good morning pull-through (Élastique)
+- Hanche Adductions (Élastique) → Adduction de hanche (Élastique)
+- Pull Apart (Élastique) → Écarté arrière (Élastique)
+- Curl allongé Against An incliné (Barre) → Curl allongé sur banc incliné (Barre)
+- Développé couché Guillotine (Barre) → Développé couché guillotine (Barre)
+- Squat Hack (Barre) → Hack squat (Barre)
+- Élévation incliné épaule (Barre) → Élévation épaules sur banc incliné (Barre)
+- Rowing arrière Delt (Barre) → Rowing deltoïdes arrière (Barre)
+- Rollout depuis banc (Barre) → Rollout depuis un banc (Barre)
+- Shrug derrière dos (Barre) → Shrug derrière le dos (Barre)
+- Latéral Bend (Barre) → Flexion latérale (Barre)
+- Squat latéral bulgare (Barre) → Squat fendu latéral (Barre)
+- Squat à banc (Barre) → Squat sur banc (Barre)
+- Fente Walking (Barre) → Fentes marchées (Barre)
+- Battling Ropes → Cordes ondulatoires
+- Bear Crawl traîneau Drags → Traction de traîneau en bear crawl
+- Étirement derrière tête pectoraux → Étirement pectoraux bras derrière la tête
+- Dips banc → Dips sur banc
+- Saut banc → Saut sur banc
+- Développé couché Powerlifting (Barre) → Développé couché powerlifting (Barre)
+- Développé couché Chains (Barre) → Développé couché avec chaînes (Barre)
+- Banc sprint → Sprint autour du banc
+- Pull-over penché bras (Barre) → Pull-over bras fléchis (Barre)
+- Pull-over penché bras (Haltère) → Pull-over bras fléchis (Haltère)
+- Élévation penché genou hanche → Relevé de bassin jambes fléchies
+- Élévation penché au-dessus arrière Delt tête sur banc (Haltère) → Élévation arrière buste penché, tête sur banc (Haltère)
+- Penché au-dessus bas poulie latéral latéral (Poulie) → Élévation latérale buste penché (Poulie)
+- Rowing penché au-dessus un bras long (Barre) → Rowing penché un bras barre longue (Barre)
+- Rowing penché au-dessus deux bras long (Barre) → Rowing penché deux bras barre longue (Barre)
+- Rowing penché au-dessus deux (Haltère) → Rowing deux haltères (Haltère)
+- Rowing penché au-dessus deux paumes dans (Haltère) → Rowing deux haltères prise neutre (Haltère)
+- Développé Board (Barre) → Développé sur planche (Barre)
+- Corps haut → Montée de corps au sol
+- Développé corps triceps → Extension triceps au poids du corps
+- Rowing poids du corps Mid → Rowing poids du corps
+- Fente poids du corps Walking → Fentes marchées (Poids du corps)
+- Crunch Bosu ball latéral Bends (Poulie) → Crunch latéral sur Bosu (Poulie)
+- Épaulé Bottoms haut depuis suspendu Position (Kettlebell) → Épaulé bottoms-up depuis suspendu (Kettlebell)
+- Bottoms haut → Bottoms-up (Kettlebell)
+- Saut box Multiple Response → Saut sur box (réponses multiples)
+- Box Skip → Skip sur box
+- Squat box (Barre) → Squat sur box (Barre)
+- Squat box (Barre) → Squat sur box avec élastiques (Barre)
+- Squat box Chains (Barre) → Squat sur box avec chaînes (Barre)
+- Brachialis SMR → Rouleau brachial
+- Bradford/Rocky Presses (Barre) → Développé Bradford/Rocky (Barre)
+- Butt Ups → Montées de fessiers
+- Pont Butt Lift → Pont fessier
+- Deadlifts (Poulie) → Soulevé de terre (Poulie)
+- Curl marteau corde Attachment (Poulie) → Curl marteau corde (Poulie)
+- Hanche Adduction (Poulie) → Adduction de hanche (Poulie)
+- Extension poulie incliné (Poulie) → Extension triceps incliné à la poulie (Poulie)
+- Extension incliné triceps (Poulie) → Extension triceps incliné (Poulie)
+- Rotation Internal (Poulie) → Rotation interne (Poulie)
+- Fer croisé (Poulie) → Croix de fer (Poulie)
+- Judo Flip (Poulie) → Judo flip (Poulie)
+- Extension allongé triceps (Poulie) → Extension triceps allongé (Poulie)
+- Extension un bras triceps (Poulie) → Extension triceps un bras (Poulie)
+- Écarté arrière Delt (Poulie) → Écarté arrière (Poulie)
+- Extension corde au-dessus de la tête triceps (Poulie) → Extension triceps corde au-dessus de la tête (Poulie)
+- Rowing corde arrière Delt (Poulie) → Rowing deltoïdes arrière, corde (Poulie)
+- Russe Twists (Poulie) → Rotations russes (Poulie)
+- Élévation assis latéral (Poulie) → Élévation latérale assis (Poulie)
+- Shrug mollets épaule (Machine) → Shrug épaules (Machine)
+- Presse à cuisses mollets Press sur (Machine) → Mollets à la presse à cuisses (Machine)
+- Élévation mollets sur (Haltère) → Élévation mollets sur haltère
+- Étirement mollets coudes Against mur → Étirement mollets, coudes contre le mur
+- Étirement mollets mains Against mur → Étirement mollets, mains contre le mur
+- Mollets SMR → Rouleau mollets
+- Soulevé de terre Car → Soulevé de voiture
+- Car Drivers (Barre) → Car drivers (Barre)
+- Étirement Cat → Étirement du chat
+- Catch et au-dessus de la tête Throw → Réception et lancer au-dessus de la tête
+- Extension Chain Handle → Extension poignée avec chaîne
+- Développé Chain → Développé avec chaîne
+- Étirement chaise jambe Extended → Étirement jambe tendue sur chaise
+- Étirement chaise Lower dos → Étirement bas du dos sur chaise
+- Squat chaise (Machine) → Squat sur chaise
+- Étirement chaise Upper corps → Étirement haut du corps sur chaise
+- Étirement pectoraux et avant de épaule → Étirement pectoraux et avant de l'épaule
+- Pectoraux Push depuis 3 point écartement → Poussée pectorale départ trois appuis
+- Pectoraux Push multiple response → Poussée pectorale (réponses multiples)
+- Pectoraux Push un bras response → Poussée pectorale (réponse unique)
+- Pectoraux Push Run Release → Poussée pectorale avec lâcher en course
+- Étirement pectoraux sur stabilité ball → Étirement pectoraux sur ballon de stabilité
+- Child's Pose → Posture de l'enfant
+- Étirement Chin à pectoraux → Étirement menton vers la poitrine
+- Circus Bell → Circus bell
+- Épaulé Pull (Barre) → Tirage d'épaulé (Barre)
+- Jeté épaulé et (Barre) → Épaulé-jeté (Barre)
+- Développé épaulé et (Barre) → Épaulé-développé (Barre)
+- Épaulé depuis Blocks (Barre) → Épaulé depuis des blocs (Barre)
+- Pompes Clock → Pompes en horloge
+- Développé couché serré prise (Barre) → Développé couché prise serrée (Barre)
+- Développé serré prise (Haltère) → Développé prise serrée (Haltère)
+- Curl serré prise (Barre EZ) → Curl prise serrée avec élastique (Barre EZ)
+- Développé serré prise (Barre EZ) → Développé prise serrée (Barre EZ)
+- Curl serré prise (Barre) → Curl prise serrée (Barre EZ)
+- Pompes serré prise off de → Pompes prise serrée sur haltère
+- Curl serré prise debout (Barre) → Curl debout prise serrée (Barre)
+- Cocoons → Cocons
+- Conan's Wheel → Roue de Conan
+- Crunch croisé corps → Crunch croisé
+- Curl croisé corps marteau (Haltère) → Curl marteau croisé (Haltère)
+- Croisé au-dessus (Élastique) → Écarté croisé (Élastique)
+- Fente croisé inversé → Fente arrière croisée
+- Crunch jambes sur Exercise ball → Crunch jambes sur ballon
+- Développé Cuban (Haltère) → Développé cubain (Haltère)
+- Étirement Dancer's → Étirement de la danseuse
+- Mort Bug → Dead bug
+- Soulevé de terre (Barre) → Soulevé de terre avec élastiques (Barre)
+- Soulevé de terre Chains (Barre) → Soulevé de terre avec chaînes (Barre)
+- Décliné serré prise banc à Skull Crusher (Barre) → Développé couché décliné prise serrée vers barre au front (Barre)
+- Extension décliné triceps (Haltère) → Extension triceps décliné (Haltère)
+- Extension décliné triceps (Barre) → Extension triceps décliné (Barre EZ)
+- Crunch décliné Oblique → Crunch oblique décliné
+- Pompes décliné → Pompes déclinées
+- Développé décliné Smith (Machine) → Développé décliné (Smith)
+- Soulevé de terre Deficit (Barre) → Soulevé de terre avec déficit (Barre)
+- Saut Depth Leap → Saut en contrebas
+- Dips pectoraux Version → Dips pectoraux
+- Élévation Donkey mollets → Mollets Donkey
+- Développé double Push (Kettlebell) → Push press double (Kettlebell)
+- Double jambe Butt Kick → Talons aux fesses jambes alternées
+- Downward Facing équilibre → Équilibre chien tête en bas
+- Drop Push → Poussée en chute
+- Développé couché neutre prise (Haltère) → Développé couché prise neutre (Haltère)
+- Élévation incliné épaule (Haltère) → Élévation épaules sur banc incliné (Haltère)
+- Élévation allongé un bras arrière latéral (Haltère) → Élévation arrière allongé un bras (Haltère)
+- Allongé Pronation (Haltère) → Pronation allongé (Haltère)
+- Élévation allongé arrière latéral (Haltère) → Élévation arrière allongé (Haltère)
+- Allongé Supination (Haltère) → Supination allongé (Haltère)
+- Rowing un bras menton (Haltère) → Tirage menton un bras (Haltère)
+- Curl Prone incliné (Haltère) → Curl incliné face au banc (Haltère)
+- Saut assis box (Haltère) → Saut sur box depuis assis (Haltère)
+- Élévation mollets assis un jambe (Haltère) → Élévation mollets assis une jambe (Haltère)
+- Latéral Bend (Haltère) → Flexion latérale (Haltère)
+- Squat à banc (Haltère) → Squat sur banc (Haltère)
+- Extension triceps pronation prise (Haltère) → Extension triceps prise pronation (Haltère)
+- Étirement Dynamic dos → Étirement dynamique du dos
+- Étirement Dynamic pectoraux → Étirement dynamique des pectoraux
+- Coude Circles → Cercles de coude
+- Coude à genou → Coude au genou
+- Coudes dos → Coudes en arrière
+- Fente Elevated dos (Barre) → Fente arrière surélevée (Barre)
+- Rowing Elevated (Poulie) → Rowing poulie surélevée (Poulie)
+- Crunch Exercise ball → Crunch sur ballon
+- Développé Extended Range un bras sol (Kettlebell) → Développé au sol amplitude étendue un bras (Kettlebell)
+- Rotation External (Haltère) → Rotation externe (Haltère)
+- Rotation External (Élastique) → Rotation externe (Élastique)
+- Rotation External (Poulie) → Rotation externe (Poulie)
+- Marche Farmer's → Marche du fermier
+- Rapide Skipping → Skipping rapide
+- Curl Finger (Barre) → Curl des doigts (Barre)
+- Écarté à plat banc (Poulie) → Écarté sur banc plat (Poulie)
+- À plat banc jambe Pull dans → Rentré de jambes sur banc plat
+- Élévation à plat banc allongé jambe → Relevé de jambes allongé sur banc plat
+- Curl Flexor incliné (Haltère) → Curl fléchisseurs incliné (Haltère)
+- Élévation sol fessiers Ham → Relevé de jambes ischio-fessiers au sol
+- Développé sol (Barre) → Développé au sol (Barre)
+- Développé sol Chains (Barre) → Développé au sol avec chaînes (Barre)
+- Flutter Kicks → Battements de jambes
+- Pied SMR → Rouleau pied
+- Développé Forward traîné → Développé avec traction vers l'avant
+- Squat Freehand saut → Squat sauté sans charge
+- Frog Hops → Sauts de grenouille
+- Relevé de buste Frog → Relevé de buste en grenouille
+- Saut avant box → Saut sur box vers l'avant
+- Avant Cone Hops or hurdle hops → Sauts latéraux sur cône (ou haie)
+- Élévation avant incliné (Haltère) → Élévation frontale inclinée (Haltère)
+- Élévation avant jambe → Élévation jambe avant
+- Élévation avant disque → Élévation frontale (Disque)
+- Pull-over avant Raise et (Barre) → Élévation frontale et pull-over (Barre)
+- Épaulé avant Squat prise (Barre) → Squat avant prise épaulé (Barre)
+- Squat avant deux Kettlebells (Kettlebell) → Squat avant (Kettlebell)
+- Élévation avant deux (Haltère) → Élévation frontale deux haltères (Haltère)
+- Tirage vertical complet Range de Motion dorsaux (Poulie) → Tirage vertical amplitude complète (Poulie)
+- Gironda Sternum Chins → Gironda tractions au sternum
+- Élévation fessiers Ham (Machine) → Relevé ischio-fessiers (Machine)
+- Good morning off Pins (Barre) → Good morning depuis les butées (Barre)
+- Gorilla Chin/Crunch → Gorilla chin/crunch
+- Étirement Groin et dos → Étirement aine et dos
+- Développé couché marteau prise incliné DB (Haltère) → Développé couché incliné prise marteau (Haltère)
+- Ischio-jambiers SMR → Rouleau ischio-jambiers
+- Pompes Handstand → Pompes en équilibre sur les mains
+- Épaulé suspendu Below genoux (Barre) → Épaulé suspendu sous les genoux (Barre)
+- Arraché suspendu Below genoux (Barre) → Arraché suspendu sous les genoux (Barre)
+- Suspendu pike → Pike suspendu
+- Arraché Heaving équilibre (Barre) → Snatch balance en poussée (Barre)
+- Heavy Bag Thrust → Coups dans le sac lourd
+- Curl haut (Poulie) → Curl poulie haute (Poulie)
+- Hanche Circles prone → Cercles de hanche (allongé sur le ventre)
+- Extension hanche (Élastique) → Extension de hanche (Élastique)
+- Hanche Flexion (Élastique) → Flexion de hanche (Élastique)
+- Hanche Lift (Élastique) → Relevé de hanche (Élastique)
+- Hug ball → Étreinte du ballon
+- Hug genoux à pectoraux → Genoux serrés vers la poitrine
+- Hurdle Hops → Sauts de haies
+- Extension Hyperextensions dos → Extension du dos à l'hyperextension
+- Hyperextensions No Hyperextension banc → Extension du dos sans banc à hyperextension
+- Étirement IT et fessiers → Étirement bandelette ilio-tibiale et fessiers
+- Iliotibial Tract SMR → Rouleau bandelette ilio-tibiale
+- Inchworm → Marche de l'inchworm
+- Extension incliné triceps (Barre) → Extension triceps incliné (Barre)
+- Incliné banc Pull (Barre) → Tirage sur banc incliné (Barre)
+- Incliné Flye (Poulie) → Écarté incliné (Poulie)
+- Incliné banc paumes Facing dans (Haltère) → Développé incliné prise neutre (Haltère)
+- Rotation incliné Flyes (Haltère) → Écarté incliné avec rotation (Haltère)
+- Curl incliné marteau (Haltère) → Curl marteau incliné (Haltère)
+- Curl incliné Inner biceps (Haltère) → Curl incliné biceps interne (Haltère)
+- Pompes incliné → Pompes inclinées
+- Pompes incliné serré prise → Pompes inclinées prise serrée
+- Pompes incliné Depth saut → Pompes inclinées avec saut en contrebas
+- Pompes incliné moyenne → Pompes inclinées prise moyenne
+- Pompes incliné inversé prise → Pompes inclinées prise inversée
+- Pompes incliné large → Pompes inclinées prise large
+- Étirement Intermediate Groin → Étirement intermédiaire de l'aine
+- Étirement Intermediate hanche Flexor et quadriceps → Étirement intermédiaire fléchisseurs de hanche et quadriceps
+- Rotation Internal (Élastique) → Rotation interne (Élastique)
+- Rowing Inverted → Rowing inversé
+- Rowing Inverted Straps → Rowing inversé avec sangles
+- Fer croisé (Haltère) → Croix de fer (Haltère)
+- Étirement fer Crosses → Étirement croix de fer
+- Isométrique pectoraux Squeezes → Compression isométrique des pectoraux
+- Isométrique cou Exercise avant et dos → Renforcement isométrique du cou, avant et arrière
+- Isométrique cou Exercise Sides → Renforcement isométrique du cou, côtés
+- Isométrique Wipers → Essuie-glaces isométriques
+- Relevé de buste Jackknife → Relevé de buste en canif
+- Jeté équilibre (Barre) → Jerk balance (Barre)
+- Squat Jerk Dip (Barre) → Squat dip de jeté (Barre)
+- Keg Load → Port de fût
+- Épaulé mort (Kettlebell) → Épaulé depuis le sol (Kettlebell)
+- Figure 8 (Kettlebell) → Huit (Kettlebell)
+- Extension Halo au-dessus de la tête (Kettlebell) → Halo avec extension au-dessus de la tête (Kettlebell)
+- Soulevé de terre un jambes (Kettlebell) → Soulevé de terre une jambe (Kettlebell)
+- Extension au-dessus de la tête triceps (Kettlebell) → Extension triceps au-dessus de la tête (Kettlebell)
+- Pass Between jambes (Kettlebell) → Passage entre les jambes (Kettlebell)
+- Pirate Ships (Kettlebell) → Pirate ship (Kettlebell)
+- Squat Pistol (Kettlebell) → Squat pistol (Kettlebell)
+- Développé Seesaw (Kettlebell) → Développé en bascule (Kettlebell)
+- Fente Turkish Get haut style (Kettlebell) → Turkish get-up en fente (Kettlebell)
+- Squat Turkish Get haut style (Kettlebell) → Turkish get-up en squat (Kettlebell)
+- Kipping muscle haut → Muscle-up kipping
+- Genou Across corps → Genou vers l'épaule opposée
+- Genou Circles → Cercles de genou
+- Élévation Knee/Hip sur Parallel Bars → Relevé de genoux aux barres parallèles
+- Saut genou Tuck → Saut groupé genoux
+- À genoux bras Drill → Exercice du bras à genoux
+- Crunch à genoux alterné Oblique Twists (Poulie) → Crunch à genoux avec rotations obliques alternées (Poulie)
+- Extension à genoux triceps (Poulie) → Extension triceps à genoux (Poulie)
+- Étirement à genoux avant-bras → Étirement avant-bras à genoux
+- Rowing à genoux haut poulie (Poulie) → Rowing poulie haute à genoux (Poulie)
+- À genoux hanche Flexor → Étirement fléchisseurs de hanche à genoux
+- Squat à genoux saut (Barre) → Squat sauté à genoux (Barre)
+- Rowing à genoux un bras bras haut poulie (Poulie) → Rowing poulie haute à genoux un bras (Poulie)
+- Landmine 180's (Barre) → Landmine 180 (Barre)
+- Landmine Linear Jammer (Barre) → Landmine jammer linéaire (Barre)
+- Latéral Bound → Bond latéral
+- Saut latéral box → Saut latéral sur box
+- Latéral Cone Hops → Sauts latéraux sur cône
+- Élévation latéral (Élastique) → Élévation latérale (Élastique)
+- Latissimus Dorsi SMR → Rouleau grand dorsal
+- Développé jambe au-dessus sol (Kettlebell) → Développé au sol jambe levée (Kettlebell)
+- Étirement jambe haut ischio-jambiers → Étirement ischio-jambiers jambe levée
+- Jambe Lift → Relevé de jambes
+- Jambe Pull dans → Rentré de jambes
+- Développé Leverage pectoraux (Machine) → Développé pectoraux à leviers (Machine)
+- Soulevé de terre Leverage (Machine) → Soulevé de terre à leviers (Machine)
+- Développé Leverage décliné pectoraux (Machine) → Développé décliné pectoraux à leviers (Machine)
+- Rowing Leverage haut (Machine) → Rowing haut à leviers (Machine)
+- Développé Leverage incliné pectoraux (Machine) → Développé incliné pectoraux à leviers (Machine)
+- Rowing Leverage Iso (Machine) → Rowing iso à leviers (Machine)
+- Développé épaules Leverage (Machine) → Développé épaules à leviers (Machine)
+- Shrug Leverage (Machine) → Shrug à leviers (Machine)
+- Linear 3 Part Start Technique → Technique de départ linéaire en 3 temps
+- Linear Acceleration mur Drill → Accélération linéaire contre le mur
+- Saut Linear Depth → Saut en contrebas linéaire
+- Log Lift → Soulevé de tronc (Log lift)
+- London Bridges → Ponts de Londres
+- Looking At Ceiling → Regard au plafond
+- Croisé poulie bas (Poulie) → Écarté poulie basse (Poulie)
+- Extension bas triceps (Poulie) → Extension triceps poulie basse (Poulie)
+- Rowing bas poulie à cou (Poulie) → Rowing poulie basse vers le cou (Poulie)
+- Lower dos SMR → Rouleau bas du dos
+- Curl Lower dos → Curl du bas du dos
+- Fente Pass Through (Kettlebell) → Fente avec passage (Kettlebell)
+- Fente sprint (Machine) → Fente sprint
+- Allongé penché jambe Groin → Étirement aine allongé jambe fléchie
+- Rowing allongé Cambered (Barre) → Rowing allongé barre cambrée (Barre)
+- Curl allongé serré prise sur haut poulie (Poulie) → Curl allongé prise serrée sur poulie haute (Poulie)
+- Extension allongé serré prise triceps derrière tête (Barre) → Extension triceps allongé prise serrée derrière la tête (Barre)
+- Développé allongé serré prise triceps à Chin (Barre EZ) → Développé triceps allongé prise serrée vers le menton (Barre EZ)
+- Croisé poulie allongé → Écarté croisé allongé (Poulie)
+- Extension allongé triceps (Haltère) → Extension triceps allongé (Haltère)
+- Allongé Face bas disque cou Resistance → Résistance du cou avec disque, sur le ventre
+- Allongé Face haut disque cou Resistance → Résistance du cou avec disque, sur le dos
+- Allongé fessiers → Étirement fessiers allongé
+- Allongé ischio-jambiers → Étirement ischio-jambiers allongé
+- Curl allongé haut banc (Barre) → Curl allongé sur banc haut (Barre)
+- Curl allongé jambe (Machine) → Leg curl allongé (Machine)
+- Élévation allongé un bras latéral (Haltère) → Élévation latérale allongé un bras (Haltère)
+- Allongé Prone Quadriceps → Étirement quadriceps sur le ventre
+- Élévation allongé arrière Delt (Haltère) → Élévation deltoïdes arrière allongé (Haltère)
+- Curl allongé Supine (Haltère) → Curl allongé en supination (Haltère)
+- Rowing allongé T (Machine) → Rowing barre en T allongé (Machine)
+- Développé militaire épaule (Machine) → Développé militaire (Machine)
+- Médecine ball pectoraux Pass → Passe pectorale au médecine ball
+- Rotation médecine ball complet → Rotation complète au médecine ball
+- Médecine ball Scoop Throw → Lancer en cuillère au médecine ball
+- Shrug Middle dos (Haltère) → Shrug milieu du dos (Haltère)
+- Étirement Middle dos → Étirement milieu du dos
+- Mixed prise Chin → Traction prise mixte
+- Marche Monster (Élastique) → Marche du monstre (Élastique)
+- Montagne grimpeurs → Mountain climbers
+- Moving Claw Series → Série de la griffe mobile
+- Arraché muscle (Barre) → Arraché musculaire (Barre)
+- Muscle haut → Muscle-up
+- Squat serré écartement Hack (Machine) → Hack squat pieds rapprochés (Machine)
+- Presse à cuisses serré écartement (Machine) → Presse à cuisses pieds rapprochés (Machine)
+- Squat serré écartement (Barre) → Squat pieds rapprochés (Barre)
+- Élévation Natural fessiers Ham → Relevé ischio-fessiers naturel
+- Cou SMR → Rouleau cou
+- Développé cou (Barre) → Développé nuque (Barre)
+- Crunch Oblique → Crunch oblique
+- Crunch Oblique sur sol → Crunch oblique au sol
+- Squat Olympic (Barre) → Squat olympique (Barre)
+- Étirement sur Your dos quadriceps → Étirement quadriceps sur le dos
+- Étirement sur Your latéral quadriceps → Étirement quadriceps sur le côté
+- Un bras à plat banc Flye (Haltère) → Écarté un bras sur banc plat (Haltère)
+- Un bras haut poulie latéral Bends (Poulie) → Flexion latérale un bras poulie haute (Poulie)
+- Élévation un bras incliné latéral (Haltère) → Élévation latérale inclinée un bras (Haltère)
+- Jeté un bras épaulé et (Kettlebell) → Épaulé-jeté un bras (Kettlebell)
+- Développé un bras sol (Kettlebell) → Développé au sol un bras (Kettlebell)
+- Développé militaire un bras à latéral (Kettlebell) → Développé militaire un bras vers le côté (Kettlebell)
+- Développé un bras Para (Kettlebell) → Développé para un bras (Kettlebell)
+- Développé un bras Push (Kettlebell) → Push press un bras (Kettlebell)
+- Jeté un bras bulgare (Kettlebell) → Jeté fendu un bras (Kettlebell)
+- Arraché un bras bulgare (Kettlebell) → Arraché fendu un bras (Kettlebell)
+- Un bras Swings (Kettlebell) → Swing à un bras (Kettlebell)
+- Rowing un bras long (Barre) → Rowing un bras barre longue (Barre)
+- Un bras médecine ball Slam → Slam au médecine ball un bras
+- Épaulé un bras Open paume (Kettlebell) → Épaulé un bras paume ouverte (Kettlebell)
+- Soulevé de terre un bras latéral (Barre) → Soulevé de terre latéral un bras (Barre)
+- Un bras latéral Laterals (Haltère) → Élévation latérale un bras (Haltère)
+- Kickback un jambes (Poulie) → Kickback une jambe (Poulie)
+- Un bras Against mur → Étirement un bras contre le mur
+- Curl un bras pupitre (Haltère) → Curl pupitre un bras (Haltère)
+- Développé un bras sol (Barre) → Développé au sol un bras (Barre)
+- Tirage vertical un bras dorsaux (Poulie) → Tirage vertical un bras (Poulie)
+- Extension un bras pronation triceps (Haltère) → Extension triceps un bras prise pronation (Haltère)
+- Extension un bras supination triceps (Haltère) → Extension triceps un bras prise supination (Haltère)
+- Un Half Locust → Demi-sauterelle
+- Un genou à pectoraux → Un genou vers la poitrine
+- Squat un jambe (Barre) → Squat une jambe (Barre)
+- Épaulé Open paume (Kettlebell) → Épaulé paume ouverte (Kettlebell)
+- Otis haut → Otis-up
+- Au-dessus de la tête dorsaux → Étirement dorsaux bras au-dessus de la tête
+- Au-dessus de la tête Slam → Slam au-dessus de la tête
+- Étirement au-dessus de la tête → Étirement bras au-dessus de la tête
+- Au-dessus de la tête triceps → Étirement triceps bras au-dessus de la tête
+- Développé Pallof (Poulie) → Pallof press (Poulie)
+- Rotation Pallof Press (Poulie) → Pallof press avec rotation (Poulie)
+- Curl paumes bas poignet au-dessus banc (Haltère) → Curl poignet paumes vers le bas sur banc (Haltère)
+- Curl paumes bas poignet au-dessus banc (Barre) → Curl poignet paumes vers le bas sur banc (Barre)
+- Curl paumes haut poignet au-dessus banc (Barre) → Curl poignet paumes vers le haut sur banc (Barre)
+- Curl paumes haut poignet au-dessus banc (Haltère) → Curl poignet paumes vers le haut sur banc (Haltère)
+- Dips Parallel → Dips aux barres parallèles
+- Pont Pelvic Tilt Into → Bascule du bassin vers le pont
+- Peroneals SMR → Rouleau péroniers
+- Étirement Peroneals → Étirement péroniers
+- Pont Physioball hanche → Pont fessier sur ballon
+- Pin Presses (Barre) → Développé aux butées (Barre)
+- Piriformis SMR → Rouleau piriforme
+- Disque Pinch → Pincement de disque
+- Platform ischio-jambiers Slides → Glissés ischio-jambiers sur plateforme
+- Squat Plie (Haltère) → Squat plié (Haltère)
+- Pompes Plyo → Pompes pliométriques
+- Étirement Posterior Tibialis → Étirement tibial postérieur
+- Épaulé power depuis Blocks (Barre) → Épaulé power depuis des blocs (Barre)
+- Power Partials (Haltère) → Répétitions partielles de puissance (Haltère)
+- Arraché power depuis Blocks (Barre) → Arraché power depuis des blocs (Barre)
+- Power Stairs → Escaliers de puissance
+- Relevé de buste Press (Barre) → Relevé de buste avec développé (Barre)
+- Prone Manual ischio-jambiers → Ischio-jambiers manuel sur le ventre
+- Pompes large → Pompes prise large
+- Pompes serré triceps Position → Pompes prise serrée triceps
+- Pompes pieds Elevated → Pompes pieds surélevés
+- Pompes pieds sur An Exercise ball → Pompes pieds sur ballon
+- Développé Push (Barre) → Push press (Barre)
+- Développé Push derrière cou (Barre) → Push press derrière la nuque (Barre)
+- Pompes à latéral Plank → Pompes vers planche latérale
+- Pushups serré et large main Positions → Pompes prise serrée et large
+- Pyramid → Pyramide
+- Quadriceps SMR → Rouleau quadriceps
+- Quick Leap → Saut rapide
+- Rack Delivery (Barre) → Rack delivery (Barre)
+- Rack Pull (Barre) → Rack pull avec élastiques (Barre)
+- Rack Pulls (Barre) → Rack pull (Barre)
+- Élévation arrière jambe → Élévation jambe arrière
+- Return Push depuis écartement → Poussée de retour depuis la position de départ
+- Développé couché inversé (Barre) → Développé couché avec élastiques inversés (Barre)
+- Squat inversé box (Barre) → Squat sur box avec élastiques inversés (Barre)
+- Soulevé de terre inversé (Barre) → Soulevé de terre avec élastiques inversés (Barre)
+- Squat inversé power (Barre) → Squat power avec élastiques inversés (Barre)
+- Soulevé de terre inversé sumo (Barre) → Soulevé de terre sumo avec élastiques inversés (Barre)
+- Rotation inversé Flyes External (Haltère) → Écarté inversé avec rotation externe (Haltère)
+- Rowing inversé prise penché au-dessus (Barre) → Rowing prise inversée penché (Barre)
+- Extension poulie inversé prise triceps (Poulie) → Extension triceps prise inversée (Poulie)
+- Inversé Hyperextension (Machine) → Hyperextension inversée (Machine)
+- Curl inversé disque → Curl inversé (Disque)
+- Développé couché inversé triceps (Barre) → Développé couché triceps inversé (Barre)
+- Rhomboids SMR → Rouleau rhomboïdes
+- Rickshaw Carry → Marche avec rickshaw
+- Soulevé de terre Rickshaw → Soulevé de terre rickshaw
+- Dips Ring → Dips aux anneaux
+- Saut Rocket → Saut fusée
+- Élévation mollets Rocking debout (Barre) → Mollets debout avec balancement (Barre)
+- Soulevé de terre roumain depuis Deficit (Barre) → Soulevé de terre roumain depuis un déficit (Barre)
+- Corde Climb → Montée à la corde
+- Crunch corde (Poulie) → Crunch à la corde (Poulie)
+- Tirage vertical corde droit bras (Poulie) → Tirage vertical bras tendus corde (Poulie)
+- Étirement Round World épaule → Étirement des épaules, tour du monde
+- Étirement Runner's → Étirement du coureur
+- Sandbag Load → Port de sac de sable
+- Traction Scapular → Traction scapulaire
+- Scissor Kick → Battements de ciseaux
+- Saut Scissors → Saut en ciseaux
+- Curl assis ischio-jambiers → Leg curl assis (Élastique)
+- Extension assis penché au-dessus un bras triceps (Haltère) → Extension triceps assis penché un bras (Haltère)
+- Élévation assis penché au-dessus arrière Delt (Haltère) → Élévation deltoïdes arrière assis penché (Haltère)
+- Extension assis penché au-dessus deux bras triceps (Haltère) → Extension triceps assis penché deux bras (Haltère)
+- Assis biceps → Curl biceps assis
+- Étirement assis mollets → Étirement mollets assis
+- Curl assis serré prise concentration (Barre) → Curl concentration assis prise serrée (Barre)
+- Curl assis Inner biceps (Haltère) → Curl assis biceps interne (Haltère)
+- Curl assis paumes bas poignet (Haltère) → Curl poignet assis paumes vers le bas (Haltère)
+- Curl assis paumes haut poignet (Haltère) → Curl poignet assis paumes vers le haut (Haltère)
+- Assis à plat banc jambe Pull dans → Rentré de jambes assis sur banc plat
+- Étirement assis sol ischio-jambiers → Étirement ischio-jambiers assis au sol
+- Assis avant Deltoid → Étirement deltoïdes avant assis
+- Assis fessiers → Étirement fessiers assis
+- Assis Good Mornings (Barre) → Good morning assis (Barre)
+- Assis ischio-jambiers → Étirement ischio-jambiers assis
+- Assis tête Harness cou Resistance → Résistance du cou avec harnais, assis
+- Assis jambe Tucks → Relevé de genoux assis
+- Curl assis un bras paumes bas poignet (Haltère) → Curl poignet assis un bras paumes vers le bas (Haltère)
+- Curl assis un bras paumes haut poignet (Haltère) → Curl poignet assis un bras paumes vers le haut (Haltère)
+- Rowing assis un bras poulie (Poulie) → Rowing assis un bras (Poulie)
+- Curl assis paume haut poignet (Barre) → Curl poignet assis paumes vers le haut (Barre)
+- Curl assis paumes bas poignet (Barre) → Curl poignet assis paumes vers le bas (Barre)
+- Élévation assis latéral latéral (Haltère) → Élévation latérale assis (Haltère)
+- Développé assis triceps (Haltère) → Extension triceps assis (Haltère)
+- Curl assis deux bras paumes haut bas poulie poignet (Poulie) → Curl poignet assis deux bras paumes vers le haut, poulie basse (Poulie)
+- Développé See Saw Press alterné latéral (Haltère) → Développé en bascule alterné (Haltère)
+- Rowing Shotgun (Poulie) → Rowing shotgun (Poulie)
+- Épaule Circles → Cercles d'épaule
+- Élévation épaule → Élévation d'épaule
+- Étirement latéral allongé sol → Étirement allongé sur le côté au sol
+- Saut latéral sprint → Saut latéral et sprint
+- Latéral Jackknife → Canif latéral
+- Élévation latéral Laterals à avant (Haltère) → Élévation latérale puis frontale (Haltère)
+- Élévation latéral jambe → Élévation jambe latérale
+- Étirement latéral allongé Groin → Étirement aine allongé sur le côté
+- Étirement latéral cou → Étirement latéral du cou
+- Saut latéral debout long → Saut en longueur latéral
+- Latéral à latéral Chins → Tractions d'un côté à l'autre
+- Latéral poignet Pull → Traction latérale du poignet
+- Latéral à latéral box Shuffle → Déplacements latéraux sur box
+- Croisé poulie un bras bras (Poulie) → Écarté poulie un bras (Poulie)
+- Un bras bras Linear Jammer (Barre) → Landmine jammer un bras (Barre)
+- Pompes un bras bras → Pompes un bras
+- Un bras Cone sprint Drill → Sprint autour d'un cône
+- Squat un bras jambe haut box → Squat une jambe sur box haut
+- Saut un bras jambe Progression → Progression de sauts une jambe
+- Saut un bras jambe latéral → Saut latéral une jambe
+- Extension un bras jambe jambe (Machine) → Extension de jambe une jambe (Machine)
+- Saut un bras jambe Stride → Saut de foulée une jambe
+- Élévation un bras (Haltère) → Élévation un haltère (Haltère)
+- Un bras jambe Butt Kick → Talon aux fesses une jambe
+- Pont un bras jambe fessiers → Pont fessier une jambe
+- Un bras jambe Push off → Poussée une jambe
+- Traîneau traîné Harness → Traction de traîneau avec harnais
+- Marche traîneau au-dessus de la tête Backward → Marche arrière traîneau au-dessus de la tête
+- Extension traîneau au-dessus de la tête triceps → Extension triceps au-dessus de la tête sur traîneau
+- Traîneau Push → Poussée de traîneau
+- Traîneau inversé Flye → Écarté inversé sur traîneau
+- Sledgehammer Swings → Swings de masse
+- Élévation Smith incliné épaule (Barre) → Élévation épaules inclinée (Smith)
+- Shrug Smith derrière dos (Machine) → Shrug derrière le dos (Smith)
+- Développé couché Smith (Machine) → Développé couché (Smith)
+- Rowing Smith penché au-dessus (Machine) → Rowing penché (Smith)
+- Élévation mollets Smith (Machine) → Mollets (Smith)
+- Développé couché Smith serré prise (Machine) → Développé couché prise serrée (Smith)
+- Développé Smith décliné (Machine) → Développé couché décliné (Smith)
+- Épaulé Smith suspendu power (Machine) → Épaulé power suspendu (Smith)
+- Élévation Smith hanche (Machine) → Relevé de hanches (Smith)
+- Développé couché Smith incliné (Machine) → Développé couché incliné (Smith)
+- Presse à cuisses Smith (Machine) → Presse à cuisses (Smith)
+- Rowing Smith un bras menton (Machine) → Tirage menton un bras (Smith)
+- Développé épaules Smith au-dessus de la tête (Machine) → Développé épaules (Smith)
+- Squat Smith Pistol (Machine) → Squat pistol (Smith)
+- Élévation Smith inversé mollets (Machine) → Mollets inversés (Smith)
+- Squat Smith (Machine) → Squat (Smith)
+- Soulevé de terre Smith jambes tendues jambes (Machine) → Soulevé de terre jambes tendues (Smith)
+- Rowing Smith menton (Machine) → Tirage menton (Smith)
+- Squat Smith un bras jambe bulgare (Machine) → Squat bulgare une jambe (Smith)
+- Arraché équilibre (Barre) → Snatch balance (Barre)
+- Arraché Pull (Barre) → Tirage d'arraché (Barre)
+- Arraché depuis Blocks (Barre) → Arraché depuis des blocs (Barre)
+- Speed au-dessus de la tête triceps (Élastique) → Extension triceps au-dessus de la tête rapide (Élastique)
+- Squat Speed box (Barre) → Squat rapide sur box (Barre)
+- Squat Speed (Barre) → Squat rapide (Barre)
+- Spell Caster (Haltère) → Lanceur de sorts (Haltère)
+- Spider Crawl → Marche de l'araignée
+- Curl Spider (Barre EZ) → Curl spider (Barre EZ)
+- Étirement Spinal → Étirement de la colonne
+- Squat bulgare Dumbbells (Haltère) → Squat bulgare (Haltère)
+- Jeté Squat (Barre) → Jeté squat (Barre)
+- Squat (Barre) → Squat avec élastiques (Barre)
+- Squat Chains (Barre) → Squat avec chaînes (Barre)
+- Squat disque Movers (Barre) → Squat avec plate movers (Barre)
+- Stairmaster (escalier) → Simulateur d'escalier (Stairmaster)
+- Développé debout derrière cou (Barre) → Développé debout derrière la nuque (Barre)
+- Extension debout penché au-dessus un bras triceps (Haltère) → Extension triceps debout penché un bras (Haltère)
+- Extension debout penché au-dessus deux bras triceps (Haltère) → Extension triceps debout penché deux bras (Haltère)
+- Curl debout biceps (Poulie) → Curl biceps debout (Poulie)
+- Debout Lift (Poulie) → Soulevé à la poulie debout (Poulie)
+- Debout Wood Chop (Poulie) → Bûcheron à la poulie debout (Poulie)
+- Curl debout concentration (Haltère) → Curl concentration debout (Haltère)
+- Élévation debout droit bras avant Delt Above tête (Haltère) → Élévation bras tendus au-dessus de la tête (Haltère)
+- Étirement debout Elevated quadriceps → Étirement quadriceps debout, pied surélevé
+- Élévation debout avant au-dessus tête (Barre) → Élévation frontale au-dessus de la tête (Barre)
+- Étirement debout Gastrocnemius mollets → Étirement mollets (gastrocnémiens) debout
+- Étirement debout ischio-jambiers et mollets → Étirement ischio-jambiers et mollets debout
+- Debout hanche Circles → Cercles de hanche debout
+- Debout hanche Flexors → Étirement fléchisseurs de hanche debout
+- Curl debout Inner biceps (Haltère) → Curl debout biceps interne (Haltère)
+- Curl debout jambe (Machine) → Leg curl debout (Machine)
+- Saut debout long → Saut en longueur sans élan
+- Élévation debout bas poulie Deltoid (Poulie) → Élévation deltoïdes poulie basse (Poulie)
+- Extension debout bas poulie un bras triceps (Poulie) → Extension triceps un bras poulie basse (Poulie)
+- Debout Olympic disque main Squeeze → Pincement de disque olympique
+- Curl debout un bras au-dessus incliné banc (Haltère) → Curl un bras sur banc incliné (Haltère)
+- Extension debout au-dessus de la tête triceps (Barre) → Extension triceps debout au-dessus de la tête (Barre)
+- Développé debout paume dans un bras (Haltère) → Développé debout un bras paume vers l'intérieur (Haltère)
+- Développé debout paumes dans (Haltère) → Développé debout paumes vers l'intérieur (Haltère)
+- Curl debout paumes haut derrière dos poignet (Barre) → Curl poignet derrière le dos paumes vers le haut (Barre)
+- Debout Pelvic Tilt → Bascule du bassin debout
+- Crunch debout corde (Poulie) → Crunch à la corde debout (Poulie)
+- Étirement debout Soleus et Achilles → Étirement soléaire et tendon d'Achille debout
+- Debout Toe Touches → Toucher des orteils debout
+- Extension debout Towel triceps → Extension triceps avec serviette
+- Debout deux bras au-dessus de la tête Throw → Lancer à deux bras au-dessus de la tête
+- Saut Star → Saut en étoile
+- Montée sur banc genou Raise → Montée sur banc avec genou levé
+- Soulevé de terre jambes tendues jambes (Barre) → Soulevé de terre jambes tendues (Barre)
+- Soulevé de terre jambes tendues jambes (Haltère) → Soulevé de terre jambes tendues (Haltère)
+- Good morning jambes tendues jambe (Barre) → Good morning jambes tendues (Barre)
+- Stomach Vacuum → Aspiration abdominale (stomach vacuum)
+- Pull-over droit bras (Haltère) → Pull-over bras tendus (Haltère)
+- Tirage vertical droit bras (Poulie) → Tirage vertical bras tendus (Poulie)
+- Rowing droit banc Mid (Barre) → Rowing sur banc (Barre)
+- Élévation droit sur incliné banc (Barre) → Élévation bras tendus sur banc incliné (Barre)
+- Croisé poulie Stride saut → Saut de foulée croisé
+- Soulevé de terre sumo (Barre) → Soulevé de terre sumo avec élastiques (Barre)
+- Soulevé de terre sumo Chains (Barre) → Soulevé de terre sumo avec chaînes (Barre)
+- Supine pectoraux Throw → Lancer pectoral sur le dos
+- Supine un bras au-dessus de la tête Throw → Lancer un bras au-dessus de la tête sur le dos
+- Supine deux bras au-dessus de la tête Throw → Lancer deux bras au-dessus de la tête sur le dos
+- Suspended Fallout → Fallout suspendu
+- Pompes Suspended → Pompes suspendues
+- Crunch Suspended inversé → Crunch inversé suspendu
+- Rowing Suspended → Rowing suspendu
+- Squat Suspended bulgare → Squat bulgare suspendu
+- Rowing T Handle (Barre) → Rowing barre en T avec poignée (Barre)
+- Straddle → Grand écart
+- Thigh Abductor (Machine) → Abducteurs (Machine)
+- Thigh Adductor (Machine) → Adducteurs (Machine)
+- Tire Flip → Retournement de pneu
+- Toe Touchers → Toucher des orteils
+- Rotation Torso → Rotation du buste
+- Soulevé de terre Trap → Soulevé de terre barre hexagonale
+- Extension triceps au-dessus de la tête corde (Poulie) → Extension triceps au-dessus de la tête avec corde (Poulie)
+- Extension poulie triceps V Attachment (Poulie) → Extension triceps barre en V (Poulie)
+- Crunch Tuck → Crunch groupé
+- Curl deux bras pupitre (Haltère) → Curl pupitre deux bras (Haltère)
+- Supination Pulldowns (Poulie) → Tirage vertical prise supination (Poulie)
+- Upper dos jambe Grab → Saisie de jambe haut du dos
+- Étirement Upper dos → Étirement haut du dos
+- Rowing menton (Barre) → Tirage menton (Barre)
+- Étirement Upward → Étirement vers le haut
+- Tirage vertical V (Poulie) → Tirage vertical barre en V (Poulie)
+- Traction V → Traction barre en V
+- Swing Vertical (Haltère) → Swing vertical (Haltère)
+- Lesté ball Hyperextension → Hyperextension avec ballon lesté
+- Lesté ball latéral Bend → Flexion latérale avec ballon lesté
+- Dips lesté banc → Dips sur banc lestés
+- Squat lesté saut (Barre) → Squat sauté lesté (Barre)
+- Tractions lesté → Tractions lestées
+- Squat lesté Sissy (Barre) → Sissy squat lesté (Barre)
+- Relevé de buste lesté → Relevé de buste lesté avec élastique
+- Développé couché large prise (Barre) → Développé couché prise large (Barre)
+- Développé couché large prise décliné (Barre) → Développé couché décliné prise large (Barre)
+- Pull-over large prise décliné (Barre) → Pull-over décliné prise large (Barre)
+- Tirage vertical large prise derrière cou (Poulie) → Tirage vertical prise large derrière la nuque (Poulie)
+- Traction large prise arrière → Traction prise large derrière la nuque
+- Curl large prise debout (Barre) → Curl debout prise large (Barre)
+- Squat large écartement (Barre) → Squat pieds écartés (Barre)
+- Large écartement jambes tendues jambes (Barre) → Soulevé de terre jambes tendues pieds écartés (Barre)
+- Wind Sprints → Sprints en côte de vent
+- Windmills → Moulins (Windmill)
+- Étirement World's Greatest → Étirement du monde (World's greatest stretch)
+- Poignet Circles → Cercles de poignet
+- Poignet Roller → Rouleau de poignet
+- Poignet Rotations droit (Barre) → Rotations de poignet avec barre droite (Barre)
+- Marche Yoke → Marche du joug (Yoke)
+- Développé sol (Haltère) → Développé au sol (Haltère)
+- Épaulé bulgare (Barre) → Épaulé fendu (Barre)
+- Jeté bulgare (Barre) → Jeté fendu (Barre)
+- Arraché bulgare (Barre) → Arraché fendu (Barre)
+- Saut bulgare → Saut fendu

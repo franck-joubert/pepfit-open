@@ -1,0 +1,24 @@
+node_modules/
+.expo/
+/android/
+# le projet iOS généré seulement (app/ios) : le Swift des modules locaux (modules/*/ios/) est une source
+/ios/
+dist/
+*.keystore
+signature/
+expo-env.d.ts
+
+# données personnelles (export Hevy réel) : jamais commitées
+donnees-perso/
+.lock.hash
+.prebuild.hash
+
+
+# Firebase config: never committed
+google-services.json
+
+# Gradle outputs of the local native modules
+modules/*/android/build/
+modules/*/android/.cxx/
+modules/*/android/.gradle/
+*.env

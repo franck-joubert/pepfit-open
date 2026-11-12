@@ -1,0 +1,10 @@
+{
+  "platforms": ["android", "apple"],
+  "android": {
+    "modules": ["fit.pep.suivi.PepfitSuiviModule"]
+  },
+  "apple": {
+    "modules": ["PepfitSuiviModule"],
+    "appDelegateSubscribers": ["SuiviAppDelegate"]
+  }
+}

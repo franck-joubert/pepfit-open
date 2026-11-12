@@ -1,0 +1,9 @@
+{
+  "platforms": ["android", "apple"],
+  "android": {
+    "modules": ["fit.pep.sante.PepfitSanteModule"]
+  },
+  "apple": {
+    "modules": ["PepfitSanteModule"]
+  }
+}

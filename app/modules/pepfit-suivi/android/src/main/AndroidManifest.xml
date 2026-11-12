@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+  <!-- Suivi GPS et FC : position au premier plan seulement (le service démarre appli visible, pas d'ACCESS_BACKGROUND_LOCATION),
+       Bluetooth sans localisation, service de premier plan location|connectedDevice|health (Android 14+). « health » : séance
+       sur tapis ou en intérieur, sans GPS (D2 du 29/10) ; son prérequis est HIGH_SAMPLING_RATE_SENSORS (permission normale,
+       rien à demander) ; déclaration de la Play Console : docs/PUBLICATION.md. -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <!-- Wake lock partiel pendant une séance (SuiviService) : la reconnexion du capteur de FC tient écran éteint -->
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
+  <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <!-- Android 16 : puce « Live Update » (notification promue), permission normale -->
+  <uses-permission android:name="android.permission.POST_PROMOTED_NOTIFICATIONS" />
+  <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" tools:targetApi="s" />
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+  <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+  <uses-feature android:name="android.hardware.bluetooth_le" android:required="false" />
+  <uses-feature android:name="android.hardware.sensor.barometer" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+
+  <!-- « Ouvrir Whoop » du tuto de la FC : Android 11+ ne laisse voir une autre appli que déclarée ici -->
+  <queries>
+    <package android:name="com.whoop.android" />
+  </queries>
+
+  <application>
+    <service
+      android:name="fit.pep.suivi.SuiviService"
+      android:exported="false"
+      android:foregroundServiceType="location|connectedDevice|health" />
+  </application>
+</manifest>

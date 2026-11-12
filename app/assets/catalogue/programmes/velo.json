@@ -1,0 +1,634 @@
+{
+ "id": "velo",
+ "version": 1,
+ "nom": {
+  "fr": "Vélo : endurance et seuil",
+  "en": "Cycling: endurance and threshold"
+ },
+ "resume": {
+  "fr": "Longues sorties en Z2 et efforts au seuil.",
+  "en": "Long Z2 rides and threshold efforts."
+ },
+ "description": {
+  "fr": "Une sortie longue en endurance qui grandit jusqu'à 3 heures, et des efforts au seuil de plus en plus longs. Dehors ou sur home-trainer.",
+  "en": "A long endurance ride growing to 3 hours, and longer and longer threshold efforts. Outdoors or on a turbo trainer."
+ },
+ "famille": "endu",
+ "type": "velo",
+ "objectifs": [
+  "nager"
+ ],
+ "lieux": [
+  "dehors",
+  "maison"
+ ],
+ "niveau": 2,
+ "semaines": 8,
+ "seancesParSemaine": 3,
+ "picto": "bicycling",
+ "gros": {
+  "valeur": "Z2",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Vélo, dehors",
+  "en": "Cycling, outdoors"
+ },
+ "materiel": {
+  "fr": "Vélo",
+  "en": "Bike"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "80 % du temps en endurance facile (Z2), 20 % plus dur. Le volume monte par paliers, une semaine allégée laisse le corps assimiler, et l'affûtage garde l'intensité en baissant le volume.",
+  "en": "80% of the time easy (Z2), 20% harder. Volume rises in steps, a deload week lets your body absorb the work, and the taper keeps intensity while cutting volume."
+ },
+ "sources": [
+  0,
+  1
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Base",
+    "en": "Base"
+   },
+   "de": 1,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Développement",
+    "en": "Build"
+   },
+   "de": 5,
+   "a": 7
+  },
+  {
+   "nom": {
+    "fr": "Bilan",
+    "en": "Review"
+   },
+   "de": 8,
+   "a": 8
+  }
+ ],
+ "seances": {
+  "velo-seuil-3x8": {
+   "nom": {
+    "fr": "Seuil 3 × 8 min",
+    "en": "Threshold 3 × 8 min"
+   },
+   "type": "velo",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 3,
+     "dureeS": 480,
+     "zone": 4,
+     "reposS": 240,
+     "note": {
+      "fr": "au seuil : dur mais régulier",
+      "en": "at threshold: hard but steady"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "velo-endu-60": {
+   "nom": {
+    "fr": "Endurance 60 min",
+    "en": "Endurance 60 min"
+   },
+   "type": "velo",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 3600,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "velo-long-90": {
+   "nom": {
+    "fr": "Sortie longue 1 h 30",
+    "en": "Long ride 1h30"
+   },
+   "type": "velo",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 5400,
+     "zone": 2,
+     "note": {
+      "fr": "endurance, cadence souple",
+      "en": "endurance, easy cadence"
+     }
+    }
+   ]
+  },
+  "velo-seuil-3x10": {
+   "nom": {
+    "fr": "Seuil 3 × 10 min",
+    "en": "Threshold 3 × 10 min"
+   },
+   "type": "velo",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 3,
+     "dureeS": 600,
+     "zone": 4,
+     "reposS": 240,
+     "note": {
+      "fr": "au seuil : dur mais régulier",
+      "en": "at threshold: hard but steady"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "velo-long-120": {
+   "nom": {
+    "fr": "Sortie longue 2 h",
+    "en": "Long ride 2h"
+   },
+   "type": "velo",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 7200,
+     "zone": 2,
+     "note": {
+      "fr": "endurance, cadence souple",
+      "en": "endurance, easy cadence"
+     }
+    }
+   ]
+  },
+  "velo-seuil-4x8": {
+   "nom": {
+    "fr": "Seuil 4 × 8 min",
+    "en": "Threshold 4 × 8 min"
+   },
+   "type": "velo",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 4,
+     "dureeS": 480,
+     "zone": 4,
+     "reposS": 240,
+     "note": {
+      "fr": "au seuil : dur mais régulier",
+      "en": "at threshold: hard but steady"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "velo-long-150": {
+   "nom": {
+    "fr": "Sortie longue 2 h 30",
+    "en": "Long ride 2h30"
+   },
+   "type": "velo",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 9000,
+     "zone": 2,
+     "note": {
+      "fr": "endurance, cadence souple",
+      "en": "endurance, easy cadence"
+     }
+    }
+   ]
+  },
+  "velo-seuil-2x8": {
+   "nom": {
+    "fr": "Seuil 2 × 8 min",
+    "en": "Threshold 2 × 8 min"
+   },
+   "type": "velo",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 2,
+     "dureeS": 480,
+     "zone": 4,
+     "reposS": 240,
+     "note": {
+      "fr": "au seuil : dur mais régulier",
+      "en": "at threshold: hard but steady"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "velo-endu-45": {
+   "nom": {
+    "fr": "Endurance 45 min",
+    "en": "Endurance 45 min"
+   },
+   "type": "velo",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 2700,
+     "zone": 2,
+     "note": null
+    }
+   ]
+  },
+  "velo-long-75": {
+   "nom": {
+    "fr": "Sortie longue 1 h 15",
+    "en": "Long ride 1h15"
+   },
+   "type": "velo",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 4500,
+     "zone": 2,
+     "note": {
+      "fr": "endurance, cadence souple",
+      "en": "endurance, easy cadence"
+     }
+    }
+   ]
+  },
+  "velo-seuil-2x15": {
+   "nom": {
+    "fr": "Seuil 2 × 15 min",
+    "en": "Threshold 2 × 15 min"
+   },
+   "type": "velo",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 2,
+     "dureeS": 900,
+     "zone": 4,
+     "reposS": 300,
+     "note": {
+      "fr": "au seuil : dur mais régulier",
+      "en": "at threshold: hard but steady"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "velo-seuil-2x20": {
+   "nom": {
+    "fr": "Seuil 2 × 20 min",
+    "en": "Threshold 2 × 20 min"
+   },
+   "type": "velo",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 900,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement",
+      "en": "warm-up"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 2,
+     "dureeS": 1200,
+     "zone": 4,
+     "reposS": 300,
+     "note": {
+      "fr": "au seuil : dur mais régulier",
+      "en": "at threshold: hard but steady"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 2,
+     "note": {
+      "fr": "retour au calme",
+      "en": "cool-down"
+     }
+    }
+   ]
+  },
+  "velo-long-165": {
+   "nom": {
+    "fr": "Sortie longue 2 h 45",
+    "en": "Long ride 2h45"
+   },
+   "type": "velo",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 9900,
+     "zone": 2,
+     "note": {
+      "fr": "endurance, cadence souple",
+      "en": "endurance, easy cadence"
+     }
+    }
+   ]
+  },
+  "velo-long-180": {
+   "nom": {
+    "fr": "Sortie longue 3 h",
+    "en": "Long ride 3h"
+   },
+   "type": "velo",
+   "role": "longue",
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 10800,
+     "zone": 2,
+     "note": {
+      "fr": "endurance, cadence souple",
+      "en": "endurance, easy cadence"
+     }
+    }
+   ]
+  },
+  "velo-test-20": {
+   "nom": {
+    "fr": "Test de 20 min",
+    "en": "20-min test"
+   },
+   "type": "velo",
+   "role": "dure",
+   "note": {
+    "fr": "Ton seuil ≈ 95 % de la puissance (ou de la vitesse) moyenne des 20 min.",
+    "en": "Your threshold ≈ 95% of the 20-min average power (or speed)."
+   },
+   "blocs": [
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 1200,
+     "zone": 2,
+     "note": {
+      "fr": "échauffement, avec 3 accélérations",
+      "en": "warm-up with 3 short efforts"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 1200,
+     "zone": 5,
+     "note": {
+      "fr": "à fond, mais régulier",
+      "en": "all out, but even"
+     }
+    },
+    {
+     "exo": "bicycling",
+     "series": 1,
+     "dureeS": 600,
+     "zone": 1,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "3 × 8 min au seuil",
+    "en": "3 × 8 min threshold"
+   },
+   "seances": [
+    "velo-seuil-3x8",
+    "velo-endu-60",
+    "velo-long-90"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "3 × 10 min au seuil",
+    "en": "3 × 10 min threshold"
+   },
+   "seances": [
+    "velo-seuil-3x10",
+    "velo-endu-60",
+    "velo-long-120"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "4 × 8 min au seuil",
+    "en": "4 × 8 min threshold"
+   },
+   "seances": [
+    "velo-seuil-4x8",
+    "velo-endu-60",
+    "velo-long-150"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "velo-seuil-2x8",
+    "velo-endu-45",
+    "velo-long-75"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "2 × 15 min au seuil",
+    "en": "2 × 15 min threshold"
+   },
+   "seances": [
+    "velo-seuil-2x15",
+    "velo-endu-60",
+    "velo-long-150"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "2 × 20 min au seuil",
+    "en": "2 × 20 min threshold"
+   },
+   "seances": [
+    "velo-seuil-2x20",
+    "velo-endu-60",
+    "velo-long-165"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "sortie longue 3 h",
+    "en": "3 h long ride"
+   },
+   "seances": [
+    "velo-seuil-2x20",
+    "velo-endu-60",
+    "velo-long-180"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 2,
+   "allegee": true,
+   "accent": {
+    "fr": "test de 20 min",
+    "en": "20-min test"
+   },
+   "seances": [
+    "velo-endu-45",
+    "velo-test-20",
+    "velo-long-90"
+   ]
+  }
+ ],
+ "seanceType": "velo-seuil-2x20",
+ "exercicesPerso": {}
+}

@@ -1,0 +1,83 @@
+{
+ "id": "r-crawl",
+ "version": 1,
+ "nom": {
+  "fr": "Technique de crawl",
+  "en": "Front crawl technique"
+ },
+ "resume": {
+  "fr": "Battements, respiration, puis crawl complet : 400 m.",
+  "en": "Kick, breathing, then full crawl: 400 m."
+ },
+ "description": {
+  "fr": "Seize longueurs de 25 m, sans forcer : les jambes à la planche, la respiration sur trois temps, puis le crawl complet.",
+  "en": "Sixteen 25 m lengths, easy: legs with a board, breathing every three strokes, then full front crawl."
+ },
+ "famille": "endu",
+ "type": "natation",
+ "objectifs": [
+  "nager"
+ ],
+ "lieux": [
+  "piscine"
+ ],
+ "niveau": 1,
+ "picto": "natation",
+ "gros": {
+  "valeur": "400",
+  "unite": "m"
+ },
+ "lieuCourt": {
+  "fr": "Natation, piscine",
+  "en": "Swimming, pool"
+ },
+ "materiel": {
+  "fr": "Planche",
+  "en": "Kickboard"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Technique de crawl",
+   "en": "Front crawl technique"
+  },
+  "type": "natation",
+  "role": "facile",
+  "blocs": [
+   {
+    "exo": "natation",
+    "series": 4,
+    "distanceM": 25,
+    "zone": 2,
+    "reposS": 30,
+    "note": {
+     "fr": "battements avec planche, bras tendus",
+     "en": "kick with a board, arms straight"
+    }
+   },
+   {
+    "exo": "natation",
+    "series": 4,
+    "distanceM": 25,
+    "zone": 2,
+    "reposS": 30,
+    "note": {
+     "fr": "respiration sur 3 temps : souffle sous l'eau",
+     "en": "breathe every 3 strokes: exhale underwater"
+    }
+   },
+   {
+    "exo": "natation",
+    "series": 8,
+    "distanceM": 25,
+    "zone": 2,
+    "reposS": 30,
+    "note": {
+     "fr": "crawl complet, sans forcer",
+     "en": "full crawl, easy"
+    }
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

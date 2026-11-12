@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Santé Connect (appli à part jusqu'à Android 13) et applis de pesée montrées dans la feuille Poids -->
+  <queries>
+    <package android:name="com.google.android.apps.healthdata" />
+    <package android:name="com.sec.android.app.shealth" />
+    <package android:name="com.withings.wiscale2" />
+    <package android:name="com.fitbit.FitbitMobile" />
+    <package android:name="com.google.android.apps.fitness" />
+  </queries>
+
+  <application>
+    <!-- Justification exigée par Santé Connect : la politique de confidentialité, montrée dans l'appli -->
+    <activity
+      android:name="fit.pep.sante.Justification"
+      android:exported="true"
+      android:theme="@android:style/Theme.Translucent.NoTitleBar">
+      <intent-filter>
+        <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE" />
+      </intent-filter>
+    </activity>
+    <!-- Android 14 et plus -->
+    <activity-alias
+      android:name="fit.pep.sante.ViewPermissionUsageActivity"
+      android:exported="true"
+      android:permission="android.permission.START_VIEW_PERMISSION_USAGE"
+      android:targetActivity="fit.pep.sante.Justification">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW_PERMISSION_USAGE" />
+        <category android:name="android.intent.category.HEALTH_PERMISSIONS" />
+      </intent-filter>
+    </activity-alias>
+  </application>
+</manifest>

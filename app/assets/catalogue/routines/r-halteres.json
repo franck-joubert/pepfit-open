@@ -1,0 +1,144 @@
+{
+ "id": "r-halteres",
+ "version": 1,
+ "nom": {
+  "fr": "Haltères, tout le corps",
+  "en": "Dumbbells, full body"
+ },
+ "resume": {
+  "fr": "Six exercices avec deux haltères, à la maison.",
+  "en": "Six exercises with two dumbbells, at home."
+ },
+ "description": {
+  "fr": "Une séance complète avec deux haltères : squat gobelet, développé au sol, rowing, fentes, soulevé de terre jambes tendues et élévations latérales.",
+  "en": "A complete session with two dumbbells: goblet squat, floor press, row, lunges, stiff-legged deadlift and lateral raises."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "muscle",
+  "maison"
+ ],
+ "lieux": [
+  "maison_halteres"
+ ],
+ "niveau": 1,
+ "picto": "squat-gobelet",
+ "gros": {
+  "valeur": "Haltères",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Maison, haltères",
+  "en": "Home, dumbbells"
+ },
+ "materiel": {
+  "fr": "Haltères",
+  "en": "Dumbbells"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Haltères, tout le corps",
+   "en": "Dumbbells, full body"
+  },
+  "type": "muscu",
+  "role": "facile",
+  "note": null,
+  "format": null,
+  "formatValeur": null,
+  "blocs": [
+   {
+    "exo": "goblet-squat",
+    "series": 3,
+    "reps": 10,
+    "repsMax": 15,
+    "repsParSerie": null,
+    "reposS": 90,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "dumbbell-floor-press",
+    "series": 3,
+    "reps": 10,
+    "repsMax": 15,
+    "repsParSerie": null,
+    "reposS": 90,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "one-arm-dumbbell-row",
+    "series": 3,
+    "reps": 10,
+    "repsMax": 15,
+    "repsParSerie": null,
+    "reposS": 75,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": {
+     "fr": "chaque bras",
+     "en": "each arm"
+    }
+   },
+   {
+    "exo": "dumbbell-rear-lunge",
+    "series": 3,
+    "reps": 10,
+    "repsMax": 12,
+    "repsParSerie": null,
+    "reposS": 75,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": {
+     "fr": "chaque jambe",
+     "en": "each leg"
+    }
+   },
+   {
+    "exo": "stiff-legged-dumbbell-deadlift",
+    "series": 3,
+    "reps": 10,
+    "repsMax": 15,
+    "repsParSerie": null,
+    "reposS": 90,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "side-lateral-raise",
+    "series": 3,
+    "reps": 12,
+    "repsMax": 15,
+    "repsParSerie": null,
+    "reposS": 60,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

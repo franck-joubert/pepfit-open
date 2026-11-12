@@ -1,0 +1,463 @@
+{
+ "id": "c5",
+ "version": 1,
+ "nom": {
+  "fr": "Courir 5 km sans t'arrêter",
+  "en": "Run 5 km non-stop"
+ },
+ "resume": {
+  "fr": "De la marche-course à 30 min de course continue.",
+  "en": "From run-walk to 30 minutes of continuous running."
+ },
+ "description": {
+  "fr": "Tu pars de zéro : marche et course alternent, puis la course prend toute la place. En 9 semaines, tu cours 30 minutes, ou 5 km, sans t'arrêter.",
+  "en": "You start from scratch: walking and running alternate, then running takes over. In 9 weeks you run 30 minutes, or 5 km, without stopping."
+ },
+ "famille": "endu",
+ "type": "course",
+ "objectifs": [
+  "distance"
+ ],
+ "lieux": [
+  "dehors"
+ ],
+ "niveau": 1,
+ "semaines": 9,
+ "seancesParSemaine": 3,
+ "picto": "course",
+ "gros": {
+  "valeur": "5",
+  "unite": "km"
+ },
+ "lieuCourt": {
+  "fr": "Course, dehors",
+  "en": "Running, outdoors"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Une progression très douce : le temps de course augmente chaque semaine, le temps de marche diminue. Toujours assez lent pour parler ; trois séances par semaine, jamais deux jours de suite.",
+  "en": "A very gentle progression: running time goes up each week, walking time goes down. Always slow enough to talk; three sessions a week, never two days in a row."
+ },
+ "sources": [
+  0,
+  2
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Marche-course",
+    "en": "Run-walk"
+   },
+   "de": 1,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Course plus longue",
+    "en": "Longer runs"
+   },
+   "de": 5,
+   "a": 6
+  },
+  {
+   "nom": {
+    "fr": "Course continue",
+    "en": "Continuous running"
+   },
+   "de": 7,
+   "a": 9
+  }
+ ],
+ "seances": {
+  "mc-8x60-90": {
+   "nom": {
+    "fr": "Marche-course 8 × 1 min",
+    "en": "Run-walk 8 × 1 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche rapide pour t'échauffer",
+      "en": "brisk walk to warm up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 8,
+     "dureeS": 60,
+     "zone": 2,
+     "reposS": 90,
+     "note": {
+      "fr": "course lente, puis 1 min 30 de marche",
+      "en": "slow run, then 1 min 30 walking"
+     }
+    },
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche pour finir",
+      "en": "walk to finish"
+     }
+    }
+   ]
+  },
+  "mc-6x120-60": {
+   "nom": {
+    "fr": "Marche-course 6 × 2 min",
+    "en": "Run-walk 6 × 2 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche rapide pour t'échauffer",
+      "en": "brisk walk to warm up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 6,
+     "dureeS": 120,
+     "zone": 2,
+     "reposS": 60,
+     "note": {
+      "fr": "course lente, puis 1 min de marche",
+      "en": "slow run, then 1 min walking"
+     }
+    },
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche pour finir",
+      "en": "walk to finish"
+     }
+    }
+   ]
+  },
+  "mc-4x300-120": {
+   "nom": {
+    "fr": "Marche-course 4 × 5 min",
+    "en": "Run-walk 4 × 5 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche rapide pour t'échauffer",
+      "en": "brisk walk to warm up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 4,
+     "dureeS": 300,
+     "zone": 2,
+     "reposS": 120,
+     "note": {
+      "fr": "course lente, puis 2 min de marche",
+      "en": "slow run, then 2 min walking"
+     }
+    },
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche pour finir",
+      "en": "walk to finish"
+     }
+    }
+   ]
+  },
+  "mc-2x600-120": {
+   "nom": {
+    "fr": "Marche-course 2 × 10 min",
+    "en": "Run-walk 2 × 10 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche rapide pour t'échauffer",
+      "en": "brisk walk to warm up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 2,
+     "dureeS": 600,
+     "zone": 2,
+     "reposS": 120,
+     "note": {
+      "fr": "course lente, puis 2 min de marche",
+      "en": "slow run, then 2 min walking"
+     }
+    },
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche pour finir",
+      "en": "walk to finish"
+     }
+    }
+   ]
+  },
+  "continu-20": {
+   "nom": {
+    "fr": "Course continue 20 min",
+    "en": "Continuous run 20 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche rapide pour t'échauffer",
+      "en": "brisk walk to warm up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 1200,
+     "zone": 2,
+     "note": {
+      "fr": "assez lent pour parler",
+      "en": "slow enough to talk"
+     }
+    }
+   ]
+  },
+  "continu-25": {
+   "nom": {
+    "fr": "Course continue 25 min",
+    "en": "Continuous run 25 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche rapide pour t'échauffer",
+      "en": "brisk walk to warm up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 1500,
+     "zone": 2,
+     "note": {
+      "fr": "assez lent pour parler",
+      "en": "slow enough to talk"
+     }
+    }
+   ]
+  },
+  "continu-30": {
+   "nom": {
+    "fr": "Course continue 30 min",
+    "en": "Continuous run 30 min"
+   },
+   "type": "course",
+   "role": "facile",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 300,
+     "zone": 1,
+     "note": {
+      "fr": "marche rapide pour t'échauffer",
+      "en": "brisk walk to warm up"
+     }
+    },
+    {
+     "exo": "course",
+     "series": 1,
+     "dureeS": 1800,
+     "zone": 2,
+     "note": {
+      "fr": "assez lent pour parler",
+      "en": "slow enough to talk"
+     }
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "8 × 1 min de course",
+    "en": "8 × 1 min running"
+   },
+   "seances": [
+    "mc-8x60-90",
+    "mc-8x60-90",
+    "mc-8x60-90"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "8 × 1 min de course",
+    "en": "8 × 1 min running"
+   },
+   "seances": [
+    "mc-8x60-90",
+    "mc-8x60-90",
+    "mc-8x60-90"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "6 × 2 min de course",
+    "en": "6 × 2 min running"
+   },
+   "seances": [
+    "mc-6x120-60",
+    "mc-6x120-60",
+    "mc-6x120-60"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "6 × 2 min de course",
+    "en": "6 × 2 min running"
+   },
+   "seances": [
+    "mc-6x120-60",
+    "mc-6x120-60",
+    "mc-6x120-60"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "4 × 5 min",
+    "en": "4 × 5 min"
+   },
+   "seances": [
+    "mc-4x300-120",
+    "mc-4x300-120",
+    "mc-4x300-120"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "2 × 10 min",
+    "en": "2 × 10 min"
+   },
+   "seances": [
+    "mc-2x600-120",
+    "mc-2x600-120",
+    "mc-2x600-120"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "20 min continues",
+    "en": "20 min continuous"
+   },
+   "seances": [
+    "continu-20",
+    "mc-2x600-120",
+    "continu-20"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "25 min continues",
+    "en": "25 min continuous"
+   },
+   "seances": [
+    "continu-25",
+    "continu-20",
+    "continu-25"
+   ]
+  },
+  {
+   "n": 9,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "30 min, ou 5 km",
+    "en": "30 min, or 5 km"
+   },
+   "seances": [
+    "continu-25",
+    "continu-20",
+    "continu-30"
+   ]
+  }
+ ],
+ "seanceType": "mc-6x120-60",
+ "exercicesPerso": {}
+}

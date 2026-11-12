@@ -1,0 +1,133 @@
+{
+ "id": "r-full-body",
+ "version": 1,
+ "nom": {
+  "fr": "Full body 45 min",
+  "en": "Full body 45 min"
+ },
+ "resume": {
+  "fr": "Tout le corps en six exercices de base.",
+  "en": "The whole body in six basic exercises."
+ },
+ "description": {
+  "fr": "Squat, développé couché, rowing, développé militaire, soulevé de terre roumain et gainage : trois séries de chaque, tout le corps en trois quarts d'heure.",
+  "en": "Squat, bench press, row, overhead press, Romanian deadlift and plank: three sets of each, the whole body in 45 minutes."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "muscle",
+  "force"
+ ],
+ "lieux": [
+  "salle"
+ ],
+ "niveau": 1,
+ "picto": "squat",
+ "gros": {
+  "valeur": "45",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Salle, barre",
+  "en": "Gym, barbell"
+ },
+ "materiel": {
+  "fr": "Barre",
+  "en": "Barbell"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Full body 45 min",
+   "en": "Full body 45 min"
+  },
+  "type": "muscu",
+  "role": "dure",
+  "note": null,
+  "format": null,
+  "formatValeur": null,
+  "blocs": [
+   {
+    "exo": "squat",
+    "series": 3,
+    "reps": 8,
+    "repsMax": 10,
+    "repsParSerie": null,
+    "reposS": 150,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "couche",
+    "series": 3,
+    "reps": 8,
+    "repsMax": 10,
+    "repsParSerie": null,
+    "reposS": 150,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "bent-over-barbell-row",
+    "series": 3,
+    "reps": 8,
+    "repsMax": 10,
+    "repsParSerie": null,
+    "reposS": 120,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "standing-military-press",
+    "series": 3,
+    "reps": 8,
+    "repsMax": 10,
+    "repsParSerie": null,
+    "reposS": 120,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "romanian-deadlift",
+    "series": 3,
+    "reps": 8,
+    "repsMax": 10,
+    "repsParSerie": null,
+    "reposS": 120,
+    "tempo": null,
+    "superset": null,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "plank",
+    "series": 3,
+    "dureeS": 30,
+    "reposS": 45,
+    "superset": null,
+    "transitionS": null,
+    "note": null
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

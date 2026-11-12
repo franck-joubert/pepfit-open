@@ -1,0 +1,495 @@
+{
+ "id": "kb",
+ "version": 1,
+ "nom": {
+  "fr": "Kettlebell : tout le corps",
+  "en": "Kettlebell: full body"
+ },
+ "resume": {
+  "fr": "Swing, goblet squat, presse : un seul kettlebell.",
+  "en": "Swing, goblet squat, press: a single kettlebell."
+ },
+ "description": {
+  "fr": "Un kettlebell suffit : la technique du swing d'abord, puis un EMOM de 20 minutes qui fait tout travailler, et un test de 100 swings pour finir.",
+  "en": "One kettlebell is enough: swing technique first, then a 20-minute EMOM that works everything, and a 100-swing test to finish."
+ },
+ "famille": "forme",
+ "type": "cross",
+ "objectifs": [
+  "maison",
+  "force"
+ ],
+ "lieux": [
+  "maison_halteres"
+ ],
+ "niveau": 2,
+ "semaines": 8,
+ "seancesParSemaine": 3,
+ "picto": "kettlebell-swing",
+ "gros": {
+  "valeur": "KB",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Maison, kettlebell",
+  "en": "Home, kettlebell"
+ },
+ "materiel": {
+  "fr": "Kettlebell",
+  "en": "Kettlebell"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Le swing travaille la chaîne arrière et le cardio en même temps. La technique avant le volume, puis la densité (EMOM) ; une semaine allégée au milieu.",
+  "en": "The swing trains the posterior chain and conditioning at once. Technique before volume, then density (EMOM); a deload week in the middle."
+ },
+ "sources": [
+  3,
+  4
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Technique",
+    "en": "Technique"
+   },
+   "de": 1,
+   "a": 3
+  },
+  {
+   "nom": {
+    "fr": "Semaine allégée",
+    "en": "Deload week"
+   },
+   "de": 4,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "EMOM",
+    "en": "EMOM"
+   },
+   "de": 5,
+   "a": 7
+  },
+  {
+   "nom": {
+    "fr": "Test",
+    "en": "Test"
+   },
+   "de": 8,
+   "a": 8
+  }
+ ],
+ "seances": {
+  "kb-tech-10-3": {
+   "nom": {
+    "fr": "Kettlebell, technique",
+    "en": "Kettlebell, technique"
+   },
+   "type": "cross",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "one-arm-kettlebell-swings",
+     "series": 10,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "à deux mains si tu débutes ; la hanche pousse, les bras suivent",
+      "en": "two hands if you're new; the hips drive, the arms follow"
+     }
+    },
+    {
+     "exo": "goblet-squat",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "two-arm-kettlebell-military-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "alternating-kettlebell-row",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "kettlebell-turkish-get-up-squat-style",
+     "series": 3,
+     "reps": 1,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque côté, lentement",
+      "en": "each side, slowly"
+     }
+    }
+   ]
+  },
+  "kb-tech-6-2": {
+   "nom": {
+    "fr": "Kettlebell, technique",
+    "en": "Kettlebell, technique"
+   },
+   "type": "cross",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "one-arm-kettlebell-swings",
+     "series": 6,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "à deux mains si tu débutes ; la hanche pousse, les bras suivent",
+      "en": "two hands if you're new; the hips drive, the arms follow"
+     }
+    },
+    {
+     "exo": "goblet-squat",
+     "series": 2,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "two-arm-kettlebell-military-press",
+     "series": 2,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "alternating-kettlebell-row",
+     "series": 2,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "kettlebell-turkish-get-up-squat-style",
+     "series": 2,
+     "reps": 1,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "chaque côté, lentement",
+      "en": "each side, slowly"
+     }
+    }
+   ]
+  },
+  "kb-emom": {
+   "nom": {
+    "fr": "EMOM 20 min",
+    "en": "EMOM 20 min"
+   },
+   "type": "cross",
+   "role": "dure",
+   "note": {
+    "fr": "Chaque minute, un exercice ; le reste de la minute, tu souffles. 5 tours.",
+    "en": "Every minute, one exercise; rest for the rest of the minute. 5 rounds."
+   },
+   "format": "emom",
+   "formatValeur": 1200,
+   "blocs": [
+    {
+     "exo": "one-arm-kettlebell-swings",
+     "series": 5,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "goblet-squat",
+     "series": 5,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "two-arm-kettlebell-military-press",
+     "series": 5,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "alternating-kettlebell-row",
+     "series": 5,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  },
+  "kb-test": {
+   "nom": {
+    "fr": "Test : 100 swings",
+    "en": "Test: 100 swings"
+   },
+   "type": "cross",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "one-arm-kettlebell-swings",
+     "series": 1,
+     "reps": 100,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "le moins de pauses possible ; note ton temps",
+      "en": "as few breaks as possible; note your time"
+     }
+    },
+    {
+     "exo": "kettlebell-turkish-get-up-squat-style",
+     "series": 3,
+     "reps": 1,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "swing : 10 × 10",
+    "en": "swing: 10 × 10"
+   },
+   "seances": [
+    "kb-tech-10-3",
+    "kb-tech-10-3",
+    "kb-tech-10-3"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "swing : 10 × 10",
+    "en": "swing: 10 × 10"
+   },
+   "seances": [
+    "kb-tech-10-3",
+    "kb-tech-10-3",
+    "kb-tech-10-3"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "swing : 10 × 10",
+    "en": "swing: 10 × 10"
+   },
+   "seances": [
+    "kb-tech-10-3",
+    "kb-tech-10-3",
+    "kb-tech-10-3"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 1,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "kb-tech-6-2",
+    "kb-tech-6-2",
+    "kb-tech-6-2"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "EMOM 20 min",
+    "en": "EMOM 20 min"
+   },
+   "seances": [
+    "kb-emom",
+    "kb-tech-10-3",
+    "kb-emom"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "EMOM 20 min",
+    "en": "EMOM 20 min"
+   },
+   "seances": [
+    "kb-emom",
+    "kb-tech-10-3",
+    "kb-emom"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "EMOM 20 min",
+    "en": "EMOM 20 min"
+   },
+   "seances": [
+    "kb-emom",
+    "kb-tech-10-3",
+    "kb-emom"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 3,
+   "allegee": false,
+   "accent": {
+    "fr": "100 swings",
+    "en": "100 swings"
+   },
+   "seances": [
+    "kb-tech-6-2",
+    "kb-emom",
+    "kb-test"
+   ]
+  }
+ ],
+ "seanceType": "kb-emom",
+ "exercicesPerso": {}
+}

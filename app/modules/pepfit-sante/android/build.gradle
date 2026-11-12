@@ -1,0 +1,20 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'fit.pep'
+version = '1.0.0'
+
+android {
+  namespace "fit.pep.sante"
+  defaultConfig {
+    versionCode 1
+    versionName "1.0.0"
+  }
+}
+
+dependencies {
+  // Health Connect (Jetpack, Apache 2.0) : demande minSdk 26, fixé par plugin.js
+  implementation "androidx.health.connect:connect-client:1.1.0"
+}

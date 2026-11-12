@@ -1,0 +1,43 @@
+<!doctype html>
+<!--
+  OAuth return page for pepfit (libre). Withings only accepts HTTPS callbacks, so host this static file on any HTTPS
+  server you control (GitHub Pages, your own nginx...) and declare its exact URL as the redirect URL, both in the
+  provider's developer dashboard and in the app (Settings > Connections > My API credentials).
+
+  It forwards ?code, ?state and ?error to the app: pepfitopen://<provider>?code=...&state=...
+  The provider is read from ?provider=, else from the file name (withings.html, whoop.html, polar.html), else withings.
+  Nothing is stored or sent anywhere else: the authorization code goes straight back to the phone, which exchanges it.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Back to pepfit</title>
+  <style>
+    body { font: 15px/1.5 system-ui, sans-serif; max-width: 28rem; margin: 20vh auto; padding: 0 1.5rem; text-align: center; }
+    a { display: inline-block; margin-top: 1rem; padding: .75rem 1.5rem; border-radius: 12px; background: #111; color: #fff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <p id="texte">Returning to the app…</p>
+  <a id="lien" href="#" hidden>Open pepfit</a>
+  <script>
+    (function () {
+      var FOURNISSEURS = ["whoop", "withings", "polar"];
+      var q = new URLSearchParams(location.search);
+      var nom = (location.pathname.split("/").pop() || "").replace(/\.html?$/, "");
+      var f = q.get("provider") || nom;
+      if (FOURNISSEURS.indexOf(f) < 0) f = "withings";
+      var sortie = new URLSearchParams();
+      ["code", "state", "error"].forEach(function (k) { var v = q.get(k); if (v) sortie.set(k, v); });
+      var cible = "pepfitopen://" + f + "?" + sortie.toString();
+      var lien = document.getElementById("lien");
+      lien.href = cible;
+      lien.hidden = false;
+      location.replace(cible);
+      setTimeout(function () { document.getElementById("texte").textContent = "If the app did not open, tap the button."; }, 1500);
+    })();
+  </script>
+</body>
+</html>

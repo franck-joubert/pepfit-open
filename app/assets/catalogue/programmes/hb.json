@@ -1,0 +1,1249 @@
+{
+ "id": "hb",
+ "version": 1,
+ "nom": {
+  "fr": "Haut et bas du corps",
+  "en": "Upper / lower"
+ },
+ "resume": {
+  "fr": "Quatre séances, chaque muscle deux fois par semaine.",
+  "en": "Four sessions, each muscle twice a week."
+ },
+ "description": {
+  "fr": "Haut lourd, bas lourd, haut volume, bas volume : la force et le muscle dans la même semaine. Une série de plus sur les mouvements principaux après la semaine allégée.",
+  "en": "Upper heavy, lower heavy, upper volume, lower volume: strength and size in the same week. One extra set on the main lifts after the deload."
+ },
+ "famille": "force",
+ "type": "muscu",
+ "objectifs": [
+  "muscle",
+  "force"
+ ],
+ "lieux": [
+  "salle"
+ ],
+ "niveau": 2,
+ "semaines": 10,
+ "seancesParSemaine": 4,
+ "picto": "rowing-barre",
+ "gros": {
+  "valeur": "Haut / bas",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Salle, barre",
+  "en": "Gym, barbell"
+ },
+ "materiel": {
+  "fr": "Salle",
+  "en": "Gym"
+ },
+ "avertissement": null,
+ "progression": {
+  "fr": "Lourd : + 2,5 kg quand les 6 répétitions passent. Volume : double progression.",
+  "en": "Heavy: +2.5 kg when all 6 reps are done. Volume: double progression."
+ },
+ "chargesDepart": false,
+ "principes": {
+  "fr": "Assez de séries par muscle et par semaine (10 à 20), chaque muscle deux fois par semaine, et la double progression : d'abord les répétitions, puis le poids. Une semaine allégée laisse récupérer.",
+  "en": "Enough sets per muscle per week (10 to 20), each muscle twice a week, and double progression: reps first, then weight. A deload week lets you recover."
+ },
+ "sources": [
+  3
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Volume",
+    "en": "Volume"
+   },
+   "de": 1,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Semaine allégée",
+    "en": "Deload week"
+   },
+   "de": 5,
+   "a": 5
+  },
+  {
+   "nom": {
+    "fr": "Une série de plus",
+    "en": "One more set"
+   },
+   "de": 6,
+   "a": 9
+  },
+  {
+   "nom": {
+    "fr": "Bilan",
+    "en": "Review"
+   },
+   "de": 10,
+   "a": 10
+  }
+ ],
+ "seances": {
+  "hb-haut-lourd-4": {
+   "nom": {
+    "fr": "Haut lourd",
+    "en": "Upper heavy"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "couche",
+     "series": 4,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 4,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "pullups",
+     "series": 3,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  },
+  "hb-bas-lourd-4": {
+   "nom": {
+    "fr": "Bas lourd",
+    "en": "Lower heavy"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 4,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "leg-press",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "hb-haut-volume-3": {
+   "nom": {
+    "fr": "Haut volume",
+    "en": "Upper volume"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "incline-dumbbell-press",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "wide-grip-lat-pulldown",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "dumbbell-bicep-curl",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "triceps-pushdown",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "hb-bas-volume-3": {
+   "nom": {
+    "fr": "Bas volume",
+    "en": "Lower volume"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "dumbbell-lunges",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "barbell-hip-thrust",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": "2-1-1-1",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "lying-leg-curls",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 3,
+     "dureeS": 45,
+     "reposS": 45,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "hb-haut-lourd-3": {
+   "nom": {
+    "fr": "Haut lourd",
+    "en": "Upper heavy"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "couche",
+     "series": 3,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 3,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "pullups",
+     "series": 3,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  },
+  "hb-bas-lourd-3": {
+   "nom": {
+    "fr": "Bas lourd",
+    "en": "Lower heavy"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 3,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "leg-press",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  },
+  "hb-haut-volume-2": {
+   "nom": {
+    "fr": "Haut volume",
+    "en": "Upper volume"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "incline-dumbbell-press",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "wide-grip-lat-pulldown",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "dumbbell-bicep-curl",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "triceps-pushdown",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    }
+   ]
+  },
+  "hb-bas-volume-2": {
+   "nom": {
+    "fr": "Bas volume",
+    "en": "Lower volume"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "dumbbell-lunges",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "barbell-hip-thrust",
+     "series": 2,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": "2-1-1-1",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "lying-leg-curls",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 3,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 3,
+     "dureeS": 45,
+     "reposS": 45,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "hb-haut-lourd-5": {
+   "nom": {
+    "fr": "Haut lourd",
+    "en": "Upper heavy"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "couche",
+     "series": 5,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 5,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "pullups",
+     "series": 3,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  },
+  "hb-bas-lourd-5": {
+   "nom": {
+    "fr": "Bas lourd",
+    "en": "Lower heavy"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 5,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "leg-press",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "hb-haut-volume-4": {
+   "nom": {
+    "fr": "Haut volume",
+    "en": "Upper volume"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "incline-dumbbell-press",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "wide-grip-lat-pulldown",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "side-lateral-raise",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "dumbbell-bicep-curl",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 0,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "triceps-pushdown",
+     "series": 3,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 75,
+     "tempo": null,
+     "superset": 1,
+     "transitionS": 10,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  },
+  "hb-bas-volume-4": {
+   "nom": {
+    "fr": "Bas volume",
+    "en": "Lower volume"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "dumbbell-lunges",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "barbell-hip-thrust",
+     "series": 4,
+     "reps": 10,
+     "repsMax": 12,
+     "repsParSerie": null,
+     "reposS": 90,
+     "tempo": "2-1-1-1",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "lying-leg-curls",
+     "series": 3,
+     "reps": 12,
+     "repsMax": 15,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    },
+    {
+     "exo": "plank",
+     "series": 3,
+     "dureeS": 45,
+     "reposS": 45,
+     "superset": null,
+     "transitionS": null,
+     "note": null
+    }
+   ]
+  },
+  "hb-haut-test": {
+   "nom": {
+    "fr": "Haut lourd",
+    "en": "Upper heavy"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "couche",
+     "series": 3,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": {
+      "fr": "dernière série : ton nouveau maximum sur 5",
+      "en": "last set: your new 5-rep max"
+     }
+    },
+    {
+     "exo": "bent-over-barbell-row",
+     "series": 3,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-military-press",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "pullups",
+     "series": 3,
+     "reps": 6,
+     "repsMax": 10,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    }
+   ]
+  },
+  "hb-bas-test": {
+   "nom": {
+    "fr": "Bas lourd",
+    "en": "Lower heavy"
+   },
+   "type": "muscu",
+   "role": "dure",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "squat",
+     "series": 3,
+     "reps": 6,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 180,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": {
+      "fr": "dernière série : ton nouveau maximum sur 5",
+      "en": "last set: your new 5-rep max"
+     }
+    },
+    {
+     "exo": "romanian-deadlift",
+     "series": 3,
+     "reps": 8,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 150,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "leg-press",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 120,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 2,
+     "note": null
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": 1,
+     "note": null
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "4 × 6 et 3 × 10-12",
+    "en": "4 × 6 and 3 × 10-12"
+   },
+   "seances": [
+    "hb-haut-lourd-4",
+    "hb-bas-lourd-4",
+    "hb-haut-volume-3",
+    "hb-bas-volume-3"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "4 × 6 et 3 × 10-12",
+    "en": "4 × 6 and 3 × 10-12"
+   },
+   "seances": [
+    "hb-haut-lourd-4",
+    "hb-bas-lourd-4",
+    "hb-haut-volume-3",
+    "hb-bas-volume-3"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "4 × 6 et 3 × 10-12",
+    "en": "4 × 6 and 3 × 10-12"
+   },
+   "seances": [
+    "hb-haut-lourd-4",
+    "hb-bas-lourd-4",
+    "hb-haut-volume-3",
+    "hb-bas-volume-3"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "4 × 6 et 3 × 10-12",
+    "en": "4 × 6 and 3 × 10-12"
+   },
+   "seances": [
+    "hb-haut-lourd-4",
+    "hb-bas-lourd-4",
+    "hb-haut-volume-3",
+    "hb-bas-volume-3"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "hb-haut-lourd-3",
+    "hb-bas-lourd-3",
+    "hb-haut-volume-2",
+    "hb-bas-volume-2"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 1 série sur les principaux",
+    "en": "+1 set on the main lifts"
+   },
+   "seances": [
+    "hb-haut-lourd-5",
+    "hb-bas-lourd-5",
+    "hb-haut-volume-4",
+    "hb-bas-volume-4"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 1 série sur les principaux",
+    "en": "+1 set on the main lifts"
+   },
+   "seances": [
+    "hb-haut-lourd-5",
+    "hb-bas-lourd-5",
+    "hb-haut-volume-4",
+    "hb-bas-volume-4"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 1 série sur les principaux",
+    "en": "+1 set on the main lifts"
+   },
+   "seances": [
+    "hb-haut-lourd-5",
+    "hb-bas-lourd-5",
+    "hb-haut-volume-4",
+    "hb-bas-volume-4"
+   ]
+  },
+  {
+   "n": 9,
+   "phase": 2,
+   "allegee": false,
+   "accent": {
+    "fr": "+ 1 série sur les principaux",
+    "en": "+1 set on the main lifts"
+   },
+   "seances": [
+    "hb-haut-lourd-5",
+    "hb-bas-lourd-5",
+    "hb-haut-volume-4",
+    "hb-bas-volume-4"
+   ]
+  },
+  {
+   "n": 10,
+   "phase": 3,
+   "allegee": true,
+   "accent": {
+    "fr": "nouveaux maxima sur 5 répétitions",
+    "en": "new 5-rep maxes"
+   },
+   "seances": [
+    "hb-haut-test",
+    "hb-bas-test",
+    "hb-haut-volume-2",
+    "hb-bas-volume-2"
+   ]
+  }
+ ],
+ "seanceType": "hb-haut-lourd-4",
+ "exercicesPerso": {}
+}

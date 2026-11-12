@@ -1,0 +1,110 @@
+{
+ "id": "r-kb-emom",
+ "version": 1,
+ "nom": {
+  "fr": "EMOM kettlebell 20 min",
+  "en": "Kettlebell EMOM 20 min"
+ },
+ "resume": {
+  "fr": "Swing, goblet squat, presse, rowing : un exercice par minute.",
+  "en": "Swing, goblet squat, press, row: one exercise per minute."
+ },
+ "description": {
+  "fr": "Un seul kettlebell. Chaque minute, un exercice ; le reste de la minute, tu souffles. Cinq tours, vingt minutes.",
+  "en": "A single kettlebell. Every minute, one exercise; rest for the rest of the minute. Five rounds, twenty minutes."
+ },
+ "famille": "forme",
+ "type": "cross",
+ "objectifs": [
+  "maison",
+  "force"
+ ],
+ "lieux": [
+  "maison_halteres"
+ ],
+ "niveau": 2,
+ "picto": "kettlebell-swing",
+ "gros": {
+  "valeur": "EMOM",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Maison, kettlebell",
+  "en": "Home, kettlebell"
+ },
+ "materiel": {
+  "fr": "Kettlebell",
+  "en": "Kettlebell"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "EMOM kettlebell 20 min",
+   "en": "Kettlebell EMOM 20 min"
+  },
+  "type": "cross",
+  "role": "dure",
+  "note": null,
+  "format": "emom",
+  "formatValeur": 1200,
+  "blocs": [
+   {
+    "exo": "one-arm-kettlebell-swings",
+    "series": 5,
+    "reps": 15,
+    "repsMax": null,
+    "repsParSerie": null,
+    "reposS": 0,
+    "tempo": null,
+    "superset": 1,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "goblet-squat",
+    "series": 5,
+    "reps": 8,
+    "repsMax": null,
+    "repsParSerie": null,
+    "reposS": 0,
+    "tempo": null,
+    "superset": 1,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "two-arm-kettlebell-military-press",
+    "series": 5,
+    "reps": 6,
+    "repsMax": null,
+    "repsParSerie": null,
+    "reposS": 0,
+    "tempo": null,
+    "superset": 1,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   },
+   {
+    "exo": "alternating-kettlebell-row",
+    "series": 5,
+    "reps": 8,
+    "repsMax": null,
+    "repsParSerie": null,
+    "reposS": 0,
+    "tempo": null,
+    "superset": 1,
+    "transitionS": null,
+    "progressionKg": null,
+    "rir": null,
+    "note": null
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

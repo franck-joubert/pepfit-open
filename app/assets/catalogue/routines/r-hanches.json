@@ -1,0 +1,98 @@
+{
+ "id": "r-hanches",
+ "version": 1,
+ "nom": {
+  "fr": "Mobilité des hanches 15 min",
+  "en": "Hip mobility 15 min"
+ },
+ "resume": {
+  "fr": "Cinq postures pour des hanches plus libres.",
+  "en": "Five poses for freer hips."
+ },
+ "description": {
+  "fr": "Quinze minutes au sol, deux fois chaque posture : fléchisseurs, ischios, fessiers. L'amplitude active : va chercher la position.",
+  "en": "Fifteen minutes on the floor, each pose twice: hip flexors, hamstrings, glutes. Active range: reach for the position."
+ },
+ "famille": "sante",
+ "type": "mobilite",
+ "objectifs": [
+  "mobilite"
+ ],
+ "lieux": [
+  "maison"
+ ],
+ "niveau": 1,
+ "picto": "yoga",
+ "gros": {
+  "valeur": "15",
+  "unite": "min"
+ },
+ "lieuCourt": {
+  "fr": "Mobilité, maison",
+  "en": "Mobility, home"
+ },
+ "materiel": {
+  "fr": "Aucun",
+  "en": "None"
+ },
+ "avertissement": null,
+ "seance": {
+  "nom": {
+   "fr": "Mobilité des hanches 15 min",
+   "en": "Hip mobility 15 min"
+  },
+  "type": "mobilite",
+  "role": "facile",
+  "note": null,
+  "format": null,
+  "formatValeur": null,
+  "blocs": [
+   {
+    "exo": "worlds-greatest-stretch",
+    "series": 2,
+    "dureeS": 60,
+    "reposS": 15,
+    "superset": null,
+    "transitionS": null,
+    "note": null
+   },
+   {
+    "exo": "kneeling-hip-flexor",
+    "series": 2,
+    "dureeS": 60,
+    "reposS": 15,
+    "superset": null,
+    "transitionS": null,
+    "note": null
+   },
+   {
+    "exo": "90-90-hamstring",
+    "series": 2,
+    "dureeS": 60,
+    "reposS": 15,
+    "superset": null,
+    "transitionS": null,
+    "note": null
+   },
+   {
+    "exo": "lying-glute",
+    "series": 2,
+    "dureeS": 60,
+    "reposS": 15,
+    "superset": null,
+    "transitionS": null,
+    "note": null
+   },
+   {
+    "exo": "hip-circles-prone",
+    "series": 2,
+    "dureeS": 60,
+    "reposS": 15,
+    "superset": null,
+    "transitionS": null,
+    "note": null
+   }
+  ]
+ },
+ "exercicesPerso": {}
+}

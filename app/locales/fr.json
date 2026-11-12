@@ -1,0 +1,21 @@
+{
+  "android": { "app_name": "pepfit open" },
+  "ios": {
+    "CFBundleDisplayName": "pepfit open",
+    "NSCameraUsageDescription": "pepfit utilise la caméra pour lire les codes-barres des aliments et les codes QR, et pour la photo de ta séance.",
+    "NSPhotoLibraryUsageDescription": "pepfit ouvre ta galerie pour choisir la photo de ta séance.",
+    "NSMicrophoneUsageDescription": "pepfit n'enregistre jamais le son : la caméra sert aux codes-barres, aux codes QR et aux photos.",
+    "NSLocationWhenInUseUsageDescription": "pepfit utilise ta position pour tracer tes sorties (distance, allure, carte), même écran verrouillé, et pour trouver les salles autour de toi.",
+    "NSLocationAlwaysAndWhenInUseUsageDescription": "pepfit utilise ta position pendant tes sorties pour en mesurer la distance et l'allure, même écran verrouillé. Rien n'est suivi en dehors d'une séance.",
+    "NSLocationAlwaysUsageDescription": "pepfit utilise ta position pendant tes sorties pour en mesurer la distance et l'allure, même écran verrouillé. Rien n'est suivi en dehors d'une séance.",
+    "NSMotionUsageDescription": "pepfit utilise le baromètre de ton iPhone pour mesurer le dénivelé de tes sorties.",
+    "NSBluetoothAlwaysUsageDescription": "pepfit se connecte à ta ceinture cardio ou à ta Whoop pour afficher ta fréquence cardiaque pendant la séance, même écran verrouillé.",
+    "NSHealthShareUsageDescription": "pepfit lit dans Santé ton poids, ta composition, tes pas, ton sommeil, ta fréquence cardiaque, tes séances et ton cycle pour calculer tes jauges. Rien n'est utilisé pour la publicité.",
+    "NSHealthUpdateUsageDescription": "pepfit enregistre tes séances dans Santé (durée, calories, distance) pour que tes autres applis les voient.",
+    "NSCalendarsUsageDescription": "pepfit lit ton agenda pour placer tes séances autour de tes rendez-vous, et y ajoute les séances que tu choisis.",
+    "NSCalendarsFullAccessUsageDescription": "pepfit lit ton agenda pour placer tes séances autour de tes rendez-vous, et y ajoute les séances que tu choisis.",
+    "NSRemindersUsageDescription": "pepfit ne lit ni n'écrit tes rappels : seul ton agenda sert.",
+    "NSRemindersFullAccessUsageDescription": "pepfit ne lit ni n'écrit tes rappels : seul ton agenda sert.",
+    "NSFaceIDUsageDescription": "pepfit utilise Face ID pour verrouiller l'appli et protéger tes données."
+  }
+}

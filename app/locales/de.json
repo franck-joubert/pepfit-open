@@ -1,0 +1,21 @@
+{
+  "android": { "app_name": "pepfit open" },
+  "ios": {
+    "CFBundleDisplayName": "pepfit open",
+    "NSCameraUsageDescription": "pepfit nutzt die Kamera, um Barcodes von Lebensmitteln und QR-Codes zu scannen, und für dein Trainingsfoto.",
+    "NSPhotoLibraryUsageDescription": "pepfit öffnet deine Galerie, damit du dein Trainingsfoto auswählen kannst.",
+    "NSMicrophoneUsageDescription": "pepfit nimmt nie Ton auf: Die Kamera dient nur für Barcodes, QR-Codes und Fotos.",
+    "NSLocationWhenInUseUsageDescription": "pepfit nutzt deinen Standort, um deine Outdoor-Trainings aufzuzeichnen (Distanz, Pace, Karte), auch bei gesperrtem Bildschirm, und um Fitnessstudios in deiner Nähe zu finden.",
+    "NSLocationAlwaysAndWhenInUseUsageDescription": "pepfit nutzt deinen Standort während deiner Outdoor-Trainings, um Distanz und Pace zu messen, auch bei gesperrtem Bildschirm. Außerhalb eines Trainings wird nichts aufgezeichnet.",
+    "NSLocationAlwaysUsageDescription": "pepfit nutzt deinen Standort während deiner Outdoor-Trainings, um Distanz und Pace zu messen, auch bei gesperrtem Bildschirm. Außerhalb eines Trainings wird nichts aufgezeichnet.",
+    "NSMotionUsageDescription": "pepfit nutzt das Barometer deines iPhones, um die Höhenmeter deiner Outdoor-Trainings zu messen.",
+    "NSBluetoothAlwaysUsageDescription": "pepfit verbindet sich mit deinem Brustgurt oder deinem Whoop, um deine Herzfrequenz während des Trainings anzuzeigen, auch bei gesperrtem Bildschirm.",
+    "NSHealthShareUsageDescription": "pepfit liest Gewicht, Körperzusammensetzung, Schritte, Schlaf, Herzfrequenz, Trainings und Zyklus aus Health, um deine Anzeigen zu berechnen. Nichts davon wird für Werbung genutzt.",
+    "NSHealthUpdateUsageDescription": "pepfit speichert deine Trainings in Health (Dauer, Kalorien, Distanz), damit deine anderen Apps sie sehen.",
+    "NSCalendarsUsageDescription": "pepfit liest deinen Kalender, um deine Trainings um deine Termine herum zu planen, und trägt die Trainings ein, die du auswählst.",
+    "NSCalendarsFullAccessUsageDescription": "pepfit liest deinen Kalender, um deine Trainings um deine Termine herum zu planen, und trägt die Trainings ein, die du auswählst.",
+    "NSRemindersUsageDescription": "pepfit liest und schreibt keine Erinnerungen: Nur dein Kalender wird genutzt.",
+    "NSRemindersFullAccessUsageDescription": "pepfit liest und schreibt keine Erinnerungen: Nur dein Kalender wird genutzt.",
+    "NSFaceIDUsageDescription": "pepfit nutzt Face ID, um die App zu sperren und deine Daten zu schützen."
+  }
+}

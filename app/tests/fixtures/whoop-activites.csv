@@ -1,0 +1,89 @@
+slug,nom,nom_en,whoop_ids,categorie,saisie,picto
+course,Course à pied,Running / Stroller Jogging,0|253,Cardio,duree_distance,course-512.webp
+bicycling,Vélo,Cycling,1,Cardio,duree_distance,bicycling-512.webp
+bicycling-stationary,Vélo d'intérieur (spinning),Spin,97,Cardio,duree_distance,neutre-512.webp
+assault-bike,Vélo à air (Assault bike),Assault Bike,126,Cardio,duree_distance,neutre-512.webp
+rowing-stationary,Rameur,Rowing,18,Cardio,duree_distance,neutre-512.webp
+marche,Marche,Walking / Stroller Walking / Dog Walking,63|252|266,Cardio,duree_distance,neutre-512.webp
+elliptical-trainer,Vélo elliptique,Elliptical,65,Cardio,duree_distance,neutre-512.webp
+stairmaster,Stairmaster (escalier),Stairmaster,66,Cardio,duree_distance,neutre-512.webp
+montee-marches,Montée de marches,Stadium Steps,261,Cardio,duree,neutre-512.webp
+rope-jumping,Corde à sauter,Jumping Rope,84,Cardio,duree,neutre-512.webp
+versaclimber,VersaClimber,Climber,83,Cardio,duree,neutre-512.webp
+skating,Roller,Inline Skating,102,Cardio,duree_distance,neutre-512.webp
+fauteuil-roulant,Fauteuil roulant,Wheelchair Pushing,105,Cardio,duree_distance,neutre-512.webp
+duathlon,Duathlon,Duathlon,49,Cardio,duree_distance,neutre-512.webp
+triathlon,Triathlon,Triathlon,62,Cardio,duree_distance,neutre-512.webp
+athletisme,Athlétisme,Track & Field,35,Cardio,duree,neutre-512.webp
+course-obstacles,Course d'obstacles,Obstacle Course Racing,94,Cardio,duree_distance,neutre-512.webp
+musculation,Musculation,Weightlifting / Powerlifting / Strength Trainer,45|59|123,Fitness,duree,neutre-512.webp
+cross-training,Cross training,Functional Fitness,48,Fitness,duree,neutre-512.webp
+hiit,HIIT,HIIT / F45 Training / Barry's,96|248|250,Fitness,duree,hiit-512.webp
+cardio-boxe,Cardio boxe,Box Fitness,103,Fitness,duree,neutre-512.webp
+barre-fitness,Barre (fitness),Barre / Barre3,107|258,Fitness,duree,neutre-512.webp
+pilates,Pilates,Pilates,43,Fitness,duree,neutre-512.webp
+gymnastique,Gymnastique,Gymnastics,51,Fitness,duree,neutre-512.webp
+danse,Danse,Dance,42,Fitness,duree,neutre-512.webp
+parkour,Parkour,Parkour,110,Fitness,duree,neutre-512.webp
+arts-du-cirque,Arts du cirque,Circus Arts,113,Fitness,duree,neutre-512.webp
+yoga,Yoga,Yoga / Hot Yoga,44|259,Bien-être,duree,yoga-512.webp
+etirements,Étirements,Stretching,128,Bien-être,duree,neutre-512.webp
+meditation,Méditation,Meditation,70,Bien-être,duree,neutre-512.webp
+sauna,Sauna,Sauna,233,Bien-être,duree,neutre-512.webp
+bain-froid,Bain froid,Ice Bath,88,Bien-être,duree,neutre-512.webp
+massage,Massage et récupération,Massage Therapy / Air Compression / Percussive Massage,121|236|237,Bien-être,duree,neutre-512.webp
+football,Football,Soccer,30,Sport collectif,duree,neutre-512.webp
+football-americain,Football américain,Football,21,Sport collectif,duree,neutre-512.webp
+football-australien,Football australien,Australian Football,85,Sport collectif,duree,neutre-512.webp
+football-gaelique,Football gaélique,Gaelic Football,111,Sport collectif,duree,neutre-512.webp
+hurling,Hurling et camogie,Hurling/Camogie,112,Sport collectif,duree,neutre-512.webp
+rugby,Rugby,Rugby,27,Sport collectif,duree,neutre-512.webp
+basket,Basket-ball,Basketball,17,Sport collectif,duree,neutre-512.webp
+volley,Volley-ball,Volleyball,36,Sport collectif,duree,neutre-512.webp
+handball,Handball,Handball,240,Sport collectif,duree,neutre-512.webp
+netball,Netball,Netball,232,Sport collectif,duree,neutre-512.webp
+baseball,Baseball,Baseball,16,Sport collectif,duree,neutre-512.webp
+softball,Softball,Softball,31,Sport collectif,duree,neutre-512.webp
+cricket,Cricket,Cricket,100,Sport collectif,duree,neutre-512.webp
+hockey-gazon,Hockey sur gazon,Field Hockey,20,Sport collectif,duree,neutre-512.webp
+hockey-glace,Hockey sur glace,Ice Hockey,24,Sport collectif,duree,neutre-512.webp
+lacrosse,Crosse (lacrosse),Lacrosse,25,Sport collectif,duree,neutre-512.webp
+ultimate,Ultimate,Ultimate,82,Sport collectif,duree,neutre-512.webp
+water-polo,Water-polo,Water Polo,37,Sport collectif,duree,neutre-512.webp
+polo,Polo,Polo,262,Sport collectif,duree,neutre-512.webp
+spikeball,Spikeball (roundnet),Spikeball,104,Sport collectif,duree,neutre-512.webp
+tennis,Tennis,Tennis,34,Sport de raquette,duree,neutre-512.webp
+padel,Padel,Paddle Tennis / Padel,106|249,Sport de raquette,duree,padel-512.webp
+squash,Squash,Squash,32,Sport de raquette,duree,neutre-512.webp
+badminton,Badminton,Badminton,231,Sport de raquette,duree,neutre-512.webp
+tennis-de-table,Tennis de table,Table Tennis,230,Sport de raquette,duree,neutre-512.webp
+pickleball,Pickleball,Pickleball,101,Sport de raquette,duree,neutre-512.webp
+boxe,Boxe,Boxing,39,Sport de combat,duree,boxe-512.webp
+kickboxing,Kickboxing,Kickboxing,127,Sport de combat,duree,neutre-512.webp
+arts-martiaux,Arts martiaux,Martial Arts,56,Sport de combat,duree,neutre-512.webp
+jiu-jitsu,Jiu-jitsu,Jiu Jitsu,98,Sport de combat,duree,neutre-512.webp
+lutte,Lutte,Wrestling,38,Sport de combat,duree,neutre-512.webp
+escrime,Escrime,Fencing,19,Sport de combat,duree,neutre-512.webp
+natation,Natation,Swimming,33,Sport nautique,duree_distance,natation-512.webp
+voile,Voile,Sailing,28,Sport nautique,duree,neutre-512.webp
+kayak,Kayak,Kayaking,55,Sport nautique,duree_distance,neutre-512.webp
+paddle,Stand-up paddle,Paddleboarding,61,Sport nautique,duree_distance,neutre-512.webp
+surf,Surf,Surfing,64,Sport nautique,duree,neutre-512.webp
+plongee,Plongée,Diving,73,Sport nautique,duree,neutre-512.webp
+kitesurf,Kitesurf,Kite Boarding,264,Sport nautique,duree,neutre-512.webp
+ski-nautique,Ski nautique,Water Skiing,267,Sport nautique,duree,neutre-512.webp
+wakeboard,Wakeboard,Wakeboarding,268,Sport nautique,duree,neutre-512.webp
+randonnee,Randonnée,Hiking/Rucking,52,Montagne,duree_distance,randonnee-512.webp
+vtt,VTT,Mountain Biking,57,Montagne,duree_distance,neutre-512.webp
+escalade,Escalade,Rock Climbing,60,Montagne,duree,neutre-512.webp
+ski,Ski alpin,Skiing,29,Montagne,duree,neutre-512.webp
+ski-de-fond,Ski de fond,Cross Country Skiing,47,Montagne,duree_distance,neutre-512.webp
+snowboard,Snowboard,Snowboarding,91,Montagne,duree,neutre-512.webp
+golf,Golf,Golf,22,Loisirs,duree,neutre-512.webp
+disc-golf,Disc golf,Disc Golf,234,Loisirs,duree,neutre-512.webp
+equitation,Équitation,Horseback Riding,53,Loisirs,duree,neutre-512.webp
+skateboard,Skateboard,Skateboarding,86,Loisirs,duree,neutre-512.webp
+patin-a-glace,Patin à glace,Ice Skating,239,Loisirs,duree,neutre-512.webp
+paintball,Paintball,Paintball,238,Loisirs,duree,neutre-512.webp
+motocross,Motocross,Motocross,92,Loisirs,duree,neutre-512.webp
+sport-auto,Sport automobile,Motor Racing,95,Loisirs,duree,neutre-512.webp

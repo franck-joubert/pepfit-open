@@ -1,0 +1,201 @@
+diff --git a/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLContext.java b/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLContext.java
+index 082c40f..99d128e 100644
+--- a/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLContext.java
++++ b/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLContext.java
+@@ -16,7 +16,10 @@ import java.io.File;
+ import java.io.FileOutputStream;
+ import java.lang.ref.WeakReference;
+ import java.nio.IntBuffer;
++import java.util.ArrayList;
++import java.util.Collections;
+ import java.util.HashMap;
++import java.util.List;
+ import java.util.Map;
+ import java.util.concurrent.BlockingQueue;
+ import java.util.concurrent.LinkedBlockingQueue;
+@@ -48,6 +51,8 @@ public class GLContext {
+   private EGL10 mEGL;
+ 
+   private BlockingQueue<Runnable> mEventQueue = new LinkedBlockingQueue<>();
++  // pepfit : surfaces parties dont la libération attend le thread GL (libérées par destroy() s'il s'arrête avant)
++  private final List<SurfaceTexture> mPendingReleases = Collections.synchronizedList(new ArrayList<SurfaceTexture>());
+ 
+   public GLContext(GLModule manager) {
+     super();
+@@ -112,6 +117,45 @@ public class GLContext {
+     });
+   }
+ 
++  // pepfit (patches/expo-gl) : la surface d'une GLView peut partir sans que la vue meure (onglet caché, page poussée par-dessus,
++  // appli en arrière-plan). Le contexte EGL reste, avec ses programmes, textures et tampons : le dessin va dans un pbuffer 1×1
++  // jusqu'à la surface suivante, et JS n'a rien à refaire. Le contexte n'est détruit qu'avec la vue (GLModule, OnViewDestroys).
++
++  /** La surface part : le contexte passe sur un pbuffer, puis la SurfaceTexture est libérée sur le thread GL. */
++  public void detachSurface(final SurfaceTexture surfaceTexture) {
++    if (mGLThread == null) {
++      surfaceTexture.release();
++      return;
++    }
++    mPendingReleases.add(surfaceTexture);
++    runAsync(new Runnable() {
++      @Override
++      public void run() {
++        mGLThread.replaceSurface(null);
++        if (mPendingReleases.remove(surfaceTexture)) {
++          surfaceTexture.release();
++        }
++      }
++    });
++  }
++
++  /** Une nouvelle surface pour le même contexte (même GLView, revenue à l'écran). */
++  public void attachSurface(final SurfaceTexture surfaceTexture) {
++    if (mGLThread == null) {
++      return;
++    }
++    runAsync(new Runnable() {
++      @Override
++      public void run() {
++        mGLThread.replaceSurface(surfaceTexture);
++      }
++    });
++  }
++
++  public boolean isInitialized() {
++    return mGLThread != null;
++  }
++
+   public void flush() {
+     runAsync(new Runnable() {
+       @Override
+@@ -172,6 +216,12 @@ public class GLContext {
+         Log.e("EXGL", "Can't interrupt GL thread.", e);
+       }
+       mGLThread = null;
++      synchronized (mPendingReleases) {
++        for (SurfaceTexture surfaceTexture : mPendingReleases) {
++          surfaceTexture.release();
++        }
++        mPendingReleases.clear();
++      }
+     }
+   }
+ 
+@@ -341,7 +391,7 @@ public class GLContext {
+   // All actual GL calls are made on this thread
+ 
+   private class GLThread extends Thread {
+-    private SurfaceTexture mSurfaceTexture;
++    private volatile SurfaceTexture mSurfaceTexture;
+ 
+     private static final int EGL_CONTEXT_CLIENT_VERSION = 0x3098;
+ 
+@@ -425,6 +475,29 @@ public class GLContext {
+       checkEGLError();
+     }
+ 
++    // pepfit : remplace la surface de dessin (null : pbuffer 1×1, sans fenêtre), le contexte EGL restant le même
++    void replaceSurface(SurfaceTexture surfaceTexture) {
++      EGLSurface previous = mEGLSurface;
++      EGLSurface next = createSurface(mEGLConfig, surfaceTexture);
++      if (next == null || next == EGL10.EGL_NO_SURFACE) {
++        Log.e("EXGL", "replaceSurface failed " + GLUtils.getEGLErrorString(mEGL.eglGetError()));
++        return;
++      }
++      mEGLSurface = next;
++      mSurfaceTexture = surfaceTexture;
++      if (!makeCurrent(next)) {
++        Log.e("EXGL", "eglMakeCurrent failed " + GLUtils.getEGLErrorString(mEGL.eglGetError()));
++      }
++      if (previous != null && previous != EGL10.EGL_NO_SURFACE) {
++        destroySurface(previous);
++      }
++      if (surfaceTexture != null) {
++        EGL14.eglSurfaceAttrib(EGL14.eglGetCurrentDisplay(), EGL14.eglGetCurrentSurface(EGL14.EGL_DRAW),
++          EGL14.EGL_SWAP_BEHAVIOR, EGL14.EGL_BUFFER_PRESERVED);
++      }
++      checkEGLError();
++    }
++
+     private void deinitEGL() {
+       makeEGLContextCurrent();
+       destroySurface(mEGLSurface);
+diff --git a/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLModule.kt b/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLModule.kt
+index 8752ff6..52a0a49 100644
+--- a/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLModule.kt
++++ b/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLModule.kt
+@@ -94,6 +94,10 @@ class GLModule : Module() {
+       Prop("enableExperimentalWorkletSupport") { view: GLView, enableExperimentalWorkletSupport: Boolean? ->
+         view.enableExperimentalWorkletSupport = enableExperimentalWorkletSupport ?: false
+       }
++      // pepfit (patches/expo-gl) : le contexte ne part plus avec la surface, seulement avec la vue
++      OnViewDestroys { view: GLView ->
++        view.destroyContext()
++      }
+     }
+   }
+ 
+diff --git a/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLView.kt b/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLView.kt
+index 72dfb8b..b7c37df 100644
+--- a/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLView.kt
++++ b/node_modules/expo-gl/android/src/main/java/expo/modules/gl/GLView.kt
+@@ -43,8 +43,21 @@ class GLView(context: Context, appContext: AppContext) : TextureView(context), S
+   }
+ 
+   // `TextureView.SurfaceTextureListener` events
++  // pepfit (patches/expo-gl) : une surface qui part ne détruit plus le contexte ; la suivante le reprend tel quel, sans nouvel
++  // onSurfaceCreate (JS garde ses programmes et textures). Le contexte part avec la vue (destroyContext, GLModule).
++  private var surfaceToAttach: SurfaceTexture? = null
++
+   @Synchronized
+   override fun onSurfaceTextureAvailable(surfaceTexture: SurfaceTexture, width: Int, height: Int) {
++    if (glContext.isInitialized()) {
++      if (width == 0 || height == 0) {
++        surfaceToAttach = surfaceTexture
++      } else {
++        glContext.attachSurface(surfaceTexture)
++      }
++      onSurfaceCreateWasCalled = true
++      return
++    }
+     if (!onSurfaceCreateWasCalled) {
+       // onSurfaceTextureAvailable is sometimes called with 0 size texture
+       // and immediately followed by onSurfaceTextureSizeChanged with actual size
+@@ -58,16 +71,33 @@ class GLView(context: Context, appContext: AppContext) : TextureView(context), S
+     }
+   }
+ 
++  @Synchronized
+   override fun onSurfaceTextureDestroyed(surface: SurfaceTexture): Boolean {
+-    glContext.destroy()
+-
+-    // reset flag, so the context will be recreated when the new surface is available
+     onSurfaceCreateWasCalled = false
+-    return true
++    if (surfaceToAttach === surface) {
++      surfaceToAttach = null
++    }
++    if (!glContext.isInitialized()) {
++      return true
++    }
++    // false : la SurfaceTexture est libérée par le thread GL, une fois le contexte passé sur un pbuffer
++    glContext.detachSurface(surface)
++    return false
++  }
++
++  /** La vue est détruite (OnViewDestroys) : son contexte avec elle. */
++  fun destroyContext() {
++    glContext.destroy()
+   }
+ 
+   @Synchronized
+   override fun onSurfaceTextureSizeChanged(surfaceTexture: SurfaceTexture, width: Int, height: Int) {
++    val pending = surfaceToAttach
++    if (pending === surfaceTexture && width != 0 && height != 0) {
++      surfaceToAttach = null
++      glContext.attachSurface(surfaceTexture)
++      return
++    }
+     if (onSurfaceTextureWasCalledWithZeroSize && (width != 0 || height != 0)) {
+       initializeSurfaceInGLContext(surfaceTexture)
+       onSurfaceTextureWasCalledWithZeroSize = false

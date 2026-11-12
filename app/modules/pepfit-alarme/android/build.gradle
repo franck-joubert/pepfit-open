@@ -1,0 +1,17 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'fit.pep'
+version = '1.0.0'
+
+android {
+  namespace "fit.pep.alarme"
+  defaultConfig {
+    versionCode 1
+    versionName "1.0.0"
+  }
+}
+
+// Aucune dépendance : AlarmManager, MediaPlayer, Vibrator et NotificationManager viennent du système.

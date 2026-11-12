@@ -1,0 +1,649 @@
+{
+ "id": "rando",
+ "version": 1,
+ "nom": {
+  "fr": "Prépa randonnée en montagne",
+  "en": "Mountain hiking prep"
+ },
+ "resume": {
+  "fr": "Marche en côte, montées de marche et jambes solides.",
+  "en": "Uphill walking, step-ups and strong legs."
+ },
+ "description": {
+  "fr": "Huit semaines pour aborder la montagne : de la marche en côte, des jambes renforcées, et une sortie qui s'allonge, sac au dos, jusqu'à 4 heures et 600 m de dénivelé.",
+  "en": "Eight weeks to get ready for the mountains: uphill walking, stronger legs and a weekly hike that grows, pack on, up to 4 hours and 600 m of gain."
+ },
+ "famille": "endu",
+ "type": "autre",
+ "objectifs": [
+  "sport"
+ ],
+ "lieux": [
+  "dehors"
+ ],
+ "niveau": 1,
+ "semaines": 8,
+ "seancesParSemaine": 3,
+ "picto": "randonnee",
+ "gros": {
+  "valeur": "D+",
+  "unite": null
+ },
+ "lieuCourt": {
+  "fr": "Randonnée, dehors",
+  "en": "Hiking, outdoors"
+ },
+ "materiel": {
+  "fr": "Sac à dos",
+  "en": "Backpack"
+ },
+ "avertissement": null,
+ "progression": null,
+ "chargesDepart": false,
+ "principes": {
+  "fr": "L'endurance en marche se construit comme en course : du volume facile, une séance plus intense (la côte), et des jambes renforcées pour la descente.",
+  "en": "Walking endurance is built like running: easy volume, one harder session (uphill) and stronger legs for the descents."
+ },
+ "sources": [
+  0,
+  6
+ ],
+ "phases": [
+  {
+   "nom": {
+    "fr": "Base",
+    "en": "Base"
+   },
+   "de": 1,
+   "a": 4
+  },
+  {
+   "nom": {
+    "fr": "Sac au dos",
+    "en": "Pack on"
+   },
+   "de": 5,
+   "a": 7
+  },
+  {
+   "nom": {
+    "fr": "Semaine allégée",
+    "en": "Deload week"
+   },
+   "de": 8,
+   "a": 8
+  }
+ ],
+ "seances": {
+  "rando-cote-45": {
+   "nom": {
+    "fr": "Marche rapide en côte 45 min",
+    "en": "Brisk uphill walk 45 min"
+   },
+   "type": "autre",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 2700,
+     "zone": 3,
+     "note": {
+      "fr": "en côte ou dans les escaliers, rythme soutenu",
+      "en": "uphill or on stairs, brisk pace"
+     }
+    }
+   ]
+  },
+  "rando-renfo-2": {
+   "nom": {
+    "fr": "Renfo des jambes",
+    "en": "Leg strength"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "dumbbell-step-ups",
+     "series": 2,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "une marche ou un banc ; chaque jambe",
+      "en": "a step or a bench; each leg"
+     }
+    },
+    {
+     "exo": "bodyweight-walking-lunge",
+     "series": 2,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 2,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-squat",
+     "series": 2,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": "3-0-1-0",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    }
+   ]
+  },
+  "rando-sortie-120": {
+   "nom": {
+    "fr": "Sortie de 2 h",
+    "en": "2h hike"
+   },
+   "type": "autre",
+   "role": "longue",
+   "note": null,
+   "blocs": [
+    {
+     "exo": "randonnee",
+     "series": 1,
+     "dureeS": 7200,
+     "zone": 2,
+     "note": {
+      "fr": "rythme où tu peux parler",
+      "en": "pace where you can talk"
+     }
+    }
+   ]
+  },
+  "rando-renfo-3": {
+   "nom": {
+    "fr": "Renfo des jambes",
+    "en": "Leg strength"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "dumbbell-step-ups",
+     "series": 3,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "une marche ou un banc ; chaque jambe",
+      "en": "a step or a bench; each leg"
+     }
+    },
+    {
+     "exo": "bodyweight-walking-lunge",
+     "series": 3,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 3,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-squat",
+     "series": 3,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": "3-0-1-0",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    }
+   ]
+  },
+  "rando-cote-50": {
+   "nom": {
+    "fr": "Marche rapide en côte 50 min",
+    "en": "Brisk uphill walk 50 min"
+   },
+   "type": "autre",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 3000,
+     "zone": 3,
+     "note": {
+      "fr": "en côte ou dans les escaliers, rythme soutenu",
+      "en": "uphill or on stairs, brisk pace"
+     }
+    }
+   ]
+  },
+  "rando-sortie-135": {
+   "nom": {
+    "fr": "Sortie de 2 h 15",
+    "en": "2h15 hike"
+   },
+   "type": "autre",
+   "role": "longue",
+   "note": {
+    "fr": "Vise 300 m de dénivelé positif.",
+    "en": "Aim for 300 m of elevation gain."
+   },
+   "blocs": [
+    {
+     "exo": "randonnee",
+     "series": 1,
+     "dureeS": 8100,
+     "zone": 2,
+     "note": {
+      "fr": "rythme où tu peux parler",
+      "en": "pace where you can talk"
+     }
+    }
+   ]
+  },
+  "rando-sortie-150": {
+   "nom": {
+    "fr": "Sortie de 2 h 30",
+    "en": "2h30 hike"
+   },
+   "type": "autre",
+   "role": "longue",
+   "note": {
+    "fr": "Vise 400 m de dénivelé positif.",
+    "en": "Aim for 400 m of elevation gain."
+   },
+   "blocs": [
+    {
+     "exo": "randonnee",
+     "series": 1,
+     "dureeS": 9000,
+     "zone": 2,
+     "note": {
+      "fr": "rythme où tu peux parler",
+      "en": "pace where you can talk"
+     }
+    }
+   ]
+  },
+  "rando-cote-55": {
+   "nom": {
+    "fr": "Marche rapide en côte 55 min",
+    "en": "Brisk uphill walk 55 min"
+   },
+   "type": "autre",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 3300,
+     "zone": 3,
+     "note": {
+      "fr": "en côte ou dans les escaliers, rythme soutenu",
+      "en": "uphill or on stairs, brisk pace"
+     }
+    }
+   ]
+  },
+  "rando-sortie-180-s6": {
+   "nom": {
+    "fr": "Sortie de 3 h, sac de 6 kg",
+    "en": "3h hike, 6 kg pack"
+   },
+   "type": "autre",
+   "role": "longue",
+   "note": {
+    "fr": "Vise 500 m de dénivelé positif.",
+    "en": "Aim for 500 m of elevation gain."
+   },
+   "blocs": [
+    {
+     "exo": "randonnee",
+     "series": 1,
+     "dureeS": 10800,
+     "zone": 2,
+     "note": {
+      "fr": "sac de 6 kg",
+      "en": "6 kg pack"
+     }
+    }
+   ]
+  },
+  "rando-cote-60": {
+   "nom": {
+    "fr": "Marche rapide en côte 60 min",
+    "en": "Brisk uphill walk 60 min"
+   },
+   "type": "autre",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 3600,
+     "zone": 3,
+     "note": {
+      "fr": "en côte ou dans les escaliers, rythme soutenu",
+      "en": "uphill or on stairs, brisk pace"
+     }
+    }
+   ]
+  },
+  "rando-renfo-4": {
+   "nom": {
+    "fr": "Renfo des jambes",
+    "en": "Leg strength"
+   },
+   "type": "muscu",
+   "role": "facile",
+   "note": null,
+   "format": null,
+   "formatValeur": null,
+   "blocs": [
+    {
+     "exo": "dumbbell-step-ups",
+     "series": 4,
+     "reps": 12,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "une marche ou un banc ; chaque jambe",
+      "en": "a step or a bench; each leg"
+     }
+    },
+    {
+     "exo": "bodyweight-walking-lunge",
+     "series": 4,
+     "reps": 10,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": {
+      "fr": "chaque jambe",
+      "en": "each leg"
+     }
+    },
+    {
+     "exo": "standing-calf-raises",
+     "series": 4,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 45,
+     "tempo": null,
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    },
+    {
+     "exo": "bodyweight-squat",
+     "series": 4,
+     "reps": 15,
+     "repsMax": null,
+     "repsParSerie": null,
+     "reposS": 60,
+     "tempo": "3-0-1-0",
+     "superset": null,
+     "transitionS": null,
+     "progressionKg": null,
+     "rir": null,
+     "note": null
+    }
+   ]
+  },
+  "rando-sortie-210-s8": {
+   "nom": {
+    "fr": "Sortie de 3 h 30, sac de 8 kg",
+    "en": "3h30 hike, 8 kg pack"
+   },
+   "type": "autre",
+   "role": "longue",
+   "note": {
+    "fr": "Vise 600 m de dénivelé positif.",
+    "en": "Aim for 600 m of elevation gain."
+   },
+   "blocs": [
+    {
+     "exo": "randonnee",
+     "series": 1,
+     "dureeS": 12600,
+     "zone": 2,
+     "note": {
+      "fr": "sac de 8 kg",
+      "en": "8 kg pack"
+     }
+    }
+   ]
+  },
+  "rando-sortie-240-s10": {
+   "nom": {
+    "fr": "Sortie de 4 h, sac de 10 kg",
+    "en": "4h hike, 10 kg pack"
+   },
+   "type": "autre",
+   "role": "longue",
+   "note": {
+    "fr": "Vise 600 m de dénivelé positif.",
+    "en": "Aim for 600 m of elevation gain."
+   },
+   "blocs": [
+    {
+     "exo": "randonnee",
+     "series": 1,
+     "dureeS": 14400,
+     "zone": 2,
+     "note": {
+      "fr": "sac de 10 kg",
+      "en": "10 kg pack"
+     }
+    }
+   ]
+  },
+  "rando-cote-40": {
+   "nom": {
+    "fr": "Marche rapide en côte 40 min",
+    "en": "Brisk uphill walk 40 min"
+   },
+   "type": "autre",
+   "role": "dure",
+   "blocs": [
+    {
+     "exo": "marche",
+     "series": 1,
+     "dureeS": 2400,
+     "zone": 3,
+     "note": {
+      "fr": "en côte ou dans les escaliers, rythme soutenu",
+      "en": "uphill or on stairs, brisk pace"
+     }
+    }
+   ]
+  }
+ },
+ "calendrier": [
+  {
+   "n": 1,
+   "phase": 0,
+   "allegee": false,
+   "accent": {
+    "fr": "sortie de 2 h",
+    "en": "2 h hike"
+   },
+   "seances": [
+    "rando-cote-45",
+    "rando-renfo-2",
+    "rando-sortie-120"
+   ]
+  },
+  {
+   "n": 2,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "rando-cote-45",
+    "rando-renfo-3",
+    "rando-sortie-120"
+   ]
+  },
+  {
+   "n": 3,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "rando-cote-50",
+    "rando-renfo-3",
+    "rando-sortie-135"
+   ]
+  },
+  {
+   "n": 4,
+   "phase": 0,
+   "allegee": false,
+   "accent": null,
+   "seances": [
+    "rando-cote-50",
+    "rando-renfo-3",
+    "rando-sortie-150"
+   ]
+  },
+  {
+   "n": 5,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "sac de 6 kg, 3 h",
+    "en": "6 kg pack, 3 h"
+   },
+   "seances": [
+    "rando-cote-55",
+    "rando-renfo-3",
+    "rando-sortie-180-s6"
+   ]
+  },
+  {
+   "n": 6,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "sac de 8 kg",
+    "en": "8 kg pack"
+   },
+   "seances": [
+    "rando-cote-60",
+    "rando-renfo-4",
+    "rando-sortie-210-s8"
+   ]
+  },
+  {
+   "n": 7,
+   "phase": 1,
+   "allegee": false,
+   "accent": {
+    "fr": "sac de 10 kg, 4 h",
+    "en": "10 kg pack, 4 h"
+   },
+   "seances": [
+    "rando-cote-60",
+    "rando-renfo-4",
+    "rando-sortie-240-s10"
+   ]
+  },
+  {
+   "n": 8,
+   "phase": 2,
+   "allegee": true,
+   "accent": null,
+   "seances": [
+    "rando-cote-40",
+    "rando-renfo-2",
+    "rando-sortie-120"
+   ]
+  }
+ ],
+ "seanceType": "rando-renfo-3",
+ "exercicesPerso": {}
+}

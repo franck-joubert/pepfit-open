@@ -1,0 +1,23 @@
+// Activity tab (ex-Effort) day page: Sleep row, recovery rows, hiding Sleep (Effort board v2.2, D4, D5, D8, D9, D10).
+export const en = {
+  "effortJour.activites": "Activities",
+  "effortJour.sommeil": "Sleep",
+  "effortJour.pasDeDonnee": "No data",
+  "effortJour.synchro": "Syncing",
+  "effortJour.sommeilLu": "Sleep, {duree}",
+  "effortJour.sommeilPart": "{n}%",
+  "effortJour.ouvrirSommeil": "Open sleep",
+  "effortJour.masquer": "Hide Sleep",
+  "effortJour.masquerAide": "Show it again in the Activity settings",
+  "effortJour.masque": "Sleep hidden. To bring it back: Activity settings.",
+  "effortJour.pageDuJour": "Day page",
+  "effortJour.afficherSommeil": "Show sleep",
+  "effortJour.afficherSommeilSous": "Last night, at the top of the day's list",
+  "effortJour.recupSupprimee": "Recovery deleted",
+  "effortJour.ouvrirRecup": "Open {nom}, {heure}",
+  "effortJour.partager": "Share",
+  "effortJour.partage.photo": "Add a photo",
+  "effortJour.partage.changerPhoto": "Change the photo",
+  "effortJour.partage.apercu": "{nom}, {duree}",
+  "effortJour.motsCles": "sleep, night, hide, show, day page, effort",
+} as const;

@@ -1,0 +1,92 @@
+<!doctype html>
+<meta charset="utf-8">
+<!-- Petits persos (planche exercices-perso, D5) : le personnage de l'appli (assets/3d/personnage.glb), de face et de dos, avec
+     le shader des muscles de src/ui/3d/scene.ts (masque : id dans R, présence dans G). Deux sortes d'images, rendues par
+     rendre.mjs sur fond transparent : le corps seul, éclairé ; et un muscle seul, éclairé dans sa couleur, l'opacité
+     valant sa présence dans le masque (bords fondus comme dans le shader). L'appli les superpose (src/ui/Persos.tsx). -->
+<body style="margin:0;background:transparent">
+<script type="importmap">{ "imports": { "three": "/three/build/three.module.js", "three/addons/": "/three/examples/jsm/" } }</script>
+<script type="module">
+import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+
+const FRAGMENT = `#include <color_fragment>
+  ivec2 taille = textureSize(uMasque, 0);
+  vec2 t = vNormalMapUv * vec2(taille) - 0.5;
+  ivec2 i0 = ivec2(floor(t));
+  vec2 f = fract(t);
+  float wp = 0.0, ws = 0.0;
+  for (int k = 0; k < 4; k++) {
+    ivec2 o = ivec2(k & 1, k >> 1);
+    int id = int(floor(texelFetch(uMasque, clamp(i0 + o, ivec2(0), taille - 1), 0).r * 255.0 / uPas + 0.5));
+    float r = (id > 0 && id < 32) ? uRole[id] : 0.0;
+    float w = (o.x == 1 ? f.x : 1.0 - f.x) * (o.y == 1 ? f.y : 1.0 - f.y);
+    wp += w * step(0.5, r) * step(r, 1.5);
+    ws += w * step(1.5, r);
+  }
+  float dans = smoothstep(0.45, 0.62, texture2D(uMasque, vNormalMapUv).g);
+  diffuseColor.rgb = mix(diffuseColor.rgb, uP, dans * wp);
+  diffuseColor.rgb = mix(diffuseColor.rgb, uS, dans * ws);
+  float masqueA = clamp(dans * (wp + ws), 0.0, 1.0);
+  #ifdef USE_AOMAP
+    diffuseColor.rgb *= mix(uCav, 1.0, texture2D(aoMap, vAoMapUv).r);
+  #endif`;
+
+const tex = (url, donnees) => new Promise((ok) => new THREE.TextureLoader().load(url, (t) => {
+  t.flipY = false;
+  if (donnees) { t.colorSpace = THREE.NoColorSpace; t.generateMipmaps = false; t.minFilter = t.magFilter = THREE.NearestFilter; }
+  ok(t);
+}));
+const [gltf, masque, relief, cavite] = await Promise.all([
+  new GLTFLoader().loadAsync("/3d/personnage.glb"), tex("/3d/masque.png", true), tex("/3d/relief.jpg"), tex("/3d/cavite.jpg"),
+]);
+const muscles = gltf.userData.muscles ?? gltf.scene.userData.muscles;
+const pas = gltf.userData.pas_id ?? gltf.scene.userData.pas_id;
+const role = new Array(32).fill(0);
+const uniformes = {
+  uRole: { value: role }, uP: { value: new THREE.Color() }, uS: { value: new THREE.Color() }, uMasque: { value: masque }, uPas: { value: pas },
+  uCav: { value: 0.5 }, uSeul: { value: 0 },
+};
+const corps = new THREE.MeshStandardMaterial({ roughness: 0.6, metalness: 0, normalMap: relief, aoMap: cavite });
+corps.onBeforeCompile = (s) => {
+  Object.assign(s.uniforms, uniformes);
+  s.fragmentShader = s.fragmentShader
+    .replace("#include <common>", "#include <common>\nuniform float uRole[32];\nuniform vec3 uP;\nuniform vec3 uS;\nuniform sampler2D uMasque;\nuniform float uPas;\nuniform float uCav;\nuniform float uSeul;")
+    .replace("#include <color_fragment>", FRAGMENT)
+    // muscle seul : la couleur éclairée, opacité = présence du muscle (prémultipliée, comme le reste du canevas)
+    .replace("#include <dithering_fragment>", "#include <dithering_fragment>\nif (uSeul > 0.5) gl_FragColor = vec4(gl_FragColor.rgb * masqueA, masqueA);");
+};
+gltf.scene.traverse((o) => { if (o.isSkinnedMesh || o.isMesh) o.material = corps; });
+
+const scene = new THREE.Scene();
+scene.add(gltf.scene);
+const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 50);
+scene.add(camera);
+camera.add(new THREE.DirectionalLight(0xffffff, 2.4).translateX(-1.5).translateY(2.5).translateZ(3));
+camera.add(new THREE.DirectionalLight(0xffffff, 0.9).translateX(2).translateY(1).translateZ(2));
+scene.add(new THREE.HemisphereLight(0xffffff, 0x5a5550, 1.6));
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setClearColor(0x000000, 0);
+document.body.appendChild(renderer.domElement);
+
+gltf.scene.updateMatrixWorld(true);
+const boite = new THREE.Box3().setFromObject(gltf.scene, true);
+const centre = boite.getCenter(new THREE.Vector3()), dim = boite.getSize(new THREE.Vector3());
+
+// { face, muscle (id du personnage, absent : le corps seul), role (1 principal, 2 secondaire), couleur, corpsCouleur, h }
+window.rendre = ({ face, muscle, role: r = 1, couleur = "#000000", corpsCouleur, h = 480, marge = 0.04 }) => {
+  role.fill(0);
+  if (muscle != null && muscles[muscle] != null) role[muscles[muscle]] = r;
+  uniformes.uSeul.value = muscle != null ? 1 : 0;
+  uniformes.uP.value.set(couleur); uniformes.uS.value.set(couleur); corps.color.set(corpsCouleur);
+  const demiH = dim.y / 2 * (1 + marge), demiL = Math.max(dim.x, dim.z) / 2 * (1 + marge);
+  const w = Math.round(h * demiL / demiH);
+  renderer.setPixelRatio(1); renderer.setSize(w, h);
+  Object.assign(camera, { left: -demiL, right: demiL, top: demiH, bottom: -demiH }); camera.updateProjectionMatrix();
+  camera.position.set(centre.x, centre.y, centre.z + (face ? 10 : -10)); camera.lookAt(centre);
+  renderer.render(scene, camera);
+  return renderer.domElement.toDataURL("image/png");
+};
+window.infos = { muscles: Object.keys(muscles ?? {}) };
+document.body.classList.add("pret");
+</script>
