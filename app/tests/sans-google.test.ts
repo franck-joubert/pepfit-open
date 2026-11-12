@@ -1,12 +1,12 @@
-// Édition F-Droid : aucune bibliothèque Google non libre dans l'APK Android. Firebase (expo-notifications) et ML Kit / Play
-// Services (expo-camera) sont retirés par patches/ (patch-package) ; expo-location, qui tire play-services-location, n'est pas
+// Édition F-Droid : aucune bibliothèque Google non libre dans l'APK Android. Firebase (expo-notifications), ML Kit / Play
+// Services (expo-camera) et Install Referrer (expo-application) sont retirés par patches/ (patch-package) ; expo-location, qui tire play-services-location, n'est pas
 // lié sur Android : modules/pepfit-position (LocationManager) le remplace derrière src/natif/position.
 import assert from "node:assert/strict";
 import { readdirSync, readFileSync } from "node:fs";
 import { test } from "node:test";
 
 const lire = (f: string) => readFileSync(new URL(`../${f}`, import.meta.url), "utf8");
-const NON_LIBRE = /com\.google\.(android\.gms|firebase|mlkit)/;
+const NON_LIBRE = /com\.google\.(android\.gms|firebase|mlkit)|com\.android\.installreferrer/;
 
 /** Les lignes ajoutées par un patch. */
 const ajouts = (patch: string) =>
@@ -30,6 +30,11 @@ test("expo-camera : ML Kit et Play Services retirés, ZXing à la place", () => 
   }
   assert.ok(ajouts("expo-camera").some((l) => l.includes('implementation "com.google.zxing:core:')));
   assert.ok(!ajouts("expo-camera").some((l) => NON_LIBRE.test(l)));
+});
+
+test("expo-application : Install Referrer (Play Store) retiré", () => {
+  assert.ok(retraits("expo-application").some((l) => l.includes("com.android.installreferrer:installreferrer")));
+  assert.ok(!ajouts("expo-application").some((l) => NON_LIBRE.test(l)));
 });
 
 test("expo-location n'est pas lié sur Android, pepfit-position le remplace", () => {

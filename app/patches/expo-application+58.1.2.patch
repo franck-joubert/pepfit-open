@@ -1,0 +1,91 @@
+diff --git a/node_modules/expo-application/android/build.gradle b/node_modules/expo-application/android/build.gradle
+index 8e2e498..9e03129 100644
+--- a/node_modules/expo-application/android/build.gradle
++++ b/node_modules/expo-application/android/build.gradle
+@@ -19,7 +19,7 @@ android {
+ }
+ 
+ dependencies {
+-  implementation 'com.android.installreferrer:installreferrer:2.2'
++  // pepfit open: no Google Install Referrer (non-free, Play Store only).
+ 
+   if (project.findProject(':expo-modules-test-core')) {
+     testImplementation project(':expo-modules-test-core')
+diff --git a/node_modules/expo-application/android/src/main/java/expo/modules/application/ApplicationModule.kt b/node_modules/expo-application/android/src/main/java/expo/modules/application/ApplicationModule.kt
+index 345b919..533fa74 100644
+--- a/node_modules/expo-application/android/src/main/java/expo/modules/application/ApplicationModule.kt
++++ b/node_modules/expo-application/android/src/main/java/expo/modules/application/ApplicationModule.kt
+@@ -4,20 +4,14 @@ import android.annotation.SuppressLint
+ import android.content.pm.PackageInfo
+ import android.content.pm.PackageManager
+ import android.os.Build
+-import android.os.RemoteException
+ import android.provider.Settings
+-import com.android.installreferrer.api.InstallReferrerClient
+-import com.android.installreferrer.api.InstallReferrerStateListener
+ import io.github.expo.modules.v2.Constant
+ import io.github.expo.modules.v2.ExpoModule
+ import io.github.expo.modules.v2.JS
+ import io.github.expo.modules.v2.Module
+ import io.github.expo.modules.v2.react.androidContext
+ import kotlinx.coroutines.Dispatchers
+-import kotlinx.coroutines.suspendCancellableCoroutine
+ import kotlinx.coroutines.withContext
+-import kotlin.coroutines.resume
+-import kotlin.coroutines.resumeWithException
+ 
+ @ExpoModule("ExpoApplication")
+ class ApplicationModule : Module() {
+@@ -60,50 +54,9 @@ class ApplicationModule : Module() {
+     packageInfo.lastUpdateTime.toDouble()
+   }
+ 
++  // pepfit open: the Install Referrer comes from the Play Store (non-free library): never available here.
+   @JS
+-  suspend fun getInstallReferrerAsync(): String = suspendCancellableCoroutine { continuation ->
+-    val referrerClient = InstallReferrerClient.newBuilder(androidContext).build()
+-
+-    val listener = object : InstallReferrerStateListener {
+-      override fun onInstallReferrerSetupFinished(responseCode: Int) {
+-        if (!continuation.isActive) {
+-          return
+-        }
+-
+-        when (responseCode) {
+-          InstallReferrerClient.InstallReferrerResponse.OK -> {
+-            // Connection established and response received
+-            try {
+-              val installReferrer: String? = referrerClient.installReferrer.installReferrer
+-              continuation.resume(installReferrer.toString())
+-            } catch (e: RemoteException) {
+-              continuation.resumeWithException(ApplicationInstallReferrerRemoteException(e))
+-            }
+-          }
+-
+-          InstallReferrerClient.InstallReferrerResponse.FEATURE_NOT_SUPPORTED -> {
+-            // API not available in the current Play Store app
+-            continuation.resumeWithException(ApplicationInstallReferrerUnavailableException())
+-          }
+-
+-          else -> {
+-            // Includes SERVICE_UNAVAILABLE, when the connection could not be established
+-            continuation.resumeWithException(ApplicationInstallReferrerException(responseCode))
+-          }
+-        }
+-        referrerClient.endConnection()
+-      }
+-
+-      override fun onInstallReferrerServiceDisconnected() {
+-        if (!continuation.isActive) {
+-          return
+-        }
+-        continuation.resumeWithException(ApplicationInstallReferrerServiceDisconnectedException())
+-      }
+-    }
+-
+-    referrerClient.startConnection(listener)
+-  }
++  suspend fun getInstallReferrerAsync(): String = throw ApplicationInstallReferrerUnavailableException()
+ }
+ 
+ private fun PackageManager.getPackageInfoCompat(packageName: String, flags: Int = 0): PackageInfo =
