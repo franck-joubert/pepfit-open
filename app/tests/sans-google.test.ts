@@ -35,6 +35,9 @@ test("expo-camera : ML Kit et Play Services retirés, ZXing à la place", () => 
 test("expo-location n'est pas lié sur Android, pepfit-position le remplace", () => {
   const pkg = JSON.parse(lire("package.json"));
   assert.deepEqual(pkg.expo.autolinking.android.exclude, ["expo-location"]);
+  // Les modules Expo arrivent aussi en AAR précompilés (local-maven-repo) : sans cela, les patchs ne seraient pas compilés
+  // et les dépendances Google d'origine reviendraient par leur POM. F-Droid veut de toute façon tout compiler.
+  assert.deepEqual(pkg.expo.autolinking.android.buildFromSource, [".*"]);
   assert.match(lire("src/natif/position/index.android.ts"), /requireNativeModule<Natif>\("PepfitPosition"\)/);
   assert.doesNotMatch(lire("src/natif/position/index.android.ts"), /from "expo-location"/);
   assert.doesNotMatch(lire("modules/pepfit-position/android/build.gradle"), NON_LIBRE);
