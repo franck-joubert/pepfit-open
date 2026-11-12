@@ -83,6 +83,7 @@
       }
     },
     "android": {
+      "versionCode": 1,
       "package": "fit.pep.open",
       "adaptiveIcon": {
         "backgroundColor": "#000000",
