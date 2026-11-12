@@ -60,10 +60,10 @@ index 35ffabe..ffce440 100644
 -  </application>
  </manifest>
 diff --git a/node_modules/expo-camera/android/src/main/java/expo/modules/camera/CameraViewModule.kt b/node_modules/expo-camera/android/src/main/java/expo/modules/camera/CameraViewModule.kt
-index 62a1808..65a5cbe 100644
+index 62a1808..746bda3 100644
 --- a/node_modules/expo-camera/android/src/main/java/expo/modules/camera/CameraViewModule.kt
 +++ b/node_modules/expo-camera/android/src/main/java/expo/modules/camera/CameraViewModule.kt
-@@ -2,23 +2,11 @@ package expo.modules.camera
+@@ -2,22 +2,11 @@ package expo.modules.camera
  
  import android.Manifest
  import android.app.Activity
@@ -83,11 +83,10 @@ index 62a1808..65a5cbe 100644
 -import expo.modules.camera.documentscanner.DocumentScannerContract
 -import expo.modules.camera.documentscanner.DocumentScannerContractInput
 -import expo.modules.camera.documentscanner.DocumentScannerResultParser
--import expo.modules.camera.records.BarcodeSettings
+ import expo.modules.camera.records.BarcodeSettings
  import expo.modules.camera.records.BarcodeType
  import expo.modules.camera.records.CameraMode
- import expo.modules.camera.records.DocumentScannerOptions
-@@ -38,7 +26,6 @@ import expo.modules.core.utilities.VRUtilities
+@@ -38,7 +27,6 @@ import expo.modules.core.utilities.VRUtilities
  import expo.modules.interfaces.imageloader.ImageLoaderInterface
  import expo.modules.interfaces.permissions.Permissions
  import expo.modules.kotlin.Promise
@@ -95,7 +94,7 @@ index 62a1808..65a5cbe 100644
  import expo.modules.kotlin.exception.CodedException
  import expo.modules.kotlin.exception.Exceptions
  import expo.modules.kotlin.functions.Queues
-@@ -75,11 +62,6 @@ val cameraPermissions = if (VRUtilities.isQuest()) {
+@@ -75,11 +63,6 @@ val cameraPermissions = if (VRUtilities.isQuest()) {
  class CameraViewModule : Module() {
    private val moduleScope = CoroutineScope(Dispatchers.Main)
  
@@ -107,7 +106,7 @@ index 62a1808..65a5cbe 100644
    override fun definition() = ModuleDefinition {
      Name("ExpoCamera")
  
-@@ -128,129 +110,25 @@ class CameraViewModule : Module() {
+@@ -128,129 +111,25 @@ class CameraViewModule : Module() {
        )
      }
  
@@ -246,7 +245,7 @@ index 62a1808..65a5cbe 100644
      }
  
      OnDestroy {
-@@ -537,66 +415,6 @@ class CameraViewModule : Module() {
+@@ -537,66 +416,6 @@ class CameraViewModule : Module() {
    private val permissionsManager: Permissions
      get() = appContext.permissions ?: throw Exceptions.PermissionsModuleNotFound()
  
@@ -314,10 +313,10 @@ index 62a1808..65a5cbe 100644
      internal val TAG = CameraViewModule::class.java.simpleName
    }
 diff --git a/node_modules/expo-camera/android/src/main/java/expo/modules/camera/analyzers/BarcodeAnalyzer.kt b/node_modules/expo-camera/android/src/main/java/expo/modules/camera/analyzers/BarcodeAnalyzer.kt
-index bbe51c0..ca6f5a5 100644
+index bbe51c0..e9909b6 100644
 --- a/node_modules/expo-camera/android/src/main/java/expo/modules/camera/analyzers/BarcodeAnalyzer.kt
 +++ b/node_modules/expo-camera/android/src/main/java/expo/modules/camera/analyzers/BarcodeAnalyzer.kt
-@@ -1,120 +1,160 @@
+@@ -1,100 +1,165 @@
  package expo.modules.camera.analyzers
  
 -import android.util.Log
@@ -517,19 +516,6 @@ index bbe51c0..ca6f5a5 100644
    }
  }
  
--fun Array<ImageProxy.PlaneProxy>.toByteArray(): ByteArray {
--  val totalSize = this.sumOf { it.buffer.remaining() }
--  val result = ByteArray(totalSize)
--  var offset = 0
--
--  for (plane in this) {
--    val buffer = plane.buffer
--    val size = buffer.remaining()
--    buffer.get(result, offset, size)
--    offset += size
--  }
--
--  return result
 +private fun BarcodeType.toZxing(): BarcodeFormat? = when (this) {
 +  BarcodeType.AZTEC -> BarcodeFormat.AZTEC
 +  BarcodeType.EAN13 -> BarcodeFormat.EAN_13
@@ -545,16 +531,8 @@ index bbe51c0..ca6f5a5 100644
 +  BarcodeType.CODE128 -> BarcodeFormat.CODE_128
 +  BarcodeType.UPCA -> BarcodeFormat.UPC_A
 +  BarcodeType.UNKNOWN -> null
- }
- 
--private fun barcodeFormats(formats: List<BarcodeType>): Int =
--  if (formats.isEmpty()) {
--    0
--  } else {
--    formats.map { it.mapToBarcode() }.reduce { acc, it ->
--      acc or it
--    }
--  }
++}
++
 +private fun BarcodeFormat.toMlKit(): Int = when (this) {
 +  BarcodeFormat.AZTEC -> Barcode.FORMAT_AZTEC
 +  BarcodeFormat.EAN_13 -> Barcode.FORMAT_EAN_13
@@ -571,6 +549,24 @@ index bbe51c0..ca6f5a5 100644
 +  BarcodeFormat.UPC_A -> Barcode.FORMAT_UPC_A
 +  else -> Barcode.FORMAT_UNKNOWN
 +}
++
++/** The planes of a captured picture, end to end (used by ExpoCameraView for photos). */
+ fun Array<ImageProxy.PlaneProxy>.toByteArray(): ByteArray {
+   val totalSize = this.sumOf { it.buffer.remaining() }
+   val result = ByteArray(totalSize)
+@@ -109,12 +174,3 @@ fun Array<ImageProxy.PlaneProxy>.toByteArray(): ByteArray {
+ 
+   return result
+ }
+-
+-private fun barcodeFormats(formats: List<BarcodeType>): Int =
+-  if (formats.isEmpty()) {
+-    0
+-  } else {
+-    formats.map { it.mapToBarcode() }.reduce { acc, it ->
+-      acc or it
+-    }
+-  }
 diff --git a/node_modules/expo-camera/android/src/main/java/expo/modules/camera/analyzers/BarcodeScannerResultSerializer.kt b/node_modules/expo-camera/android/src/main/java/expo/modules/camera/analyzers/BarcodeScannerResultSerializer.kt
 index 119454d..7a69f09 100644
 --- a/node_modules/expo-camera/android/src/main/java/expo/modules/camera/analyzers/BarcodeScannerResultSerializer.kt
