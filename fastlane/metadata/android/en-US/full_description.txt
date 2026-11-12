@@ -1,0 +1,30 @@
+<p>pepfit open is a strength-training and health app that keeps everything on your phone, in a local database. There is <b>no account, no pepfit server and no tracking</b>: the app never phones home.</p>
+
+<p><b>Self-hosted by design: bring your own API keys.</b> The optional connections to Whoop, Withings and Polar use their official APIs with <i>your own</i> free developer credentials, entered in the app. The login, the tokens and the sync all happen on your phone, with no middleman.</p>
+
+<p><b>Training</b></p>
+<ul>
+<li>Sets, reps, loads, rest timer, supersets, programs and routines</li>
+<li>Exercise catalogue with pictograms and a 3D body model</li>
+<li>Outdoor sessions with GPS: distance, pace, elevation, private routes, GPX import</li>
+<li>Bluetooth heart-rate straps</li>
+</ul>
+
+<p><b>Health and nutrition</b></p>
+<ul>
+<li>Readiness gauges, sleep, heart rate, body composition, cycle</li>
+<li>Steps from Health Connect, or from the phone's own step sensor</li>
+<li>Food log with barcode scanning (Open Food Facts) and your own dishes</li>
+<li>Workout import from Hevy</li>
+</ul>
+
+<p><b>Your data</b></p>
+<ul>
+<li>Encrypted backups to a folder you choose, protected by a 12-word recovery phrase</li>
+<li>Export to JSON and CSV</li>
+<li>App lock</li>
+</ul>
+
+<p>Maps: OpenStreetMap data, OpenFreeMap tiles. No Google Play Services, Firebase or ML Kit: barcodes are read by ZXing, location comes from the Android LocationManager, reminders are local notifications.</p>
+
+<p>Interface in English, French, German and Spanish.</p>

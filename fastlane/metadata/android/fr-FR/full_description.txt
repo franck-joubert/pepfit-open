@@ -1,0 +1,30 @@
+<p>pepfit open est une appli de musculation et de santé qui garde tout sur ton téléphone, dans une base locale. <b>Pas de compte, pas de serveur pepfit, pas de pistage</b> : l'appli n'envoie rien chez nous.</p>
+
+<p><b>Auto-hébergée par principe : tu apportes tes propres clés d'API.</b> Les connexions facultatives à Whoop, Withings et Polar passent par leurs API officielles avec <i>tes</i> identifiants de développeur, gratuits, saisis dans l'appli. La connexion, les jetons et la synchro se font sur ton téléphone, sans intermédiaire.</p>
+
+<p><b>Entraînement</b></p>
+<ul>
+<li>Séries, répétitions, charges, minuteur de repos, supersets, programmes et routines</li>
+<li>Catalogue d'exercices avec pictogrammes et modèle 3D du corps</li>
+<li>Séances en extérieur avec GPS : distance, allure, dénivelé, circuits privés, import GPX</li>
+<li>Ceintures cardio Bluetooth</li>
+</ul>
+
+<p><b>Santé et nutrition</b></p>
+<ul>
+<li>Jauges de forme, sommeil, fréquence cardiaque, composition corporelle, cycle</li>
+<li>Pas depuis Santé Connect, ou depuis le capteur de pas du téléphone</li>
+<li>Journal alimentaire avec scan des codes-barres (Open Food Facts) et tes propres plats</li>
+<li>Import des séances Hevy</li>
+</ul>
+
+<p><b>Tes données</b></p>
+<ul>
+<li>Sauvegardes chiffrées dans le dossier de ton choix, protégées par une phrase de secours de 12 mots</li>
+<li>Export en JSON et CSV</li>
+<li>Verrou de l'appli</li>
+</ul>
+
+<p>Cartes : données OpenStreetMap, tuiles OpenFreeMap. Ni Google Play Services, ni Firebase, ni ML Kit : les codes-barres sont lus par ZXing, la position vient du LocationManager d'Android, les rappels sont des notifications locales.</p>
+
+<p>Interface en français, anglais, allemand et espagnol.</p>

@@ -1,0 +1,58 @@
+AntiFeatures:
+  NonFreeAssets:
+    en-US: The pepfit logo and icon are not under a free license; third-party brand
+      logos.
+    fr-FR: Le logo et l'icône de pepfit ne sont pas sous licence libre ; logos de
+      marques tierces.
+Categories:
+  - Health Manager
+  - Sports & Health
+  - Workout
+License: AGPL-3.0-only
+AuthorName: Franck Joubert
+AuthorEmail: open@pep.fit
+SourceCode: https://codeberg.org/pepfit/pepfit-open
+IssueTracker: https://codeberg.org/pepfit/pepfit-open/issues
+Changelog: https://codeberg.org/pepfit/pepfit-open/releases
+
+AutoName: pepfit open
+
+RepoType: git
+Repo: https://codeberg.org/pepfit/pepfit-open.git
+
+Builds:
+  - versionName: 0.1.202
+    versionCode: 1
+    commit: v0.1.202
+    subdir: app
+    sudo:
+      - apt-get update
+      - apt-get install -y python3 xz-utils
+      - curl -Lo /tmp/node.tar.xz https://nodejs.org/dist/v22.23.2/node-v22.23.2-linux-x64.tar.xz
+      - echo 'd60acfe00a2932254bb0ad20e01b0d74397a0875595de719654b214f4b03f307  /tmp/node.tar.xz'
+        | sha256sum -c -
+      - tar -xJf /tmp/node.tar.xz -C /opt
+      - ln -s /opt/node-v22.23.2-linux-x64/bin/node /opt/node-v22.23.2-linux-x64/bin/npm
+        /opt/node-v22.23.2-linux-x64/bin/npx /usr/local/bin/
+    output: android/app/build/outputs/apk/release/app-release-unsigned.apk
+    prebuild:
+      - npm ci
+      - find node_modules -type d \( -name local-maven-repo -o -name prebuilds \)
+        -prune -exec rm -rf {} +
+      - python3 scripts/generer-jetons.py
+      - npx expo prebuild -p android --no-install --clean
+      - sed -i -e '/^reactNativeArchitectures=/d' android/gradle.properties
+      - echo 'reactNativeArchitectures=arm64-v8a,armeabi-v7a,x86_64' >> android/gradle.properties
+    scanignore:
+      - app/node_modules
+    build:
+      - cd android
+      - PEPFIT_UNSIGNED=1 NODE_ENV=production ./gradlew --no-daemon -Dorg.gradle.jvmargs=-Xmx4g
+        :app:assembleRelease
+    ndk: 27.1.12297006
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags ^v[0-9.]+$
+UpdateCheckData: app/app.json|"versionCode":\s*(\d+)|app/app.json|"version":\s*"([\d.]+)"
+CurrentVersion: 0.1.202
+CurrentVersionCode: 1

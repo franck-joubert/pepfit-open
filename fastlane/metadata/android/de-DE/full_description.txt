@@ -1,0 +1,30 @@
+<p>pepfit open ist eine App für Krafttraining und Gesundheit, die alles auf deinem Telefon behält, in einer lokalen Datenbank. <b>Kein Konto, kein pepfit-Server, kein Tracking</b>: Die App sendet nichts an uns.</p>
+
+<p><b>Selbst gehostet aus Prinzip: Du bringst deine eigenen API-Schlüssel mit.</b> Die optionalen Verbindungen zu Whoop, Withings und Polar nutzen deren offizielle APIs mit <i>deinen eigenen</i> kostenlosen Entwickler-Zugangsdaten, die du in der App einträgst. Anmeldung, Tokens und Synchronisierung laufen auf deinem Telefon, ohne Zwischenstelle.</p>
+
+<p><b>Training</b></p>
+<ul>
+<li>Sätze, Wiederholungen, Gewichte, Pausentimer, Supersätze, Programme und Routinen</li>
+<li>Übungskatalog mit Piktogrammen und 3D-Körpermodell</li>
+<li>Outdoor-Einheiten mit GPS: Distanz, Pace, Höhenmeter, private Strecken, GPX-Import</li>
+<li>Bluetooth-Brustgurte</li>
+</ul>
+
+<p><b>Gesundheit und Ernährung</b></p>
+<ul>
+<li>Erholungsanzeigen, Schlaf, Herzfrequenz, Körperzusammensetzung, Zyklus</li>
+<li>Schritte aus Health Connect oder vom Schrittsensor des Telefons</li>
+<li>Ernährungstagebuch mit Barcode-Scan (Open Food Facts) und eigenen Gerichten</li>
+<li>Import von Trainings aus Hevy</li>
+</ul>
+
+<p><b>Deine Daten</b></p>
+<ul>
+<li>Verschlüsselte Backups in einen Ordner deiner Wahl, geschützt durch eine Wiederherstellungsphrase aus 12 Wörtern</li>
+<li>Export als JSON und CSV</li>
+<li>App-Sperre</li>
+</ul>
+
+<p>Karten: OpenStreetMap-Daten, Kacheln von OpenFreeMap. Keine Google Play Services, kein Firebase, kein ML Kit: Barcodes liest ZXing, der Standort kommt vom LocationManager von Android, Erinnerungen sind lokale Benachrichtigungen.</p>
+
+<p>Oberfläche auf Deutsch, Englisch, Französisch und Spanisch.</p>

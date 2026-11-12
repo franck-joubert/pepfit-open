@@ -1,0 +1,30 @@
+<p>pepfit open es una app de entrenamiento de fuerza y salud que guarda todo en tu teléfono, en una base de datos local. <b>Sin cuenta, sin servidor de pepfit y sin rastreo</b>: la app no nos envía nada.</p>
+
+<p><b>Autoalojada por principio: usas tus propias claves de API.</b> Las conexiones opcionales con Whoop, Withings y Polar usan sus API oficiales con <i>tus propias</i> credenciales de desarrollador, gratuitas, que introduces en la app. El inicio de sesión, los tokens y la sincronización ocurren en tu teléfono, sin intermediarios.</p>
+
+<p><b>Entrenamiento</b></p>
+<ul>
+<li>Series, repeticiones, cargas, temporizador de descanso, superseries, programas y rutinas</li>
+<li>Catálogo de ejercicios con pictogramas y modelo 3D del cuerpo</li>
+<li>Sesiones al aire libre con GPS: distancia, ritmo, desnivel, rutas privadas, importación GPX</li>
+<li>Bandas de frecuencia cardiaca Bluetooth</li>
+</ul>
+
+<p><b>Salud y nutrición</b></p>
+<ul>
+<li>Indicadores de forma, sueño, frecuencia cardiaca, composición corporal, ciclo</li>
+<li>Pasos desde Health Connect, o desde el sensor de pasos del teléfono</li>
+<li>Diario de comidas con escaneo de códigos de barras (Open Food Facts) y tus propios platos</li>
+<li>Importación de entrenamientos de Hevy</li>
+</ul>
+
+<p><b>Tus datos</b></p>
+<ul>
+<li>Copias de seguridad cifradas en la carpeta que elijas, protegidas por una frase de recuperación de 12 palabras</li>
+<li>Exportación a JSON y CSV</li>
+<li>Bloqueo de la app</li>
+</ul>
+
+<p>Mapas: datos de OpenStreetMap, teselas de OpenFreeMap. Sin Google Play Services, Firebase ni ML Kit: los códigos de barras los lee ZXing, la ubicación viene del LocationManager de Android y los recordatorios son notificaciones locales.</p>
+
+<p>Interfaz en español, inglés, francés y alemán.</p>

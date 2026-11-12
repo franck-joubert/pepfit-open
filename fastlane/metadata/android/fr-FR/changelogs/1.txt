@@ -1,0 +1,1 @@
+Première version de l'édition libre : tout en local, ni compte, ni serveur, aucune bibliothèque Google.
